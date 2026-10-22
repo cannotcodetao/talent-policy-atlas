@@ -1,0 +1,740 @@
+{
+  "city": "肇庆市",
+  "scope": "市级",
+  "updated": "2026-08-20",
+  "sourceRule": "仅政府单位官网（*.gov.cn）：肇庆市人民政府门户、肇庆市人社局、肇庆市住建局等；排除新闻与自媒体。县域站点（如封开县人社局）仅在转载/说明市级政策时作为佐证。",
+  "dimensions": {
+    "grad_subsidy": {
+      "desc": "毕业生补贴（按学历）",
+      "items": [
+        {
+          "level": "博士",
+          "cash": "符合肇庆市“高层次后备干部人才引育计划”引进到事业单位、市属国有企业工作的博士，由同级财政给予每人60万元生活补贴，分5年按月发放；随迁未就业配偶每月3000元生活补助（≤3年）",
+          "house_voucher": "博士、博士后在肇购买首套自住房，发放10万元一次性购房补贴，夫妻双方均符合条件合计发放",
+          "condition": "引进到事业单位/市属国有企业；自行租房另享2000元/人/月租房补贴（≤3年）；须符合“高层次后备干部人才引育计划”",
+          "source": {
+            "unit": "肇庆市人民政府门户网站（市人社局供稿）",
+            "doc_no": "",
+            "date": "2025",
+            "url": "https://www.zhaoqing.gov.cn/slhwz/msjj/content/post_3168988.html"
+          },
+          "note": "60万生活补贴仅限该计划的事业单位/市属国企引育博士；购房补贴面向博士、博士后首套自住房",
+          "district": "市级"
+        },
+        {
+          "level": "硕士",
+          "cash": "本地用人主体新培养的在职硕士给予3万元补助（封开县公开的市级政策指引）",
+          "house_voucher": "新引进且落户肇庆的高校毕业生在肇购买首套自住房，可享一次性2-10万元购房补贴（硕士档较高）",
+          "condition": "新引进落户肇庆、在肇购首套自住房；在职培养须本地用人主体新培养",
+          "source": {
+            "unit": "封开县人力资源和社会保障局（公开肇庆市人才扶持政策指引）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.fengkai.gov.cn/zqfkrsj/gkmlpt/content/2/2520/post_2520838.html"
+          },
+          "note": "该页转载肇庆市本级毕业生/人才购房补贴口径（2-10万区间按学历职级分档）",
+          "district": "封开县"
+        },
+        {
+          "level": "普通本科",
+          "cash": "",
+          "house_voucher": "“用工十条”：在肇主导/特色产业企业首次或重新返肇就业、缴社保满6个月，在肇购首套自住房，全日制本科及以上毕业生一次性购房补贴2万元",
+          "condition": "主导/特色产业企业就业、社保满6个月、首套自住房；每人限领一次；从优从高不重复",
+          "source": {
+            "unit": "肇庆市人社局、财政局、教育局、公安局等",
+            "doc_no": "肇人社规〔2022〕1号",
+            "date": "2022-01-10",
+            "url": "https://www.zhaoqing.gov.cn/slhwz/zxwj/content/post_2790194.html"
+          },
+          "note": "购房补贴覆盖至中职技工院校，实现对博士到中职生的全覆盖",
+          "district": "市级"
+        },
+        {
+          "level": "专科",
+          "cash": "",
+          "house_voucher": "“用工十条”：大专毕业生在肇购首套自住房一次性购房补贴1.5万元（条件同本科档）",
+          "condition": "主导/特色产业企业就业、社保满6个月、首套自住房",
+          "source": {
+            "unit": "肇庆市人社局、财政局、教育局、公安局等",
+            "doc_no": "肇人社规〔2022〕1号",
+            "date": "2022-01-10",
+            "url": "https://www.zhaoqing.gov.cn/slhwz/zxwj/content/post_2790194.html"
+          },
+          "note": "",
+          "district": "市级"
+        },
+        {
+          "level": "双一流本科",
+          "cash": "",
+          "house_voucher": "肇庆市级未对“双一流本科”单独设档，同普通本科2万元购房补贴（部分县区/功能区有加码）",
+          "condition": "同普通本科档",
+          "source": {
+            "unit": "肇庆市人社局、财政局、教育局、公安局等",
+            "doc_no": "肇人社规〔2022〕1号",
+            "date": "2022-01-10",
+            "url": "https://www.zhaoqing.gov.cn/slhwz/zxwj/content/post_2790194.html"
+          },
+          "note": "未单列双一流本科专项；区县级（如高新区）另有人才购房补贴加码，以各区公告为准",
+          "district": "市级"
+        },
+        {
+          "district": "怀集县",
+          "official": true,
+          "level": "博士",
+          "cash": "全日制博士给予每人每年3万元生活补贴，享受年限为5年；非全日制博士每人每年2万元",
+          "condition": "新引进到怀集县事业单位工作，纳入事业编制管理，与怀集县人力资源和社会保障局签订5年（含试用期1年）服务协议",
+          "note": "怀集县2022年引进紧缺人才公告载明，依据《怀集县引进培育高层次人才和紧缺人才实施办法（试行）》",
+          "source": {
+            "unit": "怀集县人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2022-09-05",
+            "url": "https://www.huaiji.gov.cn/xwzx/gsgg/content/post_2749249.html"
+          }
+        },
+        {
+          "district": "怀集县",
+          "official": true,
+          "level": "硕士",
+          "cash": "全日制硕士给予每人每年1.5万元生活补贴，享受年限为5年；非全日制硕士每人每年1万元",
+          "condition": "新引进到怀集县事业单位工作，纳入事业编制管理，签订5年（含试用期1年）服务协议",
+          "note": "同上公告，县级生活补贴可与国家、省、市有关政策补贴叠加享受",
+          "source": {
+            "unit": "怀集县人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2022-09-05",
+            "url": "https://www.huaiji.gov.cn/xwzx/gsgg/content/post_2749249.html"
+          }
+        },
+        {
+          "district": "怀集县",
+          "official": true,
+          "level": "本科",
+          "cash": "双一流院校全日制本科毕业生且获得学士学位的给予3万元生活补贴，在引进后前3年每年发放1万元",
+          "condition": "新引进到怀集县事业单位工作的双一流院校全日制本科毕业生且获得学士学位，年龄一般不超过28周岁",
+          "note": "仅限双一流院校全日制本科，普通本科无生活补贴但有购房租房补贴",
+          "source": {
+            "unit": "怀集县人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2022-09-05",
+            "url": "https://www.huaiji.gov.cn/xwzx/gsgg/content/post_2749249.html"
+          }
+        },
+        {
+          "district": "德庆县",
+          "official": true,
+          "level": "博士",
+          "cash": "第一类人才发放人才津贴1500元/月（人才津贴3.6万-9万元不等，分5年平均逐年发放，博士不设享受年限）",
+          "condition": "符合德庆县当年公布的引进紧缺人才需求目录要求，从县外引进到德庆县企事业单位，与用人单位签订5年以上工作合同",
+          "note": "《德庆县引进紧缺人才实施办法》官方解读，2023年县引进紧缺人才公告仍适用该办法",
+          "source": {
+            "unit": "德庆县人才办（德庆县人民政府网站）",
+            "doc_no": "",
+            "date": "2017-08-10",
+            "url": "https://www.gddq.gov.cn/zwgk/zcjd/content/post_1449977.html"
+          }
+        },
+        {
+          "district": "德庆县",
+          "official": true,
+          "level": "硕士",
+          "cash": "第二类人才发放人才津贴1000元/月，享受年限为5年",
+          "condition": "具有副高级专业技术职称或取得全日制硕士研究生学历学位，符合当年引进紧缺人才需求目录，签订5年以上工作合同",
+          "note": "同上实施办法，2023年县引才公告载明硕士人才津贴1000元/月、享受年限5年",
+          "source": {
+            "unit": "德庆县人才办（德庆县人民政府网站）",
+            "doc_no": "",
+            "date": "2017-08-10",
+            "url": "https://www.gddq.gov.cn/zwgk/zcjd/content/post_1449977.html"
+          }
+        }
+      ]
+    },
+    "talent_highlevel": {
+      "desc": "高层次人才 A–E 类",
+      "items": [
+        {
+          "class": "A类",
+          "subsidy": "在肇自购住房补助50-100万元；每月3000元补贴；可提供不超过200平方米住房（两院院士可安排入住别墅）；享创新创业、金融、医疗、配偶安置、子女入学等16方面待遇",
+          "source": {
+            "unit": "封开县人力资源和社会保障局（公开肇庆市高层次人才待遇制度）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.fengkai.gov.cn/zqfkrsj/gkmlpt/content/2/2520/post_2520838.html"
+          },
+          "note": "肇庆市高层次人才现行分A/B/C三类（早期“高层次人才享受待遇制度”对应三星/四星/五星级）。A类住房补助50-100万，与市级待遇制度五星级口径一致",
+          "district": "封开县"
+        },
+        {
+          "class": "B类",
+          "subsidy": "在肇自购住房补助30万元；每月2000元补贴；可提供不超过180平方米住房",
+          "source": {
+            "unit": "封开县人力资源和社会保障局（公开肇庆市高层次人才待遇制度）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.fengkai.gov.cn/zqfkrsj/gkmlpt/content/2/2520/post_2520838.html"
+          },
+          "note": "对应市级待遇制度四星级（30万，按4:2:2:2分4年发放）",
+          "district": "封开县"
+        },
+        {
+          "class": "C类",
+          "subsidy": "在肇自购住房补助10万元；每月1000元补贴；可提供不超过150平方米住房",
+          "source": {
+            "unit": "封开县人力资源和社会保障局（公开肇庆市高层次人才待遇制度）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.fengkai.gov.cn/zqfkrsj/gkmlpt/content/2/2520/post_2520838.html"
+          },
+          "note": "对应市级待遇制度三星级（10万，按5:3:2分3年发放）",
+          "district": "封开县"
+        },
+        {
+          "class": "D类/E类",
+          "subsidy": "肇庆市本级高层次人才未单列D/E类购房补助档；现行序列为A/B/C类，另有“西江拔尖人才”（拔尖人才补助5万元）、“西江优秀青年人才”等专项，无独立D/E住房补助",
+          "source": {
+            "unit": "封开县人力资源和社会保障局（公开肇庆市高层次人才待遇制度）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.fengkai.gov.cn/zqfkrsj/gkmlpt/content/2/2520/post_2520838.html"
+          },
+          "note": "如需D/E类口径，建议以最新“西江人才计划”2.0（肇发〔2023〕8号）子政策为准人工复核",
+          "district": "封开县"
+        }
+      ]
+    },
+    "hukou": {
+      "desc": "落户",
+      "items": [
+        {
+          "target": "本科",
+          "rule": "落户“零门槛”：全面取消城镇落户限制，在肇合法稳定居住/就业/创业即可申请城镇落户，配偶、子女、父母可随迁；本科可先落户后就业",
+          "source": {
+            "unit": "肇庆市人社局、财政局、教育局、公安局等",
+            "doc_no": "肇人社规〔2022〕1号",
+            "date": "2022-01-10",
+            "url": "https://www.zhaoqing.gov.cn/slhwz/zxwj/content/post_2790194.html"
+          },
+          "district": "市级"
+        },
+        {
+          "target": "大专",
+          "rule": "同零门槛落户；合法稳定居住/就业/创业均可申请城镇落户，随迁",
+          "source": {
+            "unit": "肇庆市人社局、财政局、教育局、公安局等",
+            "doc_no": "肇人社规〔2022〕1号",
+            "date": "2022-01-10",
+            "url": "https://www.zhaoqing.gov.cn/slhwz/zxwj/content/post_2790194.html"
+          },
+          "district": "市级"
+        },
+        {
+          "target": "硕士",
+          "rule": "同零门槛落户；硕士及以上可依“西江人才计划”紧缺人才/高层次人才通道落户",
+          "source": {
+            "unit": "肇庆市人社局、财政局、教育局、公安局等",
+            "doc_no": "肇人社规〔2022〕1号",
+            "date": "2022-01-10",
+            "url": "https://www.zhaoqing.gov.cn/slhwz/zxwj/content/post_2790194.html"
+          },
+          "district": "市级"
+        },
+        {
+          "target": "博士",
+          "rule": "同零门槛落户；博士可经“高层次后备干部人才引育计划”引进并落户，配偶子女父母随迁",
+          "source": {
+            "unit": "肇庆市人社局、财政局、教育局、公安局等",
+            "doc_no": "肇人社规〔2022〕1号",
+            "date": "2022-01-10",
+            "url": "https://www.zhaoqing.gov.cn/slhwz/zxwj/content/post_2790194.html"
+          },
+          "district": "市级"
+        },
+        {
+          "target": "其他通道（租赁/居住证/技能）",
+          "rule": "租赁居住入户：租赁合法稳定住所并办理居住登记即可申请（取消居住证满半年限制）；稳定就业入户：合法稳定就业+参保即可入户；紧缺人才入户：符合“西江人才计划”引进培育标准的人才可入户；大中专/技校毕业生及初、中级技术/技能人才凭学历或资格证书就业/创业可入户",
+          "source": {
+            "unit": "肇庆市人社局、财政局、教育局、公安局等",
+            "doc_no": "肇人社规〔2022〕1号（工作指引）",
+            "date": "2022-01-30",
+            "url": "https://www.zhaoqing.gov.cn/xxgk/zcfg/bmwj/content/post_2666433.html?jump=true"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "startup": {
+      "desc": "创业扶持",
+      "items": [
+        {
+          "type": "创业担保贷款",
+          "detail": "小额创业贷款：符合条件的创业者（含港澳在肇创业人员）最高可申请30万元，期限最长不超过3年，贷款期内由财政给予全额贴息；肇庆市小额担保贷款中心对小微企业同享优惠，制造业/高新技术企业省财政按贷款利率35%贴息、单企业年度最高2000万元",
+          "source": {
+            "unit": "肇庆市人力资源和社会保障局（港澳青年创新创业基地）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.zhaoqing.gov.cn/hdjlpt/yjzj/api/attachments/view/5f5a5cf04e6be7e21e11a7fb50070f1c"
+          },
+          "note": "【来源待升级】当前来源为新闻发布会/媒体转载/问答附件，非政策原文；正式印发件待检索补齐（见待检索清单）。",
+          "district": "市级"
+        },
+        {
+          "type": "一次性创业补贴",
+          "detail": "一次性创业资助：成功创业（本市领取营业执照、本人为法定代表人/经营者）、正常经营6个月以上，可申请10000元；符合条件仅享受一次",
+          "source": {
+            "unit": "肇庆市人力资源和社会保障局（港澳青年创新创业基地）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.zhaoqing.gov.cn/hdjlpt/yjzj/api/attachments/view/5f5a5cf04e6be7e21e11a7fb50070f1c"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "房租/租金补贴",
+          "detail": "租金补贴：租用经营场地创办初创企业，每年最高4000元（广宁、怀集、封开、德庆）或6000元（端州、高要、鼎湖、四会、高新区），累计不超过3年；创业工位及人才公寓床位租金补贴（创客菁英最长9个月工位+2年公寓床位）",
+          "source": {
+            "unit": "肇庆市人力资源和社会保障局（港澳青年创新创业基地）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.zhaoqing.gov.cn/hdjlpt/yjzj/api/attachments/view/5f5a5cf04e6be7e21e11a7fb50070f1c"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "大赛/项目资助",
+          "detail": "“西江人才计划”创新创业青年人才支持专项：优秀青年创业项目10-50万元资助；省级以上双创竞赛一等奖（金奖）以上落户项目10-30万元奖励；每年遴选优秀电商创业团队10万元、优秀青年社会组织5万元一次性奖励",
+          "source": {
+            "unit": "肇庆市人民政府门户网站（市人社局供稿）",
+            "doc_no": "",
+            "date": "2025",
+            "url": "https://www.zhaoqing.gov.cn/slhwz/msjj/content/post_3168988.html"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "welfare": {
+      "desc": "配套保障",
+      "items": [
+        {
+          "type": "子女教育",
+          "detail": "高层次人才/人才绿卡持卡人子女入学由教育行政部门协调安排优质公办学校、享绿色通道；“高层次后备干部人才引育计划”引进人才子女结合实际安排属地优质公办学校",
+          "source": {
+            "unit": "肇庆市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2024-10-12",
+            "url": "https://www.zhaoqing.gov.cn/zqrsj/gkmlpt/content/3/3055/post_3055071.html"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "医疗",
+          "detail": "人才绿卡持卡人享就医绿色通道；设人才医疗中心，高层次人才享指定医院特诊/每年免费体检；配偶子女享基本医保待遇",
+          "source": {
+            "unit": "肇庆市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2024-10-12",
+            "url": "https://www.zhaoqing.gov.cn/zqrsj/gkmlpt/content/3/3055/post_3055071.html"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "人才公寓/租赁",
+          "detail": "人才公寓只租不售，租期一般3年；按学历/职称享租金优惠：凤麟卡持卡人免租，A类公寓按公租房租金，B/C类按协定租金80%。面积补贴上限：双高（博士+正高）≤135㎡、博士/正高≤90㎡、硕士/副高≤70㎡、本科/中级≤40㎡。属纯租赁保障，非优惠购房",
+          "source": {
+            "unit": "肇庆市住房和城乡建设局（市人才办）",
+            "doc_no": "肇发〔2016〕3号配套",
+            "date": "2016-08",
+            "url": "https://www.zhaoqing.gov.cn/xwzx/tzgg1/201608/P020160803592847599193.pdf"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "数字化平台",
+          "detail": "“人才创享”线上服务平台、电子“肇庆人才码”，推动人才政策兑现“免申即享”；人才绿卡（凤麟卡/杰才卡/优才卡）一卡畅享政务、机动车、社保、就医、金融、法律等绿色通道及景区/公交优待",
+          "source": {
+            "unit": "肇庆市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2024-10-12",
+            "url": "https://www.zhaoqing.gov.cn/zqrsj/gkmlpt/content/3/3055/post_3055071.html"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "timing": {
+      "desc": "时效提醒",
+      "items": [
+        {
+          "item": "“用工十条”购房/就业补贴到期",
+          "detail": "肇人社规〔2022〕1号自2022-02-01实施，有效期3年（至2025-01-31）。原文明确有效期3年，现已到期，需核实是否延续或出台新规后再申领",
+          "source": {
+            "unit": "肇庆市人社局、财政局、教育局、公安局等",
+            "doc_no": "肇人社规〔2022〕1号",
+            "date": "2022-01-10",
+            "url": "https://www.zhaoqing.gov.cn/slhwz/zxwj/content/post_2790194.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "配售型保障性住房办法施行",
+          "detail": "肇建规〔2025〕3号《肇庆市配售型保障性住房管理办法（试行）》2025-12-11印发，有效期3年（试行）",
+          "source": {
+            "unit": "肇庆市住房和城乡建设局",
+            "doc_no": "肇建规〔2025〕3号",
+            "date": "2025-12-11",
+            "url": "https://www.zhaoqing.gov.cn/zqzjj/gkmlpt/content/3/3186/post_3186569.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "人才绿卡办法施行",
+          "detail": "《肇庆市“人才绿卡”实施办法》2024-10-12印发，依肇发〔2023〕8号“西江人才计划”2.0制定",
+          "source": {
+            "unit": "中共肇庆市委人才工作领导小组",
+            "doc_no": "",
+            "date": "2024-10-12",
+            "url": "https://www.zhaoqing.gov.cn/zqrsj/gkmlpt/content/3/3055/post_3055071.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "西江人才计划2.0发布",
+          "detail": "《关于优化实施西江人才计划的意见》（肇发〔2023〕8号）2023-09发布，形成“1+9+N”体系，取代2016版“1+10+N”",
+          "source": {
+            "unit": "中共肇庆市委、肇庆市人民政府",
+            "doc_no": "肇发〔2023〕8号",
+            "date": "2023-09",
+            "url": "https://www.zhaoqing.gov.cn/zqrsj/gkmlpt/content/3/3055/post_3055071.html"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "risk": {
+      "desc": "风险提示（服务期/退还）",
+      "items": [
+        {
+          "item": "购房补贴“从优从高不重复”及骗补追责",
+          "detail": "“用工十条”购房补贴按“从优、从高、不重复”原则，已享原人才购房补贴者不重复享受；以虚假材料骗取补贴的，依法追责并纳入失信（征信）记录",
+          "source": {
+            "unit": "肇庆市人社局、财政局、教育局、公安局等",
+            "doc_no": "肇人社规〔2022〕1号",
+            "date": "2022-01-10",
+            "url": "https://www.zhaoqing.gov.cn/slhwz/zxwj/content/post_2790194.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "配售型保障性住房封闭管理、限制交易",
+          "detail": "配售型保障性住房实行封闭管理，不动产权证专门标注，严禁以任何形式变相流入商品房市场；购房人不得擅自转让、出租、出借或改变用途；另购商品住房/工作调动/户籍迁离等须由政府指定机构按原价折旧回购",
+          "source": {
+            "unit": "肇庆市住房和城乡建设局",
+            "doc_no": "肇建规〔2025〕3号",
+            "date": "2025-12-11",
+            "url": "https://www.zhaoqing.gov.cn/zqzjj/gkmlpt/content/3/3186/post_3186569.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "人才公寓退出与骗租追责",
+          "detail": "人才公寓“只租不售”；承租人购置房屋、调离/辞职、不再符合条件等须退出；以欺骗方式取得租住资格或擅自转租/出借/改变用途的，解除租赁合同收回住房并追责",
+          "source": {
+            "unit": "肇庆市住房和城乡建设局（市人才办）",
+            "doc_no": "肇发〔2016〕3号配套",
+            "date": "2016-08",
+            "url": "https://www.zhaoqing.gov.cn/xwzx/tzgg1/201608/P020160803592847599193.pdf"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "apply_path": {
+      "desc": "申报路径",
+      "items": [
+        {
+          "platform": "广东政务服务网肇庆分厅 / 粤省事 / 肇庆市人才服务管理办公室",
+          "materials": "身份证、学历学位证、劳动合同/聘用手续、社保缴费凭证、购房合同及首套住房证明等（按当年度申领公告）",
+          "process": "市人社局统一发布申领公告→个人/单位申报→资格审核→公示→资金拨付（生活补贴按月、购房补贴一次性或分年）",
+          "phone": "肇庆市人社局人才开发与人力资源市场科 0758-2586516；肇庆市人才服务管理办公室 0758-2208362",
+          "district": "市级"
+        },
+        {
+          "platform": "肇庆市“人才绿卡”申领（市人社局）",
+          "materials": "认定条件证明（如院士/国家级人才计划入选/职称学历等）、在肇连续缴纳社保或个税满3个月或合作协议",
+          "process": "按《肇庆市“人才绿卡”实施办法》分类申领凤麟卡/杰才卡/优才卡，经审核后发卡",
+          "phone": "肇庆市人社局 0758-2586516",
+          "district": "市级"
+        },
+        {
+          "platform": "肇庆市配售型保障性住房轮候库信息管理系统",
+          "materials": "“西江人才计划”高层次人才认定材料、1年以上劳动合同、基本养老保险缴费证明、本人及家庭无自有产权住房且2年内无交易记录证明",
+          "process": "轮候库自愿申购→资格审核公示→按序选房→签约（现房销售，封闭管理）",
+          "phone": "肇庆市住房和城乡建设局（具体业务电话以公告为准）",
+          "district": "市级"
+        },
+        {
+          "platform": "行政服务中心公安户政窗口 / 粤省事（落户）",
+          "materials": "《入户申请审批表》、身份证及户口簿、居住/就业/租赁备案证明、亲属关系证明",
+          "process": "迁入地公安户政窗口受理、审批、办结（零门槛落户，随迁人员一并办理）",
+          "phone": "肇庆市公安局户政（以各区行政服务中心公布为准）",
+          "source": {
+            "unit": "肇庆市鼎湖区人民政府（户籍管理专栏·户政窗口）；广东政务服务网",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.zqdh.gov.cn/zwgk/ztzl/jczwgk/gkly/hjgl"
+          },
+          "district": "鼎湖区"
+        }
+      ]
+    },
+    "anju_rent2sale": {
+      "desc": "先租后售人才房",
+      "items": [
+        {
+          "name": "暂未查询到官方公开的先租后售人才房政策",
+          "unit": "肇庆市人力资源和社会保障局",
+          "effective": "",
+          "expiry": "",
+          "project": "",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "",
+          "person_req": "",
+          "discount": "",
+          "constraint": "",
+          "channel": "",
+          "enterprise_only": "否",
+          "official": true,
+          "source": {
+            "unit": "肇庆市人力资源和社会保障局（人大建议答复）",
+            "doc_no": "",
+            "date": "2026",
+            "url": "https://www.zhaoqing.gov.cn/zqrsj/gkmlpt/content/3/3257/post_3257718.html?jump=true"
+          },
+          "note": "肇庆市人社局对人大建议的答复仅提出在重点产业园区“探索‘先租后售’模式”，尚未出台“租赁+租金抵扣+期满可购”三件套齐备的正式政策；现人才公寓为只租不售，故不收录为先租后售",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_discount": {
+      "desc": "定向优惠价购房",
+      "items": [
+        {
+          "name": "肇庆市配售型保障性住房（人才申购）",
+          "unit": "肇庆市住房和城乡建设局",
+          "effective": "2025-12-11",
+          "expiry": "有效期3年（试行）",
+          "project": "划拨用地新建、商品房项目配建、盘活存量房源等多种筹建方式",
+          "rent_years": "不适用（直接配售，现房销售）",
+          "price_base": "“保本微利”原则：基准价=建设/筹集成本+不超过5%合理利润；单套销售价格以基准价为基础结合楼栋/楼层/朝向浮动，上下浮动不超过20%",
+          "rent_deduct": "不适用",
+          "biz_req": "用人单位（园区/企业）不作整体代持申购；个人人才直接向轮候库申报",
+          "person_req": "符合肇庆市“西江人才计划”系列政策支持的高层次人才；与现工作单位签1年以上劳动合同并缴基本养老保险；本人及家庭成员在肇无自有产权住房且申购前2年内无本市住房交易记录；不受户籍限制",
+          "discount": "政府限价、保本微利，销售价格显著低于同地段同品质商品房；户型以90㎡以下为主、最大不超120㎡；不动产权证专门标注，封闭流转",
+          "constraint": "封闭管理，严禁变相流入商品房市场，不得擅自转让/出租/出借/改变用途；每户限购一套；退出由政府指定机构按原购价结合持有年限折旧回购",
+          "channel": "全市统一的配售型保障性住房轮候库信息管理系统（方案公示→资格审核→公开选房→签约）",
+          "enterprise_only": "否",
+          "official": true,
+          "source": {
+            "unit": "肇庆市住房和城乡建设局",
+            "doc_no": "肇建规〔2025〕3号",
+            "date": "2025-12-11",
+            "url": "https://www.zhaoqing.gov.cn/zqzjj/gkmlpt/content/3/3186/post_3186569.html"
+          },
+          "note": "面向“西江人才计划”高层次人才销售，属政府定价/限价的定向优惠价购房；为完全产权+封闭流转，非共有产权、非先租后售、非普通商品房",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_subsidy": {
+      "desc": "人才购房补贴/房票",
+      "items": [
+        {
+          "name": "博士/博士后一次性购房补贴",
+          "unit": "肇庆市人民政府门户网站（市人社局供稿）",
+          "effective": "",
+          "expiry": "",
+          "project": "",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "",
+          "person_req": "博士、博士后；在肇购买首套自住房；夫妻双方均符合条件合计发放",
+          "discount": "一次性发放10万元购房补贴",
+          "constraint": "首套自住房；与住房补助类政策从优从高不重复",
+          "channel": "市人社局统一申领公告→申报→审核→拨付",
+          "enterprise_only": "否",
+          "official": true,
+          "source": {
+            "unit": "肇庆市人民政府门户网站（市人社局供稿）",
+            "doc_no": "",
+            "date": "2025",
+            "url": "https://www.zhaoqing.gov.cn/slhwz/msjj/content/post_3168988.html"
+          },
+          "note": "",
+          "district": "市级"
+        },
+        {
+          "name": "“用工十条”毕业生一次性购房补贴",
+          "unit": "肇庆市人社局、财政局、教育局、公安局等",
+          "effective": "2022-02-01",
+          "expiry": "有效期3年（已到期，需核实续期）",
+          "project": "",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "主导/特色产业企业就业",
+          "person_req": "首次在肇或重新返肇就业、缴社保满6个月；在肇购首套自住房",
+          "discount": "全日制本科及以上2万元、大专1.5万元、中职技工院校1万元（每人限领一次）",
+          "constraint": "首套自住房；从优从高不重复；已享原人才购房补贴不重复",
+          "channel": "市人社局公告→申报→审核→拨付",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "肇庆市人社局、财政局、教育局、公安局等",
+            "doc_no": "肇人社规〔2022〕1号",
+            "date": "2022-01-10",
+            "url": "https://www.zhaoqing.gov.cn/slhwz/zxwj/content/post_2790194.html"
+          },
+          "note": "补贴要求主导/特色产业企业就业，故 enterprise_only 标“部分”",
+          "district": "市级"
+        },
+        {
+          "name": "高层次人才在肇自购住房补助",
+          "unit": "封开县人力资源和社会保障局（公开肇庆市高层次人才待遇制度）",
+          "effective": "",
+          "expiry": "",
+          "project": "",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "",
+          "person_req": "经市人才工作领导小组认定A/B/C类高层次人才（含港澳台籍）",
+          "discount": "A类50-100万元、B类30万元、C类10万元在肇自购住房补助（另按月发1000-3000元津贴、提供150-200㎡住房）",
+          "constraint": "分年发放（如C类5:3:2三年、B类4:2:2:2四年）；未满服务期/离开可能需退还，具体以认定文件为准",
+          "channel": "市人才办统一发布申报公告→申报→审核→兑现",
+          "enterprise_only": "否",
+          "official": true,
+          "source": {
+            "unit": "封开县人力资源和社会保障局（公开肇庆市高层次人才待遇制度）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.fengkai.gov.cn/zqfkrsj/gkmlpt/content/2/2520/post_2520838.html"
+          },
+          "note": "该页转载肇庆市本级A/B/C类高层次人才住房补助口径",
+          "district": "市级"
+        },
+        {
+          "name": "新引进落户高校毕业生购房补贴（2-10万元）",
+          "unit": "封开县人力资源和社会保障局（公开肇庆市人才扶持政策指引）",
+          "effective": "",
+          "expiry": "",
+          "project": "",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "",
+          "person_req": "新引进且落户肇庆的高校毕业生，在肇购首套自住房",
+          "discount": "一次性2-10万元购房补贴（按学历职级分档）",
+          "constraint": "首套自住房；与“用工十条”等从优从高不重复",
+          "channel": "市人社局公告→申报→审核→拨付",
+          "enterprise_only": "否",
+          "official": true,
+          "source": {
+            "unit": "封开县人力资源和社会保障局（公开肇庆市人才扶持政策指引）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.fengkai.gov.cn/zqfkrsj/gkmlpt/content/2/2520/post_2520838.html"
+          },
+          "note": "与“用工十条”购房补贴口径重叠，申领时从优从高不重复",
+          "district": "市级"
+        },
+        {
+          "district": "怀集县",
+          "official": true,
+          "constraint": "引进后落户怀集的高层次人才和紧缺人才，在怀集购买首套自住房",
+          "note": "同一人才符合多种待遇领取条件的只可选择享受其中一项县级补助待遇",
+          "source": {
+            "unit": "怀集县人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2022-09-05",
+            "url": "https://www.huaiji.gov.cn/xwzx/gsgg/content/post_2749249.html"
+          }
+        },
+        {
+          "district": "德庆县",
+          "official": true,
+          "constraint": "引进紧缺人才与用人单位签订5年以上工作合同，在德庆购买本县住房",
+          "note": "官方解读页载明购房补贴10万-15万元不等，一次性享受",
+          "source": {
+            "unit": "德庆县人才办（德庆县人民政府网站）",
+            "doc_no": "",
+            "date": "2017-08-10",
+            "url": "https://www.gddq.gov.cn/zwgk/zcjd/content/post_1449977.html"
+          }
+        }
+      ]
+    },
+    "anju_shared": {
+      "desc": "共有产权房",
+      "items": [
+        {
+          "name": "暂未查询到肇庆市本级专门的人才共有产权房政策",
+          "unit": "肇庆市住房和城乡建设局",
+          "effective": "",
+          "expiry": "",
+          "project": "",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "",
+          "person_req": "",
+          "discount": "",
+          "constraint": "",
+          "channel": "",
+          "enterprise_only": "否",
+          "official": true,
+          "source": {
+            "unit": "封开县住房和城乡建设局（转载省级指导意见）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.fengkai.gov.cn/zqfkzjj/gkmlpt/content/2/2941/mpost_2941931.html"
+          },
+          "note": "省级《关于因地制宜发展共有产权住房的指导意见》将人才纳入共有产权住房供应范围，但肇庆市本级未单独出台人才共有产权房办法；现行配售型保障性住房为完全产权+封闭流转，非共有产权（政府不持份额），不归入本维",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_enterprise": {
+      "desc": "企业内部福利房",
+      "items": [
+        {
+          "name": "暂未查询到肇庆市本级企业/园区整体代持申购人才房政策",
+          "unit": "肇庆市人力资源和社会保障局",
+          "effective": "",
+          "expiry": "",
+          "project": "",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "",
+          "person_req": "",
+          "discount": "",
+          "constraint": "",
+          "channel": "",
+          "enterprise_only": "否",
+          "official": true,
+          "source": {
+            "unit": "肇庆市人力资源和社会保障局（人大建议答复）",
+            "doc_no": "",
+            "date": "2026",
+            "url": "https://www.zhaoqing.gov.cn/zqrsj/gkmlpt/content/3/3257/post_3257718.html?jump=true"
+          },
+          "note": "现有企业相关人才住房以人才公寓（只租不售）及个人购房补贴为主；肇庆高新区对区内企业人才发放购房补贴（个人申领，非企业整体代持）。市本级未查询到企业/园区整体申购、代持的人才房政策",
+          "district": "市级"
+        }
+      ]
+    }
+  }
+}

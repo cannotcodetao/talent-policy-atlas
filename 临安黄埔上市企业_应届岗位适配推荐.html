@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>临安·黄埔上市企业 — 应届岗位适配推荐</title>
+<style>
+  :root{
+    --ink:#1a2332; --ink2:#4a5568; --ink3:#8b95a5;
+    --line:#e2e8f0; --bg:#f4f6f9; --card:#ffffff;
+    --brand:#1f4e79; --brand2:#2d6da3;
+    --s:#0f7b5f; --a:#2d6da3; --b:#7c8aa0; --c:#b0b8c4;
+    --gold:#b8860b; --goldbg:#fdf6e3;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.6; font-size:14px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1240px;margin:0 auto;padding:0 20px 60px}
+
+  header.top{
+    background:linear-gradient(135deg,#1f4e79 0%,#2d6da3 100%);
+    color:#fff; padding:38px 20px 30px; margin-bottom:26px;
+  }
+  header.top .inner{max-width:1240px;margin:0 auto;padding:0 20px}
+  header.top h1{font-size:25px;font-weight:700;letter-spacing:.3px}
+  header.top .sub{margin-top:8px;font-size:13.5px;opacity:.88;max-width:900px}
+  header.top .meta{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px}
+  header.top .meta span{
+    background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);
+    padding:3px 11px;border-radius:20px;font-size:12.5px;
+  }
+
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:10px;
+    padding:22px 24px;margin-bottom:20px;
+  }
+  h2{font-size:17px;font-weight:700;color:var(--brand);margin-bottom:14px;
+     padding-left:11px;border-left:4px solid var(--brand2);line-height:1.2}
+  h3{font-size:14.5px;font-weight:700;color:var(--ink);margin:16px 0 8px}
+
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 14px;text-align:center}
+  .stat .n{font-size:27px;font-weight:700;line-height:1.1}
+  .stat .l{font-size:12.5px;color:var(--ink3);margin-top:5px}
+  .stat.s .n{color:var(--s)} .stat.a .n{color:var(--a)}
+  .stat.b .n{color:var(--b)} .stat.c .n{color:var(--c)}
+
+  .logic{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .logic .box{border:1px solid var(--line);border-radius:8px;padding:14px 16px;background:#fafbfc}
+  .logic .box h4{font-size:13.5px;color:var(--brand);margin-bottom:8px}
+  .logic ul{margin-left:17px;color:var(--ink2);font-size:13px}
+  .logic li{margin:4px 0}
+  .flow{font-size:12.5px;color:var(--ink2);background:var(--goldbg);
+        border:1px solid #efe0b8;border-radius:8px;padding:11px 14px;margin-top:14px}
+
+  .filters{display:flex;flex-wrap:wrap;gap:9px;align-items:center;margin-bottom:16px}
+  .fbtn{
+    border:1px solid var(--line);background:#fff;color:var(--ink2);
+    padding:6px 15px;border-radius:20px;font-size:13px;cursor:pointer;
+    transition:.15s;font-family:inherit;
+  }
+  .fbtn:hover{border-color:var(--brand2);color:var(--brand)}
+  .fbtn.on{background:var(--brand);border-color:var(--brand);color:#fff;font-weight:600}
+  .fbtn.tog{background:var(--goldbg);border-color:#e6d3a3;color:var(--gold)}
+  .fbtn.tog.on{background:var(--gold);border-color:var(--gold);color:#fff}
+
+  .tblwrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:#fff}
+  table{width:100%;border-collapse:collapse;min-width:1000px}
+  thead th{
+    background:#eef2f7;color:var(--brand);font-size:12.5px;font-weight:700;
+    text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);
+    white-space:nowrap;position:sticky;top:0;
+  }
+  thead th.sortable{cursor:pointer;user-select:none}
+  thead th.sortable:hover{color:var(--brand2)}
+  tbody td{padding:12px;border-bottom:1px solid #f0f3f7;vertical-align:top;font-size:13px}
+  tbody tr:last-child td{border-bottom:none}
+  tbody tr:hover{background:#fafcfe}
+  .co{font-weight:700;color:var(--ink);white-space:nowrap}
+  .code{font-size:11.5px;color:var(--ink3);font-family:ui-monospace,Consolas,monospace}
+  .loc{font-size:12.5px;color:var(--ink2);white-space:nowrap}
+  .loc.hz{color:#0f7b5f} .loc.gz{color:#b8610b}
+  .badge{
+    display:inline-block;min-width:26px;text-align:center;font-weight:700;font-size:12px;
+    padding:2px 8px;border-radius:5px;color:#fff;letter-spacing:.5px;
+  }
+  .badge.S{background:var(--s)} .badge.A{background:var(--a)} .badge.B{background:var(--b)}
+  .tags{display:flex;flex-wrap:wrap;gap:4px}
+  .tag{font-size:11px;padding:2px 8px;border-radius:4px;background:#eef4fa;color:var(--brand2);white-space:nowrap}
+  .tag.cv{background:#e9f6f1;color:#0f7b5f}
+  .tag.ai{background:#fdf0e6;color:#b8610b}
+  .roles{font-size:12.8px;color:#1a2332}
+  .roles b{color:var(--brand)}
+  .why{font-size:12.5px;color:var(--ink2)}
+  .sub{font-size:12px;color:var(--gold);white-space:nowrap}
+
+  .clist{display:flex;flex-wrap:wrap;gap:7px}
+  .citem{
+    font-size:12.5px;color:var(--ink3);background:#f7f8fa;border:1px solid var(--line);
+    padding:3px 10px;border-radius:6px;
+  }
+
+  .note{font-size:12.5px;color:var(--ink2)}
+  .note li{margin:6px 0;margin-left:18px}
+  .warn{background:#fff8f0;border:1px solid #f0dcc4;border-radius:8px;padding:12px 15px;
+        font-size:12.5px;color:#8a5a1e;margin-top:12px}
+  footer{text-align:center;color:var(--ink3);font-size:12px;margin-top:26px}
+
+  @media (max-width:760px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .logic{grid-template-columns:1fr}
+    header.top h1{font-size:20px}
+  }
+  @media print{
+    body{background:#fff} .filters{display:none}
+    header.top{background:#1f4e79 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .card,.tblwrap{break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="inner">
+    <h1>临安区 · 黄埔区 上市企业 — 应届岗位适配推荐</h1>
+    <div class="sub">
+      依据个人画像（控制工程硕士 · 机器视觉/目标检测 · PLC·Modbus 工业控制 · Python/C · Web 全栈）
+      对 64 家 A 股上市企业逐家做岗位适配分层。求职阶段：应届校招；择业偏好：落户/补贴适配、技术成长、薪资。
+    </div>
+    <div class="meta">
+      <span>临安区（杭州）12 家</span>
+      <span>黄埔区（广州）52 家</span>
+      <span>岗位方向：控制自动化 / AI应用全栈</span>
+      <span>口径：注册地 · A股</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="stats">
+    <div class="stat s"><div class="n">5</div><div class="l">S级 · 极强匹配（第一梯队）</div></div>
+    <div class="stat a"><div class="n">10</div><div class="l">A级 · 强匹配（重点投递）</div></div>
+    <div class="stat b"><div class="n">24</div><div class="l">B级 · 中等匹配（备选）</div></div>
+    <div class="stat c"><div class="n">25</div><div class="l">C级 · 适配度低（可跳过）</div></div>
+  </div>
+
+  <div class="card">
+    <h2>匹配逻辑：你的画像 → 岗位族</h2>
+    <div class="logic">
+      <div class="box">
+        <h4>画像要素</h4>
+        <ul>
+          <li>控制工程硕士 — 控制理论、运动控制、信号处理</li>
+          <li>纱线缺陷检测移动机器人（三层架构：上位机→IPC→PLC）</li>
+          <li>目标检测 / 机器视觉（Python）、C 嵌入式</li>
+          <li>Modbus TCP / 工业以太网现场总线</li>
+          <li>Web 全栈 + LLM 应用/工具类产品经验</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h4>对应可投岗位族</h4>
+        <ul>
+          <li><b>控制自动化线</b>：运动控制 / 伺服驱动 / 嵌入式软件 / 电气自动化 / 设备控制（PLC）</li>
+          <li><b>机器视觉线</b>：视觉算法 / 缺陷检测 / 视觉引导定位 / 图像算法（与两条主线交叉）</li>
+          <li><b>AI应用线</b>：AI应用开发 / 全栈开发 / 数据与平台软件</li>
+          <li><b>仪器/装备软件</b>：仪器嵌入式、上位机软件、检测设备软硬件</li>
+        </ul>
+      </div>
+    </div>
+    <div class="flow">
+      <b>适配度判定口径</b>：S = 主业与你的核心技能直接对应（AGV/伺服/机器人/数控/视觉）；A = 岗位族充足且技术可迁移；B = 有对口岗位但非主业或需转向；C = 无明显对口，需大幅转行。校招岗位以各公司当年实际发布为准。
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>企业 × 岗位 适配清单（S / A / B）</h2>
+    <div class="filters">
+      <button class="fbtn on" data-f="all">全部</button>
+      <button class="fbtn" data-f="控制自动化">控制·自动化</button>
+      <button class="fbtn" data-f="机器视觉">机器视觉</button>
+      <button class="fbtn" data-f="AI应用">AI应用·全栈</button>
+      <button class="fbtn tog" id="togSA">只看 S / A 级</button>
+    </div>
+    <div class="tblwrap">
+      <table id="tbl">
+        <thead>
+          <tr>
+            <th class="sortable" data-k="tier">匹配度</th>
+            <th class="sortable" data-k="name">公司（代码）</th>
+            <th class="sortable" data-k="city">地点</th>
+            <th>方向</th>
+            <th>推荐岗位族（应届可投）</th>
+            <th>匹配理由</th>
+            <th>落户 / 补贴</th>
+          </tr>
+        </thead>
+        <tbody id="tb"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>C 级 · 适配度较低（建议跳过或仅作保底）</h2>
+    <p class="note" style="margin-bottom:10px">主业为材料、化工、医药生产、物流、金融、航空运输等，与"控制/视觉/AI应用"无直接对口岗位；若开放 IT/自动化 内设岗可少量投递。</p>
+    <div class="clist" id="cl"></div>
+  </div>
+
+  <div class="card">
+    <h2>落户 / 人才补贴适配（你已核验的两区数据）</h2>
+    <ul class="note">
+      <li><b>临安区（杭州）— 硕士合计 24 万元</b>：生活补贴 9 万 + 购房补贴 15 万，为已核验区间最高档；且你在杭州就读，本地落户与政策申领最顺。</li>
+      <li><b>黄埔区（广州）— 硕士 15 万元</b>：人才购房"房票"15 万；广州应届生落户相对宽松。</li>
+      <li><b>补贴维度结论</b>：若把"补贴 + 落户便利"计入总收益，<b>临安优于黄埔</b>（24 万 vs 15 万，且无需异地）。但黄埔的岗位密度与技术赛道宽度高于临安（52 vs 12 家）。</li>
+      <li>杭州：硕士学历落户门槛低、流程快；广州：应届生入户可"先落户后就业"。两地均适合应届生。</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>投递建议（应届校招节奏）</h2>
+    <ul class="note">
+      <li><b>第一梯队（5家）</b>：杭叉集团、昊志机电、瑞松科技、视源股份、弘亚数控 — 简历直接突出"机器视觉 + PLC/Modbus + 移动机器人三层架构"，这是你区别于纯算法/纯机械候选人的核心卖点。</li>
+      <li><b>第二梯队（10家）</b>：优先广电运通、高新兴、安凯微、多浦乐、安必平（视觉算法迁移性最强）；达意隆、航新科技、海格通信（嵌入式/控制）。</li>
+      <li><b>一条差异化路线</b>：多浦乐（超声无损检测）、安必平（病理图像 AI）这类"检测/诊断"企业，与你的"缺陷检测"方法论同源——把纱线缺陷检测项目改写成"工业/医学缺陷检测"，迁移说服力极强。</li>
+      <li><b>时间线</b>：应届秋招集中在 8–11 月，建议 9 月内完成 S/A 级 15 家网申；临安本地企业（杭叉、福斯特等）可同步争取实习转正。</li>
+    </ul>
+    <div class="warn">
+      <b>注意事项</b>：①海格通信等军工背景企业有政审要求；②分众传媒注册地为上海长宁，不计入黄埔；③校招岗位与薪资以企业当年实际发布为准，本报告只做"岗位方向与公司适配度"判断，不代表具体在招职位。
+    </div>
+  </div>
+
+  <footer>
+    数据来源：企查查/爱企查、交易所公开信息、南方财富网、前瞻网（2026-09 核验）｜人才补贴数据来自本项目已核验的官方来源<br>
+    本报告为求职参考，不构成任何就业承诺
+  </footer>
+</div>
+
+<script>
+const DATA = [
+  // ===== S 级 =====
+  {tier:"S",name:"杭叉集团",code:"603298",city:"杭州·临安",dirs:["控制自动化","机器视觉"],
+   roles:"AGV 导航/定位算法 · 运动控制工程师 · 嵌入式软件(车辆控制) · 智能物流系统集成",
+   why:"主业即工业车辆与 AGV 自动导运小车、智能物流系统，与你「视觉+PLC+工业以太网」的机器人项目同构，校招研发岗常年招自动化/电气/软件。",
+   sub:"硕士 24万(9+15)｜本地就近"},
+  {tier:"S",name:"昊志机电",code:"300503",city:"广州·黄埔",dirs:["控制自动化"],
+   roles:"伺服驱动/运动控制工程师 · 嵌入式软件 · 机器人核心部件(谐波减速器/电主轴)算法",
+   why:"中高端数控机床、机器人、新能源汽车核心功能部件供应商，伺服与运动控制是控制工程最核心的赛道。",
+   sub:"硕士 15万房票"},
+  {tier:"S",name:"瑞松科技",code:"688090",city:"广州·黄埔",dirs:["控制自动化","机器视觉"],
+   roles:"机器人应用工程师 · 视觉引导定位 · 运动控制/轨迹规划 · 智能制造系统集成",
+   why:"机器人与智能制造系统集成商，项目需视觉引导 + 轨迹控制，与你的移动机器人项目直接对位。",
+   sub:"硕士 15万房票"},
+  {tier:"S",name:"视源股份",code:"002841",city:"广州·黄埔",dirs:["AI应用","机器视觉"],
+   roles:"计算机视觉算法工程师 · 嵌入式软件 · 音视频算法 · AI 应用开发",
+   why:"显示/交互控制/连接技术龙头（希沃、MAXHUB），算法与嵌入式团队规模大、赛道宽，CV 与 AI 应用都有落点。",
+   sub:"硕士 15万房票"},
+  {tier:"S",name:"弘亚数控",code:"002833",city:"广州·黄埔",dirs:["控制自动化","机器视觉"],
+   roles:"数控系统/运动控制工程师 · 机器视觉(板材检测) · 嵌入式软件 · 自动化产线集成",
+   why:"板式家具数控装备龙头，数控 + 运动控制 + 视觉三合一，是「控制+视觉」复合背景的稀缺对口。",
+   sub:"硕士 15万房票"},
+
+  // ===== A 级 =====
+  {tier:"A",name:"广电运通",code:"002152",city:"广州·黄埔",dirs:["机器视觉","AI应用"],
+   roles:"CV 算法(钞票/人脸/票据识别) · 嵌入式软件 · 智能终端软件 · 大数据平台",
+   why:"金融科技 + 城市智能，CV 落地场景密集，算法岗对图像识别经验友好。",
+   sub:"硕士 15万房票"},
+  {tier:"A",name:"高新兴",code:"300098",city:"广州·黄埔",dirs:["机器视觉","控制自动化"],
+   roles:"视频分析算法 · 车载通信嵌入式 · 物联网平台开发 · 电子车牌/车路云软件",
+   why:"车路云 + 视频云，视觉分析与嵌入式双需求，与你车联网/嵌入式经历可衔接。",
+   sub:"硕士 15万房票"},
+  {tier:"A",name:"海格通信",code:"002465",city:"广州·黄埔",dirs:["控制自动化","AI应用"],
+   roles:"嵌入式软件 · 信号处理/导航算法 · 无线通信软件 · 数智生态开发",
+   why:"北斗导航 + 无线通信 + 航空航天电子，嵌入式与算法岗充足（注意军工政审）。",
+   sub:"硕士 15万房票"},
+  {tier:"A",name:"杰创智能",code:"301248",city:"广州·黄埔",dirs:["AI应用"],
+   roles:"AI 应用开发 · 智慧城市软件开发 · 信创解决方案 · 系统集成",
+   why:"AI + 信创 + 智慧城市，软件与 AI 应用岗密集，契合你的全栈与 AI 应用兴趣方向。",
+   sub:"硕士 15万房票"},
+  {tier:"A",name:"安凯微",code:"688620",city:"广州·黄埔",dirs:["机器视觉","控制自动化"],
+   roles:"嵌入式(ISP/视觉芯片)固件 · 图像算法工程师 · 芯片驱动开发",
+   why:"物联网摄像机芯片厂商，ISP 与视觉算法直接相关，CV 背景可切入端侧视觉。",
+   sub:"硕士 15万房票"},
+  {tier:"A",name:"多浦乐",code:"301528",city:"广州·黄埔",dirs:["机器视觉","控制自动化"],
+   roles:"无损检测算法 · 信号处理 · 仪器软件/上位机 · 自动化检测装备",
+   why:"相控阵超声无损检测——与你「缺陷检测」方法论高度同源，把纱线缺陷检测改写成工业无损检测，迁移成本极低。",
+   sub:"硕士 15万房票"},
+  {tier:"A",name:"安必平",code:"688393",city:"广州·黄埔",dirs:["机器视觉","AI应用"],
+   roles:"数字病理图像算法 · AI 辅助诊断软件 · 仪器控制软件",
+   why:"肿瘤病理诊断 + 数字病理图像 AI，图像算法迁移性强（缺陷检测→病灶检测）。",
+   sub:"硕士 15万房票"},
+  {tier:"A",name:"达意隆",code:"002209",city:"广州·黄埔",dirs:["控制自动化"],
+   roles:"包装机器人应用 · 自动化产线控制 · 运动控制 · 电气工程师",
+   why:"液态产品包装机械与机器人产线集成，自动化/控制岗密集，与产线经验对口。",
+   sub:"硕士 15万房票"},
+  {tier:"A",name:"航新科技",code:"300424",city:"广州·黄埔",dirs:["控制自动化"],
+   roles:"机载设备嵌入式软件 · 检测设备软硬件 · 电子硬件设计",
+   why:"航空机载设备研制与检测设备，嵌入式与测控方向对口。",
+   sub:"硕士 15万房票"},
+  {tier:"A",name:"福斯特",code:"603806",city:"杭州·临安",dirs:["机器视觉","控制自动化"],
+   roles:"视觉质检(膜面缺陷) · 产线自动化工程师 · 设备工程师 · 工艺自动化",
+   why:"光伏胶膜全球龙头，膜面缺陷视觉检测是刚需，且为临安本地头部企业。",
+   sub:"硕士 24万(9+15)｜本地就近"},
+
+  // ===== B 级 =====
+  {tier:"B",name:"杭氧股份",code:"002430",city:"杭州·临安",dirs:["控制自动化"],
+   roles:"DCS/PLC 自动化控制 · 仪表电气工程师 · 空分设备控制系统",
+   why:"大型空分装备制造与气体运营，PLC/仪表控制岗对口。", sub:"硕士 24万｜本地就近"},
+  {tier:"B",name:"万马股份",code:"002276",city:"杭州·临安",dirs:["控制自动化"],
+   roles:"充电桩嵌入式控制 · 电气工程师 · 电力电子",
+   why:"电缆 + 充电桩 + 电力设备，电力电子与嵌入式有落点。", sub:"硕士 24万｜本地就近"},
+  {tier:"B",name:"万马科技",code:"300698",city:"杭州·临安",dirs:["控制自动化","AI应用"],
+   roles:"车联网嵌入式 · 通信软件开发 · 平台后端",
+   why:"通信/车联网业务，嵌入式与软件岗可投。", sub:"硕士 24万｜本地就近"},
+  {tier:"B",name:"华旺科技",code:"605377",city:"杭州·临安",dirs:["机器视觉","控制自动化"],
+   roles:"纸张缺陷视觉检测 · 产线自动化 · 设备电气",
+   why:"装饰纸产线存在视觉质检需求，与缺陷检测经验相关。", sub:"硕士 24万｜本地就近"},
+  {tier:"B",name:"可靠股份",code:"301009",city:"杭州·临安",dirs:["机器视觉","控制自动化"],
+   roles:"无纺布缺陷视觉检测 · 产线自动化 · 设备工程师",
+   why:"护理用品高速产线，视觉检测与自动化岗有需求。", sub:"硕士 24万｜本地就近"},
+  {tier:"B",name:"ST南都",code:"300068",city:"杭州·临安",dirs:["控制自动化"],
+   roles:"储能 BMS/EMS 控制 · 电力电子 · 嵌入式软件",
+   why:"储能电池与通信电源，BMS/电力电子控制岗对口。", sub:"硕士 24万｜本地就近"},
+  {tier:"B",name:"浙文互联",code:"600986",city:"杭州·临安",dirs:["AI应用"],
+   roles:"AIGC 工具开发 · 营销技术全栈 · 数据开发",
+   why:"数字营销集团，AIGC/营销工具开发契合你的 AI 应用方向。", sub:"硕士 24万｜本地就近"},
+  {tier:"B",name:"智光电气",code:"002169",city:"广州·黄埔",dirs:["控制自动化"],
+   roles:"储能 PCS/BMS 控制 · 高压变频 · 电力电子软件",
+   why:"数字能源与储能变流，电力电子控制岗对口。", sub:"硕士 15万房票"},
+  {tier:"B",name:"高澜股份",code:"300499",city:"广州·黄埔",dirs:["控制自动化"],
+   roles:"冷却系统控制 · 电气自动化 · 热管理控制算法",
+   why:"电力电子装置纯水冷却及控制系统，控制岗相关。", sub:"硕士 15万房票"},
+  {tier:"B",name:"迪森股份",code:"300335",city:"广州·黄埔",dirs:["控制自动化"],
+   roles:"热能装备控制系统 · 自动化工程师 · 电气",
+   why:"清洁能源装备，控制与自动化岗可投。", sub:"硕士 15万房票"},
+  {tier:"B",name:"好莱客",code:"603898",city:"广州·黄埔",dirs:["控制自动化"],
+   roles:"柔性产线自动化 · 数控设备 · 生产设备工程师",
+   why:"定制家居智能制造，柔性产线与数控设备岗相关。", sub:"硕士 15万房票"},
+  {tier:"B",name:"万孚生物",code:"300482",city:"广州·黄埔",dirs:["控制自动化","机器视觉"],
+   roles:"POCT 仪器嵌入式 · 仪器软件 · 光学检测/图像",
+   why:"快速诊断仪器含光学与图像模块，仪器嵌入式对口。", sub:"硕士 15万房票"},
+  {tier:"B",name:"达安基因",code:"002030",city:"广州·黄埔",dirs:["控制自动化","AI应用"],
+   roles:"分子诊断仪器软件 · 嵌入式 · 检测数据处理",
+   why:"分子诊断仪器与配套软件，仪器软件岗相关。", sub:"硕士 15万房票"},
+  {tier:"B",name:"广哈通信",code:"300711",city:"广州·黄埔",dirs:["控制自动化","AI应用"],
+   roles:"指挥调度系统嵌入式 · 通信软件 · 音视频开发",
+   why:"数字与多媒体指挥调度系统，嵌入式/通信软件岗对口。", sub:"硕士 15万房票"},
+  {tier:"B",name:"纬德信息",code:"688171",city:"广州·黄埔",dirs:["AI应用"],
+   roles:"电力信创软件开发 · 系统集成 · 平台后端",
+   why:"电力信息安全与信创软件，软件全栈岗可投。", sub:"硕士 15万房票"},
+  {tier:"B",name:"宏景科技",code:"301396",city:"广州·黄埔",dirs:["AI应用"],
+   roles:"智慧城市软件开发 · 系统集成 · 数据平台",
+   why:"智慧城市信息系统集成，软件与集成岗可投。", sub:"硕士 15万房票"},
+  {tier:"B",name:"若羽臣",code:"003010",city:"广州·黄埔",dirs:["AI应用"],
+   roles:"AI 营销工具 · 数据开发 · 全栈工程师",
+   why:"品牌代运营与数据服务，AI 应用/全栈方向契合。", sub:"硕士 15万房票"},
+  {tier:"B",name:"禾信仪器",code:"688622",city:"广州·黄埔",dirs:["机器视觉","控制自动化"],
+   roles:"质谱仪器软件 · 仪器控制 · 数据处理算法",
+   why:"高端科学仪器（质谱仪），仪器软件与算法岗相关。", sub:"硕士 15万房票"},
+  {tier:"B",name:"爱司凯",code:"300521",city:"广州·黄埔",dirs:["控制自动化","机器视觉"],
+   roles:"数码打印控制系统 · 喷墨控制/嵌入式 · 图像处理",
+   why:"工业喷墨打印设备，运动控制与图像处理岗对口。", sub:"硕士 15万房票"},
+  {tier:"B",name:"洁特生物",code:"688026",city:"广州·黄埔",dirs:["控制自动化"],
+   roles:"注塑产线自动化 · 设备工程师 · 生产工艺自动化",
+   why:"生命科学耗材制造，产线自动化岗相关。", sub:"硕士 15万房票"},
+  {tier:"B",name:"迈普医学",code:"301033",city:"广州·黄埔",dirs:["控制自动化"],
+   roles:"增材制造工艺/设备 · 医疗器械自动化",
+   why:"植入医疗器械 3D 打印，装备与工艺岗可投。", sub:"硕士 15万房票"},
+  {tier:"B",name:"丸美生物",code:"603983",city:"广州·黄埔",dirs:["机器视觉"],
+   roles:"产线视觉质检 · 包装自动化 · 设备工程师",
+   why:"化妆品高速产线存在视觉质检需求。", sub:"硕士 15万房票"},
+  {tier:"B",name:"三孚新科",code:"688359",city:"广州·黄埔",dirs:["控制自动化"],
+   roles:"表面工程设备控制 · 工艺自动化 · 设备研发",
+   why:"表面工程专用化学品与设备，设备控制岗相关。", sub:"硕士 15万房票"},
+  {tier:"B",name:"鹿山新材",code:"603051",city:"广州·黄埔",dirs:["控制自动化"],
+   roles:"产线自动化 · 设备工程师 · 工艺控制",
+   why:"功能性材料制造，产线自动化岗相关。", sub:"硕士 15万房票"}
+];
+
+const CLEVEL = [
+  ["亿帆医药","002019","杭州·临安"],["天目药业","600671","杭州·临安"],["聚力文化","002247","杭州·临安"],
+  ["南方航空","600029","广州·黄埔"],["广发证券","000776","广州·黄埔"],["天赐材料","002709","广州·黄埔"],
+  ["金发科技","600143","广州·黄埔"],["宏昌电子","603002","广州·黄埔"],["集泰股份","002909","广州·黄埔"],
+  ["燕塘乳业","002732","广州·黄埔"],["冠昊生物","300238","广州·黄埔"],["百奥泰","688177","广州·黄埔"],
+  ["一品红","300723","广州·黄埔"],["博济医药","300404","广州·黄埔"],["永顺泰","001338","广州·黄埔"],
+  ["原尚股份","603813","广州·黄埔"],["方邦股份","688020","广州·黄埔"],["慧智微","688512","广州·黄埔"],
+  ["新莱福","301323","广州·黄埔"],["毅昌科技","002420","广州·黄埔"],["*ST香雪","300147","广州·黄埔"],
+  ["*ST摩登","002656","广州·黄埔"],["穗恒运A","000531","广州·黄埔"],["南网能源","003035","广州·黄埔"],
+  ["永顺生物","839810","广州·黄埔"]
+];
+
+const tierRank = {S:0,A:1,B:2};
+const tb = document.getElementById('tb');
+let filterDir = "all", onlySA = false, sortKey = "tier", sortAsc = true;
+
+function locCls(c){ return c.includes("临安") ? "loc hz" : "loc gz"; }
+function tagCls(d){ return d==="机器视觉" ? "tag cv" : (d==="AI应用" ? "tag ai" : "tag"); }
+
+function render(){
+  let rows = DATA.slice();
+  if(filterDir !== "all") rows = rows.filter(r => r.dirs.includes(filterDir));
+  if(onlySA) rows = rows.filter(r => r.tier==="S" || r.tier==="A");
+  rows.sort((a,b)=>{
+    let va,vb;
+    if(sortKey==="tier"){ va=tierRank[a.tier]; vb=tierRank[b.tier]; }
+    else if(sortKey==="name"){ va=a.name; vb=b.name; return sortAsc ? String(va).localeCompare(vb,'zh') : String(vb).localeCompare(va,'zh'); }
+    else { va=a.city; vb=b.city; }
+    if(va===vb) return 0;
+    return sortAsc ? (va>vb?1:-1) : (va<vb?1:-1);
+  });
+  tb.innerHTML = rows.map(r => `
+    <tr>
+      <td><span class="badge ${r.tier}">${r.tier}</span></td>
+      <td><div class="co">${r.name}</div><div class="code">${r.code}</div></td>
+      <td><span class="${locCls(r.city)}">${r.city}</span></td>
+      <td><div class="tags">${r.dirs.map(d=>`<span class="${tagCls(d)}">${d}</span>`).join('')}</div></td>
+      <td class="roles">${r.roles}</td>
+      <td class="why">${r.why}</td>
+      <td><span class="sub">${r.sub}</span></td>
+    </tr>`).join('');
+}
+
+document.querySelectorAll('.fbtn[data-f]').forEach(b=>{
+  b.onclick = ()=>{
+    document.querySelectorAll('.fbtn[data-f]').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on'); filterDir = b.dataset.f; render();
+  };
+});
+document.getElementById('togSA').onclick = function(){
+  onlySA = !onlySA; this.classList.toggle('on', onlySA); render();
+};
+document.querySelectorAll('th.sortable').forEach(th=>{
+  th.onclick = ()=>{
+    const k = th.dataset.k;
+    if(sortKey===k) sortAsc = !sortAsc; else { sortKey=k; sortAsc=true; }
+    render();
+  };
+});
+
+document.getElementById('cl').innerHTML = CLEVEL.map(c =>
+  `<span class="citem">${c[0]} <span style="font-family:monospace">${c[1]}</span> · ${c[2]}</span>`
+).join('');
+
+render();
+</script>
+</body>
+</html>

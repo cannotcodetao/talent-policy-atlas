@@ -1,0 +1,126 @@
+{
+ "city": "云浮",
+ "entries": [
+  {
+   "key": "云浮|grad_subsidy|市级|博士|50万元生活补贴（机关事业单位紧缺人才计划，分年发放）；2016年27号文体系另规定博士住房补贴12万元+人才津贴4.6",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "博士",
+   "unit": "中共云浮市委人才工作领导小组",
+   "doc_no": "云委人才〔2024〕3号（含《机关事业单位紧缺人才计划实施方案(试行)》）",
+   "date": "2024年印发，有效期至2027年4月",
+   "url": "https://www.yunfu.gov.cn/attachment/0/61/61931/1654970.pdf",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "云浮|grad_subsidy|市级|普通本科|无独立的普通本科市级普适现金补贴政策；创业人才项目申报条件为全日制本科以上学历学位（云浮市产业人才项目实施方案），入选后",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "普通本科",
+   "unit": "云浮市科学技术局",
+   "doc_no": "云委人才〔2024〕3号（产业人才项目实施方案(试行)）",
+   "date": "2024年印发",
+   "url": "https://www.xinxing.gov.cn/yfxxkjj/gkmlpt/content/1/1959/post_1959649.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "云浮|grad_subsidy|市级|专科|暂未查询到云浮市针对专科毕业生市级普适现金补贴政策",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "专科",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "云浮|grad_subsidy|新兴县|博士|最高不超过12万元一次性补贴",
+   "dim": "grad_subsidy",
+   "district": "新兴县",
+   "name": "博士",
+   "unit": "中共新兴县委组织部（县预制菜产业人才项目工作专班办公室）",
+   "doc_no": "",
+   "date": "2025-07-09",
+   "url": "https://www.xinxing.gov.cn/xxxrmzf/zwgk/tzgg/content/mpost_1931743.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "云浮|grad_subsidy|新兴县|硕士|最高不超过3万元一次性补贴",
+   "dim": "grad_subsidy",
+   "district": "新兴县",
+   "name": "硕士",
+   "unit": "中共新兴县委组织部（县预制菜产业人才项目工作专班办公室）",
+   "doc_no": "",
+   "date": "2025-07-09",
+   "url": "https://www.xinxing.gov.cn/xxxrmzf/zwgk/tzgg/content/mpost_1931743.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "云浮|grad_subsidy|新兴县|本科|最高不超过1万元一次性补贴",
+   "dim": "grad_subsidy",
+   "district": "新兴县",
+   "name": "本科",
+   "unit": "中共新兴县委组织部（县预制菜产业人才项目工作专班办公室）",
+   "doc_no": "",
+   "date": "2025-07-09",
+   "url": "https://www.xinxing.gov.cn/xxxrmzf/zwgk/tzgg/content/mpost_1931743.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "云浮|apply_path|市级|云浮市人事考试网上报名系统 / 云浮市人力资源和社会保障网|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "云浮市人事考试网上报名系统 / 云浮市人力资源和社会保障网",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "云浮|apply_path|市级|云浮市人才驿站(现场受理) — 高端人才社区申请|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "云浮市人才驿站(现场受理) — 高端人才社区申请",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "云浮|apply_path|市级|云浮市科学技术局(产业人才项目申报)|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "云浮市科学技术局(产业人才项目申报)",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "云浮|anju_subsidy|云安区|云安区高级专业人才/高级经营管理人才项目购房补助|实际购房总额超过购房补助按购房补助标准补贴；未超过按实际购房总额补贴",
+   "dim": "anju_subsidy",
+   "district": "云安区",
+   "name": "云安区高级专业人才/高级经营管理人才项目购房补助",
+   "unit": "云浮市云安区人民政府",
+   "doc_no": "中共云浮市云安区委人才工作领导小组印发等6份文件",
+   "date": "2025年公告",
+   "url": "https://www.yunan.gov.cn/yfyagxj/gkmlpt/content/1/1966/post_1966575.html?jump=true",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "云浮|anju_highlevel|云安区||",
+   "dim": "anju_highlevel",
+   "district": "云安区",
+   "name": "",
+   "unit": "云浮市云安区工业和信息化局",
+   "doc_no": "",
+   "date": "2024-05-28",
+   "url": "https://www.yunan.gov.cn/yfyagxj/gkmlpt/content/1/1819/post_1819568.html",
+   "problem": "缺文号"
+  }
+ ]
+}

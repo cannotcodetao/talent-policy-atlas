@@ -1,0 +1,266 @@
+{
+  "city": "惠州",
+  "districts": [
+    {
+      "district": "惠阳区",
+      "policies": [
+        {
+          "dim": "grad_subsidy",
+          "level": "博士",
+          "cash": "博士研究生每人每月3000元，累计发放三年",
+          "house_voucher": "",
+          "condition": "2024年12月以来新引进、与惠阳区企业签订3年及以上劳动合同且目前在岗的博士研究生；此前已申领仍在岗的可续领；需在惠阳区缴纳社会保险费",
+          "note": "依据《惠阳区企业引进优秀毕业生人才津贴实施细则》开展的2026年度申领通知，区级现行有效政策",
+          "source": {
+            "unit": "惠州市惠阳区人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2026-07-13",
+            "url": "https://www.huiyang.gov.cn/zfxxgkml/hyqrsj/bmwj/tzgg/content/post_5810517.html"
+          }
+        },
+        {
+          "dim": "grad_subsidy",
+          "level": "硕士",
+          "cash": "硕士研究生每人每月1000元，累计发放三年",
+          "house_voucher": "",
+          "condition": "2024年12月以来新引进、与惠阳区企业签订3年及以上劳动合同且目前在岗的硕士研究生；需在惠阳区缴纳社会保险费",
+          "note": "同上2026年度申领通知，区级毕业生津贴",
+          "source": {
+            "unit": "惠州市惠阳区人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2026-07-13",
+            "url": "https://www.huiyang.gov.cn/zfxxgkml/hyqrsj/bmwj/tzgg/content/post_5810517.html"
+          }
+        },
+        {
+          "dim": "grad_subsidy",
+          "level": "本科",
+          "cash": "重点高校本科毕业生每人每月500元，累计发放三年",
+          "house_voucher": "",
+          "condition": "2024年12月以来新引进、与惠阳区企业签订3年及以上劳动合同且目前在岗的重点高校本科毕业生（重点高校范围以附件2为准）；需在惠阳区缴纳社会保险费",
+          "note": "仅限重点高校本科毕业生，区级毕业生津贴",
+          "source": {
+            "unit": "惠州市惠阳区人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2026-07-13",
+            "url": "https://www.huiyang.gov.cn/zfxxgkml/hyqrsj/bmwj/tzgg/content/post_5810517.html"
+          }
+        }
+      ]
+    },
+    {
+      "district": "惠东县",
+      "policies": [
+        {
+          "dim": "grad_subsidy",
+          "level": "硕士",
+          "cash": "硕士研究生（含副高级职称人才、高级技师）每人每月1200元人才补贴，发放期限5年",
+          "house_voucher": "",
+          "condition": "非行政机关、非参公管理单位、非个体工商户新引进到惠东县的硕士研究生；另可享县级1万元落户补贴",
+          "note": "惠东人才新政（惠东委发〔2022〕7号）县级配套补贴，与市级补贴可叠加，官网现行宣传口径",
+          "source": {
+            "unit": "惠东县人力资源和社会保障局",
+            "doc_no": "惠东委发〔2022〕7号",
+            "date": "2023-02-24",
+            "url": "https://www.huidong.gov.cn/hdxwz/wsfw/ggfw/pxjy/jyaz/content/post_4922152.html"
+          }
+        },
+        {
+          "dim": "grad_subsidy",
+          "level": "本科",
+          "cash": "重点高校本科毕业生每人每月600元人才补贴，发放期限3年",
+          "house_voucher": "",
+          "condition": "新引进到惠东县民营企业（含外资企业）并签订3年以上合同的重点高校本科毕业生；另可享市级最高5000元落户补贴",
+          "note": "惠东人才新政县级补贴，本科仅限重点高校且限民营企业",
+          "source": {
+            "unit": "惠东县人力资源和社会保障局",
+            "doc_no": "惠东委发〔2022〕7号",
+            "date": "2023-02-24",
+            "url": "https://www.huidong.gov.cn/hdxwz/wsfw/ggfw/pxjy/jyaz/content/post_4922152.html"
+          }
+        },
+        {
+          "dim": "anju_highlevel",
+          "class": "博士/博士后/正高级职称人才",
+          "subsidy": "县级给予最高20万元安家补贴（博士及正高级职称人才另享县级每人每月3000元人才补贴，发放期限5年）",
+          "house_voucher": "",
+          "condition": "非行政机关、非参公管理单位、非个体工商户新引进到惠东县的博士、博士后、正高级职称人才；除市级最高30万元安家补贴外叠加县级补贴",
+          "note": "惠东人才新政高层次人才县级配套，2022年出台，惠东县人社局官网现行发布",
+          "source": {
+            "unit": "惠东县人力资源和社会保障局",
+            "doc_no": "惠东委发〔2022〕7号",
+            "date": "2023-02-24",
+            "url": "https://www.huidong.gov.cn/hdxwz/wsfw/ggfw/pxjy/jyaz/content/post_4922152.html"
+          }
+        }
+      ]
+    },
+    {
+      "district": "博罗县",
+      "policies": [
+        {
+          "dim": "anju_highlevel",
+          "class": "全日制博士研究生（医疗卫生急需紧缺专业）",
+          "subsidy": "签订3年服务合同的给予60万元安家补贴；签订5年服务合同的给予120万元安家补贴；签订7年服务合同的给予200万元安家补贴；志愿在基层医疗卫生单位工作的每年再增加2万元",
+          "house_voucher": "",
+          "condition": "引进到博罗县公立医疗卫生单位，临床医学类、中医学类、中西医结合类、口腔医学类专业，取得执业医师资格证及住培合格证书并在临床一线岗位，签订服务年限协议，试用期满考核合格后按服务期限逐年发放",
+          "note": "《博罗县2021-2025年加强卫生人才队伍建设的优惠激励方案（2024年修订版）》2024年10月重新公布，现行有效",
+          "source": {
+            "unit": "博罗县卫生健康局、博罗县人力资源和社会保障局",
+            "doc_no": "BBGS-2024-001",
+            "date": "2024-10-14",
+            "url": "https://www.boluo.gov.cn/zwgk/gzwj/bmgfxwj/content/post_5372615.html"
+          }
+        },
+        {
+          "dim": "anju_highlevel",
+          "class": "全日制硕士研究生（医疗卫生急需紧缺专业）",
+          "subsidy": "签订3年服务合同的给予15万元安家补贴；签订5年服务合同的给予30万元安家补贴；签订7年服务合同的给予56万元安家补贴",
+          "house_voucher": "",
+          "condition": "引进到博罗县公立医疗卫生单位，临床医学类、中医学类、中西医结合类、口腔医学类专业，取得执业医师资格证及住培合格证书并在临床一线岗位，签订服务年限协议",
+          "note": "同上2024年修订版方案，另享县财政特定津贴及人才公寓",
+          "source": {
+            "unit": "博罗县卫生健康局、博罗县人力资源和社会保障局",
+            "doc_no": "BBGS-2024-001",
+            "date": "2024-10-14",
+            "url": "https://www.boluo.gov.cn/zwgk/gzwj/bmgfxwj/content/post_5372615.html"
+          }
+        },
+        {
+          "dim": "welfare",
+          "type": "定向培养教育补助",
+          "detail": "博罗籍学生报读临床医学类、中医学类、中西医临床医学、口腔医学、预防医学专业的全日制本科生，凭录取通知书与县卫生健康局签订合同承诺毕业后回博罗县公立医院临床一线工作服务5年（不含规培时间）的，给予每人每年学费及生活补助2.5万元",
+          "house_voucher": "",
+          "condition": "博罗籍全日制本科医学生，已享受广东省农村订单定向培养优惠政策者除外；毕业后重点服务于博东片8镇卫生院",
+          "note": "卫生人才方案中的定向培养补助，本科入学阶段即可领取",
+          "source": {
+            "unit": "博罗县卫生健康局、博罗县人力资源和社会保障局",
+            "doc_no": "BBGS-2024-001",
+            "date": "2024-10-14",
+            "url": "https://www.boluo.gov.cn/zwgk/gzwj/bmgfxwj/content/post_5372615.html"
+          }
+        }
+      ]
+    },
+    {
+      "district": "龙门县",
+      "policies": [
+        {
+          "dim": "grad_subsidy",
+          "level": "博士",
+          "cash": "全日制博士研究生（或正高级职称）每月享受2000元生活补贴，发放期限5年",
+          "house_voucher": "",
+          "condition": "新引进到龙门县事业单位工作的高层次人才，在我县工作满一年、试用期满考核合格，须签订《龙门县人才服务协议》",
+          "note": "依据《龙门县事业单位高层次人才和急需紧缺人才引进实施办法（试行）》（2024-2027），除市级以上待遇外叠加享受",
+          "source": {
+            "unit": "中共龙门县委人才工作领导小组办公室",
+            "doc_no": "",
+            "date": "2024-07-03",
+            "url": "https://www.longmen.gov.cn/lmxrmzfmhwz/zwgk/gzwj/tzgg/content/post_5301103.html"
+          }
+        },
+        {
+          "dim": "grad_subsidy",
+          "level": "硕士",
+          "cash": "副高级职称的全日制硕士研究生每月享受1500元生活补贴；其他全日制硕士研究生每月享受500元生活补贴",
+          "house_voucher": "",
+          "condition": "新引进到龙门县事业单位工作，在我县工作满一年、试用期满考核合格，发放期限5年",
+          "note": "同上，生活补贴按职称档次分档",
+          "source": {
+            "unit": "中共龙门县委人才工作领导小组办公室",
+            "doc_no": "",
+            "date": "2024-07-03",
+            "url": "https://www.longmen.gov.cn/lmxrmzfmhwz/zwgk/gzwj/tzgg/content/post_5301103.html"
+          }
+        },
+        {
+          "dim": "anju_subsidy",
+          "name": "龙门县事业单位高层次人才和急需紧缺人才购房补贴",
+          "discount": "正高级职称或全日制博士研究生一次性购房补贴30万元；副高级职称或全日制硕士研究生一次性购房补贴7万元",
+          "condition": "自愿签订服务协议且在龙门县内购房；未满服务期调离龙门的须退回已发购房补贴",
+          "note": "县级一次性购房补贴，另有无人才公寓房源时博士每月800元、硕士每月500元租房补贴",
+          "source": {
+            "unit": "中共龙门县委人才工作领导小组办公室",
+            "doc_no": "",
+            "date": "2024-07-03",
+            "url": "https://www.longmen.gov.cn/lmxrmzfmhwz/zwgk/gzwj/tzgg/content/post_5301103.html"
+          }
+        },
+        {
+          "dim": "welfare",
+          "type": "租房补贴",
+          "detail": "在没有县人才公寓房源时，正高级职称或全日制博士研究生每人每月800元租房补贴；副高级职称或全日制硕士研究生每人每月500元租房补贴",
+          "house_voucher": "",
+          "condition": "符合入住人才公寓条件的新引进人才，无房源且自愿放弃申请人才公寓时可领取，最高保障期限3年",
+          "note": "人才公寓配套租房补贴，同上公告",
+          "source": {
+            "unit": "中共龙门县委人才工作领导小组办公室",
+            "doc_no": "",
+            "date": "2024-07-03",
+            "url": "https://www.longmen.gov.cn/lmxrmzfmhwz/zwgk/gzwj/tzgg/content/post_5301103.html"
+          }
+        }
+      ]
+    },
+    {
+      "district": "大亚湾开发区",
+      "policies": [
+        {
+          "dim": "grad_subsidy",
+          "level": "博士",
+          "cash": "博士给予3年生活补贴，标准为3000元/月/人；博士后（或正高级职称）为4000元/月/人；另有一次性落户补贴博士30000元/人、博士后或正高级职称50000元/人",
+          "house_voucher": "",
+          "condition": "2022年5月之后引进且首次在大亚湾区参加工作，非行政机关、非完全财政供给的机关事业单位、非个体工商户，与用人单位签订3年及以上劳动合同全职在本区工作，在本区连续参保纳税满12个月",
+          "note": "大亚湾\"1+N\"人才政策体系之新引进人才生活补贴和落户补贴",
+          "source": {
+            "unit": "惠州大亚湾开发区管委会社会事务管理局",
+            "doc_no": "",
+            "date": "2024-09-27",
+            "url": "https://www.dayawan.gov.cn/hzdywshswj/gkmlpt/content/5/5362/post_5362541.html"
+          }
+        },
+        {
+          "dim": "grad_subsidy",
+          "level": "硕士",
+          "cash": "应届硕士（全日制）给予3年生活补贴，标准为1000元/月/人；另有一次性落户补贴15000元/人",
+          "house_voucher": "",
+          "condition": "2022年5月之后引进且首次在大亚湾区参加工作的应届全日制硕士（含副高级职称、高级技师），签订3年及以上劳动合同，本区连续参保纳税满12个月",
+          "note": "同上，硕士档生活补贴与落户补贴",
+          "source": {
+            "unit": "惠州大亚湾开发区管委会社会事务管理局",
+            "doc_no": "",
+            "date": "2024-09-27",
+            "url": "https://www.dayawan.gov.cn/hzdywshswj/gkmlpt/content/5/5362/post_5362541.html"
+          }
+        },
+        {
+          "dim": "grad_subsidy",
+          "level": "本科",
+          "cash": "应届本科生（全日制）给予1年生活补贴，标准为1000元/月/人",
+          "house_voucher": "",
+          "condition": "2022年5月之后引进且首次在大亚湾区参加工作的应届全日制本科生（含中级职称、技师），签订3年及以上劳动合同，本区连续参保纳税满12个月",
+          "note": "同上，本科档仅1年生活补贴，无区级落户补贴",
+          "source": {
+            "unit": "惠州大亚湾开发区管委会社会事务管理局",
+            "doc_no": "",
+            "date": "2024-09-27",
+            "url": "https://www.dayawan.gov.cn/hzdywshswj/gkmlpt/content/5/5362/post_5362541.html"
+          }
+        },
+        {
+          "dim": "anju_subsidy",
+          "name": "惠州大亚湾经济技术开发区新建商品住房购房补贴",
+          "discount": "全日制本科、中级职称：1万元/套（在大亚湾工作的2万元/套）；全日制硕士、副高级职称、市C级高层次人才：2万元/套（在大亚湾工作的3万元/套）；全日制博士、正高级职称、市B级及以上高层次人才：4万元/套（在大亚湾工作的5万元/套）",
+          "condition": "自方案发布之日起至2026年12月31日，在大亚湾开发区购买单套建筑面积70平方米以上的新建商品住房（不含二手房）；总限额2000万元额满即止；已领取惠州市人才房票补贴的不得重复申领；补贴最高不超过网签总价20%",
+          "note": "区管委会同意印发的2026年区级购房补贴新政，现行有效",
+          "source": {
+            "unit": "惠州大亚湾经济技术开发区管理委员会城乡建设和综合执法局、区财政国资金融局",
+            "doc_no": "",
+            "date": "2026-06-05",
+            "url": "https://www.dayawan.gov.cn/bmpd/zjj/tzgg/content/post_5784543.html"
+          }
+        }
+      ]
+    }
+  ]
+}

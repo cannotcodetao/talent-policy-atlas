@@ -1,0 +1,188 @@
+{
+  "city": "舟山",
+  "districts": [
+    {
+      "district": "定海区",
+      "policies": [
+        {
+          "dim": "grad_subsidy",
+          "level": "本科",
+          "cash": "8万元（在定海区不含新城购房10万元）",
+          "house_voucher": "",
+          "condition": "2022年1月1日起新引进到定海区本级纳税企业、区民政局登记社会组织或其他组织机构就业或自主创业的全日制普通高校本科毕业生（40周岁以下），须为单位服务1年以上、首次在舟山购买商品住房（2017.11.3后）、本人在舟山无其他住房且未享受过优惠购房政策",
+          "note": "定海区企业人才购房补贴，本区购房在市级基础上上浮",
+          "source": {
+            "unit": "中共舟山市定海区委人才工作领导小组办公室",
+            "doc_no": "定人才办〔2022〕38号",
+            "date": "2023-08-07",
+            "url": "https://www.dinghai.gov.cn/dhdj/gsgg/art/2023/art_11cd21dc7ae84261ac610d268a186b7a.html"
+          }
+        },
+        {
+          "dim": "grad_subsidy",
+          "level": "本科（舟山生源及在舟高校毕业生提档）",
+          "cash": "10万元（在定海区不含新城购房12万元）",
+          "house_voucher": "",
+          "condition": "舟山生源及在舟高校毕业生，新引进到定海区本级纳税单位就业或自主创业，须毕业1年内在定海工作、服务1年以上、首次在舟山购房且无其他住房",
+          "note": "舟山生源及在舟高校全日制本科提档享受购房补贴",
+          "source": {
+            "unit": "中共舟山市定海区委人才工作领导小组办公室",
+            "doc_no": "定人才办〔2022〕38号",
+            "date": "2023-08-07",
+            "url": "https://www.dinghai.gov.cn/dhdj/gsgg/art/2023/art_11cd21dc7ae84261ac610d268a186b7a.html"
+          }
+        },
+        {
+          "dim": "grad_subsidy",
+          "level": "专科（舟山生源及在舟高校毕业生）",
+          "cash": "8万元（在定海区不含新城购房10万元）",
+          "house_voucher": "",
+          "condition": "舟山生源及在舟高校毕业生，新引进到定海区本级纳税单位就业或自主创业（专科学历），须毕业1年内在定海工作、服务1年以上、首次在舟山购房且无其他住房",
+          "note": "舟山生源及在舟高校全日制专科提档享受购房补贴",
+          "source": {
+            "unit": "中共舟山市定海区委人才工作领导小组办公室",
+            "doc_no": "定人才办〔2022〕38号",
+            "date": "2023-08-07",
+            "url": "https://www.dinghai.gov.cn/dhdj/gsgg/art/2023/art_11cd21dc7ae84261ac610d268a186b7a.html"
+          }
+        }
+      ]
+    },
+    {
+      "district": "普陀区",
+      "policies": [
+        {
+          "dim": "anju_subsidy",
+          "name": "普陀区企业人才购房补贴",
+          "discount": "全日制本科8万元（在普陀区不含普朱购房10万元）；重点海洋企业引进全日制专科购买90㎡及以下小户型5万元；舟山生源及在舟高校全日制本科提档10万元、全日制专科提档8万元",
+          "condition": "2022年1月1日起新引进到普陀区本级纳税企业、区民政局登记社会组织或区级职能部门登记机构就业或自主创业的全日制本科（舟山生源及在舟高校可放宽至专科），或2022年3月8日起重点海洋企业全日制专科；须服务1年以上、首次在舟山购房（2017.11.3后）、无其他住房且未享受过优惠购房政策",
+          "note": "普陀区年度购房补贴申报，区级财政先补助50%、鼓励用人单位1:1配套",
+          "source": {
+            "unit": "中共舟山市普陀区委人才工作领导小组办公室、舟山市普陀区经济和信息化局等4部门",
+            "doc_no": "舟普经信〔2026〕7号",
+            "date": "2026",
+            "url": "https://www.putuo.gov.cn/api-gateway/jpaas-web-server/front/document/download?fileName=%E4%B8%AD%E5%85%B1%E8%88%9F%E5%B1%B1%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E5%A7%94%E4%BA%BA%E6%89%8D%E5%B7%A5%E4%BD%9C%E9%A2%86%E5%AF%BC%E5%B0%8F%E7%BB%84%E5%8A%9E%E5%85%AC%E5%AE%A4%E6%99%AE%E9%99%80%E5%8C%BA%E7%BB%8F%E6%B5%8E%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E5%B1%80%E7%AD%894%E9%83%A8%E9%97%A8%E5%85%B3%E4%BA%8E%E5%81%9A%E5%A5%BD2026%E5%B9%B4%E6%99%AE%E9%99%80%E5%8C%BA%E4%BC%81%E4%B8%9A%E4%BA%BA%E6%89%8D%E8%B4%AD%E6%88%BF%E8%A1%A5%E8%B4%B4%E7%94%B3%E6%8A%A5%E5%B7%A5%E4%BD%9C%E7%9A%84%E9%80%9A%E7%9F%A5.pdf&fileUrl=YW5UzzlvCwcM%2FNHHX%2FtT6HvQY54%2BPnGKWw309PB4jvmEN4SoYtQr4fyi3GNrMzQxLpaHVwB%2BdM4dYJDkDRurk5W5imMFR48MFip60kcbzf5fqtK5LzKh%2Bhbgul3DBP5BsqfHK8ZXOQjlVkD%2BS5sxmN9vbFAEgCDqmQ5OjCu8aKE%3D"
+          }
+        }
+      ]
+    },
+    {
+      "district": "岱山县",
+      "policies": [
+        {
+          "dim": "grad_subsidy",
+          "level": "本科（普通全日制）",
+          "cash": "4万元",
+          "house_voucher": "",
+          "condition": "新引进到岱山工作、年龄在35周岁及以下（研究生40周岁及以下）的全日制普通高校本科毕业生，在纳税地岱山企业就业并服务1年以上、正常缴纳社保，首次在岱山购买商品住房",
+          "note": "岱山县高校毕业生来岱就业创业政策，普通全日制本科购房补贴",
+          "source": {
+            "unit": "中共岱山县委人才工作领导小组办公室",
+            "doc_no": "岱人才办〔2022〕9号",
+            "date": "2026-06-17",
+            "url": "https://www.daishan.gov.cn/col/col1388744/art/2026/art_ee03a606c3b641839a6c384c0d0f213a.html"
+          }
+        },
+        {
+          "dim": "grad_subsidy",
+          "level": "本科（舟山生源及在舟高校提档）",
+          "cash": "5万元",
+          "house_voucher": "",
+          "condition": "舟山生源及在舟高校毕业生，新引进到岱山企业就业并服务1年以上、正常缴纳社保，首次在岱山购买商品住房",
+          "note": "舟山生源及在舟高校全日制本科提档享受购房补贴",
+          "source": {
+            "unit": "中共岱山县委人才工作领导小组办公室",
+            "doc_no": "岱人才办〔2022〕9号",
+            "date": "2026-06-17",
+            "url": "https://www.daishan.gov.cn/col/col1388744/art/2026/art_ee03a606c3b641839a6c384c0d0f213a.html"
+          }
+        },
+        {
+          "dim": "grad_subsidy",
+          "level": "硕士",
+          "cash": "15万元",
+          "house_voucher": "",
+          "condition": "全日制硕士研究生（F类人才），在岱山首次购买商品住房，机关事业单位由本级财政100%补助、企业等财政补助50%鼓励1:1配套",
+          "note": "岱山县人才安居工程购房补贴，全日制硕士（F类）享受标准",
+          "source": {
+            "unit": "中共岱山县委人才工作领导小组办公室",
+            "doc_no": "岱人才办〔2022〕9号",
+            "date": "2026-06-17",
+            "url": "https://www.daishan.gov.cn/col/col1388744/art/2026/art_ee03a606c3b641839a6c384c0d0f213a.html"
+          }
+        },
+        {
+          "dim": "grad_subsidy",
+          "level": "博士",
+          "cash": "30万元",
+          "house_voucher": "",
+          "condition": "全日制博士研究生（E类人才），在岱山首次购买商品住房，机关事业单位由本级财政100%补助、企业等财政补助50%鼓励1:1配套",
+          "note": "岱山县人才安居工程购房补贴，全日制博士（E类）享受标准",
+          "source": {
+            "unit": "中共岱山县委人才工作领导小组办公室",
+            "doc_no": "岱人才办〔2022〕9号",
+            "date": "2026-06-17",
+            "url": "https://www.daishan.gov.cn/col/col1388744/art/2026/art_ee03a606c3b641839a6c384c0d0f213a.html"
+          }
+        }
+      ]
+    },
+    {
+      "district": "嵊泗县",
+      "policies": [
+        {
+          "dim": "anju_highlevel",
+          "class": "B类（国家级杰出人才）",
+          "subsidy": "购房补贴90万元；安家补贴60万元；政府津贴5000元/月",
+          "condition": "经认定的嵊泗县A-U类人才，首次在嵊泗购买商品住房（2017.11.3后购买、不含本人及配偶双方父母持有房产），机关事业单位全额补助、企业等财政补助50%鼓励1:1配套；在嵊工作不少5年（博士8年），未满按比例退还",
+          "note": "嵊泗县人才服务保障办法高层次人才安居标准",
+          "source": {
+            "unit": "中共嵊泗县委人才工作领导小组办公室、嵊泗县经信局等9部门",
+            "doc_no": "嵊委人才办〔2023〕14号",
+            "date": "2023-12-06",
+            "url": "https://ssdj.shengsi.gov.cn/uploads/file/6b8865ff06b14e36afdd21b23bc5e20f.pdf"
+          }
+        },
+        {
+          "dim": "anju_highlevel",
+          "class": "C类（省部级领军人才）",
+          "subsidy": "购房补贴70万元；安家补贴30万元；政府津贴3000元/月",
+          "condition": "经认定的嵊泗县C类人才，首次在嵊泗购买商品住房，机关事业全额补助、企业等财政补助50%鼓励1:1配套；在嵊工作不少5年（博士8年）",
+          "note": "嵊泗县人才服务保障办法高层次人才安居标准",
+          "source": {
+            "unit": "中共嵊泗县委人才工作领导小组办公室、嵊泗县经信局等9部门",
+            "doc_no": "嵊委人才办〔2023〕14号",
+            "date": "2023-12-06",
+            "url": "https://ssdj.shengsi.gov.cn/uploads/file/6b8865ff06b14e36afdd21b23bc5e20f.pdf"
+          }
+        },
+        {
+          "dim": "anju_highlevel",
+          "class": "D类（市特优人才）",
+          "subsidy": "购房补贴50万元；安家补贴20万元（限D1-D7）；政府津贴2000元/月（限D1-D9）",
+          "condition": "经认定的嵊泗县D类人才，首次在嵊泗购买商品住房，机关事业全额补助、企业等财政补助50%鼓励1:1配套；在嵊工作不少5年（博士8年）",
+          "note": "嵊泗县人才服务保障办法高层次人才安居标准",
+          "source": {
+            "unit": "中共嵊泗县委人才工作领导小组办公室、嵊泗县经信局等9部门",
+            "doc_no": "嵊委人才办〔2023〕14号",
+            "date": "2023-12-06",
+            "url": "https://ssdj.shengsi.gov.cn/uploads/file/6b8865ff06b14e36afdd21b23bc5e20f.pdf"
+          }
+        },
+        {
+          "dim": "anju_highlevel",
+          "class": "E类（市高级人才）",
+          "subsidy": "购房补贴30万元；安家补贴15万元（限E1-E7）；政府津贴1000元/月（限E1-E7）",
+          "condition": "经认定的嵊泗县E类人才，首次在嵊泗购买商品住房，机关事业全额补助、企业等财政补助50%鼓励1:1配套；在嵊工作不少5年（博士8年）",
+          "note": "嵊泗县人才服务保障办法高层次人才安居标准，青年博士购房补贴可达50万元、安家补贴16万元",
+          "source": {
+            "unit": "中共嵊泗县委人才工作领导小组办公室、嵊泗县经信局等9部门",
+            "doc_no": "嵊委人才办〔2023〕14号",
+            "date": "2023-12-06",
+            "url": "https://ssdj.shengsi.gov.cn/uploads/file/6b8865ff06b14e36afdd21b23bc5e20f.pdf"
+          }
+        }
+      ]
+    }
+  ]
+}

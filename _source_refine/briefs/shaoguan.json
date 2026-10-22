@@ -1,0 +1,148 @@
+{
+ "city": "韶关",
+ "entries": [
+  {
+   "key": "韶关|grad_subsidy|武江区|本科|工作补贴3万元（发放总额标准：全日制本科的医生类人才，3万元）",
+   "dim": "grad_subsidy",
+   "district": "武江区",
+   "name": "本科",
+   "unit": "韶关市武江区人民政府",
+   "doc_no": "",
+   "date": "2019-07-05",
+   "url": "https://www.sgwjq.gov.cn/zfxxgkml/content/post_1111617.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "韶关|grad_subsidy|武江区|硕士|工作补贴6万元（硕士研究生不限职称，6万元）",
+   "dim": "grad_subsidy",
+   "district": "武江区",
+   "name": "硕士",
+   "unit": "韶关市武江区人民政府",
+   "doc_no": "",
+   "date": "2019-07-05",
+   "url": "https://www.sgwjq.gov.cn/zfxxgkml/content/post_1111617.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "韶关|grad_subsidy|武江区|博士|工作补贴15万元（博士研究生不限职称，15万元）",
+   "dim": "grad_subsidy",
+   "district": "武江区",
+   "name": "博士",
+   "unit": "韶关市武江区人民政府",
+   "doc_no": "",
+   "date": "2019-07-05",
+   "url": "https://www.sgwjq.gov.cn/zfxxgkml/content/post_1111617.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "韶关|grad_subsidy|乐昌市|硕士|每人每月1000元的生活补贴",
+   "dim": "grad_subsidy",
+   "district": "乐昌市",
+   "name": "硕士",
+   "unit": "乐昌市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2024-04-02",
+   "url": "https://www.lechang.gov.cn/zdlyxxgk/jycy/content/post_2617857.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "韶关|hukou|新丰县||",
+   "dim": "hukou",
+   "district": "新丰县",
+   "name": "",
+   "unit": "韶关市人民政府、新丰县人民政府（政策解读）",
+   "doc_no": "韶府令第113号（修订后）",
+   "date": "现行有效",
+   "url": "https://www.xinfeng.gov.cn/zdly/tjj/content/post_2314556.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "韶关|welfare|市级|子女教育|丹霞英才卡持卡人子女入学优待；2025年韶关市高中阶段学校招生：丹霞英才卡持卡人子女在同一批次投档时享受同分优先录取",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "子女教育",
+   "unit": "韶关市教育局、韶关市招生考试中心",
+   "doc_no": "",
+   "date": "2025",
+   "url": "https://www.sg.gov.cn/zw/zdlyxxgk/dzjg/sgsrlzyhshbzj/jycyxxgk/gzdt/content/post_2740078.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "韶关|welfare|市级|医疗|高层次人才开辟“绿色办理服务通道”，开展“一站式”人才服务；高层次人才就医绿色通道",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "医疗",
+   "unit": "韶关市人民政府（公报）",
+   "doc_no": "韶府发〔2019〕（政府公报）",
+   "date": "2019-08",
+   "url": "http://www.sg.gov.cn/xw/ztjj/sgsrmzfgb/201908/P020190815585305842294.pdf",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "韶关|startup|曲江区|创业担保贷款|个人创业担保贷款最高30万元，带动就业5人以上就业(含5人，不含借款人本人)的贷款额度最高50万元；小微企业贷款总额最高",
+   "dim": "startup",
+   "district": "曲江区",
+   "name": "创业担保贷款",
+   "unit": "韶关市人力资源和社会保障局、韶关市曲江区人民政府",
+   "doc_no": "",
+   "date": "现行有效",
+   "url": "https://www.sg.gov.cn/zw/zdlyxxgk/dzjg/sgsrlzyhshbzj/jycyxxgk/gzdt/content/post_2740078.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "韶关|startup|市级|一次性创业补贴|一次性10000元。补贴条件：初创企业的法定代表人或经营者(女性不超过55周岁、男性不超过60周岁)属于普通高等学校、中",
+   "dim": "startup",
+   "district": "市级",
+   "name": "一次性创业补贴",
+   "unit": "韶关市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "现行有效（依据粤人社规〔2026〕20号）",
+   "url": "https://www.sg.gov.cn/hd/rdhy/content/post_2866446.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "韶关|startup|市级|房租/租金补贴|创业租金补贴每年最高4000元，累计不超过3年。首次补贴申请应于相关创业主体登记注册之日起3年内提出，核发企业登记注册之",
+   "dim": "startup",
+   "district": "市级",
+   "name": "房租/租金补贴",
+   "unit": "韶关市人力资源和社会保障局、仁化县人民政府",
+   "doc_no": "",
+   "date": "现行有效",
+   "url": "https://www.sgrh.gov.cn/sgrhrlzyj/gkmlpt/content/2/2831/post_2831380.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "韶关|apply_path|市级|广东公共就业服务云平台 / 韶关市人社局 / 各县(市、区)人社局|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "广东公共就业服务云平台 / 韶关市人社局 / 各县(市、区)人社局",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "韶关|anju_highlevel|翁源县||",
+   "dim": "anju_highlevel",
+   "district": "翁源县",
+   "name": "",
+   "unit": "中共翁源县委组织部、翁源县人力资源和社会保障局、翁源县教育局",
+   "doc_no": "",
+   "date": "2025-02-25",
+   "url": "https://www.wengyuan.gov.cn/xwzx/ggtg/content/post_2721170.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "韶关|timing|市级|韶府〔2018〕23号补贴申报即将停止受理|韶关市人社局2026年4月16日通知：韶关市扶持高校毕业生在韶就业补贴申报受理截至2026年9月30日(含当日)，逾期未",
+   "dim": "timing",
+   "district": "市级",
+   "name": "韶府〔2018〕23号补贴申报即将停止受理",
+   "unit": "韶关市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2026-04-16",
+   "url": "https://www.sg.gov.cn/bmpdlm/rlzyhshbzj/tzgg/content/post_2847425.html",
+   "problem": "缺文号"
+  }
+ ]
+}

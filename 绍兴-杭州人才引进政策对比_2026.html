@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>绍兴 vs 杭州 人才引进政策对比（2026年8月）</title>
+<style>
+/* === 基础与变量 === */
+:root{
+  --bg:#0f1115; --panel:#171a21; --panel2:#1e222b; --border:#2a2f3a;
+  --text:#e6e9ef; --muted:#9aa3b2; --accent:#4f8cff; --accent2:#ffb547;
+  --sx:#5ad1c2; --hz:#ff8a65; --ok:#43d17a; --warn:#ffcf5c; --bad:#ff6b6b;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);color:var(--text);}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.65;padding:30px 20px 90px;max-width:1200px;margin:0 auto;font-size:15px;}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* === 顶部 === */
+header.top{border-bottom:1px solid var(--border);padding-bottom:18px;margin-bottom:22px}
+header.top h1{font-size:26px;font-weight:700;letter-spacing:.5px}
+header.top .sub{color:var(--muted);margin-top:6px;font-size:14px}
+header.top .meta{margin-top:10px;display:flex;gap:10px;flex-wrap:wrap}
+.tag{display:inline-block;padding:3px 10px;border-radius:999px;font-size:12px;border:1px solid var(--border);background:var(--panel2);color:var(--muted)}
+.tag.sx{color:var(--sx);border-color:rgba(90,209,194,.35)}
+.tag.hz{color:var(--hz);border-color:rgba(255,138,101,.35)}
+.tag.warn{color:var(--warn);border-color:rgba(255,207,92,.35)}
+
+/* === 控制条 === */
+.controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:18px;position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:5;border-bottom:1px solid var(--border)}
+#search{flex:1;min-width:220px;background:var(--panel);border:1px solid var(--border);color:var(--text);padding:9px 12px;border-radius:10px;font-size:14px;outline:none}
+#search:focus{border-color:var(--accent)}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{cursor:pointer;user-select:none;padding:6px 12px;border-radius:999px;font-size:13px;border:1px solid var(--border);background:var(--panel);color:var(--muted);transition:.15s}
+.chip:hover{color:var(--text);border-color:var(--accent)}
+.chip.active{background:var(--accent);border-color:var(--accent);color:#fff}
+
+/* === 表格 === */
+.tablewrap{overflow-x:auto;border:1px solid var(--border);border-radius:14px;background:var(--panel)}
+table{width:100%;border-collapse:collapse;min-width:760px}
+thead th{background:var(--panel2);text-align:left;padding:13px 16px;font-size:13px;color:var(--muted);position:sticky;top:0}
+thead th:nth-child(2){color:var(--sx)}
+thead th:nth-child(3){color:var(--hz)}
+td{padding:12px 16px;border-top:1px solid var(--border);vertical-align:top}
+tbody tr.sec td{background:var(--panel2);font-weight:700;color:#fff;letter-spacing:.5px;font-size:13px}
+td.dim{font-weight:600;color:var(--text);min-width:140px}
+td.sx{color:#dffaf5}
+td.hz{color:#ffe6dd}
+td .amt{color:var(--accent2);font-weight:700}
+.src{display:inline-block;margin-top:5px;font-size:11px;color:var(--muted)}
+.src a{font-size:11px}
+mark{background:rgba(255,181,71,.35);color:#fff;border-radius:3px;padding:0 2px}
+
+/* === 区块标题 === */
+h2.sec-title{margin:34px 0 14px;font-size:19px;border-left:4px solid var(--accent);padding-left:12px}
+.note{background:var(--panel);border:1px solid var(--border);border-left:3px solid var(--warn);border-radius:10px;padding:12px 16px;color:var(--muted);font-size:13px;margin:10px 0}
+.risk{background:var(--panel);border:1px solid var(--border);border-left:4px solid var(--bad);border-radius:12px;padding:18px 20px;margin:14px 0}
+.risk h3{font-size:15px;margin:16px 0 8px;color:#ffb0b0}
+.risk ul{margin-left:20px}
+.risk li{margin:8px 0;font-size:13.5px;color:var(--muted);line-height:1.6}
+.risk .sx{color:var(--sx);font-weight:600}
+.risk .hz{color:var(--hz);font-weight:600}
+.risk .bad{color:var(--bad);font-weight:700}
+.risk .ok{color:var(--ok);font-weight:700}
+.risk p.lead{color:var(--text);font-size:14px;margin-bottom:6px}
+
+/* === 来源 === */
+.sources{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:18px 20px}
+.sources ol{margin-left:20px}
+.sources li{margin:9px 0;font-size:13.5px;color:var(--muted)}
+.sources li b{color:var(--text)}
+
+/* === 建议 === */
+.advice{background:linear-gradient(135deg,#171a21,#1b2030);border:1px solid var(--border);border-radius:14px;padding:20px 22px}
+.advice ol{margin-left:20px}
+.advice li{margin:11px 0}
+.advice .k{color:var(--accent2);font-weight:700}
+.advice .sx{color:var(--sx);font-weight:600}
+.advice .hz{color:var(--hz);font-weight:600}
+
+footer{margin-top:34px;color:var(--muted);font-size:12px;text-align:center;border-top:1px solid var(--border);padding-top:16px}
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <h1>绍兴 vs 杭州 · 人才引进政策对比</h1>
+  <div class="sub">市级政策口径 · 覆盖专科 / 本科 / 硕士 / 博士 / 高层次人才（A–E类）· 聚焦补贴、落户、就业创业、配套保障</div>
+  <div class="meta">
+    <span class="tag">数据截至：2026-08-10</span>
+    <span class="tag sx">绍兴市本级</span>
+    <span class="tag hz">杭州市本级</span>
+    <span class="tag warn">含时效提醒</span>
+    <span class="tag" style="color:var(--bad);border-color:rgba(255,107,107,.4)">含服务期风险</span>
+  </div>
+</header>
+
+<div class="controls">
+  <input id="search" placeholder="搜索政策关键词（如 房票 / 落户 / 创业 / 博士）…" />
+  <div class="chips" id="chips">
+    <span class="chip active" data-dim="all">全部</span>
+    <span class="chip" data-dim="grad">毕业生补贴</span>
+    <span class="chip" data-dim="talent">高层次人才</span>
+    <span class="chip" data-dim="hukou">落户</span>
+    <span class="chip" data-dim="startup">创业扶持</span>
+    <span class="chip" data-dim="welfare">配套保障</span>
+    <span class="chip" data-dim="timing">时效提醒</span>
+  </div>
+</div>
+
+<div class="tablewrap">
+  <table>
+    <thead>
+      <tr><th>维度 / 项目</th><th>绍兴市</th><th>杭州市</th></tr>
+    </thead>
+    <tbody id="rows">
+      <!-- ===== 一、毕业生补贴 ===== -->
+      <tr class="sec" data-dim="grad"><td colspan="3">一、毕业生补贴（到岗即享，不强制落户）</td></tr>
+
+      <tr data-dim="grad">
+        <td class="dim">专科</td>
+        <td class="sx">安家补贴 <span class="amt">6000元/年 × 3年 = 1.8万</span>；市级无房票，柯桥区另给 3万。<span class="src">来源：<a href="https://app.myzaker.com/article/69d11980b15ec042ed4b0478?f=Normal" target="_blank">S5</a></span></td>
+        <td class="hz">市级无生活/租房补贴；萧山区自行发放 <span class="amt">4000元/年</span>。<span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/col/col1229125918/art/2025/art_4eb2677288464176b3d92da0055f7ce8.html" target="_blank">H7</a></span></td>
+      </tr>
+
+      <tr data-dim="grad">
+        <td class="dim">普通本科</td>
+        <td class="sx">安家 <span class="amt">3万</span> + 房票 <span class="amt">10万</span><span class="src">来源：<a href="https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html" target="_blank">S3</a>·<a href="https://app.myzaker.com/article/69d11980b15ec042ed4b0478?f=Normal" target="_blank">S5</a></span></td>
+        <td class="hz">生活补贴 <span class="amt">1万</span> + 租房补贴 <span class="amt">1万/年 × 3年</span><span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/col/col1229125918/art/2025/art_4eb2677288464176b3d92da0055f7ce8.html" target="_blank">H7</a></span></td>
+      </tr>
+
+      <tr data-dim="grad">
+        <td class="dim">双一流本科</td>
+        <td class="sx">安家 <span class="amt">6万</span> + 房票 <span class="amt">15万</span><span class="src">来源：<a href="https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html" target="_blank">S3</a>·<a href="https://app.myzaker.com/article/69d11980b15ec042ed4b0478?f=Normal" target="_blank">S5</a></span></td>
+        <td class="hz">生活补贴 <span class="amt">1万</span> + 租房补贴 <span class="amt">1万/年 × 3年</span>（与普本同标准）<span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/col/col1229125918/art/2025/art_4eb2677288464176b3d92da0055f7ce8.html" target="_blank">H7</a></span></td>
+      </tr>
+
+      <tr data-dim="grad">
+        <td class="dim">硕士</td>
+        <td class="sx">安家 <span class="amt">2万/年 × 3年 = 6万</span> + 房票 <span class="amt">25万</span><span class="src">来源：<a href="https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html" target="_blank">S3</a>·<a href="https://app.myzaker.com/article/69d11980b15ec042ed4b0478?f=Normal" target="_blank">S5</a></span></td>
+        <td class="hz">生活补贴 <span class="amt">3万</span> + 租房补贴 <span class="amt">1万/年 × 3年</span><span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/col/col1229125918/art/2025/art_4eb2677288464176b3d92da0055f7ce8.html" target="_blank">H7</a></span></td>
+      </tr>
+
+      <tr data-dim="grad">
+        <td class="dim">博士</td>
+        <td class="sx">安家 <span class="amt">3万/年 × 3年 = 9万</span> + 房票 <span class="amt">50万</span><span class="src">来源：<a href="https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html" target="_blank">S3</a>·<a href="https://app.myzaker.com/article/69d11980b15ec042ed4b0478?f=Normal" target="_blank">S5</a></span></td>
+        <td class="hz">生活补贴 <span class="amt">10万</span> + 租房补贴 <span class="amt">1万/年 × 3年</span><span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/col/col1229125918/art/2025/art_4eb2677288464176b3d92da0055f7ce8.html" target="_blank">H7</a></span></td>
+      </tr>
+
+      <tr data-dim="grad">
+        <td class="dim">领取条件</td>
+        <td class="sx">2025.1.23 后首次在绍企业/科研院所工作，<b>承诺在绍工作 5 年</b>，连续社保满 6 个月；房票需首次在绍购房兑现（购房抵扣券，非现金）。<b style="color:var(--bad)">未满 5 年离职须按剩余月份比例退还已享补贴；房票另需先退回财政方可解除房产交易限制。</b><span class="src">来源：<a href="https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html" target="_blank">S3</a>·<a href="https://m.sx.bendibao.com/edu/34147.shtm" target="_blank">S7</a>·<a href="https://new.qq.com/rain/a/20260729A0A1XT00" target="_blank">S8</a></span></td>
+        <td class="hz">应届毕业生，经"杭州人才码"申领；生活补贴分两笔（满 6 月 / 满 12 月社保各 50%），租房补贴按年发、最长 3 年。<b style="color:var(--ok)">无 5 年服务期承诺，正常离职无需退还；西部区县"满 3 年再发一次"为额外奖励而非追回。</b><span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/art/2025/3/3/art_1229564773_1849781.html" target="_blank">H8</a>·<a href="https://www.hangzhou.gov.cn/art/2025/3/10/art_1229820131_59110216.html" target="_blank">H9</a></span></td>
+      </tr>
+
+      <!-- ===== 二、高层次人才 ===== -->
+      <tr class="sec" data-dim="talent"><td colspan="3">二、高层次人才（A–E 类）</td></tr>
+
+      <tr data-dim="talent">
+        <td class="dim">A类（顶尖）</td>
+        <td class="sx">房票 <span class="amt">500万</span><span class="src">来源：<a href="https://m.sx.bendibao.com/mip/34220.shtm" target="_blank">S4</a></span></td>
+        <td class="hz">购房补贴 <span class="amt">最高800万</span>（一人一议）<span class="src">来源：<a href="https://www.qiantang.gov.cn/col/col1229607830/art/2026/art_2cdf951dfb31490cba074c9e1457ccef.html" target="_blank">H4</a>·<a href="https://zjic.zj.gov.cn/ywdh/szfg/202104/t20210401_6501692.shtml" target="_blank">H5</a></span></td>
+      </tr>
+
+      <tr data-dim="talent">
+        <td class="dim">B类（国家级领军）</td>
+        <td class="sx">房票 <span class="amt">100万</span><span class="src">来源：<a href="https://m.sx.bendibao.com/mip/34220.shtm" target="_blank">S4</a></span></td>
+        <td class="hz">购房补贴 <span class="amt">200万</span><span class="src">来源：<a href="https://fgj.hangzhou.gov.cn/art/2025/2/17/art_1229243645_4332378.html" target="_blank">H3</a></span></td>
+      </tr>
+
+      <tr data-dim="talent">
+        <td class="dim">C类（省级领军）</td>
+        <td class="sx">房票 <span class="amt">80万</span><span class="src">来源：<a href="https://m.sx.bendibao.com/mip/34220.shtm" target="_blank">S4</a></span></td>
+        <td class="hz">购房补贴 <span class="amt">150万</span><span class="src">来源：<a href="https://fgj.hangzhou.gov.cn/art/2025/2/17/art_1229243645_4332378.html" target="_blank">H3</a></span></td>
+      </tr>
+
+      <tr data-dim="talent">
+        <td class="dim">D类（市级领军）</td>
+        <td class="sx">房票 <span class="amt">60万</span><span class="src">来源：<a href="https://m.sx.bendibao.com/mip/34220.shtm" target="_blank">S4</a></span></td>
+        <td class="hz">购房补贴 <span class="amt">100万</span><span class="src">来源：<a href="https://fgj.hangzhou.gov.cn/art/2025/2/17/art_1229243645_4332378.html" target="_blank">H3</a></span></td>
+      </tr>
+
+      <tr data-dim="talent">
+        <td class="dim">E类（高级 / 博士）</td>
+        <td class="sx">房票 <span class="amt">50万</span> + 安家补贴（E类及以上可享，如拔尖人才最高 15 万安家）<span class="src">来源：<a href="https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html" target="_blank">S3</a>·<a href="https://m.sx.bendibao.com/mip/34220.shtm" target="_blank">S4</a></span></td>
+        <td class="hz">无购房补贴，租赁补贴 <span class="amt">2500元/月</span>（最长 5 年）<span class="src">来源：<a href="https://fgj.hangzhou.gov.cn/art/2025/2/17/art_1229243645_4332378.html" target="_blank">H3</a>·<a href="https://hrss.hangzhou.gov.cn/art/2020/9/30/art_1587843_58866976.html" target="_blank">H6</a></span></td>
+      </tr>
+
+      <tr data-dim="talent">
+        <td class="dim">兑现配套</td>
+        <td class="sx">房票需扣除已享租房补贴；"越快兑"平台兑现；可与毕业生安家补贴叠加（以官方认定为准）。<span class="src">来源：<a href="https://m.sx.bendibao.com/mip/34220.shtm" target="_blank">S4</a></span></td>
+        <td class="hz">购房补贴由区县财政先行全额拨付；人才码一码通办。<span class="src">来源：<a href="https://fgj.hangzhou.gov.cn/art/2025/2/17/art_1229243645_4332378.html" target="_blank">H3</a></span></td>
+      </tr>
+
+      <!-- ===== 三、落户 ===== -->
+      <tr class="sec" data-dim="hukou"><td colspan="3">三、落户政策</td></tr>
+
+      <tr data-dim="hukou">
+        <td class="dim">政策文件</td>
+        <td class="sx">绍政办发〔2024〕21号（2024-11-15 施行）<span class="src">来源：<a href="https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/f2532c0af8a2447fb9b175f7d2717896.pdf" target="_blank">S1</a></span></td>
+        <td class="hz">杭政办函〔2023〕33号（2023-05-08 施行）<span class="src">来源：<a href="https://www.hangzhou.gov.cn/art/2023/4/13/art_1229063385_1830954.html" target="_blank">H1</a></span></td>
+      </tr>
+
+      <tr data-dim="hukou">
+        <td class="dim">大专</td>
+        <td class="sx">中职（含技校）毕业 20 年内或初级以上职称，有意愿来绍就业即可迁入（先落户后就业）。<span class="src">来源：<a href="https://ga.sx.gov.cn/art/2025/7/25/art_1488097_58945832.html" target="_blank">S2</a></span></td>
+        <td class="hz">35 周岁以下、在市区落实工作单位可落户。<span class="src">来源：<a href="https://www.hangzhou.gov.cn/art/2023/4/13/art_1229063385_1830954.html" target="_blank">H1</a></span></td>
+      </tr>
+
+      <tr data-dim="hukou">
+        <td class="dim">本科</td>
+        <td class="sx">零门槛，就业 / 租赁 / 人才落户均可，先落户后就业。<span class="src">来源：<a href="https://ga.sx.gov.cn/art/2025/7/25/art_1488097_58945832.html" target="_blank">S2</a></span></td>
+        <td class="hz">45 周岁以下落实工作；毕业 2 年内可"先落户后就业"。<span class="src">来源：<a href="https://www.hangzhou.gov.cn/art/2023/4/13/art_1229063385_1830954.html" target="_blank">H1</a></span></td>
+      </tr>
+
+      <tr data-dim="hukou">
+        <td class="dim">硕士</td>
+        <td class="sx">零门槛，先落户后就业。<span class="src">来源：<a href="https://ga.sx.gov.cn/art/2025/7/25/art_1488097_58945832.html" target="_blank">S2</a></span></td>
+        <td class="hz">50 周岁以下落实工作；45 周岁以下可"先落户后就业"。<span class="src">来源：<a href="https://www.hangzhou.gov.cn/art/2023/4/13/art_1229063385_1830954.html" target="_blank">H1</a></span></td>
+      </tr>
+
+      <tr data-dim="hukou">
+        <td class="dim">博士</td>
+        <td class="sx">零门槛，先落户后就业。<span class="src">来源：<a href="https://ga.sx.gov.cn/art/2025/7/25/art_1488097_58945832.html" target="_blank">S2</a></span></td>
+        <td class="hz">55 周岁以下可"先落户后就业"。<span class="src">来源：<a href="https://www.hangzhou.gov.cn/art/2023/4/13/art_1229063385_1830954.html" target="_blank">H1</a></span></td>
+      </tr>
+
+      <tr data-dim="hukou">
+        <td class="dim">其他通道</td>
+        <td class="sx">居住 / 租赁（满 6 月）/ 就业（社保）/ 投靠 / 居住证转户籍 / 长三角居住证互认。<span class="src">来源：<a href="https://ga.sx.gov.cn/art/2025/7/25/art_1488097_58945832.html" target="_blank">S2</a></span></td>
+        <td class="hz">技能人才（技师 45 / 高级工 35，社保 6 月）、投靠、积分落户、县域（桐庐 / 淳安 / 建德）放开。<span class="src">来源：<a href="https://www.hangzhou.gov.cn/art/2023/4/13/art_1229063385_1830954.html" target="_blank">H1</a>·<a href="https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/09/20250609_bbc94e9d50e99915948068d6670b699c.pdf" target="_blank">H2</a></span></td>
+      </tr>
+
+      <!-- ===== 四、创业扶持 ===== -->
+      <tr class="sec" data-dim="startup"><td colspan="3">四、就业创业扶持</td></tr>
+
+      <tr data-dim="startup">
+        <td class="dim">创业担保贷款</td>
+        <td class="sx">最高 <span class="amt">50万</span>，全额贴息。<span class="src">来源：<a href="https://www.shangyu.gov.cn/col/col1229135368/art/2026/art_ff8801d0f1814de1883688aa62ee92ef.html" target="_blank">S6</a></span></td>
+        <td class="hz">个人最高 <span class="amt">50万</span> / 小微企业 <span class="amt">300万</span>。<span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/col/col1229125918/art/2025/art_4eb2677288464176b3d92da0055f7ce8.html" target="_blank">H7</a></span></td>
+      </tr>
+
+      <tr data-dim="startup">
+        <td class="dim">一次性创业补贴</td>
+        <td class="sx"><span class="amt">1万元</span>。<span class="src">来源：<a href="https://www.shangyu.gov.cn/col/col1229135368/art/2026/art_ff8801d0f1814de1883688aa62ee92ef.html" target="_blank">S6</a></span></td>
+        <td class="hz"><span class="amt">3000元</span> + 创业社保补贴 <span class="amt">5000元</span>。<span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/col/col1229125918/art/2025/art_4eb2677288464176b3d92da0055f7ce8.html" target="_blank">H7</a></span></td>
+      </tr>
+
+      <tr data-dim="startup">
+        <td class="dim">房租 / 租金补贴</td>
+        <td class="sx">创业租金补贴 首年 <span class="amt">8元/㎡·月</span>。<span class="src">来源：<a href="https://www.shangyu.gov.cn/col/col1229135368/art/2026/art_ff8801d0f1814de1883688aa62ee92ef.html" target="_blank">S6</a></span></td>
+        <td class="hz">经营场所房租补贴 3 年最高 <span class="amt">10万</span>。<span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/col/col1229125918/art/2025/art_4eb2677288464176b3d92da0055f7ce8.html" target="_blank">H7</a></span></td>
+      </tr>
+
+      <tr data-dim="startup">
+        <td class="dim">大赛 / 项目资助</td>
+        <td class="sx">国家级大赛落地项目 <span class="amt">50/30/20万</span>。<span class="src">来源：<a href="https://www.shangyu.gov.cn/col/col1229135368/art/2026/art_ff8801d0f1814de1883688aa62ee92ef.html" target="_blank">S6</a></span></td>
+        <td class="hz">创业项目资助 <span class="amt">5–20万</span>（特别优秀最高 50 万）。<span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/col/col1229125918/art/2025/art_4eb2677288464176b3d92da0055f7ce8.html" target="_blank">H7</a></span></td>
+      </tr>
+
+      <!-- ===== 五、配套保障 ===== -->
+      <tr class="sec" data-dim="welfare"><td colspan="3">五、配套保障</td></tr>
+
+      <tr data-dim="welfare">
+        <td class="dim">人才公寓 / 住所</td>
+        <td class="sx">2025 新增人才公寓 1073 套、建成 2250 套；青年人才社区矩阵。<span class="src">来源：<a href="https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html" target="_blank">S3</a></span></td>
+        <td class="hz">人才专项租赁住房；青荷驿站（求职青年免费短期住）。<span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/art/2020/9/30/art_1587843_58866976.html" target="_blank">H6</a></span></td>
+      </tr>
+
+      <tr data-dim="welfare">
+        <td class="dim">数字化平台</td>
+        <td class="sx">"越快兑"政策兑现平台。<span class="src">来源：<a href="https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html" target="_blank">S3</a></span></td>
+        <td class="hz">"杭州人才码"一码通享。<span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/art/2020/9/30/art_1587843_58866976.html" target="_blank">H6</a></span></td>
+      </tr>
+
+      <tr data-dim="welfare">
+        <td class="dim">子女教育 / 医疗</td>
+        <td class="sx">按人才类别保障子女入学、就医绿色通道。<span class="src">来源：<a href="https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html" target="_blank">S3</a></span></td>
+        <td class="hz">高层次人才子女入学优先、就医绿色通道；青荷礼包。<span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/art/2020/9/30/art_1587843_58866976.html" target="_blank">H6</a></span></td>
+      </tr>
+
+      <!-- ===== 六、时效提醒 ===== -->
+      <tr class="sec" data-dim="timing"><td colspan="3">六、时效与口径提醒</td></tr>
+
+      <tr data-dim="timing">
+        <td class="dim">新政过渡</td>
+        <td class="sx">现行毕业生政策自 2025.1.23 起执行，无明确到期日。<span class="src">来源：<a href="https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html" target="_blank">S3</a></span></td>
+        <td class="hz">《杭向未来·大学生创新创业三年行动计划(2023—2025)》已于 2025-12-31 到期；新版(2026—2028)细则落地中，2026.1.1 后申报按新政。<span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/col/col1229125918/art/2025/art_4eb2677288464176b3d92da0055f7ce8.html" target="_blank">H7</a></span></td>
+      </tr>
+
+      <tr data-dim="timing">
+        <td class="dim">数据口径</td>
+        <td class="sx">房票为购房抵扣券，需首次在绍购房兑现，申领时扣减已领租房补贴；"绍兴大赛资助最高 100 万"与官方 50 万口径不一致，以官方为准。<span class="src">来源：<a href="https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html" target="_blank">S3</a>·<a href="https://app.myzaker.com/article/69d11980b15ec042ed4b0478?f=Normal" target="_blank">S5</a></span></td>
+        <td class="hz">生活 / 租房补贴金额以"杭州人才码"当前公示为准；区县（如萧山 / 余杭）另有加码。<span class="src">来源：<a href="https://hrss.hangzhou.gov.cn/col/col1229125918/art/2025/art_4eb2677288464176b3d92da0055f7ce8.html" target="_blank">H7</a></span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 class="sec-title" style="border-left-color:var(--bad);color:#ffb0b0">七、风险提示：服务期与退还（两地关键差异）</h2>
+<div class="risk" id="risk">
+  <p class="lead">这是两地人才补贴<b>最易被忽略、也最影响"去留自由"</b>的差别：绍兴用"高额度 + 长承诺"换补贴，杭州契约更轻。下表逐项对照"中途走人"的后果。</p>
+
+  <h3>绍兴：有硬性 5 年服务期，未满须按比例退还</h3>
+  <ul>
+    <li><span class="bad">毕业生安家补贴</span>：只发 <b>3 年</b>，但承诺在绍工作 <b>5 年</b>；未满 5 年离职，已享补贴自"离绍当月"起按<b>月比例退还</b>。</li>
+    <li><span class="bad">房票补贴（购房券）</span>：购房后住房<b>限制上市交易</b>，满 5 年自动解除；未满 5 年卖房，须在转让前按比例将房票款<b>退回财政指定账户</b>，经审批解限方可交易。</li>
+    <li><span class="bad">征信与追责</span>：若存在欺骗/隐瞒/造假，或应退未退，依法追责并上传<b>"公共信用信息平台"及相关征信平台</b>。</li>
+    <li><span class="sx">缓释点</span>：分年拨付（社保满 12 月才发首年）；第 1 年内走人涉及退还月份少；在绍自主创业缴社保可参照享受。</li>
+  </ul>
+
+  <h3>杭州：无 5 年服务期承诺，正常离职无需退还</h3>
+  <ul>
+    <li><span class="ok">应届生生活补贴</span>：本科 1 万 / 硕士 3 万 / 博士 10 万，分两笔（满 6 月 50%、满 12 月 50%）；官方指南<b>无"承诺 5 年 / 未满退还"条款</b>，正常离职无需退还。</li>
+    <li><span class="ok">租房补贴</span>：发 3 年，断缴则<b>停发后续批次</b>，不追缴已领部分。</li>
+    <li><span class="ok">西部区县"满 3 年再发一次"</span>：是<b>额外奖励</b>而非追回——不待满只是拿不到第二次，不会追回第一次。</li>
+    <li><span class="hz">唯一硬风险</span>：虚构劳动关系 / 虚假材料骗补 → 纳入征信 + 依法追责（各地通用，非杭州特有）。</li>
+  </ul>
+
+  <h3>一句话结论</h3>
+  <ul>
+    <li>计划<b>长期定居购房</b> → 绍兴"安家 + 房票"总盘子更大，但请先确认自己能待满 5 年；</li>
+    <li>计划<b>短期试水、流动性高、暂不定居</b> → 杭州"轻契约、离职不退"更适合，现金 + 租房补贴到手即稳。</li>
+  </ul>
+  <p class="src" style="margin-top:10px">来源：绍兴退还标准 <a href="https://m.sx.bendibao.com/edu/34147.shtm" target="_blank">S7</a>·<a href="https://new.qq.com/rain/a/20260729A0A1XT00" target="_blank">S8</a>；杭州生活补贴指南 <a href="https://hrss.hangzhou.gov.cn/art/2025/3/3/art_1229564773_1849781.html" target="_blank">H8</a>·租房补贴 <a href="https://www.hangzhou.gov.cn/art/2025/3/10/art_1229820131_59110216.html" target="_blank">H9</a></p>
+</div>
+
+<h2 class="sec-title">来源标注（官方 / 权威口径）</h2>
+<div class="sources" id="sources">
+  <p style="color:var(--muted);font-size:13px;margin-bottom:10px">绍兴来源以 <b style="color:var(--sx)">S</b> 编号，杭州来源以 <b style="color:var(--hz)">H</b> 编号，与表格内脚注一一对应。</p>
+  <ol>
+    <li><b>绍兴·绍政办发〔2024〕21号《关于进一步放宽全市落户条件的通知》</b>（2024-11-15 施行）—— 绍兴市政府公报 PDF：<a href="https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/f2532c0af8a2447fb9b175f7d2717896.pdf" target="_blank">S1 官方公报</a></li>
+    <li><b>绍兴·公安落户解读《"新绍兴人"落户更便捷》</b>（2025-07-25）—— 绍兴公安：<a href="https://ga.sx.gov.cn/art/2025/7/25/art_1488097_58945832.html" target="_blank">S2 公安解读</a></li>
+    <li><b>绍兴·人社局政协提案答复（人才安居 / 高层次人才）</b>（2026）—— 绍兴市政府：<a href="https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html" target="_blank">S3 人社局答复</a></li>
+    <li><b>绍兴·2026 高层次人才房票补贴申领及使用指南</b> —— 本地宝：<a href="https://m.sx.bendibao.com/mip/34220.shtm" target="_blank">S4 房票指南</a></li>
+    <li><b>绍兴·毕业生补贴梯度综述（专科 1.8 万 / 本科 3 万 + 10 万房票等）</b> —— 我的锌财经（myzaker）：<a href="https://app.myzaker.com/article/69d11980b15ec042ed4b0478?f=Normal" target="_blank">S5 补贴综述</a></li>
+    <li><b>绍兴·上虞区人大人才政策调整答复</b>（2026）—— 上虞区政府：<a href="https://www.shangyu.gov.cn/col/col1229135368/art/2026/art_ff8801d0f1814de1883688aa62ee92ef.html" target="_blank">S6 上虞答复</a></li>
+    <li><b>绍兴·2026 高校毕业生安家补贴 / 房票退还标准</b>（未满 5 年按比例退还、房票限制交易）—— 绍兴本地宝：<a href="https://m.sx.bendibao.com/edu/34147.shtm" target="_blank">S7 退还标准</a></li>
+    <li><b>绍兴·2026 毕业生安家补贴申请对象与发放标准</b>（硕士 2 万/年×3、双一流医学/教育硕士一次性 5 万、未满 5 年退还）—— 绍兴人社 / 腾讯新闻：<a href="https://new.qq.com/rain/a/20260729A0A1XT00" target="_blank">S8 申领标准</a></li>
+    <li><b>杭州·杭政办函〔2023〕33号《进一步深化户籍制度改革的实施意见》政策解读</b> —— 杭州市政府：<a href="https://www.hangzhou.gov.cn/art/2023/4/13/art_1229063385_1830954.html" target="_blank">H1 落户解读</a></li>
+    <li><b>杭州·户籍改革实施意见公报 PDF</b>（杭政办函〔2023〕33号）—— 杭州政报：<a href="https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/09/20250609_bbc94e9d50e99915948068d6670b699c.pdf" target="_blank">H2 公报</a></li>
+    <li><b>杭州·《高层次人才住房补贴资金通知》（杭委人办〔2020〕2号，B/C/D 200/150/100 万、E 类租赁 2500 元/月）</b> —— 杭州住保房管局：<a href="https://fgj.hangzhou.gov.cn/art/2025/2/17/art_1229243645_4332378.html" target="_blank">H3 住房补贴</a></li>
+    <li><b>杭州·钱塘区答复（A 类最高 800 万购房补贴）</b>（2026）—— 钱塘区政府：<a href="https://www.qiantang.gov.cn/col/col1229607830/art/2026/art_2cdf951dfb31490cba074c9e1457ccef.html" target="_blank">H4 钱塘答复</a></li>
+    <li><b>杭州·全球"云揽才"八大措施（A 类 800 万、B/C/D 200/150/100 万）</b>（新华社 2020-02-26）—— 之江先锋：<a href="https://zjic.zj.gov.cn/ywdh/szfg/202104/t20210401_6501692.shtml" target="_blank">H5 云揽才</a></li>
+    <li><b>杭州·西湖区"人才政策直通车"（E 类 2500 元/月租赁、人才码）</b> —— 杭州人社局：<a href="https://hrss.hangzhou.gov.cn/art/2020/9/30/art_1587843_58866976.html" target="_blank">H6 西湖区</a></li>
+    <li><b>杭州·《杭向未来·大学生创新创业三年行动计划（2026—2028年）（征求意见稿）》</b> —— 杭州人社局：<a href="https://hrss.hangzhou.gov.cn/col/col1229125918/art/2025/art_4eb2677288464176b3d92da0055f7ce8.html" target="_blank">H7 三年行动计划</a></li>
+    <li><b>杭州·应届毕业生生活补贴申请指南</b>（分两笔发放、无服务期退还条款）—— 杭州人社局：<a href="https://hrss.hangzhou.gov.cn/art/2025/3/3/art_1229564773_1849781.html" target="_blank">H8 生活补贴指南</a></li>
+    <li><b>杭州·新引进应届大学生租房补贴指南</b>（发 3 年、断缴停发、西部区县满 3 年再发一次）—— 杭州市住保房管局：<a href="https://www.hangzhou.gov.cn/art/2025/3/10/art_1229820131_59110216.html" target="_blank">H9 租房补贴指南</a></li>
+  </ol>
+</div>
+
+<h2 class="sec-title">给硕士毕业生的落地建议</h2>
+<div class="advice" id="advice">
+  <p style="color:var(--muted);font-size:13px;margin-bottom:12px">以下针对<b>硕士研究生</b>毕业生，结合上表数据给出落地思路（非官方承诺，最终以申报时窗口口径为准）。</p>
+  <ol>
+    <li><span class="k">先算"总账"再选城。</span>若<b>计划在绍兴购房</b>：硕士可叠加 <span class="sx">安家 6 万 + 房票 25 万（共 31 万，房票需首次在绍购房兑现）</span>；若在<b>杭州不购房、只租房</b>：<span class="hz">生活补贴 3 万 + 租房补贴 3 万（共 6 万现金）</span>。绍兴"购房向"补贴力度明显更大，杭州"现金+租房"更灵活。</li>
+    <li><span class="k">落户几乎无差别门槛。</span>两地硕士均可<span class="sx">先落户后就业</span>（绍兴零门槛；杭州 45 岁以下先落户后就业）。建议<b>毕业前或入职当月即落档落户</b>，避免后续买房、子女入学受户籍限制。</li>
+    <li><span class="k">注意社保连续性，看清"服务期"差异。</span>绍兴毕业生补贴要求<span class="sx">承诺在绍工作 5 年、连续社保满 6 个月</span>，且未满 5 年离职需按比例退还（详见第七节风险提示）；杭州经人才码申领也以社保/就业为单位，但<span class="hz">无 5 年服务期退还约束</span>。换工作空档期尽量不超 1 个月，断缴可能影响资格。</li>
+    <li><span class="k">博士层次绍兴更占优。</span>若后续读博或已是博士：<span class="sx">绍兴 E 类房票 50 万 + 安家 9 万</span>，而 <span class="hz">杭州 E 类无购房补贴、仅 2500 元/月租赁</span>。博士若坚定购房，绍兴性价比突出。</li>
+    <li><span class="k">关注杭州新政过渡期。</span>杭州《三年行动计划(2023—2025)》已到期，<span class="hz">2026—2028 新版细则落地中</span>，2026.1.1 后申报按新政——金额可能上调或调整，申报前务必查"杭州人才码"当期公示。</li>
+    <li><span class="k">叠加区县加码。</span>杭州萧山（生活津贴）、余杭、滨江等，绍兴柯桥（专科 3 万）等区县常有市级之上的加码。若已锁定具体区，建议再单独核对该区人才政策。</li>
+    <li><span class="k">办理路径。</span>绍兴走"越快兑"平台 + 浙里办落户；杭州走"杭州人才码"一码通办 + 浙里办/公安落户。两地面签与材料均在线上为辅、线下窗口兜底。</li>
+  </ol>
+</div>
+
+<footer>
+  本页数据来自公开政策文件与官方解读，金额与门槛以申报时官方最新口径为准。标注「不确定」项请以南/绍两地人社局窗口确认为准。<br>
+  生成于 2026-08-10 · 2026-08-11 增补"服务期与退还"风险提示（第七节）· 单文件自包含 HTML
+</footer>
+
+<script>
+(function(){
+  var rowsEl = document.getElementById('rows');
+  var searchEl = document.getElementById('search');
+  var chipsEl = document.getElementById('chips');
+  var activeDim = 'all';
+  var query = '';
+
+  function normalize(s){ return (s||'').toLowerCase(); }
+
+  function groupHasMatch(dim){
+    var trs = rowsEl.querySelectorAll('tr[data-dim="'+dim+'"]');
+    for(var i=0;i<trs.length;i++){
+      if(trs[i].classList.contains('sec')) continue;
+      if(!query || normalize(trs[i].textContent).indexOf(query)>-1) return true;
+    }
+    return false;
+  }
+
+  function render(){
+    var trs = rowsEl.querySelectorAll('tr');
+    for(var i=0;i<trs.length;i++){
+      var tr = trs[i];
+      var dim = tr.getAttribute('data-dim');
+      var isSec = tr.classList.contains('sec');
+      var dimOk = (activeDim==='all' || dim===activeDim);
+      var match = !query || normalize(tr.textContent).indexOf(query)>-1;
+      var show = dimOk && match;
+      if(!show && isSec && activeDim!=='all' && !query){
+        // section header always shows when its dim is active
+        show = (dim===activeDim);
+      }
+      if(!show && isSec && query){
+        show = groupHasMatch(dim) && (activeDim==='all'||dim===activeDim);
+      }
+      tr.classList.toggle('hidden', !show);
+      // highlight
+      if(match && query && !isSec){
+        // handled via CSS mark in build; skip JS re-mark to keep simple
+      }
+    }
+  }
+
+  searchEl.addEventListener('input', function(){
+    query = normalize(this.value.trim());
+    render();
+  });
+  chipsEl.addEventListener('click', function(e){
+    var c = e.target.closest('.chip');
+    if(!c) return;
+    var chips = chipsEl.querySelectorAll('.chip');
+    for(var i=0;i<chips.length;i++) chips[i].classList.remove('active');
+    c.classList.add('active');
+    activeDim = c.getAttribute('data-dim');
+    render();
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

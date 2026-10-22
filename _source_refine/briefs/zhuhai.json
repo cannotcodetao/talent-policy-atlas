@@ -1,0 +1,148 @@
+{
+ "city": "珠海",
+ "entries": [
+  {
+   "key": "珠海|grad_subsidy|市级|博士|新引进全日制博士：25 万元生活补贴（'珠海英才计划'博士博士后政策）；另可认定高层次人才（三类）享100万住房补贴/5",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "博士",
+   "unit": "珠海市工业和信息化局（引用市级政策）",
+   "doc_no": "珠字〔2018〕6号等",
+   "date": "",
+   "url": "https://www.zhuhai.gov.cn/gxj/gkmlpt/content/2/2902/post_2902689.html",
+   "problem": "缺日期"
+  },
+  {
+   "key": "珠海|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "珠海市公安局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://ga.zhuhai.gov.cn/zwgk/ztzl/zdlyxxgk/fwgk/snqr/content/post_3493154.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "珠海|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "珠海市公安局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://ga.zhuhai.gov.cn/zwgk/ztzl/zdlyxxgk/fwgk/snqr/content/post_3493154.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "珠海|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "珠海市公安局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://ga.zhuhai.gov.cn/zwgk/ztzl/zdlyxxgk/fwgk/snqr/content/post_3493154.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "珠海|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "珠海市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://zhrsj.zhuhai.gov.cn/hd/zxft/content/post_3733962.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "珠海|welfare|市级|子女教育|高层次人才子女就读学前、义务和高中教育阶段优质学位保障；博士等急需紧缺人才子女支持全市任选优质学位",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "子女教育",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "珠海|welfare|市级|数字化平台|珠海市人力资源和社会保障网上服务平台（wsfw.zhrsj.zhuhai.gov.cn）、珠海市保障性住房管理平台、广东",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "数字化平台",
+   "unit": "珠海市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://wsfw.zhrsj.zhuhai.gov.cn/zhrsClient/login.jsp",
+   "problem": "缺文号"
+  },
+  {
+   "key": "珠海|startup|市级|创业担保贷款|个人最高30万元（带动就业5人以上可提至50万）；小微企业最高500万元；按实际贷款利率50%给予财政贴息",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业担保贷款",
+   "unit": "珠海市人力资源和社会保障局等",
+   "doc_no": "创业担保贷款担保基金和贴息资金管理办法（修订稿）",
+   "date": "",
+   "url": "https://www.zhuhai.gov.cn/zw/jytablgz/content/post_3683887.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "珠海|startup|市级|一次性创业补贴|符合条件初创企业法定代表人/经营者，给予10000元一次性创业资助",
+   "dim": "startup",
+   "district": "市级",
+   "name": "一次性创业补贴",
+   "unit": "珠海市人力资源和社会保障局",
+   "doc_no": "《珠海市就业创业补贴申请办理指导清单》",
+   "date": "2024-11",
+   "url": "https://zhrsj.zhuhai.gov.cn/zc/zcjd/content/post_3726954.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "珠海|startup|市级|房租/租金补贴|初创企业租赁场地经营，给予最长3年、每月300元创业租金补贴",
+   "dim": "startup",
+   "district": "市级",
+   "name": "房租/租金补贴",
+   "unit": "珠海市人力资源和社会保障局",
+   "doc_no": "《珠海市就业创业补贴申请办理指导清单》",
+   "date": "2024-11",
+   "url": "https://zhrsj.zhuhai.gov.cn/zc/zcjd/content/post_3726954.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "珠海|apply_path|市级|珠海市人力资源和社会保障网上服务平台|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "珠海市人力资源和社会保障网上服务平台",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "珠海|apply_path|市级|广东政务服务网 / 粤省事 / 各区住建（人才住房）窗口|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "广东政务服务网 / 粤省事 / 各区住建（人才住房）窗口",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "珠海|anju_highlevel|斗门区||",
+   "dim": "anju_highlevel",
+   "district": "斗门区",
+   "name": "",
+   "unit": "珠海市斗门区",
+   "doc_no": "",
+   "date": "2024-02-22",
+   "url": "https://www.doumen.gov.cn/zhsdmqrmzfmhwz/sy/dmyw/content/post_3635695.html",
+   "problem": "缺文号"
+  }
+ ]
+}

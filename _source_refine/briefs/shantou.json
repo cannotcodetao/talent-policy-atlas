@@ -1,0 +1,115 @@
+{
+ "city": "汕头",
+ "entries": [
+  {
+   "key": "汕头|welfare|市级|子女教育|高层次人才子女入学按人才层次统筹安排，享受优待",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "子女教育",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "汕头|welfare|市级|医疗|高层次人才享健康体检、就医绿色通道等优待",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "医疗",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "汕头|welfare|市级|数字化平台|金凤卡提供47项一站式服务（粤省事/人才一站式服务平台）",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "数字化平台",
+   "unit": "汕头市人力资源和社会保障局",
+   "doc_no": "金凤卡服务相关",
+   "date": "持续有效",
+   "url": "https://www.shantou.gov.cn/stsrlsbj/gkmlpt/content/2/2406/post_2406416.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "汕头|startup|市级|一次性创业补贴|10000元（一次性）；适用毕业5年内学生/留学回国人员等创业重点扶持对象，创办3年内主体、注册登记满12个月、有不少于",
+   "dim": "startup",
+   "district": "市级",
+   "name": "一次性创业补贴",
+   "unit": "广东省人力资源和社会保障厅（汕头市人社局转载）",
+   "doc_no": "《广东省就业创业补贴补助申请办理指导清单（2026年修订版）》",
+   "date": "2026年修订",
+   "url": "https://www.shantou.gov.cn/stsrlsbj/gkmlpt/content/2/2551/post_2551786.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "汕头|startup|市级|创业租金补贴|每年最高4000元（汕头属非珠三角地区），最长不超过3年；须租赁非本人名下场地、地址与注册地一致",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业租金补贴",
+   "unit": "广东省人力资源和社会保障厅（汕头市人社局转载）",
+   "doc_no": "《广东省就业创业补贴补助申请办理指导清单（2026年修订版）》",
+   "date": "2026年修订",
+   "url": "https://www.shantou.gov.cn/stsrlsbj/gkmlpt/content/2/2551/post_2551786.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "汕头|startup|市级|创业带动就业补贴|招用3人以下按2000元/人、4人以上每增加1人3000元，总额最高30000元；创业重点扶持对象创主体带员工缴满6个月",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业带动就业补贴",
+   "unit": "广东省人力资源和社会保障厅（汕头市人社局转载）",
+   "doc_no": "《广东省就业创业补贴补助申请办理指导清单（2026年修订版）》",
+   "date": "2026年修订",
+   "url": "https://www.shantou.gov.cn/stsrlsbj/gkmlpt/content/2/2551/post_2551786.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "汕头|anju_rent2sale|市级|暂未查询到符合「先租后售三件套」的官方政策|",
+   "dim": "anju_rent2sale",
+   "district": "市级",
+   "name": "暂未查询到符合「先租后售三件套」的官方政策",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "汕头|anju_highlevel|市级|A类|对应顶尖人才（中国科学院/工程院院士、外籍院士、国家重大人才项目入选者、省级重大人才项目入选者等）。购房补助：院士/国家",
+   "dim": "anju_highlevel",
+   "district": "市级",
+   "name": "A类",
+   "unit": "汕头市人力资源和社会保障局",
+   "doc_no": "《汕头市高层次人才认定办法》（汕人社发〔2023〕相关）、汕人社发〔2023〕19号",
+   "date": "2023-12-29（认定办法，有效期5年）",
+   "url": "https://www.shantou.gov.cn/stsrlzyhshbzj/ztzl/content/post_2295962.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "汕头|anju_highlevel|市级|B类|按《汕头市高层次人才认定办法》认定的B类人才。享受金凤卡服务、人才住房租赁、子女教育等配套保障；具体安家/购房补贴金额以",
+   "dim": "anju_highlevel",
+   "district": "市级",
+   "name": "B类",
+   "unit": "汕头市人力资源和社会保障局",
+   "doc_no": "《汕头市高层次人才认定办法》",
+   "date": "2023-12-29（有效期5年）",
+   "url": "https://www.shantou.gov.cn/stsrlzyhshbzj/ztzl/content/post_2295962.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "汕头|timing|市级|高层次人才认定办法 有效期|2023-12-29 起实施，有效期5年（至2028-12-28）",
+   "dim": "timing",
+   "district": "市级",
+   "name": "高层次人才认定办法 有效期",
+   "unit": "汕头市人力资源和社会保障局",
+   "doc_no": "《汕头市高层次人才认定办法》",
+   "date": "2023-12-29 至 2028-12-28",
+   "url": "https://www.shantou.gov.cn/stsrlzyhshbzj/ztzl/content/post_2295962.html",
+   "problem": "文号非标准形态"
+  }
+ ]
+}

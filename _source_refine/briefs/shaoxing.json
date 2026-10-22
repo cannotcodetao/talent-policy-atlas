@@ -1,0 +1,313 @@
+{
+ "city": "绍兴",
+ "entries": [
+  {
+   "key": "绍兴|grad_subsidy|市级|普通本科|安家 3万",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "普通本科",
+   "unit": "绍兴市人社局",
+   "doc_no": "",
+   "date": "2025-01-23",
+   "url": "https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|grad_subsidy|市级|双一流本科|安家 6万",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "双一流本科",
+   "unit": "绍兴市人社局",
+   "doc_no": "",
+   "date": "2025-01-23",
+   "url": "https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|grad_subsidy|市级|硕士|安家 2万/年×3年=6万",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "硕士",
+   "unit": "绍兴市人社局",
+   "doc_no": "",
+   "date": "2025-01-23",
+   "url": "https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|grad_subsidy|市级|博士|安家 3万/年×3年=9万",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "博士",
+   "unit": "绍兴市人社局",
+   "doc_no": "",
+   "date": "2025-01-23",
+   "url": "https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|grad_subsidy|越城区|博士 / 副高·高级技师·硕士 / 双一流本科 / 其他本科·技师 / 专科·高职|安家补贴：博士12万元、副高·高级技师·硕士9万元、双一流本科、其他本科·技师4.5万元、专科·高职1.8万元",
+   "dim": "grad_subsidy",
+   "district": "越城区",
+   "name": "博士 / 副高·高级技师·硕士 / 双一流本科 / 其他本科·技师 / 专科·高职",
+   "unit": "中共绍兴市越城区委办公室、绍兴市越城区人民政府办公室（滨海新区管委会办公室）",
+   "doc_no": "",
+   "date": "2023-06-09",
+   "url": "https://www.sxyc.gov.cn/art/2023/6/9/art_1633511_59080522.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|grad_subsidy|诸暨市|博士 / 硕士 / 本科 / 专科（按人才类别）|安家补贴500-4000元/月（按人才类别）",
+   "dim": "grad_subsidy",
+   "district": "诸暨市",
+   "name": "博士 / 硕士 / 本科 / 专科（按人才类别）",
+   "unit": "中共诸暨市委人才办、诸暨市人力资源和社会保障局（市政府办公室发布）",
+   "doc_no": "",
+   "date": "2024-07-03",
+   "url": "https://www.zhuji.gov.cn/art/2024/7/3/art_1229663296_59136056.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|grad_subsidy|嵊州市|博士 / 副高·高级技师 / 硕士 / 双一流本科 / 其他本科·技师 / 专科·高职|安家补贴：博士3万元/年、副高·高级技师·硕士·双一流本科2万元/年、其他本科·技师1万元/年、专科·高职6000元/年",
+   "dim": "grad_subsidy",
+   "district": "嵊州市",
+   "name": "博士 / 副高·高级技师 / 硕士 / 双一流本科 / 其他本科·技师 / 专科·高职",
+   "unit": "嵊州市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2024-11-07",
+   "url": "https://www.szzj.gov.cn/art/2024/11/7/art_1229711094_59094136.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|grad_subsidy|新昌县|博士 / 副高职称人员及高级技师 / 硕士研究生 / 双一流本科 / 其他本科 / 专科·高职|",
+   "dim": "grad_subsidy",
+   "district": "新昌县",
+   "name": "博士 / 副高职称人员及高级技师 / 硕士研究生 / 双一流本科 / 其他本科 / 专科·高职",
+   "unit": "新昌县人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2026-07-08",
+   "url": "https://www.zjxc.gov.cn/col/col1229789309/art/2026/art_0416d67a5463be3d07e278c3ccbf52ef.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "绍兴公安",
+   "doc_no": "",
+   "date": "",
+   "url": "https://ga.sx.gov.cn/art/2025/7/25/art_1488097_58945832.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "绍兴公安",
+   "doc_no": "",
+   "date": "",
+   "url": "https://ga.sx.gov.cn/art/2025/7/25/art_1488097_58945832.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "绍兴公安",
+   "doc_no": "",
+   "date": "",
+   "url": "https://ga.sx.gov.cn/art/2025/7/25/art_1488097_58945832.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "绍兴公安",
+   "doc_no": "",
+   "date": "",
+   "url": "https://ga.sx.gov.cn/art/2025/7/25/art_1488097_58945832.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|startup|上虞区|创业担保贷款|最高50万，全额贴息",
+   "dim": "startup",
+   "district": "上虞区",
+   "name": "创业担保贷款",
+   "unit": "上虞区人社局",
+   "doc_no": "",
+   "date": "2026",
+   "url": "https://www.shangyu.gov.cn/col/col1229135368/art/2026/art_ff8801d0f1814de1883688aa62ee92ef.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|startup|上虞区|一次性创业补贴|1万元",
+   "dim": "startup",
+   "district": "上虞区",
+   "name": "一次性创业补贴",
+   "unit": "上虞区人社局",
+   "doc_no": "",
+   "date": "2026",
+   "url": "https://www.shangyu.gov.cn/col/col1229135368/art/2026/art_ff8801d0f1814de1883688aa62ee92ef.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|startup|上虞区|房租/租金补贴|创业租金补贴 首年8元/㎡·月",
+   "dim": "startup",
+   "district": "上虞区",
+   "name": "房租/租金补贴",
+   "unit": "上虞区人社局",
+   "doc_no": "",
+   "date": "2026",
+   "url": "https://www.shangyu.gov.cn/col/col1229135368/art/2026/art_ff8801d0f1814de1883688aa62ee92ef.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|startup|上虞区|大赛/项目资助|国家级大赛落地项目 50/30/20万",
+   "dim": "startup",
+   "district": "上虞区",
+   "name": "大赛/项目资助",
+   "unit": "上虞区人社局",
+   "doc_no": "",
+   "date": "2026",
+   "url": "https://www.shangyu.gov.cn/col/col1229135368/art/2026/art_ff8801d0f1814de1883688aa62ee92ef.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|welfare|市级|人才公寓/住所|2025新增人才公寓1073套、建成2250套；青年人才社区矩阵",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "人才公寓/住所",
+   "unit": "绍兴市人社局",
+   "doc_no": "",
+   "date": "2026",
+   "url": "https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|welfare|市级|数字化平台|“越快兑”政策兑现平台",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "数字化平台",
+   "unit": "绍兴市人社局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|welfare|市级|子女教育/医疗|按人才类别保障子女入学、就医绿色通道",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "子女教育/医疗",
+   "unit": "绍兴市人社局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.sx.gov.cn/col/col1229497321/art/2026/art_98e6f06b7e664cba8e615a84f16491a9.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|welfare|越城区||",
+   "dim": "welfare",
+   "district": "越城区",
+   "name": "",
+   "unit": "中共绍兴市越城区委办公室、绍兴市越城区人民政府办公室（滨海新区管委会办公室）",
+   "doc_no": "",
+   "date": "2023-06-09",
+   "url": "https://www.sxyc.gov.cn/art/2023/6/9/art_1633511_59080522.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|apply_path|市级|越快兑 + 浙里办落户|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "越快兑 + 浙里办落户",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|anju_rent2sale|市级|越城区产业人才乐居工程实施方案|先租后售：租赁期3-5年，月租金按市场价、先缴后补50%（最长5年）；购房价=国企收购价；回购补贴=租赁期实缴房租（扣补",
+   "dim": "anju_rent2sale",
+   "district": "市级",
+   "name": "越城区产业人才乐居工程实施方案",
+   "unit": "绍兴市越城区建设局",
+   "doc_no": "",
+   "date": "2024-10-18",
+   "url": "https://www.sxyc.gov.cn/art/2024/10/18/art_1229445656_1905640.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|anju_subsidy|市级|加快建设新时代“名士之乡”人才开放特区的若干政策实施细则（滨海新区人才房票）|房票补贴：博士研究生60万元、副高职称及高级技师25万元、硕士研究生15万元、“双一流”高校本科10万元、其他普通高校本",
+   "dim": "anju_subsidy",
+   "district": "市级",
+   "name": "加快建设新时代“名士之乡”人才开放特区的若干政策实施细则（滨海新区人才房票）",
+   "unit": "绍兴滨海新区管委会",
+   "doc_no": "",
+   "date": "",
+   "url": "https://sxbh.sx.gov.cn/api-gateway/jpaas-web-server/front/document/file-download?fileUrl=/cms_files/jcms1/web2925/site/attach/0/c48fb29661134814bf914470cd4e7a10.pdf",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|anju_subsidy|柯桥区|柯桥区国际纺都“青年安家”购房计划实施办法|按所购房屋总价的15%给予购房补贴，每套最高25万元。购房补贴由房企代领、不直接抵扣最低比例首付款",
+   "dim": "anju_subsidy",
+   "district": "柯桥区",
+   "name": "柯桥区国际纺都“青年安家”购房计划实施办法",
+   "unit": "绍兴市柯桥区住房和城乡建设局",
+   "doc_no": "绍柯房协组〔2025〕1号（2026年修订）",
+   "date": "2026-04-03",
+   "url": "https://www.kq.gov.cn/col/col1488946/art/2026/art_d4a8197750004b2d9fe281741c6c3b3f.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "绍兴|anju_subsidy|上虞区|上虞区6.0版人才政策《关于加快建设新时代“名士之乡”人才高地的若干政策》（人才房票补贴）|房票补贴：全日制博士70万、硕士/副高/高级技师35万、“双一流”本科25万、其他本科15万、技师12万、专科/高职5万",
+   "dim": "anju_subsidy",
+   "district": "上虞区",
+   "name": "上虞区6.0版人才政策《关于加快建设新时代“名士之乡”人才高地的若干政策》（人才房票补贴）",
+   "unit": "绍兴市上虞区人力资源和社会保障局",
+   "doc_no": "上虞区6.0版人才政策",
+   "date": "2024-03-06",
+   "url": "https://www.shangyu.gov.cn/art/2024/6/5/art_1229135368_4169744.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "绍兴|anju_subsidy|诸暨市|诸暨市关于加快建设新时代“诸才云集”人才高地的若干政策（人才房票补贴）|房票补贴3万—60万元（按人才类别）；重点产业全日制博士上浮20%、硕士及双一流/QS前100本科上浮10%；夫妻双方均",
+   "dim": "anju_subsidy",
+   "district": "诸暨市",
+   "name": "诸暨市关于加快建设新时代“诸才云集”人才高地的若干政策（人才房票补贴）",
+   "unit": "中共诸暨市委人才办、诸暨市人社局",
+   "doc_no": "诸暨人才政策6.0",
+   "date": "2024-12-09",
+   "url": "https://www.zhuji.gov.cn/art/2024/12/9/art_1229781023_59145632.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "绍兴|anju_subsidy|柯桥区||",
+   "dim": "anju_subsidy",
+   "district": "柯桥区",
+   "name": "",
+   "unit": "绍兴市柯桥区建设局（房征中心）",
+   "doc_no": "",
+   "date": "2026-04-09",
+   "url": "https://www.kq.gov.cn/col/col1488946/art/2026/art_d4a8197750004b2d9fe281741c6c3b3f.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "绍兴|anju_enterprise|柯桥区|柯桥区职工团购购房补贴实施细则|按房屋总价的15%给予购房补贴，每套最高15万元。补贴不直接抵扣最低比例首付款",
+   "dim": "anju_enterprise",
+   "district": "柯桥区",
+   "name": "柯桥区职工团购购房补贴实施细则",
+   "unit": "绍兴市柯桥区住房和城乡建设局",
+   "doc_no": "依《2026年度柯桥区房地产政策工具箱（一）》",
+   "date": "2026-04-03",
+   "url": "https://www.kq.gov.cn/col/col1488946/art/2026/art_d4a8197750004b2d9fe281741c6c3b3f.html",
+   "problem": "文号非标准形态"
+  }
+ ]
+}

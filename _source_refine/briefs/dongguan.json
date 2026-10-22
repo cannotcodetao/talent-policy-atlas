@@ -1,0 +1,148 @@
+{
+ "city": "东莞",
+ "entries": [
+  {
+   "key": "东莞|welfare|市级|子女教育|优才卡持卡人子女义务教育起始年级就近入学，享受东莞户籍生同等免费义务教育待遇（旗峰/玉兰/莞香卡均含）",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "子女教育",
+   "unit": "东莞市人社局等8部门",
+   "doc_no": "东人社规〔2025〕2号（莞爱人才办法）",
+   "date": "2025-10-16",
+   "url": "https://dghrss.dg.gov.cn/gkmlpt/content/4/4449/mpost_4449263.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "东莞|welfare|市级|医疗|旗峰卡每年免费体检最高4000元、玉兰卡最高1200元；指定医院专人引导/优先窗口就医；免费专项人才商业医疗保险（玉兰卡",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "医疗",
+   "unit": "东莞市人社局等8部门",
+   "doc_no": "东人社规〔2025〕2号（莞爱人才办法）",
+   "date": "2025-10-16",
+   "url": "https://dghrss.dg.gov.cn/gkmlpt/content/4/4449/mpost_4449263.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "东莞|welfare|市级|人才公寓/租赁|租赁型人才住房租金不高于同区域同地段同品质普通商品住房平均租金的60%（动态调整）；市属人才住房租金补贴每户每月最高50",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "人才公寓/租赁",
+   "unit": "东莞市住房和城乡建设局",
+   "doc_no": "东建房〔2022〕6号（市属人才住房租金优惠）",
+   "date": "2026-01-04",
+   "url": "https://zjj.dg.gov.cn/gkmlpt/content/3/3220/post_3220377.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "东莞|welfare|市级|数字化平台|“就莞用”平台（dghrss.dg.gov.cn/jgyportal）、粤省事、i莞家小程序、东莞市优才卡；人才补贴进度",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "数字化平台",
+   "unit": "东莞市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://dghrss.dg.gov.cn/jgyportal/portal/index",
+   "problem": "缺文号"
+  },
+  {
+   "key": "东莞|startup|市级|房租/租金补贴|创业场地租金补贴；圆梦计划对入住市属租赁住房的重点产业初创企业人才给予首年免租、次年市场租金5折、第三年7折",
+   "dim": "startup",
+   "district": "市级",
+   "name": "房租/租金补贴",
+   "unit": "东莞市发展和改革局",
+   "doc_no": "《支持来莞创新创业“圆梦计划”实施细则》",
+   "date": "2026",
+   "url": "https://dgdp.dg.gov.cn/xwzx/tzgg/content/post_4434266.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "东莞|startup|市级|大赛/项目资助|“以赛代评”：获国家级或大湾区创新创业大赛前三等次落地东莞的项目，纳入高质量发展基金储备，最高1000万元创投支持；团队",
+   "dim": "startup",
+   "district": "市级",
+   "name": "大赛/项目资助",
+   "unit": "东莞市发展和改革局",
+   "doc_no": "《支持来莞创新创业“圆梦计划”实施细则》",
+   "date": "2026",
+   "url": "https://dgdp.dg.gov.cn/xwzx/tzgg/content/post_4434266.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "东莞|apply_path|市级|广东政务服务网（gdzwfw.gov.cn）、东莞市“就莞用”平台（dghrss.dg.gov.cn/jgyportal）、i莞家小程序、粤省事；住建类在东莞市住建局“数字住建”统一门户|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "广东政务服务网（gdzwfw.gov.cn）、东莞市“就莞用”平台（dghrss.dg.gov.cn/jgyportal）、i莞家小程序、粤省事；住建类在东莞市住建局“数字住建”统一门户",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "东莞|anju_rent2sale|市级|产权型人才住房先租后售|期满购买价不高于约定时点市场价60%",
+   "dim": "anju_rent2sale",
+   "district": "市级",
+   "name": "产权型人才住房先租后售",
+   "unit": "东莞市人民政府",
+   "doc_no": "《东莞市人才安居办法（试行）》第二十一条",
+   "date": "2020",
+   "url": "https://www.dg.gov.cn/gkmlpt/content/3/3232/post_3232427.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "东莞|anju_discount|市级|配建安居房8折购房优惠（扩大基础型人才）|按销售价格享受8折购房优惠，不再设优惠金额上限；原有各类人才补贴与购房优惠政策互不影响",
+   "dim": "anju_discount",
+   "district": "市级",
+   "name": "配建安居房8折购房优惠（扩大基础型人才）",
+   "unit": "东莞市住建局等",
+   "doc_no": "《进一步优化我市配建安居房处置工作的通知》",
+   "date": "2026-03-09",
+   "url": "https://zjj.dg.gov.cn/gkmlpt/content/4/4508/post_4508354.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "东莞|anju_enterprise|市级|社会力量（企事业单位）筹集建设人才住房|企事业单位在符合配套比例前提下可提容积率、走绿色通道；面向内部员工租赁或出售",
+   "dim": "anju_enterprise",
+   "district": "市级",
+   "name": "社会力量（企事业单位）筹集建设人才住房",
+   "unit": "东莞市人民政府",
+   "doc_no": "《东莞市人才安居办法（试行）》第十七、十九、二十一条",
+   "date": "2020",
+   "url": "https://www.dg.gov.cn/gkmlpt/content/3/3232/post_3232427.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "东莞|risk|市级|骗补追责与退回|填报虚假信息或材料申领购房/生活/新引进补贴的，驳回或撤销资格、通报、追回已发补贴并依法追责；经程序撤销人才分类评价的取",
+   "dim": "risk",
+   "district": "市级",
+   "name": "骗补追责与退回",
+   "unit": "东莞市人社局等8部门",
+   "doc_no": "东人社规〔2025〕2号（莞爱人才办法 第十五条）",
+   "date": "2025-10-16",
+   "url": "https://dghrss.dg.gov.cn/gkmlpt/content/4/4449/mpost_4449263.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "东莞|risk|市级|产权型人才住房限制交易|产权型人才住房（先租后售）自产权登记之日起5年内原则上不可转让交易，确需转让由政府按原购价回购；符合转让条件的政府有优先",
+   "dim": "risk",
+   "district": "市级",
+   "name": "产权型人才住房限制交易",
+   "unit": "东莞市人民政府",
+   "doc_no": "《东莞市人才安居办法（试行）》第二十一条",
+   "date": "2020",
+   "url": "https://www.dg.gov.cn/gkmlpt/content/3/3232/post_3232427.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "东莞|risk|市级|购房补贴与住房保障互斥（就高从优不重复）|已申领购房补贴的，不得再申请安居服务及我市其他住房保障政策；各类补贴按“就高从优不重复”执行",
+   "dim": "risk",
+   "district": "市级",
+   "name": "购房补贴与住房保障互斥（就高从优不重复）",
+   "unit": "东莞市人社局等8部门",
+   "doc_no": "东人社规〔2025〕2号（莞爱人才办法 第四、五条）",
+   "date": "2025-10-16",
+   "url": "https://dghrss.dg.gov.cn/gkmlpt/content/4/4449/mpost_4449263.html",
+   "problem": "文号混杂"
+  }
+ ]
+}

@@ -1,0 +1,247 @@
+{
+ "city": "阳江",
+ "entries": [
+  {
+   "key": "阳江|grad_subsidy|市级|专科|暂未查询到阳江市级专门针对专科毕业生的现金补贴政策",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "专科",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|grad_subsidy|市级|普通本科|暂未查询到阳江市级专门针对普通本科毕业生的现金补贴政策",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "普通本科",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|grad_subsidy|市级|双一流本科|暂未查询到阳江市级针对双一流本科的独立现金补贴政策",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "双一流本科",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|grad_subsidy|市级|硕士|阳江市人才新政30条对第九类（全日制硕士）一次性给予2万元生活补贴；事业单位引进高层次人才公告中'硕士研究生给予最高10",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "硕士",
+   "unit": "中共阳江市委人才工作领导小组",
+   "doc_no": "阳人才〔2022〕1号（《关于加强新时代人才队伍建设的若干措施》）；实施细则：阳人才〔2022〕3号",
+   "date": "2022-06-08",
+   "url": "http://www.yangjiang.gov.cn/zfxxgkml/yjsswj16/gzdt/qtxx/content/post_621778.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "阳江|grad_subsidy|市级|博士|阳江市人才新政30条对第七类（全日制博士）给予10万元安家费+3年每月3000元生活补贴（合计约20.8万）；第四至六类",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "博士",
+   "unit": "中共阳江市委人才工作领导小组；阳江市人力资源和社会保障局",
+   "doc_no": "阳人才〔2022〕1号（《关于加强新时代人才队伍建设的若干措施》）；实施细则：阳人才〔2022〕3号",
+   "date": "2022-06-08",
+   "url": "http://www.yangjiang.gov.cn/zfxxgkml/yjsswj16/gzdt/qtxx/content/post_621778.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "阳江|grad_subsidy|阳西县|硕士|一次性给予引才补贴25万元（含市安家费10万元，县安家补贴15万元）",
+   "dim": "grad_subsidy",
+   "district": "阳西县",
+   "name": "硕士",
+   "unit": "阳江市阳西县人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2026-01-28",
+   "url": "http://www.yangxi.gov.cn/yjyxrlzyhshbzj/gkmlpt/content/0/920/post_920201.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|grad_subsidy|阳西县|本科|一次性给予县安家补贴13万元",
+   "dim": "grad_subsidy",
+   "district": "阳西县",
+   "name": "本科",
+   "unit": "阳江市阳西县人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2026-01-28",
+   "url": "http://www.yangxi.gov.cn/yjyxrlzyhshbzj/gkmlpt/content/0/920/post_920201.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|grad_subsidy|阳西县|本科|一次性给予县安家补贴6万元",
+   "dim": "grad_subsidy",
+   "district": "阳西县",
+   "name": "本科",
+   "unit": "阳江市阳西县人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2026-01-28",
+   "url": "http://www.yangxi.gov.cn/yjyxrlzyhshbzj/gkmlpt/content/0/920/post_920201.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "阳江市公安局",
+   "doc_no": "阳部规〔2023〕7号（《阳江市公安局关于进一步推进户籍管理制度改革实施细则》）",
+   "date": "2023",
+   "url": "http://www.yangjiang.gov.cn/yj/zwgk/zfwj/bmwj/content/post_692111.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "阳江|startup|市级|创业担保贷款|个人创业担保贷款最高50万元（带动就业5人以上）；合伙经营'捆绑性'贷款按每人最高30万元、总额最高300万元；小微企业",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业担保贷款",
+   "unit": "阳江市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2021-05-31",
+   "url": "http://www.yangjiang.gov.cn/yjrsj/gkmlpt/content/0/535/post_535780.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|startup|市级|一次性创业补贴|一次性创业资助10000元。对象：返乡下乡创业人员、驿道客栈/民宿/农家乐创办人员、普通高等学校/职业学校/技工院校学生",
+   "dim": "startup",
+   "district": "市级",
+   "name": "一次性创业补贴",
+   "unit": "阳江市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2021",
+   "url": "http://www.yangjiang.gov.cn/yj/zwgk/zdlyxxgk/jycyxxgk/gzdt/content/post_880813.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|startup|市级|房租/租金补贴|创业租金补贴每年最高4000元，累计不超过3年。对象：在校及毕业5年内的高校毕业生/职业学校/技工院校学生、留学回国人员",
+   "dim": "startup",
+   "district": "市级",
+   "name": "房租/租金补贴",
+   "unit": "阳江市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2021",
+   "url": "http://www.yangjiang.gov.cn/yjrsj/gkmlpt/content/0/926/post_926672.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|apply_path|市级|阳江市配售型保障性住房轮候库系统（https://lhk.mohurdic.org.cn/883401#/home）或微信小程序'阳江市配售型保障性住房轮候库'|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "阳江市配售型保障性住房轮候库系统（https://lhk.mohurdic.org.cn/883401#/home）或微信小程序'阳江市配售型保障性住房轮候库'",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|apply_path|市级|广东公共就业服务云平台（电脑端）/广东人社网上服务平台（省统一身份认证平台注册）|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "广东公共就业服务云平台（电脑端）/广东人社网上服务平台（省统一身份认证平台注册）",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|apply_path|市级|阳江市人才服务管理办公室（现场办理）|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "阳江市人才服务管理办公室（现场办理）",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|apply_path|市级|公安派出所（落户办理）|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "公安派出所（落户办理）",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|anju_discount|市级|阳江市配售型保障性住房管理办法（试行）|政府限定销售价格（基准价覆盖成本+合理利润，结合工薪群体支付能力和同区域商品住房售价确定，实质低于市场价）；户型以90平",
+   "dim": "anju_discount",
+   "district": "市级",
+   "name": "阳江市配售型保障性住房管理办法（试行）",
+   "unit": "阳江市人民政府办公室",
+   "doc_no": "阳府办〔2025〕8号（统一编号：阳府规〔2025〕9号）",
+   "date": "2025-10-30",
+   "url": "http://www.yangjiang.gov.cn/yj/zwgk/zcjd/wzjd/content/post_902751.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "阳江|anju_subsidy|阳西县||",
+   "dim": "anju_subsidy",
+   "district": "阳西县",
+   "name": "",
+   "unit": "阳西县教育局",
+   "doc_no": "",
+   "date": "2021-01-06",
+   "url": "http://www.yangxi.gov.cn/yjyxjyj/gkmlpt/content/0/502/post_502457.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|anju_highlevel|阳东区||",
+   "dim": "anju_highlevel",
+   "district": "阳东区",
+   "name": "",
+   "unit": "阳江市阳东区人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2026-04-16",
+   "url": "http://www.yangdong.gov.cn/yjydrsj/gkmlpt/content/0/950/post_950279.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|anju_highlevel|阳春市||",
+   "dim": "anju_highlevel",
+   "district": "阳春市",
+   "name": "",
+   "unit": "阳春市文化广电旅游体育局",
+   "doc_no": "",
+   "date": "2025-01-10",
+   "url": "https://www.yangchun.gov.cn/yjycwgdlt/gkmlpt/content/0/834/post_834266.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "阳江|timing|市级|阳江市配售型保障性住房管理办法（试行）施行|阳府办〔2025〕8号，2025年10月30日印发并施行，有效期3年（至2028年10月29日）。配售型保障性住房轮候登",
+   "dim": "timing",
+   "district": "市级",
+   "name": "阳江市配售型保障性住房管理办法（试行）施行",
+   "unit": "阳江市人民政府办公室",
+   "doc_no": "阳府办〔2025〕8号（规范性文件统一编号：阳府规〔2025〕9号）",
+   "date": "2025-10-30",
+   "url": "http://www.yangjiang.gov.cn/zfxxgkml/yjszfhcxjsj/bmwj/gfxwj/content/post_920609.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "阳江|risk|市级|创业担保贷款征信风险|借款人个人创业担保贷款额度最高50万元；提交贷款申请时除助学贷款、扶贫贷款、住房贷款、购车贷款、10万元以下小额消费贷款",
+   "dim": "risk",
+   "district": "市级",
+   "name": "创业担保贷款征信风险",
+   "unit": "阳江市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2021-05-31",
+   "url": "http://www.yangjiang.gov.cn/yjrsj/gkmlpt/content/0/535/post_535780.html",
+   "problem": "缺文号"
+  }
+ ]
+}

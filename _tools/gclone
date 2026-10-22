@@ -1,0 +1,572 @@
+#!/usr/bin/env bash
+# gclone v2 —— 按《GitHub 仓库克隆技术指导》重写的 clone 包装器
+#
+# v2 相对 v1 修了什么（2026-10-20 21:50，依据 D:/AI/Code/github-clone-guide.md）
+# ---------------------------------------------------------------------------
+#   1. 【补】成功判据验收（原文第 7 节）：v1 只看 git 退出码 0 就宣布成功。
+#      v2 clone 完必须逐条过验收：HEAD 是 40 位哈希 / 分支名非空 / 索引文件数 > 0 /
+#      工作区干净（status --short 无输出）。任一条不过就算该通道失败，换下一条重来。
+#   2. 【补】按仓库探测通道（原文 9.1）：v1 只探 github.com:443 能不能通，
+#      v2 用 `git ls-remote <url> HEAD` 探**这个仓库**在每个通道上到底能不能拉到 ref。
+#      能开 github 首页不代表能拉这个仓库。
+#   3. 【补】慢链路参数（原文 A3）：http.lowSpeedLimit / lowSpeedTime / postBuffer。
+#   4. 【补】tarball 免 git 通道（原文第 4 节）：所有 git 通道都失败时，
+#      退到 codeload zip + `unzip -t` 完整性校验 + 解压。镜像包会截断且仍返回 200，
+#      所以**必须先校验再用**。
+#   5. 【改】体积统计：v1 用 `du -sh`。原文坑 1 指出 NTFS 按簇统计会虚高 5 倍以上
+#      （同一仓库 du 报 83 MB，真实 15.6 MB）。v2 改用 find -printf 累加真实字节。
+#   6. 【改】失败不再静默删目录（原文 9.5）：v1 全部通道失败就 rm -rf。
+#      v2 先跑验收，验收通过就报成功；不通过才保留现场并告诉你路径，让你决定。
+#   7. 【补】--verify <dir>：单独对已存在的目录跑验收清单，用来判断"到底是不是真的失败了"。
+#
+# 通道顺序与取舍（原文 1.4 / 坑 3）
+# ---------------------------------
+#   本机实测：7890 代理最快但会掉；直连间歇；gh-proxy 慢但基本在。
+#   镜像**不一定更快**，代理套代理会从 35 KB/s 掉到 7–10 KB/s，
+#   所以顺序固定为「代理 → 直连 → gh-proxy」，且每个通道先用 ls-remote 验活再真正 clone。
+#
+# 用法
+# ----
+#   gclone <url> [dest]                    # 完整克隆（默认）
+#   gclone --shallow <url> [dest]          # 浅克隆（--depth 1 --single-branch，仅在明确只要尖端代码时用）
+#   gclone --meta <url> [dest]             # 只取元数据（--filter=blob:none --no-checkout）
+#   gclone --tarball <url> [dest]          # 免 git：codeload zip + unzip -t 校验
+#   gclone --channel direct <url> [dest]   # 强制通道（proxy|direct|ghproxy|tarball）
+#   gclone --verify <dir>                  # 只对已有目录跑验收清单
+#   gclone --selfcheck [url]               # 探测通道；给 url 则探这个仓库的 ref 可达性
+#
+# 环境变量
+#   GCLONE_PROXY_PORTS   默认 "7890 7891 7897 10808 10809"
+#   GCLONE_RETRIES       每通道重试次数，默认 2
+#   GCLONE_CHANNELS      默认 "proxy direct ghproxy"
+#   GCLONE_LOWSPEED      默认 1000（B/s），低于此速率持续 LOWTIME 秒判失败
+#   GCLONE_LOWTIME       默认 60（秒）
+#   GCLONE_TARBALL_TIME  默认 280（秒），tarball 单次下载上限
+#
+# v2.1 补丁（2026-10-20 22:50，仍然只依据同一份指导文档）
+# -------------------------------------------------------
+#   8. 【补】克隆前先验活：run_channel 在真正 clone 之前先跑 ls-remote ——
+#      死通道 25 秒内跳过，不再白等 lowSpeedTime(60s) 或 TCP 超时（实测每次白扔 60–90 秒）。
+#   9. 【修】--channel 对 tarball 路径失效：原来 default_branch/run_tarball 里硬编码
+#      「proxy direct ghproxy」，命令写着 --channel ghproxy、日志却打印「下载（proxy:7890）」。
+#      改为跟随 TAR_CHANNELS（滤掉 tarball 字面值，只写 --channel tarball 时回落默认三条）。
+#  10. 【修】下载失败的原因被吞：原来 2>/dev/null，只剩一句「下载失败或超时」。
+#      现在按 curl 退出码分类报（28 超时 / 18 中断 / 6|7 连不上 / 56 接收失败），
+#      并报已收字节与 HTTP 状态；超时还会提示用 GCLONE_TARBALL_TIME 放宽。
+#  11. 【修】空 .git 假成功：rev-parse 会向上找到父仓库，把父仓库 HEAD 当成这个目录的
+#      HEAD。verify_clone 增加「仓库根必须是它自己」的判定，并在此判定失败时提前返回，
+#      不再打印属于父仓库的 ✓ HEAD / ✓ 分支（那种绿勾比不检查更误导）。
+#
+# v2.3（2026-10-21 22:20，用户定规则）
+# ----------------------------------
+#  12. 【改】默认模式 shallow → full。理由来自实测，不是偏好：
+#      ai-job-search 完整克隆 4 秒 / .git 5.41 MB，浅克隆同样 4 秒 / .git 1.61 MB ——
+#      小仓库上浅克隆不省时间，只省 3.8 MB，却丢掉 git log / 旧 tag / bisect / rebase 能力。
+#      浅克隆在上游前进后 rebase 会因「找不到 merge base」产生**本不该有**的冲突
+#      （实测报 Could not apply 3cf0010...），把人引向错误方向排查。
+#      代价不对称：完整克隆多要历史只多花几 MB；浅克隆要少历史会伪造冲突。
+#      浅克隆降级为显式 --shallow，只在 ≥50 MB 大仓库且确定只要尖端代码时用。
+
+set -uo pipefail
+
+PROXY_PORTS="${GCLONE_PROXY_PORTS:-7890 7891 7897 10808 10809}"
+RETRIES="${GCLONE_RETRIES:-2}"
+CHANNELS="${GCLONE_CHANNELS:-proxy direct ghproxy}"
+# tarball 用独立的通道列表：--channel 换的是 CHANNELS，而 tarball 路径原本硬编码了
+# 「proxy direct ghproxy」，导致 --channel ghproxy 被静默忽略（2026-10-20 实测踩到，
+# 命令写着 ghproxy、日志却打印「下载（proxy:7890）」）。这里跟随 CHANNELS，并把
+# tarball 这个非通道字面值滤掉（--channel tarball 是合法写法）。
+TAR_CHANNELS="$CHANNELS"
+FALLBACK_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/_tmp_repos"
+GHPROXY_PREFIX="https://gh-proxy.com/"
+LOWSPEED="${GCLONE_LOWSPEED:-1000}"
+LOWTIME="${GCLONE_LOWTIME:-60}"
+# tarball 单次下载上限（秒）。慢镜像上 1.6 MB 可能要 7 分钟，固定 280 会误判失败。
+TAR_TIMEOUT="${GCLONE_TARBALL_TIME:-280}"
+
+MODE="full"
+FORCE_CHANNEL=""
+VERIFY_DIR=""
+
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --meta)      MODE="meta";    shift ;;
+    --full)      MODE="full";    shift ;;
+    --shallow)   MODE="shallow"; shift ;;
+    --tarball)   MODE="tarball"; shift ;;
+    --channel)   FORCE_CHANNEL="${2:-}"; shift 2 ;;
+    --selfcheck) MODE="selfcheck"; shift ;;
+    --verify)    VERIFY_DIR="${2:-}"; shift 2 ;;
+    # 用内容边界截取，不用硬编码行号 —— 头部加一行就会截断/漏印（已踩过一次）
+    -h|--help)   sed -n '2,/^set -uo pipefail/p' "$0" | sed '$d' | sed 's/^# \{0,1\}//'; exit 0 ;;
+    *) break ;;
+  esac
+done
+
+# ---------------------------------------------------------------- 慢链路调优
+#
+# 只在本次 clone 用 -c 传，不改用户全局配置。默认 http.lowSpeedLimit=1000 B/s × 1 s
+# 对慢链路过于激进（原文 A3），这里放宽到 1000 B/s × 60 s。
+TUNE=(
+  -c "http.lowSpeedLimit=${LOWSPEED}"
+  -c "http.lowSpeedTime=${LOWTIME}"
+  -c "http.postBuffer=524288000"
+)
+
+# ---------------------------------------------------------------- 探测
+
+probe_proxy() {
+  local p
+  for p in $PROXY_PORTS; do
+    if netstat -ano 2>/dev/null | grep -qE "127\.0\.0\.1:${p}[[:space:]].*LISTENING"; then
+      printf '%s' "$p"; return 0
+    fi
+  done
+  return 1
+}
+
+# 通道 → git 参数与 clone 地址。两种写法共用，避免探测与实际 clone 配置漂移。
+channel_setup() {
+  local name="$1" url="$2"
+  CH_ARGS=()
+  CH_URL="$url"
+  case "$name" in
+    proxy)
+      local p
+      p="$(probe_proxy)" || return 127
+      CH_ARGS=(-c "http.proxy=http://127.0.0.1:${p}" -c "https.proxy=http://127.0.0.1:${p}")
+      CH_LABEL="proxy:${p}"
+      ;;
+    direct)
+      CH_ARGS=(-c http.proxy= -c https.proxy= -c http.version=HTTP/1.1)
+      CH_LABEL="direct(HTTP/1.1)"
+      ;;
+    ghproxy)
+      CH_ARGS=(-c http.proxy= -c https.proxy= -c http.version=HTTP/1.1)
+      CH_URL="${GHPROXY_PREFIX}${url}"
+      CH_LABEL="ghproxy"
+      ;;
+    *) return 127 ;;
+  esac
+  return 0
+}
+
+# 按仓库探活：能拿到 ref 才算这条通道对这个仓库可用（原文 9.1）
+probe_repo() {
+  local name="$1" url="$2"
+  channel_setup "$name" "$url" || return 1
+  timeout 25 git "${CH_ARGS[@]}" "${TUNE[@]}" ls-remote --exit-code "$CH_URL" HEAD >/dev/null 2>&1
+}
+
+# ---------------------------------------------------------------- 体积统计
+#
+# 原文坑 1：不要用 du -sh。NTFS 按簇统计，小文件多的仓库虚高 5 倍以上。
+real_size() {
+  ( cd "$1" 2>/dev/null && find . -path ./.git -prune -o -type f -printf "%s\n" 2>/dev/null \
+      | awk '{s+=$1} END{printf "%.2f MB", s/1048576}' ) || printf "?"
+}
+git_size() {
+  ( cd "$1" 2>/dev/null && find ./.git -type f -printf "%s\n" 2>/dev/null \
+      | awk '{s+=$1} END{printf "%.2f MB", s/1048576}' ) || printf "?"
+}
+
+# ---------------------------------------------------------------- 验收清单（原文第 7 节）
+#
+# 这是 v2 的核心：clone 返回 0 不等于成功。逐条核对，全过才算。
+verify_clone() {
+  local d="$1" mode="${2:-shallow}"
+  local ok=1
+
+  if [ ! -d "$d" ]; then
+    echo "  ✗ 目录不存在：$d"
+    return 1
+  fi
+
+  if [ "$mode" = "tarball" ] || [ ! -d "$d/.git" ]; then
+    local n
+    n=$(find "$d" -type f 2>/dev/null | wc -l)
+    if [ "$n" -gt 0 ]; then
+      echo "  ✓ 无 .git（tarball/解压产物），文件数 $n"
+      echo "  · 体积 ${mode}：$(real_size "$d")（真实字节）"
+      return 0
+    fi
+    echo "  ✗ 目录为空"
+    return 1
+  fi
+
+  # 0) 必须是**它自己的**仓库根：空 .git 或上层仓库的子目录都会让 rev-parse 走到父仓库，
+  #    从而把父仓库的 HEAD 当成这个目录的 HEAD（2026-10-20 实测踩到：_t_broken 报出了
+  #    父仓库 人才政策 的 HEAD 31b52ba，险些误判为「克隆成功」）。
+  local top real
+  top=$(git -C "$d" rev-parse --show-toplevel 2>/dev/null)
+  real=$(cd "$d" && pwd -P)
+  if [ -z "$top" ] || [ "$(cd "$top" 2>/dev/null && pwd -P)" != "$real" ]; then
+    echo "  ✗ 不是独立仓库根（rev-parse 指到了：${top:-无}）—— 空 .git 或上层仓库的子目录"
+    ok=0
+  fi
+  if [ -d "$d/.git" ] && [ ! -f "$d/.git/HEAD" ]; then
+    echo "  ✗ .git 目录存在但没有 HEAD 文件 —— 不是有效仓库"
+    ok=0
+  fi
+
+  # 0.1) 仓库根无效时立刻停：后面的 HEAD/分支/索引检查全是 git 向上找到的**父仓库**信息，
+  #      继续打印只会在日志里留下「✓ HEAD」「✓ 分支」这种看着像通过的行，反而误导
+  #      （2026-10-20 实测：_t_broken 打印了 ✓ HEAD：31b52baafb0a… / ✓ 分支：main，
+  #       这两个值都属于 人才政策 仓库，与本目录毫无关系）。
+  if [ "$ok" -eq 0 ]; then
+    echo "  · 仓库根无效，HEAD/分支/索引检查已跳过（否则读到的都是上层仓库的数据）"
+    echo "  · 体积：$(real_size "$d")（真实字节，非 du）"
+    return 1
+  fi
+
+  # 1) HEAD 必须是 40 位哈希
+  local head
+  head=$(git -C "$d" rev-parse HEAD 2>/dev/null)
+  if [[ "$head" =~ ^[0-9a-f]{40}$ ]]; then
+    echo "  ✓ HEAD：${head:0:12}…（40 位完整哈希）"
+  else
+    echo "  ✗ HEAD 异常：「${head}」"
+    ok=0
+  fi
+
+  # 2) 分支名非空（detached 也允许，只要不是空）
+  local br
+  br=$(git -C "$d" rev-parse --abbrev-ref HEAD 2>/dev/null)
+  if [ -n "$br" ]; then
+    echo "  ✓ 分支：${br}"
+  else
+    echo "  ✗ 分支名为空"
+    ok=0
+  fi
+
+  # 3) 索引里有文件
+  local cnt
+  cnt=$(git -C "$d" ls-files 2>/dev/null | wc -l)
+  if [ "$cnt" -gt 0 ]; then
+    echo "  ✓ 索引文件数：${cnt}"
+  else
+    if [ "$mode" = "meta" ]; then
+      echo "  · 索引文件数 0（meta 模式 --no-checkout，属预期）"
+    else
+      echo "  ✗ 索引文件数为 0，工作区没检出"
+      ok=0
+    fi
+  fi
+
+  # 4) 工作区干净（meta 模式没检出，跳过）
+  if [ "$mode" = "meta" ]; then
+    echo "  · 工作区检查跳过（meta 模式无工作树）"
+  else
+    local st
+    st=$(git -C "$d" status --short 2>/dev/null)
+    if [ -z "$st" ]; then
+      echo "  ✓ 工作区干净（status --short 无输出）"
+    else
+      echo "  ✗ 工作区有改动："
+      printf '%s\n' "$st" | head -5 | sed 's/^/      /'
+      ok=0
+    fi
+  fi
+
+  # 5) 浅克隆标记是正常的，不是损坏
+  if [ -f "$d/.git/shallow" ]; then
+    echo "  · .git/shallow 存在 —— 浅克隆的正常标记，不是损坏"
+  fi
+
+  echo "  · 体积：工作区 $(real_size "$d") + .git $(git_size "$d")（真实字节，非 du）"
+
+  return $((ok == 1 ? 0 : 1))
+}
+
+# ---------------------------------------------------------------- 单独验收模式
+
+if [ -n "$VERIFY_DIR" ]; then
+  echo "[gclone] 验收：$VERIFY_DIR"
+  if verify_clone "$VERIFY_DIR" "shallow"; then
+    echo "[gclone] ✅ 验收通过 —— 这个目录是好的，不要删。"
+    exit 0
+  fi
+  echo "[gclone] ❌ 验收不通过。" >&2
+  exit 1
+fi
+
+# ---------------------------------------------------------------- 通道状态
+
+selfcheck() {
+  local url="${1:-}"
+  echo "通道状态探测（$(date '+%Y-%m-%d %H:%M:%S')）"
+  echo "-------------------------------------------------------------"
+  local p
+  if p="$(probe_proxy)"; then echo "  代理 127.0.0.1:${p}   ✅ 在监听"; else echo "  代理                  ❌ 无端口在监听"; fi
+  if timeout 8 curl -sI --noproxy '*' -o /dev/null "https://github.com" 2>/dev/null; then
+    echo "  直连 github 首页       ✅ 通"
+  else
+    echo "  直连 github 首页       ❌ 不通 / 超时"
+  fi
+  if timeout 10 curl -sI -o /dev/null "${GHPROXY_PREFIX}https://github.com" 2>/dev/null; then
+    echo "  gh-proxy.com          ✅ 通"
+  else
+    echo "  gh-proxy.com          ❌ 不通"
+  fi
+  if [ -n "$url" ]; then
+    echo "-------------------------------------------------------------"
+    echo "按仓库探活（git ls-remote $url）："
+    local ch
+    for ch in proxy direct ghproxy; do
+      if probe_repo "$ch" "$url"; then
+        echo "  ${ch}  ✅ 能拉到 ref"
+      else
+        echo "  ${ch}  ❌ 拉不到 ref"
+      fi
+    done
+  else
+    echo "-------------------------------------------------------------"
+    echo "提示：加上仓库地址可探「这个仓库」在各通道上是否真能拉到（gclone --selfcheck <url>）"
+  fi
+  echo "-------------------------------------------------------------"
+  echo "可用通道里排最前的那个会被 gclone 自动选用。"
+}
+
+if [ "$MODE" = "selfcheck" ]; then
+  selfcheck "${1:-}"
+  exit 0
+fi
+
+URL="${1:-}"
+DEST="${2:-}"
+if [ -z "$URL" ]; then
+  echo "用法: gclone [--shallow|--meta|--full|--tarball|--channel <n>|--selfcheck [url]|--verify <dir>] <url> [dest]" >&2
+  exit 2
+fi
+[ -z "$DEST" ] && DEST="./$(basename "$URL" .git)"
+
+DEPTH_ARGS=()
+case "$MODE" in
+  meta)    DEPTH_ARGS=(--depth 1 --filter=blob:none --no-checkout --single-branch) ;;
+  shallow) DEPTH_ARGS=(--depth 1 --single-branch) ;;
+  full)    DEPTH_ARGS=() ;;
+  *)       DEPTH_ARGS=() ;;   # 默认走完整克隆，未知模式不再静默降级成浅克隆
+esac
+
+# 目标路径护栏：%TEMP% 会被 Windows 清理程序扫掉
+case "$DEST" in
+  */Temp/*|*/temp/*|*/TMP/*|*/tmp/*)
+    echo "[gclone] 目标在临时目录里，Windows 清理程序会在长任务期间扫掉 %TEMP%"
+    DEST="$FALLBACK_DIR/$(basename "$DEST")"
+    echo "[gclone] 改道到：$DEST"
+    ;;
+esac
+mkdir -p "$(dirname "$DEST")"
+
+# 目录已存在时先验收：好目录绝不删（原文 9.5）
+if [ -e "$DEST" ]; then
+  echo "[gclone] 目标已存在，先跑验收再决定是否重来：$DEST"
+  if verify_clone "$DEST" "$MODE"; then
+    echo "[gclone] ✅ 已存在且验收通过，不重复克隆。"
+    exit 0
+  fi
+  echo "[gclone] 验收不通过，清掉重来。"
+  rm -rf "$DEST"
+fi
+
+# ---------------------------------------------------------------- tarball 通道（免 git）
+
+default_branch() {
+  local url="$1" ch out
+  for ch in $TAR_CHANNELS; do
+    channel_setup "$ch" "$url" || continue
+    out=$(timeout 25 git "${CH_ARGS[@]}" "${TUNE[@]}" ls-remote --symref "$CH_URL" HEAD 2>/dev/null \
+          | awk '/^ref:/{sub("refs/heads/","",$2); print $2; exit}')
+    [ -n "$out" ] && { printf '%s' "$out"; return 0; }
+  done
+  return 1
+}
+
+run_tarball() {
+  local url="$1" dest="$2"
+  local slug branch tmp TMP_META TMP_ERR
+  slug=$(printf '%s' "$url" | sed -E 's#^https?://github\.com/##; s#\.git$##; s#/$##')
+
+  # codeload 只认 refs/heads/<真实分支名>，写死 HEAD 会 404（2026-10-20 实测）。
+  branch="$(default_branch "$url")" || { echo "  ✗ 无法确定默认分支（已试通道：${TAR_CHANNELS}）"; return 1; }
+  echo "[gclone] 通道=tarball（免 git）  默认分支=${branch}"
+
+  tmp="$(dirname "$dest")/.gclone-tarball-$$.zip"
+  TMP_META="${tmp}.meta"
+  TMP_ERR="${tmp}.err"
+
+  local ch
+  for ch in $TAR_CHANNELS; do
+    channel_setup "$ch" "$url" || continue
+    local u="https://codeload.github.com/${slug}/zip/refs/heads/${branch}"
+    [ "$ch" = "ghproxy" ] && u="${GHPROXY_PREFIX}${u}"
+    echo "  下载（${CH_LABEL}）：${u}"
+    rm -f "$tmp"
+    local proxyopt=()
+    if [ "$ch" = "proxy" ]; then
+      proxyopt=(--proxy "http://127.0.0.1:$(probe_proxy)")
+    else
+      proxyopt=(--noproxy '*')
+    fi
+    # 下载失败必须说清「为什么」：原来这里 2>/dev/null 把 curl 的报错吞掉，
+    # 只留一句「下载失败或超时」，2026-10-20 排查时白花十几分钟才定位到是
+    # --max-time 不够（gh-proxy 掉到 4 KB/s，1.6 MB 要 7 分钟）。
+    local rc=0
+    timeout $((TAR_TIMEOUT + 20)) curl -sSL "${proxyopt[@]}" --max-time "$TAR_TIMEOUT" \
+        -o "$tmp" -w '%{http_code} %{size_download}' "$u" >"$TMP_META" 2>"$TMP_ERR" || rc=$?
+    local got=0
+    [ -f "$tmp" ] && got=$(stat -c%s "$tmp" 2>/dev/null || echo 0)
+    if [ "$rc" -ne 0 ]; then
+      case "$rc" in
+        28) echo "  ✗ 下载超时（--max-time ${TAR_TIMEOUT}s 内没下完，已收 ${got} 字节）" ;;
+        18) echo "  ✗ 传输中断（curl 18，已收 ${got} 字节）" ;;
+         6|7) echo "  ✗ 连不上镜像（curl ${rc}）：$(tr -d '\r' <"$TMP_ERR" | head -1)" ;;
+        56) echo "  ✗ 接收失败（curl 56，已收 ${got} 字节）：$(tr -d '\r' <"$TMP_ERR" | head -1)" ;;
+         *) echo "  ✗ 下载失败（curl 退出码 ${rc}，已收 ${got} 字节）：$(tr -d '\r' <"$TMP_ERR" | head -1)" ;;
+      esac
+      [ "$rc" = 28 ] && echo "     · 慢链路可放宽：GCLONE_TARBALL_TIME=900 bash $0 --tarball …"
+    elif [ "$got" -eq 0 ]; then
+      echo "  ✗ 下载成功但 0 字节（HTTP $(awk '{print $1}' "$TMP_META" 2>/dev/null)）"
+    else
+      # 镜像可能截断且仍返回 200 —— 解压前必须校验（原文坑 2）
+      if unzip -t "$tmp" >/dev/null 2>&1; then
+        echo "  ✓ unzip -t 通过，包完整（$(printf '%.2f' "$(stat -c%s "$tmp" 2>/dev/null || echo 0)" | awk '{printf "%.2f MB", $1/1048576}')）"
+        local exdir; exdir="$(dirname "$dest")/.gclone-unzip-$$"
+        rm -rf "$exdir"; mkdir -p "$exdir"
+        if unzip -q "$tmp" -d "$exdir" >/dev/null 2>&1; then
+          local inner; inner=$(find "$exdir" -mindepth 1 -maxdepth 1 -type d | head -1)
+          if [ -n "$inner" ]; then
+            mv "$inner" "$dest"
+            rm -rf "$exdir" "$tmp" "$TMP_META" "$TMP_ERR"
+            echo "[gclone] ✅ tarball 解压完成（无 .git，不能 pull/看历史）"
+            return 0
+          fi
+        fi
+        rm -rf "$exdir"
+        echo "  ✗ 解压失败"
+      else
+        echo "  ✗ unzip -t 失败：包被截断或损坏（注意镜像可能返回 200 但内容不全），换下一个源"
+      fi
+    fi
+  done
+  rm -f "$tmp" "$TMP_META" "$TMP_ERR"
+  return 1
+}
+
+# ---------------------------------------------------------------- git 通道
+
+run_channel() {
+  local name="$1"
+  # 代理通道可能连“配没配”都不成立（端口一个都没在听）。静默返回会让日志只留下
+  # 「通道 proxy 未成功」，看不出是代理没开还是仓库拉不到——2026-10-20 排查时就要靠猜。
+  if ! channel_setup "$name" "$URL"; then
+    if [ "$name" = "proxy" ]; then
+      echo "[gclone] 通道=proxy 不可用（未探测到本地代理端口：${PROXY_PORTS}），跳过"
+    else
+      echo "[gclone] 未知通道：${name}（可选 proxy|direct|ghproxy|tarball），跳过"
+    fi
+    return 127
+  fi
+  local label="$CH_LABEL" clone_url="$CH_URL"
+
+  # 先花 2 秒验这个仓库在这条通道上能不能拉到 ref（原文 9.1「先探测再动手」）。
+  # 不做这一步的代价是：直接 clone 一条死通道，要等 lowSpeedTime(60s) 或 TCP 超时
+  # 才判失败——2026-10-20 实测几次都是 60–90 秒白等。验活失败立刻换下一条。
+  if ! timeout 25 git "${CH_ARGS[@]}" "${TUNE[@]}" ls-remote --exit-code "$clone_url" HEAD >/dev/null 2>&1; then
+    echo "[gclone] 通道=${label} 探活失败（ls-remote 拉不到 ref），跳过，不浪费一次 clone 超时"
+    return 1
+  fi
+
+  local attempt=1
+  while [ "$attempt" -le "$RETRIES" ]; do
+    [ -e "$DEST" ] && rm -rf "$DEST"
+    echo "[gclone] 通道=${label}  模式=${MODE}  第 ${attempt}/${RETRIES} 次"
+    local t0 t1 rc
+    t0=$(date +%s)
+    git "${CH_ARGS[@]}" "${TUNE[@]}" clone "${DEPTH_ARGS[@]}" "$clone_url" "$DEST"
+    rc=$?
+    t1=$(date +%s)
+
+    if [ $rc -eq 0 ]; then
+      echo "[gclone] git 退出码 0，用时 $((t1-t0)) 秒。开始验收："
+      if verify_clone "$DEST" "$MODE"; then
+        echo "[gclone] ✅ 完成并通过验收：$((t1-t0)) 秒"
+        if [ "$MODE" = "meta" ]; then
+          # 元数据模式下每次 git show / checkout 都要单独连一次远端取 blob。
+          # 本地 http.proxy 必须清空，**与本次走哪条通道无关**：全局配了
+          # http.proxy=127.0.0.1:7890 时，后续按需取文件会继承它，代理一死就报
+          # 「Failed to connect to gh-proxy.com:443 over proxy 127.0.0.1」。
+          # 2026-10-21 实测踩到：meta 克隆成功（走 ghproxy），随后 checkout 全挂。
+          git -C "$DEST" config http.proxy "" 2>/dev/null
+          git -C "$DEST" config https.proxy "" 2>/dev/null
+          git -C "$DEST" config http.version HTTP/1.1 2>/dev/null
+          echo "[gclone] 已清空本地 http.proxy（否则按需取文件会走全局代理）"
+          if [ "$name" != "ghproxy" ] && [ "$name" != "proxy" ]; then
+            # 直连是间歇性的，所以把按需取文件的远程改到 gh-proxy —— 慢，但每次都能成。
+            git -C "$DEST" config remote.origin.url "${GHPROXY_PREFIX}${URL}" 2>/dev/null
+            echo "[gclone] 按需取文件的远程已切到 gh-proxy（git show 每次都要单独连）"
+          fi
+          echo "[gclone] 读单文件：git -C \"$DEST\" show HEAD:<path>"
+          echo "[gclone] 要工作树：git -C \"$DEST\" sparse-checkout set <dir> && git -C \"$DEST\" checkout"
+        elif [ -f "$DEST/.git/shallow" ]; then
+          # 原文 A2：不要一开始就全量拉，需要时再 `fetch --unshallow` 补（可中断、可重跑）
+          echo "[gclone] 要补完整历史：git -C \"$DEST\" fetch --unshallow"
+        fi
+        return 0
+      fi
+      echo "[gclone] ✗ git 说成功，但验收没过 —— 这条通道的产物不可信，换下一条"
+    else
+      echo "[gclone] ✗ 失败（退出码 $rc，$((t1-t0)) 秒）"
+    fi
+    attempt=$((attempt + 1))
+  done
+  return 1
+}
+
+# ---------------------------------------------------------------- 主循环
+
+if [ -n "$FORCE_CHANNEL" ]; then
+  CHANNELS="$FORCE_CHANNEL"
+fi
+
+# --channel 生效后重算 tarball 用的通道列表：只留**合法**通道名（滤掉 tarball 字面值
+# 与拼错的名字，否则 --channel bogus 会让 tarball 路径也去试 bogus、必然失败）；
+# 若滤完为空（如 --channel tarball），回落到默认三条。
+TAR_CHANNELS=""
+for _c in $CHANNELS; do
+  case "$_c" in
+    proxy|direct|ghproxy) TAR_CHANNELS="${TAR_CHANNELS:+$TAR_CHANNELS }$_c" ;;
+  esac
+done
+[ -z "$TAR_CHANNELS" ] && TAR_CHANNELS="proxy direct ghproxy"
+
+if [ "$MODE" = "tarball" ]; then
+  if run_tarball "$URL" "$DEST" && verify_clone "$DEST" "tarball"; then
+    exit 0
+  fi
+  echo "[gclone] tarball 通道失败。" >&2
+  exit 1
+fi
+
+for ch in $CHANNELS; do
+  if run_channel "$ch"; then
+    exit 0
+  fi
+  echo "[gclone] 通道 $ch 未成功，尝试下一个"
+done
+
+# 所有 git 通道都失败 → 自动退 tarball（原文第 4 节方案 B）
+echo ""
+echo "[gclone] 三条 git 通道都没成，自动退到 tarball 通道（免 git，无历史）"
+if run_tarball "$URL" "$DEST" && verify_clone "$DEST" "tarball"; then
+  exit 0
+fi
+
+echo "" >&2
+echo "[gclone] 所有通道都失败（git × 3 + tarball）。" >&2
+if [ -e "$DEST" ]; then
+  echo "[gclone] 目标目录保留在：$DEST —— 先别删，跑 gclone --verify \"$DEST\" 看看" >&2
+  echo "[gclone] （原文 9.5：不要在失败后立刻删除目录重来，可能已经成功）" >&2
+fi
+echo "[gclone] 下一步：gclone --selfcheck <url>  看这个仓库在各通道上的 ref 可达性" >&2
+exit 1

@@ -1,0 +1,280 @@
+{
+ "city": "中山",
+ "entries": [
+  {
+   "key": "中山|grad_subsidy|市级|普通本科|全日制本科毕业生落户中山津贴 1万元（一次性）",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "普通本科",
+   "unit": "中山市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://hrss.zs.gov.cn/ztzl/byszl/content/post_2135780.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "中山|grad_subsidy|市级|双一流本科|中山未单独区分双一流，本科统一按落户津贴1万元；另中山生源名校毕业生可申领'青年人才奖励金'本科10万元（须中山生源、教",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "双一流本科",
+   "unit": "中山市坦洲镇/市委人才办",
+   "doc_no": "依《中山市青年人才奖励金实施细则》",
+   "date": "",
+   "url": "https://www.zs.gov.cn/tzz/wgk/fwgk/content/post_2528894.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "中山|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "中山市公安局",
+   "doc_no": "《中山市户口登记管理实施细则》",
+   "date": "2025-08-05",
+   "url": "https://gaj.zs.gov.cn/xxml/zfxxgk/gajgzdlyxxgkzl/content/post_2564525.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "中山|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "中山市公安局/中山市人民政府门户",
+   "doc_no": "《中山市户口迁入登记管理规定》解读",
+   "date": "2025-01-01",
+   "url": "https://www.zs.gov.cn/zschq/gkmlpt/content/2/2510/post_2510187.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "中山|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "中山市公安局",
+   "doc_no": "《中山市户口登记管理实施细则》",
+   "date": "2025-08-05",
+   "url": "https://gaj.zs.gov.cn/xxml/zfxxgk/gajgzdlyxxgkzl/content/post_2564525.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "中山|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "中山市公安局",
+   "doc_no": "《中山市户口登记管理实施细则》",
+   "date": "2025-08-05",
+   "url": "https://gaj.zs.gov.cn/xxml/zfxxgk/gajgzdlyxxgkzl/content/post_2564525.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "中山|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "中山市公安局",
+   "doc_no": "《中山市户口登记管理实施细则》",
+   "date": "2025-08-05",
+   "url": "https://gaj.zs.gov.cn/xxml/zfxxgk/gajgzdlyxxgkzl/content/post_2564525.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "中山|welfare|市级|人才公寓/租赁|中山市人才房（租赁型，'只租不卖'），市+镇街筹建目标5000套，市级865套（东区/石岐/西区/港口等）；租金补贴最高",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "人才公寓/租赁",
+   "unit": "中共中山市委组织部、中山市财政局、中山市人社局、中山市住建局",
+   "doc_no": "《中山市人才房管理暂行办法》（业经市政府同意）",
+   "date": "2023-10-23",
+   "url": "https://www.zs.gov.cn/zsgkz/gkmlpt/content/2/2340/post_2340790.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "中山|welfare|市级|子女教育|特聘人才等享子女入学优待：第六层次以上高层次人才子女申请幼儿园/小学/初中新生入学纳入政策照顾生优先安排；从市外转入统筹",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "子女教育",
+   "unit": "中山市网上新闻发布厅（中山市委组织部）",
+   "doc_no": "",
+   "date": "2022-06-16",
+   "url": "https://zsxwfbt.zs.gov.cn/news/index/view/cateid/1148/id/691363.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "中山|welfare|市级|医疗|特聘人才等享医疗服务优待；镇街（如坦洲）提供绿色就医通道、年度免费体检等人才健康服务",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "医疗",
+   "unit": "中山市网上新闻发布厅（中山市委组织部）",
+   "doc_no": "",
+   "date": "2022-06-16",
+   "url": "https://zsxwfbt.zs.gov.cn/news/index/view/cateid/1148/id/691363.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "中山|welfare|市级|数字化平台|广东政务服务网（中山分厅）全流程网办青年后备人才等补贴；'中山人才安居'微信小程序办理人才房租金补贴申请；中山国际人才港",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "数字化平台",
+   "unit": "中山市人力资源和社会保障局",
+   "doc_no": "《关于2025年度市级人才房租金补贴申报的通告》",
+   "date": "2025",
+   "url": "https://hrss.zs.gov.cn/gkmlpt/content/2/2609/mpost_2609903.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "中山|startup|市级|创业担保贷款|个人最高30万元（创业带动5人以上就业可提至50万元）；合伙经营按每人最高30万元、总额最高300万元；小微企业最高50",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业担保贷款",
+   "unit": "中山市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://hrss.zs.gov.cn/ztzl/byszl/content/post_2135780.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "中山|startup|市级|一次性创业补贴|一次性创业资助1万元：在校及毕业5年内高校毕业生等初创企业法定代表人/经营者，登记注册满6个月、申请前连续3个月有在职员",
+   "dim": "startup",
+   "district": "市级",
+   "name": "一次性创业补贴",
+   "unit": "中山市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://hrss.zs.gov.cn/ztzl/byszl/content/post_2135780.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "中山|startup|市级|房租/租金补贴|创业租金补贴：初创企业租赁场地经营（非本人自有物业），每年最高6000元，补贴期限累计不超过3年",
+   "dim": "startup",
+   "district": "市级",
+   "name": "房租/租金补贴",
+   "unit": "中山市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://hrss.zs.gov.cn/ztzl/byszl/content/post_2135780.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "中山|startup|市级|大赛/项目资助|创业项目资助：获省/市政府部门主办的创业大赛前三名并于获奖之日起2年内在中山注册，一次性10万元；留学人员创业园企业最高",
+   "dim": "startup",
+   "district": "市级",
+   "name": "大赛/项目资助",
+   "unit": "中山市人力资源和社会保障局/中山市12345",
+   "doc_no": "",
+   "date": "",
+   "url": "https://hrss.zs.gov.cn/gkmlpt/content/2/2428/post_2428621.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "中山|apply_path|市级|广东政务服务网（中山分厅）|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "广东政务服务网（中山分厅）",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "中山|apply_path|市级|'中山人才安居'微信小程序（人才房租金补贴）|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "'中山人才安居'微信小程序（人才房租金补贴）",
+   "unit": "中山市人力资源和社会保障局",
+   "doc_no": "《关于2025年度市级人才房租金补贴申报的通告》",
+   "date": "2025",
+   "url": "https://hrss.zs.gov.cn/gkmlpt/content/2/2609/mpost_2609903.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "中山|apply_path|市级|公安户政窗口（入户）|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "公安户政窗口（入户）",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "中山|anju_rent2sale|市级|暂未查询到官方公开政策|",
+   "dim": "anju_rent2sale",
+   "district": "市级",
+   "name": "暂未查询到官方公开政策",
+   "unit": "中共中山市委组织部、中山市财政局、中山市人社局、中山市住建局",
+   "doc_no": "《中山市人才房管理暂行办法》",
+   "date": "2023-10-23",
+   "url": "https://www.zs.gov.cn/zsgkz/gkmlpt/content/2/2340/post_2340790.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "中山|anju_subsidy|市级|2025年'新中山人安家中山'活动购房消费券|市财政按购房发票票面金额1%~2.5%补贴电子消费券（数字人民币）",
+   "dim": "anju_subsidy",
+   "district": "市级",
+   "name": "2025年'新中山人安家中山'活动购房消费券",
+   "unit": "中山市住房和城乡建设局",
+   "doc_no": "中建通〔2025〕75号（《实施细则》依此制定）",
+   "date": "2025-12-23",
+   "url": "https://jsj.zs.gov.cn/gkmlpt/content/2/2576/post_2576990.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "中山|anju_enterprise|市级|暂未查询到官方公开政策|",
+   "dim": "anju_enterprise",
+   "district": "市级",
+   "name": "暂未查询到官方公开政策",
+   "unit": "中山火炬高技术产业开发区管理委员会",
+   "doc_no": "《中山火炬高新区人才房管理暂行办法》",
+   "date": "",
+   "url": "https://www.zs.gov.cn/zshjq/gkmlpt/content/2/2394/post_2394729.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "中山|anju_highlevel|市级|A类|特聘A档200万元（50%购房补贴+50%综合补贴，按4:2:4比例分三年发放）；另享子女入学、医疗、住房安居、人才卡等",
+   "dim": "anju_highlevel",
+   "district": "市级",
+   "name": "A类",
+   "unit": "中山市人力资源和社会保障局",
+   "doc_no": "中人社规字〔2023〕6号（综合领域，继续施行至2027-05-31）",
+   "date": "2026-05-29",
+   "url": "https://www.zs.gov.cn/sxz/zcgw/gfxwj/content/post_2620580.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "中山|timing|市级|人才入户新政施行|《中山市户口迁入登记管理规定》自2025-01-01施行，有效期5年（至2029-12-31）；同步取消人才参保/年龄/",
+   "dim": "timing",
+   "district": "市级",
+   "name": "人才入户新政施行",
+   "unit": "中山市公安局/中山市人民政府门户",
+   "doc_no": "《中山市户口迁入登记管理规定》解读",
+   "date": "2025-01-01",
+   "url": "https://www.zs.gov.cn/zschq/gkmlpt/content/2/2510/post_2510187.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "中山|risk|市级|特聘人才购房补贴服务期承诺|特聘人才购房补贴须在支持期（聘期）内新购买住房，次年起顺延发放；支持期结束时仍未在中山购房的不再发放。变更身份为公务员或",
+   "dim": "risk",
+   "district": "市级",
+   "name": "特聘人才购房补贴服务期承诺",
+   "unit": "中山市司法局",
+   "doc_no": "《2025年度'中山英才计划'(涉外法治领域)特聘人才申报公告》",
+   "date": "2025-11-10",
+   "url": "https://www.zs.gov.cn/sfj/gggs/content/post_2563859.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "中山|risk|市级|入户弄虚作假|隐瞒/虚假承诺或伪造、编造虚假申请材料入户的，终止办理；已入户的注销户口、收缴证件、退回原户籍迁出地，并取消按户籍资格获",
+   "dim": "risk",
+   "district": "市级",
+   "name": "入户弄虚作假",
+   "unit": "中山市政务服务和数据管理局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://psc.zs.gov.cn/gkmlpt/content/2/2480/mpost_2480971.html",
+   "problem": "缺文号"
+  }
+ ]
+}

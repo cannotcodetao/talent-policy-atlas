@@ -1,0 +1,170 @@
+{
+ "city": "揭阳",
+ "entries": [
+  {
+   "key": "揭阳|grad_subsidy|市级|普通本科|无急需紧缺人才生活补贴；揭阳户籍应届本科可申请'高校毕业生返乡安家补贴'2万元（分2年等额发放）",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "普通本科",
+   "unit": "揭阳市人力资源和社会保障局",
+   "doc_no": "（揭阳市促进高校毕业生和高技能人才来揭就业创业激励措施）",
+   "date": "2023-11-15（指导清单成文日期）",
+   "url": "http://www.jieyang.gov.cn/jyrsj/gkmlpt/content/0/812/post_812300.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "揭阳|grad_subsidy|市级|专科|无急需紧缺人才生活补贴；揭阳户籍应届大专+技师职业资格证可申请'高校毕业生返乡安家补贴'2万元（分2年等额发放）",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "专科",
+   "unit": "揭阳市人力资源和社会保障局",
+   "doc_no": "（揭阳市促进高校毕业生和高技能人才来揭就业创业激励措施）",
+   "date": "2023-11-15",
+   "url": "http://www.jieyang.gov.cn/jyrsj/gkmlpt/content/0/812/post_812300.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "揭阳|grad_subsidy|揭西县|硕士|一次性补贴安家费12万元",
+   "dim": "grad_subsidy",
+   "district": "揭西县",
+   "name": "硕士",
+   "unit": "中共揭西县委、揭西县人民政府",
+   "doc_no": "",
+   "date": "2021-10-12",
+   "url": "http://www.jiexi.gov.cn/jyjxjyj/gkmlpt/content/0/705/post_705128.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "揭阳|grad_subsidy|揭西县|本科|一次性补贴安家费10万元",
+   "dim": "grad_subsidy",
+   "district": "揭西县",
+   "name": "本科",
+   "unit": "中共揭西县委、揭西县人民政府",
+   "doc_no": "",
+   "date": "2021-10-12",
+   "url": "http://www.jiexi.gov.cn/jyjxjyj/gkmlpt/content/0/705/post_705128.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "揭阳|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "揭阳市人民政府办公室",
+   "doc_no": "（揭阳市推动非户籍人口在城市落户实施方案）",
+   "date": "2017-12-21",
+   "url": "http://www.jieyang.gov.cn/jyga/jwdt/zdlyxxgk/wjgk/content/post_858088.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "揭阳|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "揭阳市人民政府办公室",
+   "doc_no": "（揭阳市推动非户籍人口在城市落户实施方案）",
+   "date": "2017-12-21",
+   "url": "http://www.jieyang.gov.cn/jyga/jwdt/zdlyxxgk/wjgk/content/post_858088.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "揭阳|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "揭阳市人民政府办公室",
+   "doc_no": "（揭阳市推动非户籍人口在城市落户实施方案）",
+   "date": "2017-12-21",
+   "url": "http://www.jieyang.gov.cn/jyga/jwdt/zdlyxxgk/wjgk/content/post_858088.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "揭阳|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "揭阳市人民政府办公室",
+   "doc_no": "（揭阳市推动非户籍人口在城市落户实施方案）",
+   "date": "2017-12-21",
+   "url": "http://www.jieyang.gov.cn/jyga/jwdt/zdlyxxgk/wjgk/content/post_858088.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "揭阳|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "揭阳市人民政府办公室",
+   "doc_no": "（揭阳市推动非户籍人口在城市落户实施方案）",
+   "date": "2017-12-21",
+   "url": "http://www.jieyang.gov.cn/jyga/jwdt/zdlyxxgk/wjgk/content/post_858088.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "揭阳|welfare|市级|子女教育|高层次人才子女在我市就读义务教育阶段学校和幼儿园，无论户籍是否迁入，均享受与我市户籍居民子女同等待遇；A/B类子女由市教",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "子女教育",
+   "unit": "揭阳市教育局",
+   "doc_no": "（揭阳市高层次人才子女入学优待实施办法）",
+   "date": "2021-02-05",
+   "url": "https://rc.jieyang.gov.cn/front/detail_frontRczc.action?rczc.id=18",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "揭阳|welfare|市级|数字化平台|揭阳市人才综合服务平台（rc.jieyang.gov.cn）：办理高层次人才分类认定、调整认定类别、退出高层次人才管理、",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "数字化平台",
+   "unit": "揭阳市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2025-02-20（2025年高层次人才分类认定通知）",
+   "url": "https://rc.jieyang.gov.cn/front/toIndex_home.action",
+   "problem": "缺文号"
+  },
+  {
+   "key": "揭阳|startup|市级|创业担保贷款|高校毕业生最高可申请50万元创业担保贷款，财政贴息；符合条件可申请不超过1年展期还款；小微企业创业担保贷款最高400万元",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业担保贷款",
+   "unit": "揭阳市人力资源和社会保障局",
+   "doc_no": "（揭阳市促进高校毕业生和高技能人才来揭就业创业激励措施）",
+   "date": "2023-11-15",
+   "url": "http://www.jieyang.gov.cn/jyrsj/gkmlpt/content/0/812/post_812300.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "揭阳|startup|市级|一次性创业补贴|一次性创业资助10000元；条件：初创企业法定代表人或经营者属在校及毕业5年内普通高等学校/中等职业学校/技工院校学生、",
+   "dim": "startup",
+   "district": "市级",
+   "name": "一次性创业补贴",
+   "unit": "揭阳市人力资源和社会保障局",
+   "doc_no": "（揭阳市就业创业补贴申请办理指导清单）",
+   "date": "2023-11-15",
+   "url": "http://www.jieyang.gov.cn/jyrsj/gkmlpt/content/0/812/post_812300.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "揭阳|startup|市级|房租/租金补贴|创业租金补贴：每年最高4000元（年租金≥4000元按4000元/年；不足4000元按实际发生额），累计不超过3年；条件",
+   "dim": "startup",
+   "district": "市级",
+   "name": "房租/租金补贴",
+   "unit": "揭阳市人力资源和社会保障局",
+   "doc_no": "（揭阳市就业创业补贴申请办理指导清单）",
+   "date": "2023-11-15",
+   "url": "http://www.jieyang.gov.cn/jyrsj/gkmlpt/content/0/812/post_812300.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "揭阳|apply_path|市级|揭阳市人才综合服务平台（rc.jieyang.gov.cn）；途径一：揭阳市人社局官网(http://www.jieyang.gov.cn/rsj)→'便民服务窗口'→'揭阳市人才综合服务平台'；途径二：'揭阳人才'微信公众号→'办事指南'菜单栏→'人才综合服务平台'；广东政务服务网（gdzwfw.gov.cn）|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "揭阳市人才综合服务平台（rc.jieyang.gov.cn）；途径一：揭阳市人社局官网(http://www.jieyang.gov.cn/rsj)→'便民服务窗口'→'揭阳市人才综合服务平台'；途径二：'揭阳人才'微信公众号→'办事指南'菜单栏→'人才综合服务平台'；广东政务服务网（gdzwfw.gov.cn）",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  }
+ ]
+}

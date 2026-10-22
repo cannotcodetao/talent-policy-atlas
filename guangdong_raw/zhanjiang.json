@@ -1,0 +1,590 @@
+{
+  "city": "湛江",
+  "scope": "市级",
+  "updated": "2026-08-20",
+  "sourceRule": "仅政府单位官网（*.gov.cn）：湛江市人民政府门户、湛江市人社局、湛江市住建局、湛江市公安局、广东政务服务网；排除新闻门户/自媒体/本地宝转载",
+  "dimensions": {
+    "grad_subsidy": {
+      "desc": "毕业生补贴（按学历）",
+      "items": [
+        {
+          "level": "专科",
+          "cash": "粤东粤西粤北地区就业补贴5000元（一次性）",
+          "house_voucher": "",
+          "condition": "毕业2年内到湛江用人单位就业（入编机关事业单位除外），签订1年以上劳动合同并缴社保满6个月以上",
+          "source": {
+            "unit": "湛江市人民政府（新闻发布会）",
+            "doc_no": "",
+            "date": "2025-04",
+            "url": "https://www.zhanjiang.gov.cn/zjsfw/gab/jryw/content/post_2035442.html"
+          },
+          "note": "省级+市级就业补贴；湛江另对灵活就业毕业生给最长3年、缴费额2/3的社保补贴",
+          "district": "市级"
+        },
+        {
+          "level": "普通本科",
+          "cash": "粤东粤西粤北地区就业补贴5000元（一次性）",
+          "house_voucher": "",
+          "condition": "毕业2年内到湛江用人单位就业，签订1年以上劳动合同并缴社保满6个月以上",
+          "source": {
+            "unit": "湛江市人民政府（新闻发布会）",
+            "doc_no": "",
+            "date": "2025-04",
+            "url": "https://www.zhanjiang.gov.cn/zjsfw/gab/jryw/content/post_2035442.html"
+          },
+          "note": "省级就业补贴按'其他'档发放",
+          "district": "市级"
+        },
+        {
+          "level": "双一流本科",
+          "cash": "粤东粤西粤北地区就业补贴5000元（一次性）；未单独设档",
+          "house_voucher": "",
+          "condition": "毕业2年内到湛江用人单位就业，签订1年以上劳动合同并缴社保满6个月以上",
+          "source": {
+            "unit": "湛江市人民政府（新闻发布会）",
+            "doc_no": "",
+            "date": "2025-04",
+            "url": "https://www.zhanjiang.gov.cn/zjsfw/gab/jryw/content/post_2035442.html"
+          },
+          "note": "检索未见双一流本科与普通本科差异政策",
+          "district": "市级"
+        },
+        {
+          "level": "硕士",
+          "cash": "省级就业补贴7000元 + 湛江市生活补贴最高2万元（全日制研究生）",
+          "house_voucher": "",
+          "condition": "毕业2年内就业并缴社保满6个月；生活补贴须为新引进全日制硕士研究生",
+          "source": {
+            "unit": "湛江市商务局/湛江市人民政府",
+            "doc_no": "",
+            "date": "2024-07-22",
+            "url": "https://www.zhanjiang.gov.cn/zjswj/gkmlpt/content/1/1936/post_1936619.html"
+          },
+          "note": "硕士生活补贴省级口径1-2万元，市级'研究生最高2万'；博士后可叠加省资助及湛江最高30万",
+          "district": "市级"
+        },
+        {
+          "level": "博士",
+          "cash": "省级就业补贴1万元 + 湛江市生活补贴最高15万元（博士/博士后）；博士后另享省资助基础最高30万",
+          "house_voucher": "",
+          "condition": "毕业2年内就业并缴社保满6个月；生活补贴须为新引进青年博士/博士后",
+          "source": {
+            "unit": "湛江市人民政府（新闻发布会）/湛江市商务局",
+            "doc_no": "",
+            "date": "2025-04",
+            "url": "https://www.zhanjiang.gov.cn/zjsfw/gab/jryw/content/post_2035442.html"
+          },
+          "note": "商务局口径新引进青年博士/博士后生活补贴5万-70万元；市属事业单位和国企专项招聘博士5年工资福利不低于35万；【来源待升级】当前来源为新闻发布会/媒体转载/问答附件，非政策原文；正式印发件待检索补齐（见待检索清单）。",
+          "district": "市级"
+        },
+        {
+          "district": "雷州市",
+          "official": true,
+          "level": "博士",
+          "cash": "对引进博士每年每人补助16万元",
+          "condition": "依据《雷州市“五大会战”人才工作若干政策》引进到雷州市工作的博士人才",
+          "note": "雷州市委2021年印发的“五大会战”人才政策，2022年雷州市政府网报道仍在落实发放",
+          "source": {
+            "unit": "中共雷州市委（《雷州市“五大会战”人才工作若干政策》，雷州市人民政府网报道）",
+            "doc_no": "",
+            "date": "2022-01-25",
+            "url": "http://www.leizhou.gov.cn/pdml/lgz/zwdt/content/post_1566158.html"
+          }
+        },
+        {
+          "district": "雷州市",
+          "official": true,
+          "level": "硕士",
+          "cash": "对硕士每年每人补助6万元",
+          "condition": "依据《雷州市“五大会战”人才工作若干政策》引进到雷州市工作的硕士研究生",
+          "note": "与博士补贴同文件，按年发放的人才补助",
+          "source": {
+            "unit": "中共雷州市委（《雷州市“五大会战”人才工作若干政策》，雷州市人民政府网报道）",
+            "doc_no": "",
+            "date": "2022-01-25",
+            "url": "http://www.leizhou.gov.cn/pdml/lgz/zwdt/content/post_1566158.html"
+          }
+        },
+        {
+          "district": "雷州市",
+          "official": true,
+          "level": "本科",
+          "cash": "“五大会战”紧缺专业的“985工程”院校本科生每年每人补助6万元",
+          "condition": "“985工程”院校本科毕业且专业属“五大会战”紧缺专业目录，引进到雷州市工作",
+          "note": "雷州将人才补贴范围扩大至部分紧缺专业本科生",
+          "source": {
+            "unit": "中共雷州市委（《雷州市“五大会战”人才工作若干政策》，雷州市人民政府网报道）",
+            "doc_no": "",
+            "date": "2022-01-25",
+            "url": "http://www.leizhou.gov.cn/pdml/lgz/zwdt/content/post_1566158.html"
+          }
+        }
+      ]
+    },
+    "talent_highlevel": {
+      "desc": "高层次人才 A–E 类",
+      "items": [
+        {
+          "class": "A类",
+          "subsidy": "公积金贷款额度上浮100%；人才公寓1元/套·月；生活补贴按引才单位实际支出薪酬30%发放，每年最高60万元，享受期最高5年；29项人才卡便利服务",
+          "source": {
+            "unit": "湛江市人民政府",
+            "doc_no": "湛府规〔2023〕2号",
+            "date": "2023-04-29",
+            "url": "https://www.zhanjiang.gov.cn/zwgk/zfgb/2023/4/content/post_2059040.html"
+          },
+          "note": "A类对应国内外顶尖人才；公积金上浮政策另见公积金中心文件",
+          "district": "市级"
+        },
+        {
+          "class": "B类",
+          "subsidy": "公积金贷款额度上浮50%；人才公寓100元/套·月；生活补贴按引才单位薪酬25%发放，每年最高40万元，享受期最高5年",
+          "source": {
+            "unit": "湛江市人民政府",
+            "doc_no": "湛府规〔2023〕2号",
+            "date": "2023-04-29",
+            "url": "https://www.zhanjiang.gov.cn/zwgk/zfgb/2023/4/content/post_2059040.html"
+          },
+          "note": "B类对应国家级领军人才",
+          "district": "市级"
+        },
+        {
+          "class": "C类",
+          "subsidy": "公积金贷款额度上浮20%；人才公寓5元/㎡·月（须全日制硕士研究生）；生活补贴按引才单位薪酬20%发放，每年最高20万元；全日制硕士另享1-2万元生活补贴",
+          "source": {
+            "unit": "湛江市人民政府/湛江市商务局",
+            "doc_no": "湛府规〔2023〕2号",
+            "date": "2023-04-29",
+            "url": "https://www.zhanjiang.gov.cn/zwgk/zfgb/2023/4/content/post_2059040.html"
+          },
+          "note": "C类对应省级领军人才；副高级职称以上人才生活补贴5-10万元",
+          "district": "市级"
+        },
+        {
+          "class": "青年英才（博士/硕士）",
+          "subsidy": "新引进青年博士和博士后生活补贴5万-70万元；在站博士后省资助基础上另获最高30万元；新引进全日制硕士研究生生活补贴1-2万元",
+          "source": {
+            "unit": "湛江市商务局",
+            "doc_no": "",
+            "date": "2024-07-22",
+            "url": "https://www.zhanjiang.gov.cn/zjswj/gkmlpt/content/1/1936/post_1936619.html"
+          },
+          "note": "湛江未设D/E类，高层次人才仅A/B/C三类",
+          "district": "市级"
+        },
+        {
+          "district": "徐闻县",
+          "official": true,
+          "condition": "全职引进到徐闻县登记注册企业工作的产业人才，与用人单位签订劳动合同或正式协议，本人或配偶、子女在徐闻县首次购买商品住房凭购买合同和完税证明申领购房补贴",
+          "note": "全职引进到徐闻县登记注册企业工作的产业人才，与用人单位签订劳动合同或正式协议，本人或配偶、子女在徐闻县首次购买商品住房凭购买合同和完税证明申领购房补贴；《徐闻县产业人才引进实施办法(试行)》（徐发〔2018〕10号），2024年县官方报道仍列为现行引才配套政策",
+          "source": {
+            "unit": "中共徐闻县委、徐闻县人民政府",
+            "doc_no": "徐发〔2018〕10号",
+            "date": "2018-12-18",
+            "url": "http://www.xuwen.gov.cn/zjxwrsj/attachment/0/242/242993/1998712.pdf"
+          }
+        }
+      ]
+    },
+    "hukou": {
+      "desc": "落户",
+      "items": [
+        {
+          "target": "大专",
+          "rule": "具有国家承认大专以上学历或地级以上市认证中级以上技能/特殊专业人才，与用人单位签聘用（劳动）合同并参加社保，本人及配偶、父母、子女可落户中心城区/城镇；2018-05-20起全面放开高校毕业生落户限制，免人社部门入户证明",
+          "source": {
+            "unit": "湛江市公安局",
+            "doc_no": "",
+            "date": "2018-05-20",
+            "url": "https://www.zhanjiang.gov.cn/zdlyxxgk/tjmxzzlhrydfwgk/content/post_1390033.html"
+          },
+          "district": "市级"
+        },
+        {
+          "target": "本科",
+          "rule": "同上，农村籍高校学生毕业后可凭本人意愿迁入就业/创业地；全面放开高校毕业生落户限制",
+          "source": {
+            "unit": "湛江市人民政府办公室",
+            "doc_no": "湛府办〔2017〕58号",
+            "date": "2017",
+            "url": "https://www.zhanjiang.gov.cn/zdlyxxgk/tjmxzzlhrydfwgk/content/post_1390030.html"
+          },
+          "district": "市级"
+        },
+        {
+          "target": "硕士",
+          "rule": "经认定C类（须全日制硕士）及以上高层次人才，凭《湛江市高层次人才认定证书》直接落户；本人及配偶、父母、子女可随迁",
+          "source": {
+            "unit": "湛江市公安局",
+            "doc_no": "",
+            "date": "2022-05-30",
+            "url": "https://gaj.zhanjiang.gov.cn/zwgk/bmwj/qtwj/content/post_1653691.html"
+          },
+          "district": "市级"
+        },
+        {
+          "target": "博士",
+          "rule": "国内外顶尖/国家级/省级领军人才提供人才引进批复或认定证书即可落户，开辟绿色通道、首接责任民警全流程追踪；配偶父母子女随迁",
+          "source": {
+            "unit": "湛江市公安局",
+            "doc_no": "",
+            "date": "2022-05-30",
+            "url": "https://gaj.zhanjiang.gov.cn/zwgk/bmwj/qtwj/content/post_1653691.html"
+          },
+          "district": "市级"
+        },
+        {
+          "target": "其他通道（租赁/居住证/技能/稳定就业/房屋产权）",
+          "rule": "稳定就业满1年+社保满1年可落户；市区取得房屋产权证可落户；直系亲属投靠不受婚龄年龄限制；经市政府引进人才凭批复或认定证书落户",
+          "source": {
+            "unit": "湛江市人民政府办公室",
+            "doc_no": "湛府办〔2017〕58号",
+            "date": "2017",
+            "url": "https://www.zhanjiang.gov.cn/zdlyxxgk/tjmxzzlhrydfwgk/content/post_1390030.html"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "startup": {
+      "desc": "创业扶持",
+      "items": [
+        {
+          "type": "创业担保贷款",
+          "detail": "个人最高50万元、小微企业最高500万元的创业担保贷款，并可享受最长3年贴息",
+          "source": {
+            "unit": "湛江市人民政府（新闻发布会）",
+            "doc_no": "",
+            "date": "2025-04",
+            "url": "https://www.zhanjiang.gov.cn/zjsfw/gab/jryw/content/post_2035442.html"
+          },
+          "note": "【来源待升级】当前来源为新闻发布会/媒体转载/问答附件，非政策原文；正式印发件待检索补齐（见待检索清单）。",
+          "district": "市级"
+        },
+        {
+          "type": "一次性创业补贴",
+          "detail": "在湛江登记注册的初创企业创业者，可享受最高5.2万元创业补贴",
+          "source": {
+            "unit": "湛江市人民政府（新闻发布会）",
+            "doc_no": "",
+            "date": "2025-04",
+            "url": "https://www.zhanjiang.gov.cn/zjsfw/gab/jryw/content/post_2035442.html"
+          },
+          "note": "【来源待升级】当前来源为新闻发布会/媒体转载/问答附件，非政策原文；正式印发件待检索补齐（见待检索清单）。",
+          "district": "市级"
+        },
+        {
+          "type": "房租/租金补贴",
+          "detail": "入驻政府各类创业孵化基地享受最长3年免租期；自行租赁场地享受最长3年、每年最高6000元租金补贴",
+          "source": {
+            "unit": "湛江市人民政府（新闻发布会）",
+            "doc_no": "",
+            "date": "2025-04",
+            "url": "https://www.zhanjiang.gov.cn/zjsfw/gab/jryw/content/post_2035442.html"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "大赛/项目资助",
+          "detail": "创新创业团队按层次一次性资助：国际领先最高1000万元、国内领先600万元、省内领先400万元；新认定国家级/省级/市级科技企业孵化器分别补助300万/100万/30万，众创空间50万/20万/10万",
+          "source": {
+            "unit": "湛江市人民政府（新闻发布会）/湛江日报",
+            "doc_no": "",
+            "date": "2025-04",
+            "url": "https://www.zhanjiang.gov.cn/zjsfw/gab/jryw/content/post_2035442.html"
+          },
+          "note": "【来源待升级】当前来源为新闻发布会/媒体转载/问答附件，非政策原文；正式印发件待检索补齐（见待检索清单）。",
+          "district": "市级"
+        }
+      ]
+    },
+    "welfare": {
+      "desc": "配套保障",
+      "items": [
+        {
+          "type": "子女教育",
+          "detail": "A/B类持卡人子女由教育行政主管部门就近就便统筹入读义务教育公办学校、普惠性幼儿园；C类就近入学；高中阶段同等条件优先录取；市外转入按户籍生转学规定协调办理",
+          "source": {
+            "unit": "湛江市人民政府",
+            "doc_no": "湛府规〔2023〕2号",
+            "date": "2023-04-29",
+            "url": "https://www.zhanjiang.gov.cn/attachment/0/191/191383/1762082.pdf"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "医疗",
+          "detail": "A/B类持卡人享市内三甲医院特约门诊、优先住院绿色通道，每年一次免费健康体检",
+          "source": {
+            "unit": "湛江市人民政府",
+            "doc_no": "湛府规〔2023〕2号",
+            "date": "2023-04-29",
+            "url": "https://www.zhanjiang.gov.cn/attachment/0/191/191383/1762082.pdf"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "人才公寓/租赁",
+          "detail": "A类1元/套·月、B类100元/套·月、C类5元/平方米·月（C类须全日制硕士）；市中心地段、拎包入住",
+          "source": {
+            "unit": "湛江市人民政府",
+            "doc_no": "湛府规〔2025〕5号",
+            "date": "2025-05-06",
+            "url": "https://www.zhanjiang.gov.cn/zcjd/content/post_2030711.html"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "数字化平台",
+          "detail": "湛江市高层次人才认定系统（一网通办、快办）；市人才驿站及高层次人才一站式服务专区；人才卡关联社保卡享29项便利",
+          "source": {
+            "unit": "湛江市人力资源和社会保障局",
+            "doc_no": "湛府规〔2023〕2号",
+            "date": "2023-04-29",
+            "url": "https://www.zhanjiang.gov.cn/zwgk/zfgb/2023/4/content/post_2059040.html"
+          },
+          "district": "市级"
+        },
+        {
+          "district": "雷州市",
+          "official": true,
+          "condition": "符合人才分类之一且未达法定退休年龄，与雷州市用人单位签订2年以上聘用合同且实际工作地点在雷州市，本人及直属亲戚未在雷州市拥有住房且不享受政府住房政策性福利",
+          "note": "符合人才分类之一且未达法定退休年龄，与雷州市用人单位签订2年以上聘用合同且实际工作地点在雷州市，本人及直属亲戚未在雷州市拥有住房且不享受政府住房政策性福利；2025年11月雷州市政府印发的新修订人才公寓办法，有效期5年，现行有效",
+          "source": {
+            "unit": "雷州市人民政府",
+            "doc_no": "",
+            "date": "2025-11-20",
+            "url": "http://www.leizhou.gov.cn/pdml/srmzfbgs/gzwj/gfxwj/content/mpost_2120290.html"
+          }
+        }
+      ]
+    },
+    "timing": {
+      "desc": "时效提醒",
+      "items": [
+        {
+          "item": "高层次人才认定及人才卡服务实施办法（2023修订版）有效期",
+          "detail": "湛府规〔2023〕2号，2023-04-29印发，有效期3年（至2026-04-28），期满需重新申请认定",
+          "source": {
+            "unit": "湛江市人民政府",
+            "doc_no": "湛府规〔2023〕2号",
+            "date": "2023-04-29",
+            "url": "https://www.zhanjiang.gov.cn/zwgk/zfgb/2023/4/content/post_2059040.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "保障性租赁住房管理办法延期",
+          "detail": "原2024-04-23施行、有效期2年，延长至2029-04-22；适用市区（各县市可参照）",
+          "source": {
+            "unit": "湛江市住房和城乡建设局/信用中国（广东湛江）",
+            "doc_no": "",
+            "date": "2026-04-23",
+            "url": "https://credit.zhanjiang.gov.cn/cms/cmsContent.html?contentId=1808858536787312640&channelCode=ZCFG_BD"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "市区人才公寓管理办法（2025修订）",
+          "detail": "湛府规〔2025〕5号，2025-05-06印发，取代旧版；'只租不售、周转使用'",
+          "source": {
+            "unit": "湛江市人民政府",
+            "doc_no": "湛府规〔2025〕5号",
+            "date": "2025-05-06",
+            "url": "https://www.zhanjiang.gov.cn/zcjd/content/post_2030711.html"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "risk": {
+      "desc": "风险提示（服务期/退还）",
+      "items": [
+        {
+          "item": "领军人才购房补贴服务期承诺与限制交易",
+          "detail": "须与企事业单位签5年及以上劳动合同且剩余服务年限满5年；所购房产5年内限制交易；离职当月起停发；首笔补贴到账30天内须办结单位/政府福利性住房退出；骗取待遇追回并追责",
+          "source": {
+            "unit": "湛江市委人才工作领导小组办公室、湛江市住房和城乡建设局",
+            "doc_no": "",
+            "date": "2022-05",
+            "url": "https://www.zhanjiang.gov.cn/zwgk/zfgb/2022/5/content/post_2064405.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "人才公寓/保障房违规退出与信用",
+          "detail": "转租转借、改变用途、从事违法活动或欠租3个月以上等解除合同收回，3年内不受理申请；虚假材料纳入信用管理；以租代售、违规出售的撤销项目认定并追回奖补",
+          "source": {
+            "unit": "湛江市住房和城乡建设局",
+            "doc_no": "湛府规〔2024〕（保障性租赁住房管理办法）",
+            "date": "2024-04-23",
+            "url": "https://www.zhanjiang.gov.cn/szfwj/content/post_1899007.html"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "apply_path": {
+      "desc": "申报路径",
+      "items": [
+        {
+          "platform": "湛江市高层次人才认定系统（市人社局）；广东政务服务网/粤省事；市行政服务中心住建局窗口",
+          "materials": "高层次人才认定：认定申请表、有效身份证明、业绩/资质证明、聘用合同（创业须营业执照+近半年完税）；购房补贴：劳动合同、社保及个税缴纳证明、新购自住住房证明等",
+          "process": "个人申报→单位审核→报送人社局核准→公示5天→发卡；购房补贴由住建局受理、公示、分5年发放",
+          "phone": "市人社局/市人才服务中心 3119326、3119323；领军人才购房补贴住建局 0759-3588031",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_rent2sale": {
+      "desc": "先租后售人才房",
+      "items": [
+        {
+          "name": "暂未查询到官方公开政策",
+          "unit": "",
+          "effective": "",
+          "expiry": "",
+          "project": "",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "",
+          "person_req": "",
+          "discount": "",
+          "constraint": "",
+          "channel": "",
+          "enterprise_only": "",
+          "official": true,
+          "source": {
+            "unit": "湛江市住房和城乡建设局",
+            "doc_no": "湛府规〔2025〕5号",
+            "date": "2025-05-06",
+            "url": "https://www.zhanjiang.gov.cn/zcjd/content/post_2030711.html"
+          },
+          "note": "湛江人才公寓管理办法明确'只租不售、周转使用、动态管理'，无'租赁+租金抵扣+期满可购'的先租后售政策，故不收录",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_discount": {
+      "desc": "定向优惠价购房",
+      "items": [
+        {
+          "name": "暂未查询到官方公开政策",
+          "unit": "",
+          "effective": "",
+          "expiry": "",
+          "project": "",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "",
+          "person_req": "",
+          "discount": "",
+          "constraint": "",
+          "channel": "",
+          "enterprise_only": "",
+          "official": true,
+          "source": {
+            "unit": "湛江市住房公积金管理中心",
+            "doc_no": "",
+            "date": "2024",
+            "url": "https://www.zhanjiang.gov.cn/zjsfw/bmdh/zfgjj/zwgk/bmwj/gfxwj/content/post_1811335.html"
+          },
+          "note": "未检索到湛江出售型人才房/限价人才房等政府定价优惠购房政策；公积金贷款额度上浮（A类100%/B类50%/C类20%）属信贷优惠，非购房价优惠，不计入本维度",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_subsidy": {
+      "desc": "人才购房补贴/房票",
+      "items": [
+        {
+          "name": "湛江市领军人才购房补贴",
+          "unit": "湛江市委人才工作领导小组办公室、湛江市住房和城乡建设局",
+          "effective": "2018-04-07起可申领（实施细则2022年印发）",
+          "expiry": "",
+          "project": "申请人及其配偶、未成年子女在湛江市新购买的自住住房",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "与我市企事业单位签订5年及以上劳动合同（组织部门任命、大型国企聘任除外）",
+          "person_req": "国内外顶尖/国家级/省级领军人才（对应A/B/C类）；年龄分别65/60/55周岁以下；在湛缴社保满1年；承诺全职在湛工作满5年及以上且剩余服务年限满5年",
+          "discount": "顶尖人才100万元、国家级领军80万元、省级领军60万元购房补贴，自申请成功之年起5年内分年度等额发放；已领省财政购房补贴的可叠加申领",
+          "constraint": "所购房产5年内限制交易；领取补贴后房屋交付使用12个月内本人及配偶不再租住单位（政府）福利性住房；离职当月停发；夫妻按'就高从优不重复'发放；骗补追回并追责",
+          "channel": "向湛江市住房和城乡建设局提交材料办理，电话0759-3588031",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "湛江市委人才工作领导小组办公室、湛江市住房和城乡建设局",
+            "doc_no": "",
+            "date": "2022-05",
+            "url": "https://www.zhanjiang.gov.cn/zwgk/zfgb/2022/5/content/post_2064405.html"
+          },
+          "note": "属政府向个人发放的现金购房补贴，非企业内部分配房；须与企事业单位建立劳动关系（非纯个人），故enterprise_only标'部分'",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_shared": {
+      "desc": "共有产权房",
+      "items": [
+        {
+          "name": "（征求意见稿，尚未正式印发）湛江市共有产权住房管理办法",
+          "unit": "湛江市住房和城乡建设局",
+          "effective": "未生效",
+          "expiry": "",
+          "project": "政府投资建设/企事业单位自有用地自筹/城市更新配建等筹集，单套最大建面不超120㎡",
+          "rent_years": "",
+          "price_base": "按市场价销售，保障对象出资占比即产权比例（无优惠价）",
+          "rent_deduct": "",
+          "biz_req": "企事业单位利用自有建设用地自筹建设，建设单位为政府份额代持机构",
+          "person_req": "本市户籍满5年/新市民连续缴社保5年/经认定的A/B/C类高层次人才及紧缺人才；家庭人均住房使用面积低于13㎡",
+          "discount": "政府与承购人按份共有产权，承购人产权份额=出资÷评估价；不存在优惠价（粤指导意见明确）",
+          "constraint": "封闭运行，取得不动产权证满5年方可转让所持份额；违规申购纳入信用管理",
+          "channel": "向项目所在县（市、区）住房保障部门或代持机构申购",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "湛江市人民政府（住房保障栏目）",
+            "doc_no": "",
+            "date": "2022-08-08",
+            "url": "https://www.zhanjiang.gov.cn/zdlyxxgk/zfbz/zfbz/content/post_1650881.html"
+          },
+          "note": "仅检索到2022-08-08公开征求意见公告，住房保障法规政策清单未见正式印发文件；按市场价销售、无优惠，正式出台前不作为生效政策，需人工复核是否已有终稿",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_enterprise": {
+      "desc": "企业内部福利房",
+      "items": [
+        {
+          "name": "暂未查询到官方公开政策",
+          "unit": "",
+          "effective": "",
+          "expiry": "",
+          "project": "",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "",
+          "person_req": "",
+          "discount": "",
+          "constraint": "",
+          "channel": "",
+          "enterprise_only": "",
+          "official": true,
+          "source": {
+            "unit": "湛江市人民政府",
+            "doc_no": "",
+            "date": "",
+            "url": ""
+          },
+          "note": "未检索到湛江市政府出台的企业/园区整体申购、代持、面向内部员工租赁或出售的福利房政策；保障性租赁住房中'社会组织配租'面向市场非专属内部，不计入本维度",
+          "district": "市级"
+        }
+      ]
+    }
+  }
+}

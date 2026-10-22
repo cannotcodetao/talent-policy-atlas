@@ -1,0 +1,181 @@
+{
+ "city": "梅州",
+ "entries": [
+  {
+   "key": "梅州|grad_subsidy|兴宁市|博士|每月最高给予1.5万元补贴（含绩效补贴、\"青梅计划\"急需紧缺人才生活补贴），补贴时限为10年",
+   "dim": "grad_subsidy",
+   "district": "兴宁市",
+   "name": "博士",
+   "unit": "中共兴宁市委组织部、兴宁市人力资源和社会保障局、兴宁市教育局",
+   "doc_no": "",
+   "date": "2026-03-31",
+   "url": "https://www.xingning.gov.cn/zfjg/xnsrlzyhshbzj/xwdt/rsxx/content/post_2887173.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "梅州|grad_subsidy|兴宁市|硕士|最高10000元/月（紧缺目录Ⅰ、Ⅲ类高校硕士且本科同为Ⅰ、Ⅲ类高校，含绩效补贴与\"青梅计划\"生活补贴），补贴时限10年",
+   "dim": "grad_subsidy",
+   "district": "兴宁市",
+   "name": "硕士",
+   "unit": "中共兴宁市委组织部、兴宁市人力资源和社会保障局、兴宁市教育局",
+   "doc_no": "",
+   "date": "2026-03-31",
+   "url": "https://www.xingning.gov.cn/zfjg/xnsrlzyhshbzj/xwdt/rsxx/content/post_2887173.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "梅州|welfare|平远县||",
+   "dim": "welfare",
+   "district": "平远县",
+   "name": "",
+   "unit": "平远县人民政府（平远县融媒体中心发布于县政府门户网站）",
+   "doc_no": "",
+   "date": "2026-03-11",
+   "url": "https://www.pingyuan.gov.cn/zzfw/zwyw/content/post_2879152.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "梅州|welfare|大埔县||",
+   "dim": "welfare",
+   "district": "大埔县",
+   "name": "",
+   "unit": "大埔县政务服务和数据管理局（大埔县惠民信息平台）",
+   "doc_no": "",
+   "date": "2025-05-09",
+   "url": "https://hm.dabu.gov.cn/show/index/3006",
+   "problem": "缺文号"
+  },
+  {
+   "key": "梅州|startup|市级|创业担保贷款|（1）个人贷款额度最高30万元；创业带动5人以上就业的借款人，个人贷款额度可提高至50万元；（2）合伙经营或创办企业的可",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业担保贷款",
+   "unit": "梅州市人力资源和社会保障局、梅州市人力资源和社会保障局",
+   "doc_no": "（广东省创业担保贷款实施办法，省级政策梅州市执行）",
+   "date": "2025",
+   "url": "https://hqzc.meizhou.gov.cn/home/Index/show?id=199",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "梅州|startup|市级|一次性创业补贴|符合条件的初创企业法人或经营者可获1万元一次性创业资助",
+   "dim": "startup",
+   "district": "市级",
+   "name": "一次性创业补贴",
+   "unit": "梅州市人民政府门户网站（市人社局答复）",
+   "doc_no": "",
+   "date": "2022-11-04",
+   "url": "https://www.meizhou.gov.cn/hdjl/zsk/jyfw/content/post_2407065.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "梅州|startup|市级|房租/租金补贴|符合条件的初创企业法人或经营者可享每年最高4000元租金补贴，最长3年（累计不超过1.2万元）",
+   "dim": "startup",
+   "district": "市级",
+   "name": "房租/租金补贴",
+   "unit": "梅州市人民政府门户网站（市人社局答复）",
+   "doc_no": "",
+   "date": "2022-11-04",
+   "url": "https://www.meizhou.gov.cn/hdjl/zsk/jyfw/content/post_2407065.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "梅州|startup|市级|大赛/项目资助|（1）创新创业团队：落户梅州实施重大产业发展项目的创新创业团队，按三档分别给予1000万元、500万元、300万元项目经",
+   "dim": "startup",
+   "district": "市级",
+   "name": "大赛/项目资助",
+   "unit": "梅州市人民政府办公室",
+   "doc_no": "梅市明电〔2023〕12号（鸿雁计划）",
+   "date": "2023",
+   "url": "https://mzrc.meizhou.gov.cn/home/Index/show/282",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "梅州|apply_path|市级|梅州市人才综合管理服务平台（mzrc.meizhou.gov.cn）|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "梅州市人才综合管理服务平台（mzrc.meizhou.gov.cn）",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "梅州|apply_path|市级|广东公共就业服务云平台（ggfw.hrss.gd.gov.cn/employment/internet/portal/#/home）|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "广东公共就业服务云平台（ggfw.hrss.gd.gov.cn/employment/internet/portal/#/home）",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "梅州|apply_path|市级|梅州市政务服务中心（线下窗口）|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "梅州市政务服务中心（线下窗口）",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "梅州|apply_path|市级|广东政务服务网 / 梅州住房公积金网上办事大厅 / “梅州公积金”微信公众号|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "广东政务服务网 / 梅州住房公积金网上办事大厅 / “梅州公积金”微信公众号",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "梅州|apply_path|市级|青梅计划申报（线下集中申报）|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "青梅计划申报（线下集中申报）",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "梅州|anju_subsidy|市级|梅州市住房公积金人才贷款上浮政策|（1）青梅计划人才：贷款额度在最高限额基础上上浮20%（2026年5月1日后双方最高90万元、单方60万元）；（2）高层",
+   "dim": "anju_subsidy",
+   "district": "市级",
+   "name": "梅州市住房公积金人才贷款上浮政策",
+   "unit": "梅州市住房公积金管理中心（发布于市住建局频道）",
+   "doc_no": "梅市公积金委〔2025〕9号（2025年9月15日施行）+ 2026年公积金新政（2026年5月1日施行）",
+   "date": "2026-04",
+   "url": "https://www.meizhou.gov.cn/zwgk/zfjg/szfhcxjsj/fdcy/content/post_2904738.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "梅州|timing|市级|2026年5月1日梅州公积金新政施行|梅州市住房公积金管理中心发布新政：以家庭为单位夫妻双方均缴存公积金最高贷款额度由65万元提高至75万元；单方缴存由45万",
+   "dim": "timing",
+   "district": "市级",
+   "name": "2026年5月1日梅州公积金新政施行",
+   "unit": "梅州市住房公积金管理中心（发布于市住建局频道）",
+   "doc_no": "",
+   "date": "2026-04",
+   "url": "https://www.meizhou.gov.cn/zwgk/zfjg/szfhcxjsj/fdcy/content/post_2904738.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "梅州|risk|市级|创业担保贷款征信风险|创业担保贷款违约将上征信；借款人与借款企业承担LPR-150BP以下部分利息，财政贴息剩余部分；若提供虚假材料骗取贷款/",
+   "dim": "risk",
+   "district": "市级",
+   "name": "创业担保贷款征信风险",
+   "unit": "梅州市人力资源和社会保障局",
+   "doc_no": "（广东省创业担保贷款实施办法，省级政策梅州市执行）",
+   "date": "2025",
+   "url": "https://hqzc.meizhou.gov.cn/home/Index/show?id=199",
+   "problem": "文号非标准形态"
+  }
+ ]
+}

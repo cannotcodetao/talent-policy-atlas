@@ -1,0 +1,269 @@
+{
+ "city": "江门",
+ "entries": [
+  {
+   "key": "江门|grad_subsidy|江海区|硕士|对新引进全职来江海区工作的E类人才（全日制硕士研究生）给予每人每月住房和生活补贴各1300元，最长期限3年",
+   "dim": "grad_subsidy",
+   "district": "江海区",
+   "name": "硕士",
+   "unit": "江门市江海区人民政府",
+   "doc_no": "",
+   "date": "2022-08-01（施行）",
+   "url": "http://www.jianghai.gov.cn/kxjsj/gkmlpt/content/2/2670/post_2670003.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|grad_subsidy|江海区|本科|对新引进全职来江海区工作的F类人才（全日制本科毕业生）给予每人每月住房和生活补贴各800元，最长期限3年",
+   "dim": "grad_subsidy",
+   "district": "江海区",
+   "name": "本科",
+   "unit": "江门市江海区人民政府",
+   "doc_no": "",
+   "date": "2022-08-01（施行）",
+   "url": "http://www.jianghai.gov.cn/kxjsj/gkmlpt/content/2/2670/post_2670003.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|grad_subsidy|鹤山市|硕士|硕士研究生9万元，每年3万元，享受期最长3年",
+   "dim": "grad_subsidy",
+   "district": "鹤山市",
+   "name": "硕士",
+   "unit": "鹤山市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.heshan.gov.cn/attachment/0/173/173252/2535334.pdf",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|grad_subsidy|鹤山市|博士|博士20万元、出站博士后30万元，均按50%、50%比例分2年发放；国（境）外引进的博士、出站博士后在以上补贴基础上再增",
+   "dim": "grad_subsidy",
+   "district": "鹤山市",
+   "name": "博士",
+   "unit": "鹤山市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.heshan.gov.cn/attachment/0/173/173252/2535334.pdf",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "江门市人民政府",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.jiangmen.gov.cn/gkmlpt/content/2/2073/post_2073262.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "江门市人民政府",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.jiangmen.gov.cn/gkmlpt/content/2/2073/post_2073262.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "江门市人民政府",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.jiangmen.gov.cn/gkmlpt/content/2/2073/post_2073262.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "江门市人民政府",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.jiangmen.gov.cn/gkmlpt/content/2/2073/post_2073262.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "江门市人民政府",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.jiangmen.gov.cn/gkmlpt/content/2/2073/post_2073262.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|welfare|市级|子女教育|“侨才通”人才服务体系涵盖政务服务、文娱休闲等11大板块超100项服务，子女教育优待未单列细则",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "子女教育",
+   "unit": "江门市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.jiangmen.gov.cn/home/bmdt/content/post_3262768.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|welfare|市级|医疗|“侨才通”提供医疗保健服务；高层次人才就医绿色通道",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "医疗",
+   "unit": "江门市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.jiangmen.gov.cn/home/bmdt/content/post_3262768.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|startup|市级|创业担保贷款|个人最高50万元、期限最长3年，政府贴息50%；合伙经营可捆绑贷款最高300万元",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业担保贷款",
+   "unit": "江门市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.jiangmen.gov.cn/bmpd/jmsrlzyhshbzj/zwgk/gzdt/content/post_3382283.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|startup|市级|一次性创业补贴|初创企业法定代表人可申领1万元一次性补贴",
+   "dim": "startup",
+   "district": "市级",
+   "name": "一次性创业补贴",
+   "unit": "江门市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.jiangmen.gov.cn/bmpd/jmsrlzyhshbzj/zwgk/gzdt/content/post_3382283.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|startup|市级|房租/租金补贴|创业租金补贴每年最高6000元、最长3年；23家公益性创业孵化基地提供最长3年零租金、物管、水电网络费扶持",
+   "dim": "startup",
+   "district": "市级",
+   "name": "房租/租金补贴",
+   "unit": "江门市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.jiangmen.gov.cn/bmpd/jmsrlzyhshbzj/zwgk/gzdt/content/post_3382283.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|apply_path|市级|江门人才安居乐业生态园信息系统(https://rsfw.jiangmen.cn/rc)；线下递交纸质材料至属地人社部门|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "江门人才安居乐业生态园信息系统(https://rsfw.jiangmen.cn/rc)；线下递交纸质材料至属地人社部门",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|apply_path|市级|江门市房屋交易“云链签”微信小程序|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "江门市房屋交易“云链签”微信小程序",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|apply_path|市级|各县(市、区)人力资源社会保障部门组织申报；广东政务服务网/粤省事|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "各县(市、区)人力资源社会保障部门组织申报；广东政务服务网/粤省事",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|anju_rent2sale|市级|暂未查询到官方公开政策|",
+   "dim": "anju_rent2sale",
+   "district": "市级",
+   "name": "暂未查询到官方公开政策",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|anju_subsidy|江海区||",
+   "dim": "anju_subsidy",
+   "district": "江海区",
+   "name": "",
+   "unit": "江门市江海区人民政府",
+   "doc_no": "",
+   "date": "2022-08-01（施行）",
+   "url": "http://www.jianghai.gov.cn/kxjsj/gkmlpt/content/2/2670/post_2670003.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|anju_subsidy|台山市||",
+   "dim": "anju_subsidy",
+   "district": "台山市",
+   "name": "",
+   "unit": "台山市住房和城乡建设局、台山市财政局",
+   "doc_no": "",
+   "date": "2026-05-29",
+   "url": "http://www.cnts.gov.cn/zfgzbm/szfhcxjsj/zwgk/zfxxgkml/bmwj/content/post_3499327.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|anju_subsidy|鹤山市||",
+   "dim": "anju_subsidy",
+   "district": "鹤山市",
+   "name": "",
+   "unit": "鹤山市住房和城乡建设局、鹤山市财政局",
+   "doc_no": "",
+   "date": "2026-05-08",
+   "url": "https://www.heshan.gov.cn/zwgk/xxgk/hsszfhcxjsj/gzdt/gzdt/content/post_3487327.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|anju_enterprise|蓬江区|蓬江区重点企业(项目)人才住房配租 + 园区/企业人才公寓|租住人才住房可减免一定面积租金（按人才层级）；超出优惠面积部分按配租基准价",
+   "dim": "anju_enterprise",
+   "district": "蓬江区",
+   "name": "蓬江区重点企业(项目)人才住房配租 + 园区/企业人才公寓",
+   "unit": "蓬江区住房城乡建设局",
+   "doc_no": "蓬江府〔2025〕3号（解读）",
+   "date": "2025-05-20",
+   "url": "https://www.pjq.gov.cn/zwgk/zcfg/zcjd/content/post_3301733.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "江门|anju_highlevel|市级|顶尖人才|住房公积金贷款额度最高600万元；蓬江区可免费提供120㎡以上、150㎡以内人才住房，全职工作满3年后赠与个人",
+   "dim": "anju_highlevel",
+   "district": "市级",
+   "name": "顶尖人才",
+   "unit": "江门市人力资源和社会保障局（公积金分层见引才宣介）",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.jiangmen.gov.cn/home/bmdt/content/post_3262768.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "江门|anju_highlevel|市级|急需紧缺产业人才（综合性）|在江门企业工作并被认定/评定为急需紧缺人才的，给予最高150万元综合性补贴（含生活补贴与购房补贴）；产业人才最高生活补贴",
+   "dim": "anju_highlevel",
+   "district": "市级",
+   "name": "急需紧缺产业人才（综合性）",
+   "unit": "江门市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.jiangmen.gov.cn/home/bmdt/content/post_3262768.html",
+   "problem": "缺文号"
+  }
+ ]
+}

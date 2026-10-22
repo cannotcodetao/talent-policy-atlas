@@ -1,0 +1,225 @@
+{
+ "city": "丽水",
+ "entries": [
+  {
+   "key": "丽水|grad_subsidy|市级|专科|就业奖补 1万（满12个月）+ 连续工作满5年再给 1万留丽就业奖励",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "专科",
+   "unit": "丽水经济技术开发区人才科技服务中心（公示引用丽委人〔2022〕2号）",
+   "doc_no": "丽委人〔2022〕2号《关于加快新时代人才科技跨越式高质量发展的实施意见》",
+   "date": "2025-10-24",
+   "url": "https://kfq.lishui.gov.cn/art/2025/10/24/art_1229215647_5666490.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "丽水|grad_subsidy|市级|普通本科|就业奖补 2万（满12个月）+ 满5年再给 2万留丽奖励",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "普通本科",
+   "unit": "丽水经济技术开发区人才科技服务中心（公示引用丽委人〔2022〕2号）",
+   "doc_no": "丽委人〔2022〕2号《关于加快新时代人才科技跨越式高质量发展的实施意见》",
+   "date": "2025-10-24",
+   "url": "https://kfq.lishui.gov.cn/art/2025/10/24/art_1229215647_5666490.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "丽水|grad_subsidy|市级|硕士|就业奖补 4万（满12个月）+ 满5年再给 4万留丽奖励",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "硕士",
+   "unit": "丽水经济技术开发区人才科技服务中心（公示引用丽委人〔2022〕2号）",
+   "doc_no": "丽委人〔2022〕2号《关于加快新时代人才科技跨越式高质量发展的实施意见》",
+   "date": "2025-10-24",
+   "url": "https://kfq.lishui.gov.cn/art/2025/10/24/art_1229215647_5666490.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "丽水|grad_subsidy|市级|博士|就业补贴 10000元/年×3年",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "博士",
+   "unit": "丽水经济技术开发区人才科技服务中心（公示引用丽委人〔2022〕2号）",
+   "doc_no": "丽委人〔2022〕2号《关于加快新时代人才科技跨越式高质量发展的实施意见》",
+   "date": "2025-10-24",
+   "url": "https://kfq.lishui.gov.cn/art/2025/10/24/art_1229215647_5666490.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "丽水|grad_subsidy|缙云县|专科本科|毕业5年以内到中小微企业就业的高校毕业生，按专科本科、硕士研究生、博士研究生分别给予个人每年3000元、5000元、10",
+   "dim": "grad_subsidy",
+   "district": "缙云县",
+   "name": "专科本科",
+   "unit": "缙云县人力资源和社会保障局",
+   "doc_no": "《缙云县推动就业创业高质量发展的实施细则》",
+   "date": "2023-04-10",
+   "url": "https://www.jinyun.gov.cn/art/2023/4/10/art_1229426223_2473523.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "丽水|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "丽水市公安局/浙江政务服务网",
+   "doc_no": "《丽水市户口迁移规定》",
+   "date": "",
+   "url": "https://www.zjzwfw.gov.cn/zjservice/item/detail/index.do?localInnerCode=09faa966-73ae-4b4e-848e-e7addca77088&webId=94",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "丽水|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "丽水市公安局/浙江政务服务网",
+   "doc_no": "《丽水市户口迁移规定》",
+   "date": "",
+   "url": "https://www.zjzwfw.gov.cn/zjservice/item/detail/index.do?localInnerCode=09faa966-73ae-4b4e-848e-e7addca77088&webId=94",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "丽水|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "丽水市公安局/浙江政务服务网",
+   "doc_no": "《丽水市户口迁移规定》",
+   "date": "",
+   "url": "https://www.zjzwfw.gov.cn/zjservice/item/detail/index.do?localInnerCode=09faa966-73ae-4b4e-848e-e7addca77088&webId=94",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "丽水|startup|市级|一次性创业补贴|重点人群（在校大学生和毕业10年内高校毕业生等）初次创业正常经营满6个月，给予 10000元",
+   "dim": "startup",
+   "district": "市级",
+   "name": "一次性创业补贴",
+   "unit": "丽水市人社局",
+   "doc_no": "《支持多渠道灵活就业的实施意见》等（政协答复援引）",
+   "date": "2024",
+   "url": "https://www.lishui.gov.cn/art/2024/11/29/art_1229830579_5415845.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "丽水|startup|市级|一次性创业社保补贴|重点人群创业正常经营缴社保满1年，给予 5000元",
+   "dim": "startup",
+   "district": "市级",
+   "name": "一次性创业社保补贴",
+   "unit": "丽水市人社局",
+   "doc_no": "《支持多渠道灵活就业的实施意见》等",
+   "date": "2024",
+   "url": "https://www.lishui.gov.cn/art/2024/11/29/art_1229830579_5415845.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "丽水|startup|市级|创业场地租金补贴|最高 5000元/年",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业场地租金补贴",
+   "unit": "丽水市人社局",
+   "doc_no": "《支持多渠道灵活就业的实施意见》等",
+   "date": "2024",
+   "url": "https://www.lishui.gov.cn/art/2024/11/29/art_1229830579_5415845.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "丽水|startup|市级|创业带动就业补贴|最高 20000元",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业带动就业补贴",
+   "unit": "丽水市人社局",
+   "doc_no": "《支持多渠道灵活就业的实施意见》等",
+   "date": "2024",
+   "url": "https://www.lishui.gov.cn/art/2024/11/29/art_1229830579_5415845.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "丽水|startup|市级|养老/家政/现代农业企业补贴|在校大学生和毕业5年内高校毕业生初次创办，第一年5万、第二年3万、第三年2万（最高10万）",
+   "dim": "startup",
+   "district": "市级",
+   "name": "养老/家政/现代农业企业补贴",
+   "unit": "丽水市人社局",
+   "doc_no": "《支持多渠道灵活就业的实施意见》等",
+   "date": "2024",
+   "url": "https://www.lishui.gov.cn/art/2024/11/29/art_1229830579_5415845.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "丽水|startup|市级|创业担保贷款|个人最高 80万，贴息最高 LPR+2%",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业担保贷款",
+   "unit": "丽水市人社局",
+   "doc_no": "《支持多渠道灵活就业的实施意见》等",
+   "date": "2024",
+   "url": "https://www.lishui.gov.cn/art/2024/11/29/art_1229830579_5415845.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "丽水|welfare|市级|租房补贴|高校毕业生租房补贴：全日制专科 1.8万元、本科 1.8万元、硕士 1.8万元、博士 1.8万元（均为每年6000元、补",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "租房补贴",
+   "unit": "丽水市人力资源和社会保障局",
+   "doc_no": "高校毕业生来丽人才政策指引（丽委人〔2022〕2号体系）",
+   "date": "2025",
+   "url": "https://kfq.lishui.gov.cn/art/2025/10/24/art_1229215647_5666490.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "丽水|apply_path|市级|浙里办/浙江政务服务网『人才引进落户』『一次性创业补贴申领』等|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "浙里办/浙江政务服务网『人才引进落户』『一次性创业补贴申领』等",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "丽水|anju_subsidy|莲都区|莲都区'房产新政十三条'人才购房补贴|人才购房补贴8至20万元（专科至E类及以上人才按类别分档）",
+   "dim": "anju_subsidy",
+   "district": "莲都区",
+   "name": "莲都区'房产新政十三条'人才购房补贴",
+   "unit": "莲都区建设局",
+   "doc_no": "",
+   "date": "2026-07-01",
+   "url": "https://www.lishui.gov.cn/col/col1229218390/art/2026/art_fa7395f8efdd4a82bd6f78a0e322bb47.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "丽水|anju_subsidy|市级|丽水市高校毕业生房票补助（市级新政）|全日制本科按购房成交价10%补助、最高10万元；硕士按购房成交价20%补助、最高20万元",
+   "dim": "anju_subsidy",
+   "district": "市级",
+   "name": "丽水市高校毕业生房票补助（市级新政）",
+   "unit": "丽水市人民政府办公室",
+   "doc_no": "《关于调整若干就业创业政策的通知》（2026-08-14印发）",
+   "date": "2026-08-14",
+   "url": "https://www.lishui.gov.cn/col/col1229283444/art/2026/art_a85bb53a1397448d9bab078239a222b0.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "丽水|anju_subsidy|龙泉市||",
+   "dim": "anju_subsidy",
+   "district": "龙泉市",
+   "name": "",
+   "unit": "中共龙泉市委教育科技人才一体化委员会人才工作办公室、龙泉市人力资源和社会保障局",
+   "doc_no": "龙委办发〔2020〕22号（A-F类依据）",
+   "date": "2026-09-02",
+   "url": "https://www.longquan.gov.cn/col/col1229426307/art/2026/art_d82307af29839cd49d59040c758c4f87.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "丽水|anju_subsidy|松阳县||",
+   "dim": "anju_subsidy",
+   "district": "松阳县",
+   "name": "",
+   "unit": "松阳县人民政府新闻办",
+   "doc_no": "见《“青松向阳”青年发展新政十条》",
+   "date": "2022-05-09",
+   "url": "https://xyls.lishui.gov.cn/art/2022/5/9/art_1229636750_496.html",
+   "problem": "文号非标准形态"
+  }
+ ]
+}

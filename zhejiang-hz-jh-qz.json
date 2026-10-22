@@ -1,0 +1,172 @@
+{
+  "湖州": {
+    "grad_subsidy": {
+      "items": [
+        {"level": "专科", "cash": "租房补贴400元/月，最长36个月", "house_voucher": "购房补贴3-5万（分3年40%/40%/20%拨付）", "condition": "在湖企业/科研院所就业，承诺在湖工作，连续社保满6个月", "source": {"unit": "湖州市委人才办、市人社局", "doc_no": "室字〔2024〕49号", "date": "2024-12", "url": "https://hrss.huzhou.gov.cn/col/col1229208354/art/2026/art_3f7fd1b4868f78fccf50fd43f62dff6e.html"}, "note": "购房/租房标准以吴兴、南浔、南太湖新区执行细则为准"},
+        {"level": "普通本科", "cash": "租房补贴500元/月，最长36个月", "house_voucher": "购房补贴5万（分3年40%/40%/20%）", "condition": "在湖企业/科研院所就业，承诺在湖工作", "source": {"unit": "湖州市委人才办、市人社局", "doc_no": "室字〔2024〕49号", "date": "2024-12", "url": "https://hrss.huzhou.gov.cn/col/col1229208354/art/2026/art_3f7fd1b4868f78fccf50fd43f62dff6e.html"}, "note": ""},
+        {"level": "双一流本科", "cash": "租房补贴500元/月，最长36个月", "house_voucher": "购房补贴5万（参照本科档）", "condition": "在湖企业/科研院所就业，承诺在湖工作", "source": {"unit": "湖州市委人才办、市人社局", "doc_no": "室字〔2024〕49号", "date": "2024-12", "url": "https://hrss.huzhou.gov.cn/col/col1229208354/art/2026/art_3f7fd1b4868f78fccf50fd43f62dff6e.html"}, "note": "双一流本科购房是否上浮存疑"},
+        {"level": "硕士", "cash": "租房补贴1000元/月，最长36个月", "house_voucher": "购房补贴15万（分3年40%/40%/20%）", "condition": "在湖企业/科研院所就业，承诺在湖工作", "source": {"unit": "湖州市委人才办、市人社局", "doc_no": "室字〔2024〕49号", "date": "2024-12", "url": "https://hrss.huzhou.gov.cn/col/col1229208354/art/2026/art_3f7fd1b4868f78fccf50fd43f62dff6e.html"}, "note": ""},
+        {"level": "博士", "cash": "租房补贴1500元/月，最长36个月", "house_voucher": "购房补贴35万（分3年40%/40%/20%）", "condition": "在湖企业/科研院所就业，承诺在湖工作", "source": {"unit": "湖州市委人才办、市人社局", "doc_no": "室字〔2024〕49号", "date": "2024-12", "url": "https://hrss.huzhou.gov.cn/col/col1229208354/art/2026/art_3f7fd1b4868f78fccf50fd43f62dff6e.html"}, "note": ""}
+      ]
+    },
+    "talent_highlevel": {
+      "items": [
+        {"class": "南太湖精英计划（领军型创业团队A类）", "subsidy": "创业项目最高1000万资助；注册企业5年免租创业场所或租金补贴；贷款1000万内贴息、最高1000万担保", "source": {"unit": "湖州市委人才办（市专项办）", "doc_no": "南太湖精英计划", "date": "2021-04-26", "url": "https://zhrc.huzhou.gov.cn/zck/nthjyjh/20210426/i7885.html"}, "note": ""},
+        {"class": "创新领军人才/团队", "subsidy": "薪酬补助最高500万；安家、购房、租房补贴合计最高600万", "source": {"unit": "湖州市委人才办", "doc_no": "南太湖精英计划", "date": "2020-02-25", "url": "https://zzb.huzhou.gov.cn/gsgg/20200225/i2622846.html"}, "note": ""}
+      ]
+    },
+    "hukou": {
+      "items": [
+        {"target": "专科及以上学历毕业生", "rule": "浙江省全面放开专科以上落户限制，湖州执行；高校毕业生可先落户后就业", "source": {"unit": "湖州市公安局", "doc_no": "户口迁移相关规定", "date": "2025", "url": "https://www.huzhou.gov.cn/col/col1229561842/art/2025/art_482e7929b336494aa7cd8d3e4f9b0196.html"}},
+        {"target": "硕士、博士等高层次人才", "rule": "先落户后就业，可在城镇合法稳定住所或单位集体户落户", "source": {"unit": "湖州市公安局", "doc_no": "户口迁移相关规定", "date": "2025", "url": "https://www.huzhou.gov.cn/col/col1229561842/art/2025/art_482e7929b336494aa7cd8d3e4f9b0196.html"}}
+      ]
+    },
+    "startup": {
+      "items": [
+        {"type": "就业补贴", "detail": "毕业5年内在湖就业，按学历给予就业补贴最高1.5万/年", "source": {"unit": "湖州市人社局", "doc_no": "支持就业创业意见", "date": "2024", "url": "https://hrss.huzhou.gov.cn/col/col1229208340/art/2024/art_121423284.html"}},
+        {"type": "创业担保贷款", "detail": "个人创业担保贷款最高100万，小微企业最高500万，给予贴息", "source": {"unit": "湖州市人社局", "doc_no": "支持就业创业意见", "date": "2024", "url": "https://hrss.huzhou.gov.cn/col/col1229208340/art/2024/art_121423284.html"}}
+      ]
+    },
+    "welfare": {
+      "items": [
+        {"type": "数字化平台", "detail": "湖州市智慧人才综合服务平台（zhrc.huzhou.gov.cn），集成人才码、补贴申领", "source": {"unit": "湖州市委人才办", "doc_no": "南太湖精英计划申报", "date": "2021-05-10", "url": "https://zhrc.huzhou.gov.cn/zck/zcdx/dxs/rzfw/20210510/i7971.html"}},
+        {"type": "子女教育医疗", "detail": "南太湖精英计划入选人才凭湖州服务绿卡享子女入学、医疗保健、家属就业待遇", "source": {"unit": "湖州市委人才办", "doc_no": "南太湖精英计划", "date": "2020-02-25", "url": "https://zzb.huzhou.gov.cn/gsgg/20200225/i2622846.html"}}
+      ]
+    },
+    "timing": {
+      "items": [
+        {"item": "毕业生购房/租房补贴过渡期", "detail": "室字〔2024〕49号设过渡期2025-01-01至2026-12-31，2027-01-01起不再受理旧标补贴", "source": {"unit": "湖州市委人才办、市人社局", "doc_no": "室字〔2024〕49号", "date": "2024-12", "url": "https://hrss.huzhou.gov.cn/col/col1229208354/art/2026/art_3f7fd1b4868f78fccf50fd43f62dff6e.html"}},
+        {"item": "支持就业创业意见有效期", "detail": "就业补贴、创业担保贷款等政策有效期至2026-12-31，到期换版另行通知", "source": {"unit": "湖州市人社局", "doc_no": "支持就业创业意见", "date": "2024", "url": "https://hrss.huzhou.gov.cn/col/col1229208340/art/2024/art_121423284.html"}}
+      ]
+    },
+    "risk": {
+      "items": [
+        {"item": "服务期未满退还", "detail": "购房补贴分3年40%/40%/20%拨付，承诺服务期未满按比例退还已发补贴", "source": {"unit": "湖州市委人才办、市人社局", "doc_no": "室字〔2024〕49号", "date": "2024-12", "url": "https://hrss.huzhou.gov.cn/col/col1229208354/art/2026/art_3f7fd1b4868f78fccf50fd43f62dff6e.html"}},
+        {"item": "购房补贴限售", "detail": "享受购房补贴房产设限售期（参照5年），提前上市须退回补贴，具体年限以区细则为准", "source": {"unit": "湖州市委人才办、市人社局", "doc_no": "室字〔2024〕49号", "date": "2024-12", "url": "https://hrss.huzhou.gov.cn/col/col1229208354/art/2026/art_3f7fd1b4868f78fccf50fd43f62dff6e.html"}, "note": "限售具体年限未在主文明确，存疑"},
+        {"item": "骗补征信后果", "detail": "补贴资金专账管理、专款专用，虚报骗取的予以追缴并纳入失信记录", "source": {"unit": "湖州市委人才办", "doc_no": "南太湖精英计划", "date": "2020-02-25", "url": "https://zzb.huzhou.gov.cn/gsgg/20200225/i2622846.html"}}
+      ]
+    },
+    "apply_path": {
+      "platform": "湖州市智慧人才综合服务平台（zhrc.huzhou.gov.cn）/ 浙里办",
+      "materials": "学历学位证、社保缴纳证明、劳动合同、购房/租房合同等",
+      "process": "平台注册申报→区县专项办形式审查→部门复审→拨付（购房分3年）",
+      "phone": "0572-2398706（南太湖精英计划）；0572-2661898/2661890/2221297"
+    }
+  },
+  "金华": {
+    "grad_subsidy": {
+      "items": [
+        {"level": "专科", "cash": "租房400元/月×36月；大学生礼包1200元", "house_voucher": "购房补助4万", "condition": "在金企业/科研院所就业，承诺在金工作5年，连续社保", "source": {"unit": "金华市人社局", "doc_no": "金人社发〔2023〕13号", "date": "2023-03-27", "url": "https://www.jinhua.gov.cn/art/2023/3/27/art_1229715437_1797752.html"}, "note": ""},
+        {"level": "普通本科", "cash": "租房600元/月×36月；礼包1500元", "house_voucher": "购房补助8万", "condition": "在金就业，承诺在金工作5年", "source": {"unit": "金华市人社局", "doc_no": "金人社发〔2023〕13号", "date": "2023-03-27", "url": "https://www.jinhua.gov.cn/art/2023/3/27/art_1229715437_1797752.html"}, "note": ""},
+        {"level": "双一流本科", "cash": "租房800元/月×36月；礼包2200元", "house_voucher": "购房补助15万", "condition": "在金就业，承诺在金工作5年", "source": {"unit": "金华市人社局", "doc_no": "金人社发〔2023〕13号", "date": "2023-03-27", "url": "https://www.jinhua.gov.cn/art/2023/3/27/art_1229715437_1797752.html"}, "note": ""},
+        {"level": "硕士", "cash": "租房1000元/月×36月；礼包2200元", "house_voucher": "购房补助20万", "condition": "在金就业，承诺在金工作5年", "source": {"unit": "金华市人社局", "doc_no": "金人社发〔2023〕13号", "date": "2023-03-27", "url": "https://www.jinhua.gov.cn/art/2023/3/27/art_1229715437_1797752.html"}, "note": ""},
+        {"level": "博士", "cash": "租房1500元/月×36月；礼包3000元", "house_voucher": "购房补助40万", "condition": "在金就业，承诺在金工作5年", "source": {"unit": "金华市人社局", "doc_no": "金人社发〔2023〕13号", "date": "2023-03-27", "url": "https://www.jinhua.gov.cn/art/2023/3/27/art_1229715437_1797752.html"}, "note": ""}
+      ]
+    },
+    "talent_highlevel": {
+      "items": [
+        {"class": "A类", "subsidy": "购房货币补助100%（最高500万）；人才安居购房补贴最高300万", "source": {"unit": "金华市委人才办", "doc_no": "金人才领〔2022〕3号", "date": "2022", "url": "https://rsj.jinhua.gov.cn/art/2025/11/4/art_1229165043_58718746.html"}, "note": ""},
+        {"class": "B类", "subsidy": "购房货币补助90%（最高200万）；人才安居最高200万", "source": {"unit": "金华市委人才办", "doc_no": "金人才领〔2022〕3号", "date": "2022", "url": "https://rsj.jinhua.gov.cn/art/2025/11/4/art_1229165043_58718746.html"}, "note": ""},
+        {"class": "C类", "subsidy": "购房货币补助70%（最高150万）；人才安居最高150万", "source": {"unit": "金华市委人才办", "doc_no": "金人才领〔2022〕3号", "date": "2022", "url": "https://rsj.jinhua.gov.cn/art/2025/11/4/art_1229165043_58718746.html"}, "note": ""},
+        {"class": "D类", "subsidy": "购房货币补助60%（最高80万）；人才安居最高80万", "source": {"unit": "金华市委人才办", "doc_no": "金人才领〔2022〕3号", "date": "2022", "url": "https://rsj.jinhua.gov.cn/art/2025/11/4/art_1229165043_58718746.html"}, "note": ""},
+        {"class": "E类", "subsidy": "购房货币补助50%（最高50万）；人才安居最高50万", "source": {"unit": "金华市委人才办", "doc_no": "金人才领〔2022〕3号", "date": "2022", "url": "https://rsj.jinhua.gov.cn/art/2025/11/4/art_1229165043_58718746.html"}, "note": ""}
+      ]
+    },
+    "hukou": {
+      "items": [
+        {"target": "专科及以上学历/各类人才", "rule": "全面放开城镇落户，人才可先落户后就业，凭学历或人才证明在城镇落户", "source": {"unit": "金华市公安局", "doc_no": "金政办发〔2020〕45号", "date": "2020-09-02", "url": "https://gaj.jinhua.gov.cn/art/2020/9/2/art_1229268101_1233071.html"}},
+        {"target": "硕士、博士", "rule": "先落户后就业，可在合法稳定住所或单位集体户落户", "source": {"unit": "金华市公安局", "doc_no": "金政办发〔2020〕45号", "date": "2020-09-02", "url": "https://gaj.jinhua.gov.cn/art/2020/9/2/art_1229268101_1233071.html"}}
+      ]
+    },
+    "startup": {
+      "items": [
+        {"type": "一次性创业补贴", "detail": "毕业5年内大学生创业一次性补贴1万；带动就业每年2000元，最高2万/3年", "source": {"unit": "金华市人社局", "doc_no": "金人社发〔2023〕13号", "date": "2023-03-27", "url": "https://www.jinhua.gov.cn/art/2023/3/27/art_1229715437_1797752.html"}, "note": "金额源自政策配套，具体以人社局公布为准"},
+        {"type": "创业担保贷款", "detail": "个人创业担保贷款最高50万，毕业5年内全额贴息", "source": {"unit": "金华市人社局", "doc_no": "金人社发〔2023〕13号", "date": "2023-03-27", "url": "https://www.jinhua.gov.cn/art/2023/3/27/art_1229715437_1797752.html"}, "note": ""},
+        {"type": "双龙计划创业资助", "detail": "领军创业项目：重大项目1000万、A类500万、B类300万、C类200万", "source": {"unit": "金华市委人才办", "doc_no": "双龙计划", "date": "2022", "url": "https://www.jinhua.gov.cn/"}, "note": "具体文号待核"}
+      ]
+    },
+    "welfare": {
+      "items": [
+        {"type": "人才公寓/租房补贴", "detail": "人才安居购房补贴及租房补贴，A-E类最高300万购房补助", "source": {"unit": "金华市委人才办", "doc_no": "金人才领〔2022〕3号", "date": "2022", "url": "https://rsj.jinhua.gov.cn/art/2025/11/4/art_1229165043_58718746.html"}},
+        {"type": "数字化平台", "detail": "金华人才码（浙里办），集成补贴申领、子女入学、医疗等人才服务", "source": {"unit": "金华市委人才办", "doc_no": "金人才领〔2022〕3号", "date": "2022", "url": "https://rsj.jinhua.gov.cn/art/2025/11/4/art_1229165043_58718746.html"}}
+      ]
+    },
+    "timing": {
+      "items": [
+        {"item": "智选金华细则", "detail": "金人社发〔2023〕13号现行有效，毕业生购房/租房补贴按5年服务期管理", "source": {"unit": "金华市人社局", "doc_no": "金人社发〔2023〕13号", "date": "2023-03-27", "url": "https://www.jinhua.gov.cn/art/2023/3/27/art_1229715437_1797752.html"}},
+        {"item": "人才安居办法", "detail": "金人才领〔2022〕3号现行，A-E类购房补助及服务年限规定有效", "source": {"unit": "金华市委人才办", "doc_no": "金人才领〔2022〕3号", "date": "2022", "url": "https://rsj.jinhua.gov.cn/art/2025/11/4/art_1229165043_58718746.html"}}
+      ]
+    },
+    "risk": {
+      "items": [
+        {"item": "服务期未满退还", "detail": "购房补助须服务满60个月，未满按比例退回；不满5年上市须全款退回", "source": {"unit": "金华市人社局", "doc_no": "金人才领〔2022〕3号", "date": "2022", "url": "https://rsj.jinhua.gov.cn/art/2025/11/4/art_1229165043_58718746.html"}},
+        {"item": "购房限售", "detail": "享受购房补助房产5年内不得上市交易，提前上市全额退回补助", "source": {"unit": "金华市人社局", "doc_no": "金人才领〔2022〕3号", "date": "2022", "url": "https://rsj.jinhua.gov.cn/art/2025/11/4/art_1229165043_58718746.html"}},
+        {"item": "骗补征信后果", "detail": "虚假申报骗取补贴的，追回资金并纳入信用失信记录，依法依规处理", "source": {"unit": "金华市人社局", "doc_no": "金人社发〔2023〕13号", "date": "2023-03-27", "url": "https://www.jinhua.gov.cn/art/2023/3/27/art_1229715437_1797752.html"}}
+      ]
+    },
+    "apply_path": {
+      "platform": "浙里办（金华人才码）/ 金华人才网",
+      "materials": "学历学位证、社保记录、劳动合同、购房合同等",
+      "process": "平台申报→资格审核→公示→补贴拨付（购房补助按服务期分期）",
+      "phone": "金华市人社局 0579-12333（以官网公布为准）"
+    }
+  },
+  "衢州": {
+    "grad_subsidy": {
+      "items": [
+        {"level": "专科", "cash": "非衢州户籍毕业生租房补贴3000元/年（最长3年）", "house_voucher": "市级暂无专科购房补助", "condition": "在衢企业就业、非衢州户籍", "source": {"unit": "衢州市政府", "doc_no": "衢政发〔2023〕12号", "date": "2023", "url": "https://www.qz.gov.cn/art/2025/8/8/art_1229612418_59043354.html"}, "note": "专科购房补助未明确"},
+        {"level": "普通本科", "cash": "安家补贴1.2万/年×3年=3.6万", "house_voucher": "市级暂无本科购房补助", "condition": "在衢企业就业，承诺在衢工作", "source": {"unit": "衢州市政府", "doc_no": "衢政发〔2023〕12号", "date": "2023", "url": "https://www.qz.gov.cn/art/2025/8/8/art_1229612418_59043354.html"}, "note": ""},
+        {"level": "双一流本科", "cash": "安家1.2万/年×3年", "house_voucher": "购房补助15㎡", "condition": "在衢企业就业，承诺在衢工作", "source": {"unit": "衢州市政府", "doc_no": "衢政发〔2023〕12号", "date": "2023", "url": "https://www.qz.gov.cn/art/2025/8/8/art_1229612418_59043354.html"}, "note": ""},
+        {"level": "硕士", "cash": "安家1.2万/年×3年", "house_voucher": "购房补助：双一流硕士30㎡、其他硕士15㎡", "condition": "在衢企业就业，承诺在衢工作", "source": {"unit": "衢州市政府", "doc_no": "衢政发〔2023〕12号", "date": "2023", "url": "https://www.qz.gov.cn/art/2025/8/8/art_1229612418_59043354.html"}, "note": ""},
+        {"level": "博士", "cash": "市级暂无明确安家标准", "house_voucher": "购房补助60㎡（约100万）", "condition": "在衢企业就业，承诺在衢工作", "source": {"unit": "衢州市政府", "doc_no": "衢政发〔2023〕12号", "date": "2023", "url": "https://www.qz.gov.cn/art/2025/8/8/art_1229612418_59043354.html"}, "note": "博士安家标准待核"}
+      ]
+    },
+    "talent_highlevel": {
+      "items": [
+        {"class": "A/B类", "subsidy": "一事一议，最高层次人才购房/安家待遇协商确定", "source": {"unit": "衢州市柯城区政府", "doc_no": "柯城区高层次人才分类目录", "date": "2025", "url": "https://www.kecheng.gov.cn/"}, "note": "市级暂无专属A-I目录，借用柯城区分类，存疑"},
+        {"class": "C类", "subsidy": "购房补助140㎡", "source": {"unit": "衢州市柯城区政府", "doc_no": "柯城区高层次人才分类目录", "date": "2025", "url": "https://www.kecheng.gov.cn/"}, "note": "区级目录，市级待核"},
+        {"class": "D类", "subsidy": "购房补助120㎡", "source": {"unit": "衢州市柯城区政府", "doc_no": "柯城区高层次人才分类目录", "date": "2025", "url": "https://www.kecheng.gov.cn/"}, "note": ""},
+        {"class": "E类", "subsidy": "购房补助100㎡", "source": {"unit": "衢州市柯城区政府", "doc_no": "柯城区高层次人才分类目录", "date": "2025", "url": "https://www.kecheng.gov.cn/"}, "note": ""},
+        {"class": "F-I类", "subsidy": "F类80㎡、G类60㎡、H类30㎡、I类15㎡", "source": {"unit": "衢州市柯城区政府", "doc_no": "柯城区高层次人才分类目录", "date": "2025", "url": "https://www.kecheng.gov.cn/"}, "note": "F-I类合并列示"}
+      ]
+    },
+    "hukou": {
+      "items": [
+        {"target": "大专及以上人才/毕业生", "rule": "放开人才落户，符合人才办、人社部门条件的大中专毕业生可在城镇居住地或工作地落户；先落户后就业", "source": {"unit": "衢州市公安局", "doc_no": "衢州市户口迁移登记规定", "date": "2022-09", "url": "https://www.qz.gov.cn/art/2022/10/18/art_1229596667_43259.html"}, "note": "正式规定2022年9月实施，放宽人才落户"},
+        {"target": "硕士、博士", "rule": "高层次人才先落户后就业，可在合法稳定住所或单位集体户落户", "source": {"unit": "衢州市公安局", "doc_no": "衢州市户口迁移登记规定", "date": "2022-09", "url": "https://www.qz.gov.cn/art/2022/10/18/art_1229596667_43259.html"}, "note": ""}
+      ]
+    },
+    "startup": {
+      "items": [
+        {"type": "创业担保贷款", "detail": "大学生创业担保贷款最高80万，给予贴息", "source": {"unit": "衢州市政府", "doc_no": "衢政发〔2023〕12号", "date": "2023", "url": "https://www.qz.gov.cn/art/2025/8/8/art_1229612418_59043354.html"}},
+        {"type": "大学生创业园", "detail": "入驻大学生创业园，前2年免租金，第3年租金减半", "source": {"unit": "衢州市政府", "doc_no": "衢政发〔2023〕12号", "date": "2023", "url": "https://www.qz.gov.cn/art/2025/8/8/art_1229612418_59043354.html"}},
+        {"type": "产业工人房票", "detail": "产业工人发放购房房票10万", "source": {"unit": "衢州市政府", "doc_no": "衢政发〔2023〕12号", "date": "2023", "url": "https://www.qz.gov.cn/art/2025/8/8/art_1229612418_59043354.html"}}
+      ]
+    },
+    "welfare": {
+      "items": [
+        {"type": "青年驿站", "detail": "非衢州户籍高校毕业生可享青年驿站7天免费住宿", "source": {"unit": "衢州市委人才办", "doc_no": "衢州人才码/青年驿站", "date": "2023", "url": "https://www.qz.gov.cn/"}, "note": "具体以衢州人才码公布为准"},
+        {"type": "数字化平台", "detail": "衢州人才码（浙里办），集成补贴申领、人才服务", "source": {"unit": "衢州市委人才办", "doc_no": "衢州人才码", "date": "2023", "url": "https://www.qz.gov.cn/"}, "note": ""}
+      ]
+    },
+    "timing": {
+      "items": [
+        {"item": "促进高质量就业创业政策", "detail": "衢政发〔2023〕12号自2023年起试行3年，2026年到期，换版过渡待通知", "source": {"unit": "衢州市政府", "doc_no": "衢政发〔2023〕12号", "date": "2023", "url": "https://www.qz.gov.cn/art/2025/8/8/art_1229612418_59043354.html"}},
+        {"item": "高层次人才津贴", "detail": "年度发放正高2万/年、副高1万/年、高级技师1万/年，按年度通知执行", "source": {"unit": "衢州市人社局", "doc_no": "年度高层次人才津贴通知", "date": "2025", "url": "https://www.qz.gov.cn/"}, "note": "市级人社局原文链接曾410，数据来自提案答复同源"}
+      ]
+    },
+    "risk": {
+      "items": [
+        {"item": "服务期未满退还", "detail": "高层次人才购房补助10年内上市交易的，须等额退回补助资金", "source": {"unit": "衢州市柯城区政府", "doc_no": "柯城区高层次人才分类目录", "date": "2025", "url": "https://www.kecheng.gov.cn/"}, "note": "市级统一服务期规定待核"},
+        {"item": "购房限售", "detail": "享受购房补助房产10年内不得上市，提前上市须全额退回", "source": {"unit": "衢州市柯城区政府", "doc_no": "柯城区高层次人才分类目录", "date": "2025", "url": "https://www.kecheng.gov.cn/"}, "note": ""},
+        {"item": "骗补征信后果", "detail": "虚报骗取补贴的，财政部门追缴资金并纳入失信记录", "source": {"unit": "衢州市政府", "doc_no": "衢政发〔2023〕12号", "date": "2023", "url": "https://www.qz.gov.cn/art/2025/8/8/art_1229612418_59043354.html"}}
+      ]
+    },
+    "apply_path": {
+      "platform": "浙里办（衢州人才码）/ 衢州市人社局",
+      "materials": "学历学位证、社保记录、劳动合同、购房合同等",
+      "process": "平台申报→资格审核→公示→补贴拨付",
+      "phone": "衢州市人社局 0570-12333（以官网公布为准）"
+    }
+  }
+}

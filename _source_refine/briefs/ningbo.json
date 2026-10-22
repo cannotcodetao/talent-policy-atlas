@@ -1,0 +1,291 @@
+{
+ "city": "宁波",
+ "entries": [
+  {
+   "key": "宁波|grad_subsidy|市级|专科|无市级安居补贴",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "专科",
+   "unit": "宁波市人社局/市委人才办",
+   "doc_no": "",
+   "date": "2024",
+   "url": "https://qf.ningbo.gov.cn/qfpt/fwbk/rcfw/rczc/art/2024/art_6dc9b6caed174ac8ac1cb99e0c79d396.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|grad_subsidy|市级|本科|安居补贴 1000元/月×最长30个月（合计最高3万）",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "本科",
+   "unit": "宁波市人社局",
+   "doc_no": "",
+   "date": "2025-12",
+   "url": "https://qf.ningbo.gov.cn/qykj/easy-public/1668",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|grad_subsidy|市级|硕士|安居补贴 1000元/月×最长60个月（合计最高6万）",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "硕士",
+   "unit": "宁波市人社局",
+   "doc_no": "",
+   "date": "2025-12",
+   "url": "https://qf.ningbo.gov.cn/qykj/easy-public/1668",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|grad_subsidy|市级|博士|按E类高层次人才：安家补助15万 + 人才安居奖励按年工资性收入最高3万元/年×5年",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "博士",
+   "unit": "宁波市人社局/市委人才办",
+   "doc_no": "",
+   "date": "2024",
+   "url": "https://qf.ningbo.gov.cn/qfpt/fwbk/rcfw/rczc/art/2024/art_6dc9b6caed174ac8ac1cb99e0c79d396.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "宁波市政府办公厅",
+   "doc_no": "",
+   "date": "2020-09-04",
+   "url": "https://jgswj.ningbo.gov.cn/art/2020/9/4/art_1229047159_1256279.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|startup|市级|创业担保贷款|重点人群（在校大学生、毕业5年内高校毕业生等）可申请免反担保贷款不超10万；提供抵质押物或信用保证最高50万；市级以上创",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业担保贷款",
+   "unit": "中国人民银行宁波市分行/市人社局/市财政局",
+   "doc_no": "2024版创业担保贷款实施细则",
+   "date": "2024-02-02",
+   "url": "http://jrb.ningbo.gov.cn/art/2024/2/2/art_1229024330_58898936.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "宁波|startup|市级|一次性创业社保补贴|毕业5年内高校毕业生在甬创办企业或个体工商户，正常经营并依法缴社保满1年，可在注册5年内申请最高5000元",
+   "dim": "startup",
+   "district": "市级",
+   "name": "一次性创业社保补贴",
+   "unit": "宁波市人社局",
+   "doc_no": "",
+   "date": "2023-12-26",
+   "url": "https://rsj.ningbo.gov.cn/art/2023/12/26/art_1229116411_1783002.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|startup|市级|创业带动就业补贴|在校大学生、毕业5年内高校毕业生创办主体带动3人（含）以上就业并缴社保满1年，每年最高2万元，最长不超3年",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业带动就业补贴",
+   "unit": "宁波市人社局",
+   "doc_no": "",
+   "date": "2023-12-26",
+   "url": "https://rsj.ningbo.gov.cn/art/2023/12/26/art_1229116411_1783002.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|startup|市级|创业场地租金补贴|租用经营场地创业的，可在注册5年内申请每年最高6000元，最长不超3年",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业场地租金补贴",
+   "unit": "宁波市人社局",
+   "doc_no": "",
+   "date": "2023-12-26",
+   "url": "https://rsj.ningbo.gov.cn/art/2023/12/26/art_1229116411_1783002.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|startup|市级|企业吸纳就业贷款贴息|小微企业招用毕业5年内高校毕业生等达在职职工15%以上（超100人企业8%以上），可申请最高300万元贷款贴息，期限最长",
+   "dim": "startup",
+   "district": "市级",
+   "name": "企业吸纳就业贷款贴息",
+   "unit": "宁波市人社局",
+   "doc_no": "",
+   "date": "2023-12-26",
+   "url": "https://rsj.ningbo.gov.cn/art/2023/12/26/art_1229116411_1783002.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|welfare|市级|面试交通补贴|35周岁以下毕业生面试交通补贴300–1500元；海外人才交通补贴1000–6000元",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "面试交通补贴",
+   "unit": "宁波市委人才办",
+   "doc_no": "",
+   "date": "2024",
+   "url": "https://qf.ningbo.gov.cn/qfpt/fwbk/rcfw/rczc/art/2024/art_6dc9b6caed174ac8ac1cb99e0c79d396.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|welfare|市级|青年人才租房补贴|35周岁以下全日制应届本科/硕士无房的，租房补贴每年1万元，最长3年（与人才安居补贴不重复）",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "青年人才租房补贴",
+   "unit": "宁波市委人才办",
+   "doc_no": "",
+   "date": "2024",
+   "url": "https://qf.ningbo.gov.cn/qfpt/fwbk/rcfw/rczc/art/2024/art_6dc9b6caed174ac8ac1cb99e0c79d396.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|welfare|市级|学历提升补贴|读硕士学费补贴50%、最高5万元；读博士学费补贴50%、最高10万元",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "学历提升补贴",
+   "unit": "宁波市委人才办",
+   "doc_no": "",
+   "date": "2024",
+   "url": "https://qf.ningbo.gov.cn/qfpt/fwbk/rcfw/rczc/art/2024/art_6dc9b6caed174ac8ac1cb99e0c79d396.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|welfare|市级|购房优先认购|预售住宅50%无房户优先认购房源中，对博士等高层次人才无房户优先购买",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "购房优先认购",
+   "unit": "宁波市委人才办",
+   "doc_no": "",
+   "date": "2024",
+   "url": "https://qf.ningbo.gov.cn/qfpt/fwbk/rcfw/rczc/art/2024/art_6dc9b6caed174ac8ac1cb99e0c79d396.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|welfare|市级|专家服务保障|联系慰问、休假疗养、医疗保健、健康体检、配偶就业、子女入学等20多项服务保障",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "专家服务保障",
+   "unit": "宁波市委人才办",
+   "doc_no": "",
+   "date": "2024",
+   "url": "https://qf.ningbo.gov.cn/qfpt/fwbk/rcfw/rczc/art/2024/art_6dc9b6caed174ac8ac1cb99e0c79d396.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|timing|市级|安居补贴新政起算|人才安居补贴自2025年12月起实施；申请提交期限为政策享受周期期满6个月内，逾期无法申请",
+   "dim": "timing",
+   "district": "市级",
+   "name": "安居补贴新政起算",
+   "unit": "宁波市人社局",
+   "doc_no": "",
+   "date": "2025-12",
+   "url": "https://qf.ningbo.gov.cn/qykj/easy-public/1668",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|timing|市级|补贴周期唯一性|每人仅限一个政策享受周期；已申领后重新引进不重新计算周期和标准；在甬工作后获得新学历/更高层次不作为享受依据",
+   "dim": "timing",
+   "district": "市级",
+   "name": "补贴周期唯一性",
+   "unit": "宁波市人社局",
+   "doc_no": "",
+   "date": "2025-12",
+   "url": "https://qf.ningbo.gov.cn/qykj/easy-public/1668",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|risk|市级|青年精英人才5年服务期|自主培养青年精英人才奖励要求签订5年以上聘用合同；聘用期内调离本市的，按在宁波5年服务期限计算，将不足服务期限相应比例的",
+   "dim": "risk",
+   "district": "市级",
+   "name": "青年精英人才5年服务期",
+   "unit": "宁波市人社局",
+   "doc_no": "",
+   "date": "2024",
+   "url": "https://qf.ningbo.gov.cn/qfpt/fwbk/rcfw/rczc/art/2024/art_6dc9b6caed174ac8ac1cb99e0c79d396.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|risk|市级|补贴互斥不可叠加|已享受青年人才租房补贴、硕士/博士生活补贴、高层次人才安家补助的，不重复享受人才安居补贴；博士后在站期间不享受，周期从出",
+   "dim": "risk",
+   "district": "市级",
+   "name": "补贴互斥不可叠加",
+   "unit": "宁波市人社局",
+   "doc_no": "",
+   "date": "2025-12",
+   "url": "https://qf.ningbo.gov.cn/qykj/easy-public/1668",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|risk|市级|社保中断即停发|申请人在甬工作单位变更、社保中断或用人单位提出停止发放的，须重新提交申请；劳务派遣至市外用工单位期间不享受，相应社保月数",
+   "dim": "risk",
+   "district": "市级",
+   "name": "社保中断即停发",
+   "unit": "宁波市人社局",
+   "doc_no": "",
+   "date": "2025-12",
+   "url": "https://qf.ningbo.gov.cn/qykj/easy-public/1668",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|risk|市级|购房补贴时限|E类人才须自引进之月起3年内购房、F类须5年内购房，且为家庭唯一住房，逾期失权",
+   "dim": "risk",
+   "district": "市级",
+   "name": "购房补贴时限",
+   "unit": "宁波市委人才办",
+   "doc_no": "",
+   "date": "2024",
+   "url": "https://qf.ningbo.gov.cn/qfpt/fwbk/rcfw/rczc/art/2024/art_6dc9b6caed174ac8ac1cb99e0c79d396.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|apply_path|市级|宁波人才安居补贴『申报系统』线上申报 / 甬上乐业·亲清直通车（qf.ningbo.gov.cn）|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "宁波人才安居补贴『申报系统』线上申报 / 甬上乐业·亲清直通车（qf.ningbo.gov.cn）",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|anju_discount|市级|宁波高新区人才住房销售（限价人才房，第一批/第二轮）|单价较市场低约9000–11000元/㎡；购后不再享受高新区人才购房补贴、大学生购房补贴等货币补贴（不叠加）",
+   "dim": "anju_discount",
+   "district": "市级",
+   "name": "宁波高新区人才住房销售（限价人才房，第一批/第二轮）",
+   "unit": "宁波高新区管委会（人社局、财政局）",
+   "doc_no": "",
+   "date": "2024-03-18（第一批）/2024-10-21（第二轮）",
+   "url": "http://www.nbhtz.gov.cn/art/2024/10/21/art_1229020916_4453270.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|anju_discount|慈溪市|慈溪市人才安居专用房（人才公寓）申购|优惠建筑面积≤100㎡内按不低于市场评估价70%购买（即最高约30%优惠）；院士等重大人才一事一议",
+   "dim": "anju_discount",
+   "district": "慈溪市",
+   "name": "慈溪市人才安居专用房（人才公寓）申购",
+   "unit": "慈溪市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2021-09-24",
+   "url": "https://qf.ningbo.gov.cn/qykj/projectDetail/51828",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|anju_subsidy|市级|2025年度宁波市人才购房补贴（高层次人才、人才计划人才）|A类（顶尖）最高500万（不超过实际购房总额）；B/C/D/E类分别购房总额20%、最高60/40/25/20万元；人才",
+   "dim": "anju_subsidy",
+   "district": "市级",
+   "name": "2025年度宁波市人才购房补贴（高层次人才、人才计划人才）",
+   "unit": "宁波市人力社保局",
+   "doc_no": "",
+   "date": "2025-12-18（申报期2025-12-18至2026-12-31）",
+   "url": "https://qf.ningbo.gov.cn/qykj/projectDetail/52582",
+   "problem": "缺文号"
+  },
+  {
+   "key": "宁波|anju_subsidy|奉化区|奉化区人才购房补贴（2024新政）|购房总价比例补贴：大专/初级职称最高8万（4%）；本科/中级职称最高16万（8%）；硕士/副高最高20万（10%）；博士",
+   "dim": "anju_subsidy",
+   "district": "奉化区",
+   "name": "奉化区人才购房补贴（2024新政）",
+   "unit": "宁波市奉化区人力资源和社会保障局",
+   "doc_no": "奉人才发〔2021〕5号（第十三条，2024新政项目）",
+   "date": "2024",
+   "url": "https://qf.ningbo.gov.cn/qykj/projectDetail/52689",
+   "problem": "文号混杂"
+  }
+ ]
+}

@@ -1,0 +1,602 @@
+{
+  "city": "汕头",
+  "scope": "市级",
+  "updated": "2026-08-20",
+  "sourceRule": "仅政府单位官网（*.gov.cn），排除新闻与自媒体",
+  "dimensions": {
+    "grad_subsidy": {
+      "desc": "毕业生补贴（按学历，含住房/生活现金补助）",
+      "items": [
+        {
+          "level": "博士",
+          "cash": "住房补助9.6万元（一次性）+ 生活补助4.8万元（一次性）",
+          "house_voucher": "无（本办法无购房券/房票；购房补助仅面向院士级顶尖人才，见 anju_subsidy）",
+          "condition": "2023-04-09后新引进；企事业单位全职引进；签订3年及以上劳动合同并缴社保，社保缴交单位与合同单位一致；引进后无违法违纪",
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "汕人社发〔2023〕19号",
+            "date": "2023-12-28（实施，有效期3年）",
+            "url": "https://www.shantou.gov.cn/cnst/zwgk/zwwgkzl/glgk/content/post_2296092.html"
+          },
+          "note": "博士不享受本办法购房补助，购房补助仅限院士/国家级/省级重大人才项目入选者",
+          "district": "市级"
+        },
+        {
+          "level": "硕士",
+          "cash": "住房补助3万元（一次性）+ 生活补助2万元（一次性）",
+          "house_voucher": "无（本办法无购房券/房票）",
+          "condition": "2023-04-09后新引进；企事业单位全职引进；签订3年及以上劳动合同并缴社保，社保缴交单位与合同单位一致",
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "汕人社发〔2023〕19号",
+            "date": "2023-12-28（实施，有效期3年）",
+            "url": "https://www.shantou.gov.cn/cnst/zwgk/zwwgkzl/glgk/content/post_2296092.html"
+          },
+          "note": "硕士不享受本办法购房补助",
+          "district": "市级"
+        },
+        {
+          "level": "双一流本科",
+          "cash": "仅『制造类企业新引进国家重点大学理工类专业全日制本科应届毕业生』可享住房补助2.4万元（一次性）；其余本科不享受住房/生活补助",
+          "house_voucher": "无（本办法无购房券/房票）",
+          "condition": "2023-04-09后新引进；制造类企业就业；毕业未满1年且属双一流大学理工类专业；签订3年及以上劳动合同并缴社保",
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "汕人社发〔2023〕19号",
+            "date": "2023-12-28（实施，有效期3年）",
+            "url": "https://www.shantou.gov.cn/cnst/zwgk/zwwgkzl/glgk/content/post_2296092.html"
+          },
+          "note": "普通本科（非制造类国重理工应届）无对应补贴",
+          "district": "市级"
+        },
+        {
+          "level": "普通本科",
+          "cash": "仅『制造类企业新引进国家重点大学理工类专业全日制本科应届毕业生』可享住房补助2.4万元（一次性）；其余本科不享受住房/生活补助",
+          "house_voucher": "无（本办法无购房券/房票）",
+          "condition": "同双一流本科档，须满足制造类国重理工应届条件",
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "汕人社发〔2023〕19号",
+            "date": "2023-12-28（实施，有效期3年）",
+            "url": "https://www.shantou.gov.cn/cnst/zwgk/zwwgkzl/glgk/content/post_2296092.html"
+          },
+          "note": "普通本科无对应补贴，仅特定制造类理工应届本科可享住房补助",
+          "district": "市级"
+        },
+        {
+          "level": "专科",
+          "cash": "本办法未将专科列入住房/生活补助对象，无对应补贴",
+          "house_voucher": "无",
+          "condition": "不适用",
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "汕人社发〔2023〕19号",
+            "date": "2023-12-28（实施，有效期3年）",
+            "url": "https://www.shantou.gov.cn/cnst/zwgk/zwwgkzl/glgk/content/post_2296092.html"
+          },
+          "note": "专科未列入本办法补助范围",
+          "district": "市级"
+        },
+        {
+          "district": "潮南区",
+          "official": true,
+          "level": "博士",
+          "cash": "一次性住房补助2万元",
+          "condition": "潮南区新引进正高专业技术资格或全日制博士研究生学历人才，与用人单位签订3年及以上劳动合同并在潮南区缴纳社保。",
+          "note": "潮南区“1+8”人才政策住房补助（依据潮南区委发〔2018〕2号）；2021年申报公告明确标准，2023年仍有申报通知证明政策继续执行。",
+          "source": {
+            "unit": "汕头市潮南区人力资源和社会保障局",
+            "doc_no": "潮南区委发〔2018〕2号",
+            "date": "2021-10-26",
+            "url": "http://www.chaonan.gov.cn/stcnrlsbj/gkmlpt/content/1/1981/post_1981525.html"
+          }
+        },
+        {
+          "district": "潮南区",
+          "official": true,
+          "level": "硕士",
+          "cash": "一次性住房补助1万元",
+          "condition": "潮南区新引进副高专业技术资格、国家职业资格一级（高级技师）或全日制硕士研究生学历人才，与用人单位签订3年及以上劳动合同并在潮南区缴纳社保。",
+          "note": "潮南区“1+8”人才政策住房补助（依据潮南区委发〔2018〕2号）。",
+          "source": {
+            "unit": "汕头市潮南区人力资源和社会保障局",
+            "doc_no": "潮南区委发〔2018〕2号",
+            "date": "2021-10-26",
+            "url": "http://www.chaonan.gov.cn/stcnrlsbj/gkmlpt/content/1/1981/post_1981525.html"
+          }
+        }
+      ]
+    },
+    "talent_highlevel": {
+      "desc": "高层次人才 A–B 类（汕头仅 A/B 两类，无 C/D/E）",
+      "items": [
+        {
+          "class": "A类",
+          "subsidy": "对应顶尖人才（中国科学院/工程院院士、外籍院士、国家重大人才项目入选者、省级重大人才项目入选者等）。购房补助：院士/国家重大人才项目入选者一次性100万元、省级重大人才项目入选者一次性50万元；生活补助：院士150万元/年×5年、国家重大/外籍院士100万元/年×5年、省级重大50万元/年×5年；另享金凤卡47项一站式服务、安居与子女教育保障",
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "《汕头市高层次人才认定办法》（汕人社发〔2023〕相关）、汕人社发〔2023〕19号",
+            "date": "2023-12-29（认定办法，有效期5年）",
+            "url": "https://www.shantou.gov.cn/stsrlzyhshbzj/ztzl/content/post_2295962.html"
+          },
+          "note": "具体A类目录与补贴兑现以认定办法及配套文件为准",
+          "district": "市级"
+        },
+        {
+          "class": "B类",
+          "subsidy": "按《汕头市高层次人才认定办法》认定的B类人才。享受金凤卡服务、人才住房租赁、子女教育等配套保障；具体安家/购房补贴金额以配套文件为准（购房补助门槛详见 anju_subsidy）",
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "《汕头市高层次人才认定办法》",
+            "date": "2023-12-29（有效期5年）",
+            "url": "https://www.shantou.gov.cn/stsrlzyhshbzj/ztzl/content/post_2295962.html"
+          },
+          "note": "汕头市高层次人才仅设 A/B 两类，规范模板的 C/D/E 类在汕头不适用",
+          "district": "市级"
+        }
+      ]
+    },
+    "hukou": {
+      "desc": "落户",
+      "items": [
+        {
+          "target": "中专及以上（含全日制/非全日制、往届应届）",
+          "rule": "全面放开落户限制，中专及以上学历人员可凭学历或居住/就业证明落户，可先落户后就业",
+          "source": {
+            "unit": "汕头市公安局",
+            "doc_no": "汕市公通〔2024〕93号",
+            "date": "2024-12-30 至 2029-12-29",
+            "url": "https://www.shantou.gov.cn/cnst/gkml/zwgk/gzwj/gfxwj/bm/content/post_2396763.html"
+          },
+          "district": "市级"
+        },
+        {
+          "target": "其他通道（租赁/居住证/技能/合法稳定就业）",
+          "rule": "凭合法稳定住所（含租赁）、合法稳定就业、居住证等也可落户，零门槛，先落户后就业",
+          "source": {
+            "unit": "汕头市公安局",
+            "doc_no": "汕市公通〔2024〕93号",
+            "date": "2024-12-30 至 2029-12-29",
+            "url": "https://www.shantou.gov.cn/cnst/gkml/zwgk/gzwj/gfxwj/bm/content/post_2396763.html"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "startup": {
+      "desc": "创业扶持",
+      "items": [
+        {
+          "type": "一次性创业补贴",
+          "detail": "10000元（一次性）；适用毕业5年内学生/留学回国人员等创业重点扶持对象，创办3年内主体、注册登记满12个月、有不少于1名员工缴社保",
+          "source": {
+            "unit": "广东省人力资源和社会保障厅（汕头市人社局转载）",
+            "doc_no": "《广东省就业创业补贴补助申请办理指导清单（2026年修订版）》",
+            "date": "2026年修订",
+            "url": "https://www.shantou.gov.cn/stsrlsbj/gkmlpt/content/2/2551/post_2551786.html"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "创业租金补贴",
+          "detail": "每年最高4000元（汕头属非珠三角地区），最长不超过3年；须租赁非本人名下场地、地址与注册地一致",
+          "source": {
+            "unit": "广东省人力资源和社会保障厅（汕头市人社局转载）",
+            "doc_no": "《广东省就业创业补贴补助申请办理指导清单（2026年修订版）》",
+            "date": "2026年修订",
+            "url": "https://www.shantou.gov.cn/stsrlsbj/gkmlpt/content/2/2551/post_2551786.html"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "创业带动就业补贴",
+          "detail": "招用3人以下按2000元/人、4人以上每增加1人3000元，总额最高30000元；创业重点扶持对象创主体带员工缴满6个月社保",
+          "source": {
+            "unit": "广东省人力资源和社会保障厅（汕头市人社局转载）",
+            "doc_no": "《广东省就业创业补贴补助申请办理指导清单（2026年修订版）》",
+            "date": "2026年修订",
+            "url": "https://www.shantou.gov.cn/stsrlsbj/gkmlpt/content/2/2551/post_2551786.html"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "welfare": {
+      "desc": "配套保障",
+      "items": [
+        {
+          "type": "子女教育",
+          "detail": "高层次人才子女入学按人才层次统筹安排，享受优待",
+          "district": "市级"
+        },
+        {
+          "type": "医疗",
+          "detail": "高层次人才享健康体检、就医绿色通道等优待",
+          "district": "市级"
+        },
+        {
+          "type": "人才公寓/租赁",
+          "detail": "市级人才住房租赁（A类1元/套、其他2.34元/㎡），详见安居维度；只租不售、周转使用",
+          "source": {
+            "unit": "汕头市人民政府",
+            "doc_no": "汕府〔2024〕29号",
+            "date": "2024",
+            "url": "https://www.shantou.gov.cn/cnst/gkml/zwgk/gzwj/gfxwj/szf/content/post_2343767.html"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "数字化平台",
+          "detail": "金凤卡提供47项一站式服务（粤省事/人才一站式服务平台）",
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "金凤卡服务相关",
+            "date": "持续有效",
+            "url": "https://www.shantou.gov.cn/stsrlsbj/gkmlpt/content/2/2406/post_2406416.html"
+          },
+          "district": "市级"
+        },
+        {
+          "district": "潮南区",
+          "official": true,
+          "condition": "潮南辖区创办企业的高层次创业人才（入选市级及以上重大人才计划项目）。",
+          "note": "潮南辖区创办企业的高层次创业人才（入选市级及以上重大人才计划项目）。；潮南区“1+8”人才政策租金补助（依据潮南区委发〔2018〕2号）。",
+          "source": {
+            "unit": "汕头市潮南区人力资源和社会保障局",
+            "doc_no": "潮南区委发〔2018〕2号",
+            "date": "2021-10-26",
+            "url": "http://www.chaonan.gov.cn/stcnrlsbj/gkmlpt/content/1/1981/post_1981525.html"
+          }
+        }
+      ]
+    },
+    "timing": {
+      "desc": "时效提醒",
+      "items": [
+        {
+          "item": "汕人社发〔2023〕19号 即将到期",
+          "detail": "有效期3年（2023-12-28 至 2026-12-27），2026年底到期，需关注续期/修订文件，空窗期将停发住房/生活/购房补助",
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "汕人社发〔2023〕19号",
+            "date": "2023-12-28 至 2026-12-27",
+            "url": "https://www.shantou.gov.cn/cnst/zwgk/zwwgkzl/glgk/content/post_2296092.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "高层次人才认定办法 有效期",
+          "detail": "2023-12-29 起实施，有效期5年（至2028-12-28）",
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "《汕头市高层次人才认定办法》",
+            "date": "2023-12-29 至 2028-12-28",
+            "url": "https://www.shantou.gov.cn/stsrlzyhshbzj/ztzl/content/post_2295962.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "市级人才住房办法 有效期",
+          "detail": "2024-06-12 至 2029-06-11",
+          "source": {
+            "unit": "汕头市人民政府",
+            "doc_no": "汕府〔2024〕29号",
+            "date": "2024-06-12 至 2029-06-11",
+            "url": "https://www.shantou.gov.cn/cnst/gkml/zwgk/gzwj/gfxwj/szf/content/post_2343767.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "配售型保障性住房办法 有效期",
+          "detail": "2025-08-22 至 2028-08-21",
+          "source": {
+            "unit": "汕头市住房和城乡建设局",
+            "doc_no": "汕住建规2025003 / 汕住建通〔2025〕42号",
+            "date": "2025-08-22 至 2028-08-21",
+            "url": "https://www.shantou.gov.cn/zjj/zwgk/bmwj/content/post_2466990.html"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "risk": {
+      "desc": "风险提示（服务期/退还/骗补）",
+      "items": [
+        {
+          "item": "服务期承诺与全额退还",
+          "detail": "与用人单位签订3年及以上合同，服务期未满自行离职须全额退回购房/住房/生活补助（由离职单位追回）；市内流动经本人申请、流入单位报市人社局审核同意可不退回",
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "汕人社发〔2023〕19号 第十二条",
+            "date": "2023-12-28",
+            "url": "https://www.shantou.gov.cn/cnst/zwgk/zwwgkzl/glgk/content/post_2296092.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "骗补失信与征信",
+          "detail": "弄虚作假获取补助的，市人社局追回已发补助，5年内不得享受我市各类人才优惠政策，并追究责任",
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "汕人社发〔2023〕19号 第十三条",
+            "date": "2023-12-28",
+            "url": "https://www.shantou.gov.cn/cnst/zwgk/zwwgkzl/glgk/content/post_2296092.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "政策到期空窗",
+          "detail": "汕人社发〔2023〕19号 2026年底到期，届时未续则将停发相关补助，建议提前关注续期文件",
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "汕人社发〔2023〕19号 第十六条",
+            "date": "2023-12-28 至 2026-12-27",
+            "url": "https://www.shantou.gov.cn/cnst/zwgk/zwwgkzl/glgk/content/post_2296092.html"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "apply_path": {
+      "desc": "申报路径",
+      "items": [
+        {
+          "platform": "广东政务服务网 / 粤省事；用人单位或人才个人向汕头市人社局提交",
+          "materials": "营业执照、劳动合同、身份证、学历学位/职称证书、承诺书；购房补助另加购房合同+人事档案或社保转入材料；住房补助另加学历证书+社保证明；生活补助另加学历证书+社保证明",
+          "process": "申报 → 市人社局审核 → 门户网站公示5个自然日 → 集体讨论审批 → 直接汇至人才个人银行账户",
+          "phone": "汕头市人社局人才业务（政务服务热线 0754-12345）；濠江区人社局 0754-87375501",
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "汕人社发〔2023〕19号 第六、七条",
+            "date": "2023-12-28",
+            "url": "https://www.shantou.gov.cn/cnst/zwgk/zwwgkzl/glgk/content/post_2296092.html"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_rent2sale": {
+      "desc": "先租后售人才房",
+      "items": [
+        {
+          "name": "暂未查询到符合「先租后售三件套」的官方政策",
+          "unit": "",
+          "effective": "",
+          "expiry": "",
+          "project": "",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "",
+          "person_req": "",
+          "discount": "",
+          "constraint": "",
+          "channel": "",
+          "enterprise_only": "否",
+          "official": true,
+          "source": {},
+          "note": "汕头市级人才住房（汕府〔2024〕29号）明确『只租不售、周转使用』，仅提供租赁，无租金抵扣房款、无期满可购通道，不满足先租后售三件套，故不收录。",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_discount": {
+      "desc": "定向优惠价购房（配售型保障性住房）",
+      "items": [
+        {
+          "name": "汕头市配售型保障性住房",
+          "unit": "汕头市住房和城乡建设局",
+          "effective": "2025-08-22",
+          "expiry": "2028-08-21",
+          "project": "新建类（划拨/存量用地建设）与筹集类（收购、转化存量商品住房等）项目，具体项目以轮候库及项目公告为准",
+          "rent_years": "",
+          "price_base": "新建按『划拨土地成本+建安成本+适度合理利润』测算；收购/转化按同地段保障房重置价（土地划拨成本+建安成本+不超过5%利润）为上限",
+          "rent_deduct": "",
+          "biz_req": "企事业单位可利用自有存量建设用地与专营机构合作建设配售型保障性住房",
+          "person_req": "以家庭为单位；一般须汕头户籍、无自有住房、家庭人均年收入低于上年城镇居民人均可支配收入1.5倍、连续缴社保12个月；本市A/B类高层次人才、博士、高级职称/高级技师等人才申购不受户籍、收入限制",
+          "discount": "保本微利原则定向配售，价格低于同地段市场商品房价；人才申购享户籍与收入条件豁免",
+          "constraint": "封闭管理，不得自行上市交易；不动产权证满2年方可申请回购或封闭流转，回购价按原购价每年扣减1%；满2年可在流转平台挂牌（不高于原购价）",
+          "channel": "汕头市配售型保障性住房轮候库网上意向登记 → 专营机构购房申请 → 审核公示 → 统一摇号 → 现场选房 → 签订合同",
+          "enterprise_only": "否",
+          "official": true,
+          "source": {
+            "unit": "汕头市住房和城乡建设局",
+            "doc_no": "汕住建规2025003 / 汕住建通〔2025〕42号",
+            "date": "2025-08-22 至 2028-08-21",
+            "url": "https://www.shantou.gov.cn/zjj/zwgk/bmwj/content/post_2466990.html"
+          },
+          "note": "属『定向优惠价购房』（政府定价、保本微利、封闭管理），非共有产权房；人才不受户籍收入限制。",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_subsidy": {
+      "desc": "人才购房补贴/房票",
+      "items": [
+        {
+          "name": "汕头市新引进人才购房补助（顶尖人才）",
+          "unit": "汕头市人力资源和社会保障局",
+          "effective": "2023-12-28",
+          "expiry": "2026-12-27",
+          "project": "",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "",
+          "person_req": "企事业单位全职引进或引进后获评的中国科学院/工程院院士、外籍院士、国家重大人才项目入选者、省级重大人才项目入选者；引进后在汕头购买住房、签订3年及以上劳动合同、人事档案或社保关系转入我市",
+          "discount": "中国科学院/工程院院士、外籍院士、国家重大人才项目入选者：一次性100万元；省级重大人才项目入选者：一次性50万元",
+          "constraint": "已领住房补助的申报购房补助时扣除已发住房补助；服务期未满自行离职须全额退回",
+          "channel": "用人单位/个人向市人社局申报 → 审核 → 公示 → 审批发放至个人银行账户",
+          "enterprise_only": "否",
+          "official": true,
+          "source": {
+            "unit": "汕头市人力资源和社会保障局",
+            "doc_no": "汕人社发〔2023〕19号 第三条",
+            "date": "2023-12-28 至 2026-12-27",
+            "url": "https://www.shantou.gov.cn/cnst/zwgk/zwwgkzl/glgk/content/post_2296092.html"
+          },
+          "note": "购房补助仅面向顶尖人才；普通博士/硕士不享此购房补助（其享住房+生活现金补助，见 grad_subsidy）",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        },
+        {
+          "name": "濠江区新引进人才购房补贴（区级加码）",
+          "unit": "汕头市濠江区人力资源和社会保障局",
+          "effective": "2024-07-12",
+          "expiry": "2027-07-11（有效期内申报延续至2027年）",
+          "project": "",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "濠江区企业（工商注册地、税收征管关系在濠江、独立核算法人）就业",
+          "person_req": "企业新引进正高级职称专技人才、副高级职称专技人才、高级技师；在濠江区范围内购买住房、签订3年及以上劳动合同、缴社保满1年",
+          "discount": "正高级职称：15万元（分两年发放）；副高级职称/高级技师：10万元（分两年发放）",
+          "constraint": "须未享受市级同类别政策补贴；已领租房补贴的申报购房补贴时扣除已发租房补贴",
+          "channel": "濠江区人社局每年5月、11月集中受理",
+          "enterprise_only": "是",
+          "official": true,
+          "source": {
+            "unit": "汕头市濠江区人力资源和社会保障局",
+            "doc_no": "汕濠人社〔2024〕24号",
+            "date": "2024-07-12 至 2027-07-11",
+            "url": "https://www.haojiang.gov.cn/sthjrsj/gkmlpt/content/2/2353/mpost_2353189.html"
+          },
+          "note": "区级加码，需未享受市级同类补贴；与普通市级购房补助为不同层级政策",
+          "mode": "",
+          "mode_label": "",
+          "district": "濠江区"
+        },
+        {
+          "district": "濠江区",
+          "official": true,
+          "constraint": "濠江区企业新引进正、副高级职称专业技术人才和高级技师职业技能人才；2023年1月1日后（含当天）引进，在濠江区范围内购买住房；与用人单位签订3年及以上劳动合同、在濠江区缴交职工社会保险满1年，申请购房补贴时社保关系仍在濠江区；未享受市级同类别政策补贴项目。",
+          "note": "汕濠人社〔2024〕24号，2024-07-12印发，有效期2024.7.12-2027.7.12，现行有效，为濠江区独立区级政策。",
+          "source": {
+            "unit": "汕头市濠江区人力资源和社会保障局",
+            "doc_no": "汕濠人社〔2024〕24号",
+            "date": "2024-07-12",
+            "url": "https://www.haojiang.gov.cn/sthjrsj/gkmlpt/content/2/2353/mpost_2353189.html"
+          }
+        }
+      ]
+    },
+    "anju_shared": {
+      "desc": "共有产权房",
+      "items": [
+        {
+          "name": "暂未查询到汕头市共有产权房专项官方政策",
+          "unit": "",
+          "effective": "",
+          "expiry": "",
+          "project": "",
+          "rent_years": "",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "",
+          "person_req": "",
+          "discount": "",
+          "constraint": "",
+          "channel": "",
+          "enterprise_only": "否",
+          "official": true,
+          "source": {},
+          "note": "汕头市未见市级共有产权房专项管理办法，仅有省级指导意见；配售型保障性住房为『定向优惠价购房+封闭管理』，非共有产权模式。如有以政府后续文件为准。",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_enterprise": {
+      "desc": "企业内部福利房（含单位自建/企业人才租赁）",
+      "items": [
+        {
+          "name": "汕头市市级人才住房（政府统建，租赁配租）",
+          "unit": "汕头市人民政府",
+          "effective": "2024-06-12",
+          "expiry": "2029-06-11",
+          "project": "市级人才住房房源（2025年度公告69套，A类1元/套、其他2.34元/㎡）",
+          "rent_years": "按租赁合同约定期限（周转使用）",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "鼓励用人单位、产业园区、国有企业利用自有土地/资金建设人才住房（第八条）",
+          "person_req": "符合条件的人才（与用人单位签订合同的在职人才），政府统建房源面向人才个人配租",
+          "discount": "租金优惠（A类1元/套、其他2.34元/㎡），非购房优惠",
+          "constraint": "只租不售、周转使用，不构成购房通道；离汕或不符条件须退出",
+          "channel": "市住建局发布租赁申请公告，人才个人/单位申报 → 审核 → 配租",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "汕头市人民政府",
+            "doc_no": "汕府〔2024〕29号",
+            "date": "2024-06-12 至 2029-06-11",
+            "url": "https://www.shantou.gov.cn/cnst/gkml/zwgk/gzwj/gfxwj/szf/content/post_2343767.html"
+          },
+          "note": "市级人才住房整体『只租不售』，属福利性租赁而非优惠购房；政府统建面向个人+单位自建面向员工，故标『部分』",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        },
+        {
+          "name": "用人单位/产业园区自建人才住房（面向内部员工）",
+          "unit": "汕头市人民政府",
+          "effective": "2024-06-12",
+          "expiry": "2029-06-11",
+          "project": "用人单位、产业园区、国有企业利用自有土地/资金自建",
+          "rent_years": "按单位自定（周转使用）",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "用人单位、产业园区、国有企业",
+          "person_req": "面向本单位/本园区内部人才供应",
+          "discount": "由单位自定（非政府统一定价），福利性租赁",
+          "constraint": "仅租不售、周转使用",
+          "channel": "用人单位/园区自建自管，向本单位人才分配",
+          "enterprise_only": "是",
+          "official": true,
+          "source": {
+            "unit": "汕头市人民政府",
+            "doc_no": "汕府〔2024〕29号 第八条",
+            "date": "2024-06-12 至 2029-06-11",
+            "url": "https://www.shantou.gov.cn/cnst/gkml/zwgk/gzwj/gfxwj/szf/content/post_2343767.html"
+          },
+          "note": "企业内部福利性租赁，非优惠购房",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        },
+        {
+          "name": "濠江区企业人才租房补贴（政府发放，限企业就业）",
+          "unit": "汕头市濠江区人力资源和社会保障局",
+          "effective": "2024-07-12",
+          "expiry": "2027-07-11",
+          "project": "",
+          "rent_years": "最长2年",
+          "price_base": "",
+          "rent_deduct": "",
+          "biz_req": "濠江区企业就业（工商注册地、税收征管关系在濠江）",
+          "person_req": "企业新引进全日制博（硕）士、正/副高级职称专技人才、高级技师；在濠江区租房",
+          "discount": "实际房租的50%，最高每月不超过1500元，最长2年",
+          "constraint": "须未享受市级同类补贴；租满1年社保方可申",
+          "channel": "濠江区人社局每年5月、11月集中受理",
+          "enterprise_only": "是",
+          "official": true,
+          "source": {
+            "unit": "汕头市濠江区人力资源和社会保障局",
+            "doc_no": "汕濠人社〔2024〕24号",
+            "date": "2024-07-12 至 2027-07-11",
+            "url": "https://www.haojiang.gov.cn/sthjrsj/gkmlpt/content/2/2353/mpost_2353189.html"
+          },
+          "note": "政府向企业人才发放的租房补贴，属福利性租赁补贴，非购房",
+          "mode": "",
+          "mode_label": "",
+          "district": "濠江区"
+        }
+      ]
+    }
+  }
+}

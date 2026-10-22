@@ -1,0 +1,972 @@
+{
+  "city": "佛山市",
+  "scope": "市级（含区级加码注记：高明/南海/顺德/禅城）",
+  "updated": "2026-08-20",
+  "sourceRule": "仅政府单位官网（*.gov.cn）：佛山市政府门户(foshan.gov.cn)、佛山市人社局(hrss.foshan.gov.cn)、佛山市住建局(fszj.foshan.gov.cn)、南海区政府(nanhai.gov.cn)、各区知识库(zsk)等；排除新闻门户（佛山+、南方+、本地宝）与自媒体。",
+  "dimensions": {
+    "grad_subsidy": {
+      "desc": "毕业生补贴（按学历）",
+      "items": [
+        {
+          "level": "专科",
+          "cash": "—",
+          "house_voucher": "高明区：区内重点产业全职新引进并首购家庭唯一住房的，给予购房补贴1万元（分2年按50%/50%发放）；求职阶段：市外应届毕业生最长7天6晚青年人才驿站/合作酒店免费住宿（市级“青才八条”）",
+          "condition": "高明区：毕业5年内、全职新引进到重点产业领域、从事与专业一致岗位、区内首购≥80㎡家庭唯一住房；市内其他区暂无专科层级现金购房补贴",
+          "source": {
+            "unit": "佛山市高明区人民政府办公室",
+            "doc_no": "",
+            "date": "2024（高明区人才引进培育扶持实施办法施行）",
+            "url": "https://www.foshan.gov.cn/gfxwj/qjgfxwj/gmq/gmqzfgfxwj/gmqrmzfbgs/content/post_5940644.html"
+          },
+          "note": "市级“青才八条”未设专科现金补贴；高明区加码购房补贴。顺德/南海/禅城区级另见各区细则。 高明区另设首购家庭唯一住房补贴1万元（分2年发放），属购房类，见本条房票列。",
+          "district": "高明区"
+        },
+        {
+          "level": "普通本科",
+          "cash": "—",
+          "house_voucher": "高明区：购房补贴2万元（分2年）；求职7天6晚免费住宿（市级青才八条）；优粤佛山卡持卡享48项服务（含公积金优惠、体检等）",
+          "condition": "高明区：重点产业全职新引进本科、区内首购；本科以上应届/普通本科就业参保可入户（青才八条）",
+          "source": {
+            "unit": "佛山市高明区人民政府办公室",
+            "doc_no": "",
+            "date": "2024",
+            "url": "https://www.foshan.gov.cn/gfxwj/qjgfxwj/gmq/gmqzfgfxwj/gmqrmzfbgs/content/post_5940644.html"
+          },
+          "note": "市级无本科现金购房补贴；本科以上应届就业参保即可入户（一站办、家属随迁）。 高明区另设购房补贴2万元（分2年），属购房类，见本条房票列。",
+          "district": "高明区"
+        },
+        {
+          "level": "双一流本科",
+          "cash": "—",
+          "house_voucher": "高明区：购房补贴4万元（分2年）；求职7天6晚免费住宿（市级青才八条）",
+          "condition": "高明区重点产业全职新引进并区内首购",
+          "source": {
+            "unit": "佛山市高明区人民政府办公室",
+            "doc_no": "",
+            "date": "2024",
+            "url": "https://www.foshan.gov.cn/gfxwj/qjgfxwj/gmq/gmqzfgfxwj/gmqrmzfbgs/content/post_5940644.html"
+          },
+          "note": "属高明区区级加码，与市级不重复（从高从优）。 高明区另设购房补贴4万元（分2年），属购房类，见本条房票列。",
+          "district": "高明区"
+        },
+        {
+          "level": "硕士",
+          "cash": "—",
+          "house_voucher": "高明区：购房补贴6万元（普通硕士）/8万元（双一流硕士，分2年）；新引进博士/高级职称免租人才住房1年（硕士不享免租，仅享租房补贴或租金减免）",
+          "condition": "市级750元/月：需在制造业或新型研发机构全职新引进；高明区购房补贴：区内首购",
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "note": "750元/月租房补贴与租赁型人才住房租金减免（最高1000元/月）二选一，自享受之日起不得转换。。本档现金补贴为租房类（制造业领域全职新引进硕士750元/月、最长36个月，市级安居办法第二十五条），归「配套保障」维度计分",
+          "district": "市级"
+        },
+        {
+          "level": "博士",
+          "cash": "—",
+          "house_voucher": "全职新引进博士在佛山购房：一次性20万元购房补贴（市级安居办法第二十四条）；高明区：博士购房补贴10万元（分2年）；新引进博士/高级职称：免费租住人才住房1年（实物，青才八条/安居办法）",
+          "condition": "全职新引进到佛山用人单位并购房；国(境)外大学博士再给10万元生活补贴",
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "note": "博士购房补贴与产权型人才住房购房优惠不重复享受（从高从优）。 市级一次性购房补贴20万元（安居办法第二十四条）与高明区博士购房补贴10万元（分2年），均属购房类，见本条房票列。",
+          "district": "市级"
+        },
+        {
+          "district": "高明区",
+          "official": true,
+          "level": "本科",
+          "cash": "全日制普通高校本科学历人才每人每年6000元（“双一流”本科学历人才每人每年9000元）",
+          "condition": "具有全日制本科学历及以上的原高明户籍应届毕业生在我区企事业单位工作（不含财政全额拨款的事业单位在编人员），资助期限最长不超过3年，生活补贴按年度发放",
+          "note": "高明区“智汇高明”工程对回乡建设家乡的原高明户籍应届高校毕业生的生活补贴",
+          "source": {
+            "unit": "佛山市高明区人民政府办公室",
+            "doc_no": "明府办〔2021〕5号",
+            "date": "2021-07-12",
+            "url": "https://www.gaoming.gov.cn/zwgk/fggw/content/post_4879671.html"
+          }
+        },
+        {
+          "district": "高明区",
+          "official": true,
+          "level": "硕士",
+          "cash": "全日制普通高校硕士学位人才每人每年9000元（“双一流”硕士人才每人每年12000元）",
+          "condition": "具有全日制本科学历及以上的原高明户籍应届毕业生在我区企事业单位工作（不含财政全额拨款的事业单位在编人员），资助期限最长不超过3年，生活补贴按年度发放",
+          "note": "高明区“智汇高明”工程对回乡建设家乡的原高明户籍应届高校毕业生的生活补贴",
+          "source": {
+            "unit": "佛山市高明区人民政府办公室",
+            "doc_no": "明府办〔2021〕5号",
+            "date": "2021-07-12",
+            "url": "https://www.gaoming.gov.cn/zwgk/fggw/content/post_4879671.html"
+          }
+        },
+        {
+          "district": "顺德区",
+          "official": true,
+          "level": "硕士",
+          "cash": "对全职新引进且符合急需紧缺目录的人才给予生活补贴，硕士每人8.4万元，均按40%、30%、30%的比例分三年发放",
+          "condition": "全职新引进到顺德区企业工作且符合《顺德区急需紧缺产业人才目录》的硕士研究生；2024年度仍按顺民社发〔2019〕166号文开展生活补贴核验发放",
+          "note": "顺德区产业人才“顺峰人才计划”生活补贴，2024年11月区民政人社局仍发布年度核验通知（https://www.shunde.gov.cn/attachment/0/486/486189/6187541.pdf），政策现行有效",
+          "source": {
+            "unit": "佛山市顺德区民政和人力资源社会保障局",
+            "doc_no": "顺民社发〔2019〕166号",
+            "date": "2019-12-30",
+            "url": "https://www.shunde.gov.cn/attachment/0/179/179071/4793957.pdf"
+          }
+        },
+        {
+          "district": "顺德区",
+          "official": true,
+          "level": "博士",
+          "cash": "对全职新引进且符合急需紧缺目录的人才给予生活补贴，博士每人12万元、博士后每人16.8万元，均按40%、30%、30%的比例分三年发放",
+          "condition": "全职新引进到顺德区企业工作且符合《顺德区急需紧缺产业人才目录》的博士研究生或出站博士后",
+          "note": "同一“顺峰人才计划”文号下博士层级标准；副高12万元、正高16.8万元、高级技师8.4万元同条执行",
+          "source": {
+            "unit": "佛山市顺德区民政和人力资源社会保障局",
+            "doc_no": "顺民社发〔2019〕166号",
+            "date": "2019-12-30",
+            "url": "https://www.shunde.gov.cn/attachment/0/179/179071/4793957.pdf"
+          }
+        }
+      ]
+    },
+    "talent_highlevel": {
+      "desc": "高层次人才（佛山采用领军人才一类-四类 + 青年储备人才分类，非A-E；优粤佛山卡另设A/B/C/D/T服务卡）",
+      "items": [
+        {
+          "class": "一类领军人才",
+          "subsidy": "安家补贴250万元 + 引进后佛山购房按网签价最高750万元购房补贴；分5年按30%/20%/20%/15%/15%发放。另可选实物：租住约200㎡产权型人才住房，5年租金全额减免，服务满5年赠与产权。",
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "note": "对应《佛山市重点扶持人才目录》一类领军；佛山市领军人才安家补贴另见佛人社规相关细则。",
+          "district": "市级"
+        },
+        {
+          "class": "二类领军人才",
+          "subsidy": "安家补贴100万元 + 购房补贴最高300万元（按网签价）；属制造业领域企业或新型研发机构经评审额外最高200万元。分5年发放。",
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "note": "",
+          "district": "市级"
+        },
+        {
+          "class": "三类领军人才",
+          "subsidy": "安家补贴75万元 + 购房补贴最高225万元（按网签价）；制造业/新型研发机构额外最高100万元。分5年发放。",
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "note": "",
+          "district": "市级"
+        },
+        {
+          "class": "四类领军人才",
+          "subsidy": "安家补贴50万元 + 购房补贴最高150万元（按网签价）；制造业/新型研发机构额外最高50万元。分5年发放。",
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "note": "",
+          "district": "市级"
+        },
+        {
+          "class": "青年储备人才",
+          "subsidy": "引进后佛山购房按网签价最高一次性60万元购房补贴。",
+          "source": {
+            "unit": "佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023（人才引育扶持工作实施细则）",
+            "url": "https://www.foshan.gov.cn/slhwz/zcwj/content/post_5702768.html"
+          },
+          "note": "青年储备人才依《佛山市重点扶持人才评定和举荐办法》举荐认定。",
+          "district": "市级"
+        },
+        {
+          "class": "博士后/正高级职称",
+          "subsidy": "引进后佛山购房一次性30万元购房补贴；具有国(境)外大学从事博士后研究工作2年及以上经历再给10万元生活补贴。",
+          "source": {
+            "unit": "佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023",
+            "url": "https://www.foshan.gov.cn/slhwz/zcwj/content/post_5702768.html"
+          },
+          "note": "",
+          "district": "市级"
+        },
+        {
+          "class": "博士/副高级职称",
+          "subsidy": "引进后佛山购房一次性20万元购房补贴；具有国(境)外大学博士研究生学历和学位再给10万元生活补贴。",
+          "source": {
+            "unit": "佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023",
+            "url": "https://www.foshan.gov.cn/slhwz/zcwj/content/post_5702768.html"
+          },
+          "note": "",
+          "district": "市级"
+        },
+        {
+          "district": "禅城区",
+          "official": true,
+          "condition": "经禅城区认定（评定）的正式引进高层次人才（杰出高层次人才A类、创业创新领军人才B类、急需紧缺创业创新人才C类），与注册地址在禅城的企业签订3年以上劳动合同并按规定购买社会保险",
+          "note": "经禅城区认定（评定）的正式引进高层次人才（杰出高层次人才A类、创业创新领军人才B类、急需紧缺创业创新人才C类），与注册地址在禅城的企业签订3年以上劳动合同并按规定购买社会保险；禅城区“通济才智”工程高层次人才的区级安家补助，与市级政策从高从优不重复",
+          "source": {
+            "unit": "佛山市禅城区人民政府办公室",
+            "doc_no": "佛禅府办〔2021〕18号",
+            "date": "2021",
+            "url": "http://foshan.gov.cn/gfxwj/qjgfxwj/ccq/ccqzfgfxwj/ccqrmzfbgs/content/post_5912577.html"
+          }
+        }
+      ]
+    },
+    "hukou": {
+      "desc": "落户",
+      "items": [
+        {
+          "target": "本科及以上应届/在职",
+          "rule": "本科以上应届毕业生在佛山就业参保即可办理入户，鼓励父母、配偶及子女随迁，实行“一站办”（青才八条）。在职：具有本科及以上学历或中级及以上职称，男50/女45周岁以下；或大专经企事业单位考核合格、年龄35周岁以下，可人才引进入户。",
+          "source": {
+            "unit": "佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2025-04（青年人才八项措施）",
+            "url": "https://hrss.foshan.gov.cn/zwgk/gzdt/content/post_6557546.html"
+          },
+          "district": "市级"
+        },
+        {
+          "target": "大专",
+          "rule": "经市(区)人才服务机构核准，具有大专学历、企事业单位考核合格且专业技能/工作经历与用人单位发展方向一致、年龄35周岁以下的各类人才，可办理引进人才落户；优粤佛山卡A/B/C持卡人（不含柔性人才）可直接入户。",
+          "source": {
+            "unit": "佛山市人民政府门户网站（知识库）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.foshan.gov.cn/zsk?kCode=BSD00000139"
+          },
+          "district": "市级"
+        },
+        {
+          "target": "先落户后就业/其他通道",
+          "rule": "经批准的先落户后就业人员、优粤佛山卡A/B/C持卡人（不含柔性）、经市(区)人才管理部门批准引进的各类人才、录用招聘调动人员，可在工作所在地或实际居住地申请入户；配偶及未成年子女可随迁。高明区、三水区拟放宽至大专（征求意见）。",
+          "source": {
+            "unit": "佛山市人民政府门户网站（知识库）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.foshan.gov.cn/zsk?kCode=BSD00000740&parent="
+          },
+          "district": "市级"
+        },
+        {
+          "target": "高技能/职称通道",
+          "rule": "具有技师(二级)及以上职业资格或中级及以上职称且从事与证书相符工作可人才引进入户；高技能人才持《佛山市高技能人才入户卡》本人及配偶、未成年子女、共同居住父母可入户。",
+          "source": {
+            "unit": "佛山市人民政府门户网站（知识库）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.foshan.gov.cn/zsk?kCode=BSD00000740&parent="
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "startup": {
+      "desc": "创业扶持",
+      "items": [
+        {
+          "type": "一次性创业补贴",
+          "detail": "符合条件创业者（毕业5年内高校毕业生等重点扶持对象等）创办初创企业登记注册满12个月、申请补贴前6个月正常经营且有不少于1名员工按规定缴纳社保，给予10000元一次性创业资助。",
+          "source": {
+            "unit": "佛山市南海区（知识库）/佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.foshan.gov.cn/zsk?kCode=BNH00001383"
+          },
+          "district": "南海区"
+        },
+        {
+          "type": "创业担保贷款",
+          "detail": "个人创业担保贷款最高50万元（广东省2026年新政提至60万元），期限不超过3年，财政给予贴息；合伙创业按符合条件人数叠加最高500万元；小微企业贷款上限500万元。利率上限不超过LPR+50BP。",
+          "source": {
+            "unit": "广东省人力资源和社会保障厅等四部门（佛山信用平台转载）",
+            "doc_no": "粤人社规〔2026〕3号",
+            "date": "2026-02-06",
+            "url": "https://www.credit.foshan.gov.cn/cms/cmsContent.html?channelCode=ZCWJ&contentId=1770150873907453952"
+          },
+          "note": "【来源待升级】当前来源为新闻发布会/媒体转载/问答附件，非政策原文；正式印发件待检索补齐（见待检索清单）。",
+          "district": "市级"
+        },
+        {
+          "type": "房租/租金补贴",
+          "detail": "租用经营场地符合条件的创业者，每年最高6000元、最长3年的租金补贴（区级，如三水区青年返乡创业政策包）；政府投资开发的孵化器等创业载体安排30%左右场地免费提供给高校毕业生。",
+          "source": {
+            "unit": "佛山市人民政府门户（知识库：禅城区/三水区创业租金补贴办事指南）",
+            "doc_no": "",
+            "date": "",
+            "url": "https://www.foshan.gov.cn/zsk/?kCode=BCC00001382"
+          },
+          "note": "创业租金补贴按区受理：禅城、三水等区在市政府门户知识库均有办事指南（每年最高6000元、累计不超过3年）；孵化载体场地30%免费提供给高校毕业生为省统一要求。",
+          "district": "市级"
+        },
+        {
+          "type": "大赛/项目资助",
+          "detail": "来佛山创新创业的重点人才团队项目最高给予1000万元基金投资支持（青才八条）；博士博士后创业项目可择优入驻佛山博士博士后创新创业孵化基地，享受免租金等支持；协助人才个人最高100万元信用贷、团队最高4000万元经营贷。",
+          "source": {
+            "unit": "佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2025-04",
+            "url": "https://www.foshan.gov.cn/zwgk/rdzt/gfctxycjfs/zpzx/content/post_6553395.html"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "welfare": {
+      "desc": "配套保障",
+      "items": [
+        {
+          "type": "子女教育",
+          "detail": "优粤佛山卡A卡、B卡持卡人子女可统筹安排入读公办中小学、幼儿园；顺德区高层次人才子女全区范围按个人意愿入读义务教育阶段公、民办学校。",
+          "source": {
+            "unit": "佛山市人民政府（优粤佛山卡服务管理办法）",
+            "doc_no": "",
+            "date": "2023-09-20",
+            "url": "https://hrss.foshan.gov.cn/gkmlpt/content/5/5779/post_5779590.html"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "医疗",
+          "detail": "优粤佛山卡A卡每年最高5000元、B卡每年最高2000元标准体检项目；持卡人可通过平台享受指定三甲医院医疗预约挂号服务。",
+          "source": {
+            "unit": "佛山市人民政府",
+            "doc_no": "",
+            "date": "2023-09-20",
+            "url": "https://hrss.foshan.gov.cn/gkmlpt/content/5/5779/post_5779590.html"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "人才公寓/租赁",
+          "detail": "筹集市场化人才公寓；新引进博士/高级职称免费租住人才住房1年；制造业/新型研发机构全职新引进硕士等享750元/月租房补贴或最高1000元/月租赁型人才住房租金减免（最长36个月）。",
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "district": "市级"
+        },
+        {
+          "type": "数字化平台",
+          "detail": "优粤佛山卡服务平台（APP）统一办理人才分类认定、补贴申领、安居申请、入户、租房备案等；“佛山人才码”微信小程序设优才安居宜居专区。",
+          "source": {
+            "unit": "佛山市住房和城乡建设局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://www.foshan.gov.cn/slhwz/zcjd/content/post_5702124.html"
+          },
+          "district": "市级"
+        },
+        {
+          "district": "高明区",
+          "official": true,
+          "note": "高明区对企事业单位全职新引进中初级人才的区级租房补贴",
+          "source": {
+            "unit": "佛山市高明区人民政府办公室",
+            "doc_no": "明府办〔2021〕5号",
+            "date": "2021-07-12",
+            "url": "https://www.gaoming.gov.cn/zwgk/fggw/content/post_4879671.html"
+          }
+        }
+      ]
+    },
+    "timing": {
+      "desc": "时效提醒",
+      "items": [
+        {
+          "item": "《佛山市人才安居办法》有效期",
+          "detail": "2023-07-06印发，有效期3年（至2026-07-06前后），政策实施周期适时绩效评估并优化调整。人才安居待遇须全职引进到佛山工作3年以内提出申请，逾期视为放弃资格、不予受理。",
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "《佛山市引进人才落户管理办法》征求意见",
+          "detail": "佛山市人社局发布《佛山市引进人才落户管理办法（征求意见稿）》，拟放宽当年毕业生/在职人才落户（高明、三水放宽至全日制大专，落户后3年内不得跨区迁移），共5章18条。尚未正式印发，以正式文件为准。",
+          "source": {
+            "unit": "佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "征求意见（2023年首次/2025年复核）",
+            "url": ""
+          },
+          "note": "来源为征求意见公告，未在检索中取得稳定gov.cn原文链接，需人工复核正式印发版。",
+          "district": "市级"
+        },
+        {
+          "item": "高明区人才引进培育扶持实施办法有效期",
+          "detail": "自印发之日起施行，有效期5年；2020-01-01至印发前符合条件人才参照执行；有效期内认定、到期后未领完相关补贴的可继续按本办法领完。",
+          "source": {
+            "unit": "佛山市高明区人民政府办公室",
+            "doc_no": "",
+            "date": "2024",
+            "url": "https://www.foshan.gov.cn/gfxwj/qjgfxwj/gmq/gmqzfgfxwj/gmqrmzfbgs/content/post_5940644.html"
+          },
+          "district": "高明区"
+        }
+      ]
+    },
+    "risk": {
+      "desc": "风险提示（服务期/退还/骗补）",
+      "items": [
+        {
+          "item": "产权型人才住房服务期承诺（未满服务期补缴）",
+          "detail": "购买产权型人才住房：领军人才须在佛山累计服务满5年，其他人才满3年（不含在佛山从事博士后研究时间）。转让/赠与/抵押(不含按揭)前未达服务期，按未服务年限比例补缴购房优惠金额=购房优惠总额×(1-人才实际服务月数/60或36)。",
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "骗补/失信退回",
+          "detail": "以不正当手段取得资格预认定/认定或违反诚信承诺的，用人单位2年以内、个人5年以内不得申请佛山市所有人才安居待遇；已享受的货币补贴和实物配置待遇须全部退回；情节严重依法追究法律责任。高明区：骗取补贴取消资格、追回违规所得并依规处理。",
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局；高明区人民政府办公室",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "district": "市级"
+        },
+        {
+          "item": "补贴不重复与退出机制",
+          "detail": "人才安居“从高从优不重复”；安家/购房补贴不能与产权型人才住房购房优惠重复享受；离职、佛山社保或个税中断累计6个月及以上、在外市参保等情形终止待遇并须腾退人才住房/报备。",
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "district": "市级"
+        }
+      ]
+    },
+    "apply_path": {
+      "desc": "申报路径",
+      "items": [
+        {
+          "platform": "优粤佛山卡服务平台（APP）",
+          "materials": "身份证/护照、学历学位/职称证书、劳动或聘用合同、社保缴费证明、工资薪金个税完税证明、单位营业执照等（详见安居办法第三十三条）",
+          "process": "人才APP提交→用人单位后台核对申报→审核部门审核→公示5个工作日→确认名单→补贴拨至优粤佛山卡/社保卡金融账户",
+          "phone": "0757-12345；优粤佛山卡客服0757-89959101/89959102；顺德区0757-22838180",
+          "district": "市级"
+        },
+        {
+          "platform": "佛山市人力资源和社会保障局公共服务平台（人才引进入户）",
+          "materials": "身份证、户口簿、学历/职称证书、社保参保证明、单位同意入户证明等",
+          "process": "登录ggfw.hrss.foshan.gov.cn→人事人才→人才引进入户填报；或广东政务服务网/粤居码",
+          "phone": "0757-12345",
+          "district": "市级"
+        },
+        {
+          "platform": "佛山智慧房产微信小程序（配售型保障房/人才住房）",
+          "materials": "申请人基础信息、承诺书、相关附件材料",
+          "process": "小程序→住房保障→配售型保障房意向登记→填写信息→选择意向区域→上传材料→提交",
+          "phone": "各区住房城乡建设主管部门",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_rent2sale": {
+      "desc": "先租后售人才房",
+      "items": [
+        {
+          "name": "一类领军人才租住产权型人才住房（先租后获产权）",
+          "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+          "effective": "2023-07-06",
+          "expiry": "2026-07-06（安居办法有效期3年）",
+          "project": "产权型人才住房（各区制定配售方案）",
+          "rent_years": "累计不超过5年（租金全额减免）",
+          "price_base": "实物配置，非购买定价；服务累计满5年可通过用人单位申请赠与所租的产权型人才住房",
+          "rent_deduct": "5年租金全额减免（免收，等价于租金抵扣）",
+          "biz_req": "向用人单位所在地申请，通过用人单位申报",
+          "person_req": "全职新引进一类领军人才，在佛山市服务累计满5年可获赠与产权",
+          "discount": "无现金折扣，属实物保障",
+          "constraint": "须通过用人单位申请；服务满5年方可赠与；退房/不再符合条件须及时腾退",
+          "channel": "优粤佛山卡APP→住房城乡建设部门实物配置申请",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "note": "已按红线三件套核验收录：租赁(5年免租)+租金减免+期满获产权齐全。期满为“赠与”而非“购买”，与典型先租后售购有差异，但具备明确的产权获得通道，非普通租赁。",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_discount": {
+      "desc": "定向优惠价购房（注：佛山“优才安居宜居”房企98折/99折为市场化让利、非政府定价限价，不录入本维度，遵守红线）",
+      "items": [
+        {
+          "name": "产权型人才住房（领军人才二/三/四类）定向优惠购房",
+          "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+          "effective": "2023-07-06",
+          "expiry": "2026-07-06",
+          "project": "产权型人才住房（各区制定配售方案）",
+          "rent_years": "",
+          "price_base": "购房优惠参考人才可享受的货币补贴标准（政府限价/按份优惠）",
+          "rent_deduct": "",
+          "biz_req": "通过用人单位所在地申请",
+          "person_req": "全职新引进二类/三类/四类领军人才",
+          "discount": "二类领军最高300万(+制造业200万)；三类225万(+100万)；四类150万(+50万)",
+          "constraint": "购房优惠与安家/购房货币补贴不重复；领军须服务满5年方可转让/抵押，未满补缴优惠金额",
+          "channel": "优粤佛山卡APP→住房城乡建设部门",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "note": "",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        },
+        {
+          "name": "产权型人才住房（青年储备人才）定向优惠购房",
+          "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+          "effective": "2023-07-06",
+          "expiry": "2026-07-06",
+          "project": "产权型人才住房",
+          "rent_years": "",
+          "price_base": "购房优惠参考货币补贴标准",
+          "rent_deduct": "",
+          "biz_req": "通过用人单位",
+          "person_req": "全职新引进青年储备人才",
+          "discount": "引进后佛山购房按网签价最高一次性60万元购房补贴（转化为购房优惠）",
+          "constraint": "与货币购房补贴不重复；服务期按对应层次执行",
+          "channel": "优粤佛山卡APP",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023",
+            "url": "https://www.foshan.gov.cn/slhwz/zcwj/content/post_5702768.html"
+          },
+          "note": "",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        },
+        {
+          "name": "产权型人才住房（博士后/正高、博士/副高）定向优惠购房",
+          "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+          "effective": "2023-07-06",
+          "expiry": "2026-07-06",
+          "project": "产权型人才住房",
+          "rent_years": "",
+          "price_base": "购房优惠参考货币补贴标准",
+          "rent_deduct": "",
+          "biz_req": "通过用人单位",
+          "person_req": "全职新引进博士后/正高级职称、博士/副高级职称专业技术人才",
+          "discount": "博士后/正高最高30万；博士/副高最高20万",
+          "constraint": "与货币购房补贴不重复；其他人才须服务满3年方可转让/抵押",
+          "channel": "优粤佛山卡APP",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023",
+            "url": "https://www.foshan.gov.cn/slhwz/zcwj/content/post_5702768.html"
+          },
+          "note": "",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_subsidy": {
+      "desc": "人才购房补贴/房票（注：佛山未发放独立“房票”凭证；“安居票”为优粤佛山卡平台补贴申报入口，非房票）",
+      "items": [
+        {
+          "name": "一类领军人才购房补贴",
+          "unit": "佛山市人力资源和社会保障局",
+          "effective": "2023-07-06",
+          "expiry": "2026-07-06",
+          "project": "商品住房（网签备案/不动产权证）",
+          "rent_years": "",
+          "price_base": "按网签合同价格核定，网签价低于补贴标准按网签价",
+          "rent_deduct": "",
+          "biz_req": "全职新引进到佛山用人单位",
+          "person_req": "全职新引进一类领军人才，在佛山购买商品住房",
+          "discount": "购房后按网签价最高750万元，分5年按30%/20%/20%/15%/15%发放",
+          "constraint": "须全职新引进3年内申请；与产权型人才住房优惠不重复；属制造业/新型研发机构可叠加额外购房补贴",
+          "channel": "优粤佛山卡APP→人社部门",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023",
+            "url": "https://www.foshan.gov.cn/slhwz/zcwj/content/post_5702768.html"
+          },
+          "note": "",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        },
+        {
+          "name": "二类领军人才购房补贴",
+          "unit": "佛山市人力资源和社会保障局",
+          "effective": "2023-07-06",
+          "expiry": "2026-07-06",
+          "project": "商品住房",
+          "rent_years": "",
+          "price_base": "按网签合同价格",
+          "rent_deduct": "",
+          "biz_req": "全职新引进到佛山用人单位",
+          "person_req": "全职在读引进二类领军人才，在佛山购房",
+          "discount": "最高300万元（+制造业/新型研发机构经评审额外最高200万元），分5年发放",
+          "constraint": "与产权型人才住房优惠不重复；须3年内申请",
+          "channel": "优粤佛山卡APP",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023",
+            "url": "https://www.foshan.gov.cn/slhwz/zcwj/content/post_5702768.html"
+          },
+          "note": "",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        },
+        {
+          "name": "三类领军人才购房补贴",
+          "unit": "佛山市人力资源和社会保障局",
+          "effective": "2023-07-06",
+          "expiry": "2026-07-06",
+          "project": "商品住房",
+          "rent_years": "",
+          "price_base": "按网签合同价格",
+          "rent_deduct": "",
+          "biz_req": "全职新引进到佛山用人单位",
+          "person_req": "全职新引进三类领军人才，在佛山购房",
+          "discount": "最高225万元（+制造业/新型研发机构额外最高100万元），分5年发放",
+          "constraint": "与产权型人才住房优惠不重复",
+          "channel": "优粤佛山卡APP",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023",
+            "url": "https://www.foshan.gov.cn/slhwz/zcwj/content/post_5702768.html"
+          },
+          "note": "",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        },
+        {
+          "name": "四类领军人才购房补贴",
+          "unit": "佛山市人力资源和社会保障局",
+          "effective": "2023-07-06",
+          "expiry": "2026-07-06",
+          "project": "商品住房",
+          "rent_years": "",
+          "price_base": "按网签合同价格",
+          "rent_deduct": "",
+          "biz_req": "全职新引进到佛山用人单位",
+          "person_req": "全职新引进四类领军人才，在佛山购房",
+          "discount": "最高150万元（+制造业/新型研发机构额外最高50万元），分5年发放",
+          "constraint": "与产权型人才住房优惠不重复",
+          "channel": "优粤佛山卡APP",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023",
+            "url": "https://www.foshan.gov.cn/slhwz/zcwj/content/post_5702768.html"
+          },
+          "note": "",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        },
+        {
+          "name": "青年储备人才购房补贴",
+          "unit": "佛山市人力资源和社会保障局",
+          "effective": "2023",
+          "expiry": "2026-07-06",
+          "project": "商品住房",
+          "rent_years": "",
+          "price_base": "按网签合同价格",
+          "rent_deduct": "",
+          "biz_req": "全职新引进到佛山用人单位",
+          "person_req": "全职新引进青年储备人才，在佛山购房",
+          "discount": "最高一次性60万元",
+          "constraint": "须3年内申请；与产权型人才住房优惠不重复",
+          "channel": "优粤佛山卡APP",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023",
+            "url": "https://www.foshan.gov.cn/slhwz/zcwj/content/post_5702768.html"
+          },
+          "note": "",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        },
+        {
+          "name": "博士后/正高、博士/副高购房补贴",
+          "unit": "佛山市人力资源和社会保障局",
+          "effective": "2023",
+          "expiry": "2026-07-06",
+          "project": "商品住房",
+          "rent_years": "",
+          "price_base": "按网签合同价格",
+          "rent_deduct": "",
+          "biz_req": "全职新引进到佛山用人单位",
+          "person_req": "全职新引进博士后/正高级职称、博士/副高级职称，在佛山购房",
+          "discount": "博士后/正高一次性30万元；博士/副高一次性20万元",
+          "constraint": "须3年内申请；与产权型人才住房优惠不重复",
+          "channel": "优粤佛山卡APP",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023",
+            "url": "https://www.foshan.gov.cn/slhwz/zcwj/content/post_5702768.html"
+          },
+          "note": "",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        },
+        {
+          "name": "高明区人才购房补贴（区级加码）",
+          "unit": "佛山市高明区人民政府办公室",
+          "effective": "2024",
+          "expiry": "有效期5年",
+          "project": "高明区内家庭唯一住房（首购，≥80㎡）",
+          "rent_years": "",
+          "price_base": "按不动产权证核定",
+          "rent_deduct": "",
+          "biz_req": "高明区重点产业领域全职新引进",
+          "person_req": "在高明区首购家庭唯一住房的人才（领军/博士后/博士/职称/学历分层）",
+          "discount": "国家级/省级/地方级领军20/18/15万；博士后正高12万；博士副高10万；双一流硕士8万/普通硕士6万；双一流本科4万/普通本科2万/大专1万（均分2年50%/50%）",
+          "constraint": "每个房源只能申请一次；夫妻就高不重复；取得不动产权证1年内申请",
+          "channel": "高明区在线申报平台/优粤佛山卡APP",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "佛山市高明区人民政府办公室",
+            "doc_no": "",
+            "date": "2024",
+            "url": "https://www.foshan.gov.cn/gfxwj/qjgfxwj/gmq/gmqzfgfxwj/gmqrmzfbgs/content/post_5940644.html"
+          },
+          "note": "区级加码，与市级按“从高从优不重复”执行。",
+          "mode": "",
+          "mode_label": "",
+          "district": "高明区"
+        },
+        {
+          "district": "顺德区",
+          "official": true,
+          "constraint": "在顺德区工作且已取得顺德区高层次人才认定的人才，或优粤佛山卡ABC类以及D类中符合工资薪金个人所得税2万元及以上的人才，且申购前连续6个月在顺德区工作及参加社会保险；一户一套，8年内不得出租（借）、转让、赠与、抵押（不含按揭），2024年6月1日起施行、有效期五年",
+          "note": "低于市场价约两成的人才专供住房，是顺德当前最主要的区级安居政策；原顺府办发〔2021〕11号文同时废止",
+          "source": {
+            "unit": "佛山市顺德区人民政府办公室",
+            "doc_no": "顺府办发〔2024〕4号",
+            "date": "2024-04-29",
+            "url": "https://www.shunde.gov.cn/gkmlpt/content/5/5966/mpost_5966624.html"
+          }
+        }
+      ]
+    },
+    "anju_shared": {
+      "desc": "共有产权房",
+      "items": [
+        {
+          "name": "佛山市共有产权住房（人才类可申购）",
+          "unit": "佛山市人民政府办公室",
+          "effective": "试点实施意见（2018-2020）",
+          "expiry": "按各区实施细则",
+          "project": "共有产权住房（新供应用地、配建、收购等方式筹集）",
+          "rent_years": "",
+          "price_base": "政府指导价，参考同地段同品质普通商品住房市场价格评估确定份额",
+          "rent_deduct": "",
+          "biz_req": "无（个人/家庭申购）",
+          "person_req": "本市户籍无房家庭/个人，或新市民持居住证+连续社保5年；人才类符合人才认定亦可申购",
+          "discount": "个人与政府按份共有；个人原则上不低于50%份额（禅城80%、南海50%等各区不同）",
+          "constraint": "1家庭1套；满5年可购政府份额后上市；与公租房、租赁补贴不重复",
+          "channel": "社区居(村)委会/镇街住房保障窗口；佛山智慧房产小程序",
+          "enterprise_only": "否",
+          "official": true,
+          "source": {
+            "unit": "佛山市人民政府办公室",
+            "doc_no": "",
+            "date": "2018-2020",
+            "url": "https://www.foshan.gov.cn/gkmlpt/content/4/4378/mpost_4378735.html"
+          },
+          "note": "属面向户籍居民与新市民的一般共有产权保障房，人才类可申购但非人才专属。",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        },
+        {
+          "name": "南海区产业人才共有产权住房",
+          "unit": "佛山市南海区住房城乡建设和水利局",
+          "effective": "征求意见稿（2021）",
+          "expiry": "待正式印发",
+          "project": "狮山龙光玖御湖等，首期约80套（建筑面积≤120㎡）",
+          "rent_years": "",
+          "price_base": "销售价格占评估价格比例确定；个人持70%份额、政府持30%份额",
+          "rent_deduct": "",
+          "biz_req": "在南海区制造业全国隐形冠军企业或“两高四新”等重点招商企业内工作（企业配额分配）",
+          "person_req": "认定的人才（不含柔性），在指定企业连续工作满1年，佛山无自有产权住房且5年内无住房转让记录",
+          "discount": "个人70%/政府30%；在指定企业连续工作满10年政府赠与30%→取得100%产权并可上市交易",
+          "constraint": "满5年可转让所持份额；满10年获全部产权；离职3个月内主动退房",
+          "channel": "企业配额→代持机构摇珠选房→网签备案",
+          "enterprise_only": "是",
+          "official": true,
+          "source": {
+            "unit": "佛山市南海区住房城乡建设和水利局",
+            "doc_no": "",
+            "date": "2021（征求意见）",
+            "url": "https://www.nanhai.gov.cn/fsnhq/bmdh/zfbm/qzjhslj/xxgkml/tzgg/content/post_4723984.html"
+          },
+          "note": "来源为征求意见稿公告，尚未正式印发，需人工复核正式文件与最新批次。",
+          "mode": "",
+          "mode_label": "",
+          "district": "南海区"
+        },
+        {
+          "name": "安居型人才住房（按份共有·期满可申购代持份额）",
+          "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+          "effective": "2023-07-06",
+          "expiry": "2026-07-06",
+          "project": "安居型人才住房（具体办法由住建部门另行制定）",
+          "rent_years": "",
+          "price_base": "代持机构与人才按份共同持有产权，期满后人才可申购代持机构所持产权份额取得完全产权",
+          "rent_deduct": "",
+          "biz_req": "通过用人单位",
+          "person_req": "全职新引进人才（按安居办法）",
+          "discount": "市、区政府可将代持机构所持产权份额部分或全部无偿赠送给人才",
+          "constraint": "取得完全产权并自持一段时期后可自由上市；具体管理办法“另行制定”",
+          "channel": "优粤佛山卡APP",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "note": "安居型人才住房具体管理办法“另行制定”，落地情况需人工复核。",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        }
+      ]
+    },
+    "anju_enterprise": {
+      "desc": "企业内部福利房",
+      "items": [
+        {
+          "name": "企事业单位自有用地建设租赁型人才住房",
+          "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+          "effective": "2023-07-06",
+          "expiry": "2026-07-06",
+          "project": "企事业单位利用自有用地建设或配建租赁型人才住房",
+          "rent_years": "按单位配租方案",
+          "price_base": "租赁（非出售），解决本单位引进人才居住",
+          "rent_deduct": "可叠加人才住房租金减免（按人才层次）",
+          "biz_req": "企事业单位投资建设，制定配租方案报住房城乡建设部门备案后实施",
+          "person_req": "本单位引进人才",
+          "discount": "租金按人才住房标准（符合条件享减免）",
+          "constraint": "主要解决本单位引进人才居住问题；未按备案方案配租责令整改",
+          "channel": "用人单位内部配租+住建部门备案",
+          "enterprise_only": "是",
+          "official": true,
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "note": "属纯租赁保障，非优惠购房。",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        },
+        {
+          "name": "市场化人才公寓/企业人才公寓（租赁）",
+          "unit": "佛山市住房和城乡建设局",
+          "effective": "2023-07-06",
+          "expiry": "2026-07-06",
+          "project": "市场化人才公寓（鼓励市场提供优质配套完善的人才公寓）",
+          "rent_years": "按租赁合约",
+          "price_base": "租赁",
+          "rent_deduct": "",
+          "biz_req": "鼓励企事业单位利用自有用地建设",
+          "person_req": "各类人才",
+          "discount": "市场租金（符合条件可享人才租金减免）",
+          "constraint": "纯租赁，不涉购房；纳入保障性租赁住房规范管理的按规定执行",
+          "channel": "优粤佛山卡APP租房服务/市场化供应",
+          "enterprise_only": "部分",
+          "official": true,
+          "source": {
+            "unit": "佛山市住房和城乡建设局、佛山市人力资源和社会保障局",
+            "doc_no": "",
+            "date": "2023-07-06",
+            "url": "https://fszj.foshan.gov.cn/gkmlpt/content/5/5701/mpost_5701878.html"
+          },
+          "note": "纯租赁，非优惠购房，不录入购房维度（遵守红线）。",
+          "mode": "",
+          "mode_label": "",
+          "district": "市级"
+        }
+      ]
+    }
+  }
+}

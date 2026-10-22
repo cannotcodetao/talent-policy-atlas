@@ -1,0 +1,118 @@
+name: Deploy talent-policy
+
+# 子站 talent-policy：Python 构建出单文件自包含 HTML，发布到 /www/releases/talent-policy/<版本>/。
+# 产物文件名 人才引进政策_2026.html -> 线上重命名为 index.html
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-talent-policy
+  cancel-in-progress: false
+
+env:
+  # ↓↓↓ 需要按实际环境修改：站点根目录 ↓↓↓
+  SITE_ROOT: /www/wwwroot/example.com
+  # ↑↑↑
+  SITE_NAME: talent-policy
+  RELEASES_ROOT: /www/releases
+  SERVER_USER: root
+  KEEP_RELEASES: 5
+  SOURCE_HTML: 人才引进政策_2026.html
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Build
+        run: |
+          set -e
+          # _build_html.py 只用标准库（json / os / sys / re），无需 pip 安装
+          python _build_html.py
+
+          test -f "$SOURCE_HTML" || { echo "❌ 构建产物 $SOURCE_HTML 不存在"; exit 1; }
+
+          rm -rf _release && mkdir -p _release
+          cp "$SOURCE_HTML" _release/index.html
+
+          # ── 产物验收 ───────────────────────────────────────────
+          test -s _release/index.html || { echo "❌ index.html 为空"; exit 1; }
+
+          # 自包含：不允许任何外部 script/link 引用（否则子系统依赖会断）
+          if grep -qE '<(script|link)[^>]+(src|href)="https?://' _release/index.html; then
+            echo "❌ 产物含外部资源引用，自包含校验失败"
+            grep -oE '<(script|link)[^>]+(src|href)="https?://[^"]*"' _release/index.html | head
+            exit 1
+          fi
+
+          # 自包含单文件：不该有静态 img 标签
+          if grep -q '<img' _release/index.html; then
+            echo "⚠️ 产物含 <img> 标签，请确认图片已内联或同目录提供"
+          fi
+
+          SIZE=$(stat -c%s _release/index.html)
+          echo "✅ 构建验收通过：${SIZE} bytes"
+          if [ "$SIZE" -lt 500000 ]; then
+            echo "❌ 产物体积异常（预期约 1.5MB），可能构建不完整"
+            exit 1
+          fi
+
+      - name: Resolve release name (UTC)
+        id: vars
+        run: echo "release=${SITE_NAME}/$(date -u +%Y%m%d-%H%M%S)-${GITHUB_RUN_NUMBER}" >> "$GITHUB_OUTPUT"
+
+      - name: Prepare release directory
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ env.SERVER_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            set -e
+            mkdir -p "${{ env.RELEASES_ROOT }}/${{ steps.vars.outputs.release }}"
+
+      - name: Rsync to release directory
+        uses: burnett01/rsync-deployments@7.0.1
+        with:
+          switches: -avz --delete
+          path: _release/
+          remote_path: ${{ env.RELEASES_ROOT }}/${{ steps.vars.outputs.release }}/
+          remote_host: ${{ secrets.SERVER_HOST }}
+          remote_user: ${{ env.SERVER_USER }}
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Switch symlink (atomic) and cleanup
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ env.SERVER_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            set -e
+            TARGET="${{ env.RELEASES_ROOT }}/${{ steps.vars.outputs.release }}"
+            LINK="${{ env.SITE_ROOT }}/${{ env.SITE_NAME }}"
+
+            # 【关键】实体目录会被 ln -sfn "钻进去" 建链接，必须先移走
+            if [ -d "$LINK" ] && [ ! -L "$LINK" ]; then
+              LEGACY="${LINK}.legacy.$(date -u +%Y%m%d%H%M%S)"
+              mv "$LINK" "$LEGACY"
+              echo "⚠️ 检测到实体目录，已移至 $LEGACY（确认后可删除）"
+            fi
+
+            ln -sfn "$TARGET" "${LINK}.new"
+            mv -f "${LINK}.new" "$LINK"
+
+            echo "✅ 已切换 $LINK -> $(readlink "$LINK")"
+            test -f "$LINK/index.html" || { echo "❌ index.html 不存在"; exit 1; }
+
+            /www/scripts/cleanup.sh talent-policy "${{ env.KEEP_RELEASES }}"

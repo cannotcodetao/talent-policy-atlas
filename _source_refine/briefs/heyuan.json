@@ -1,0 +1,302 @@
+{
+ "city": "河源",
+ "entries": [
+  {
+   "key": "河源|grad_subsidy|市级|专科|粤东粤西粤北地区就业补贴5000元（一次性）",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "专科",
+   "unit": "河源市人民政府门户网站（高校毕业生就业创业扶持政策清单）",
+   "doc_no": "",
+   "date": "2024",
+   "url": "https://www.heyuan.gov.cn/zwgk/zdlyxx/jycy/zczy/content/post_702766.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|grad_subsidy|市级|普通本科|粤东粤西粤北地区就业补贴5000元（一次性）；市级补贴最高5000元",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "普通本科",
+   "unit": "河源市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2026-03-18",
+   "url": "https://www.heyuan.gov.cn/hysrsj/gkmlpt/content/0/695/post_695376.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|grad_subsidy|市级|双一流本科|粤东粤西粤北地区就业补贴5000元（一次性）；市级补贴最高5000元",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "双一流本科",
+   "unit": "河源市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2026-03-18",
+   "url": "https://www.heyuan.gov.cn/hysrsj/gkmlpt/content/0/695/post_695376.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|grad_subsidy|市级|硕士|粤东粤西粤北地区就业补贴7000元（一次性） + 市级补贴最高10.7万元",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "硕士",
+   "unit": "河源市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2026-03-18",
+   "url": "https://www.heyuan.gov.cn/hysrsj/gkmlpt/content/0/695/post_695376.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|grad_subsidy|市级|博士|粤东粤西粤北地区就业补贴1万元（一次性） + 市级补贴最高121万元",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "博士",
+   "unit": "河源市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2026-03-18",
+   "url": "https://www.heyuan.gov.cn/hysrsj/gkmlpt/content/0/695/post_695376.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|grad_subsidy|紫金县|博士|每人10000元（一次性）",
+   "dim": "grad_subsidy",
+   "district": "紫金县",
+   "name": "博士",
+   "unit": "紫金县人民政府（县劳动就业服务管理中心经办）",
+   "doc_no": "",
+   "date": "2024-03-27",
+   "url": "https://www.zijin.gov.cn/zw/zdlyxxgk/jycyxxgk/content/post_598851.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|grad_subsidy|紫金县|硕士|每人7000元（一次性）",
+   "dim": "grad_subsidy",
+   "district": "紫金县",
+   "name": "硕士",
+   "unit": "紫金县人民政府（县劳动就业服务管理中心经办）",
+   "doc_no": "",
+   "date": "2024-03-27",
+   "url": "https://www.zijin.gov.cn/zw/zdlyxxgk/jycyxxgk/content/post_598851.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|grad_subsidy|紫金县|专科/本科|每人5000元（一次性，其他毕业生）",
+   "dim": "grad_subsidy",
+   "district": "紫金县",
+   "name": "专科/本科",
+   "unit": "紫金县人民政府（县劳动就业服务管理中心经办）",
+   "doc_no": "",
+   "date": "2024-03-27",
+   "url": "https://www.zijin.gov.cn/zw/zdlyxxgk/jycyxxgk/content/post_598851.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "河源市人民政府门户网站（河源市户口迁移的相关规定）",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.heyuan.gov.cn/zwgk/zdlyxx/zylhryfw/fwgk/content/post_647457.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "河源市人民政府门户网站（河源市户口迁移的相关规定）",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.heyuan.gov.cn/zwgk/zdlyxx/zylhryfw/fwgk/content/post_647457.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "河源市人民政府门户网站（河源市户口迁移的相关规定）",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.heyuan.gov.cn/zwgk/zdlyxx/zylhryfw/fwgk/content/post_647457.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "河源市人民政府门户网站（河源市户口迁移的相关规定）",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.heyuan.gov.cn/zwgk/zdlyxx/zylhryfw/fwgk/content/post_647457.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "河源市人民政府门户网站（河源市户口迁移的相关规定）",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.heyuan.gov.cn/zwgk/zdlyxx/zylhryfw/fwgk/content/post_647457.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|welfare|市级|子女教育|英才卡A/B/C类持卡人子女入学按意愿统筹安排优质学校（含幼儿园、义务教育学校、普通高中）",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "子女教育",
+   "unit": "河源市人民代表大会常务委员会（河源市人才发展促进条例）",
+   "doc_no": "",
+   "date": "2024-10-21",
+   "url": "http://rd.heyuan.gov.cn/article/7571",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|welfare|市级|数字化平台|广东公共就业服务云平台、'粤就业'小程序（'河源专区'）、广东政务服务网、'河源人社'微信公众号、河源市配售型保障性住房",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "数字化平台",
+   "unit": "河源市人力资源和社会保障局/河源市住房和城乡建设局",
+   "doc_no": "",
+   "date": "2025",
+   "url": "https://www.heyuan.gov.cn/zwgk/jdhy/zcjd/content/post_654470.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|startup|市级|创业担保贷款|个人创业担保贷款额度最高30万元，带动就业3人及以上（不含借款人本人）的，贷款额度最高60万元；合伙创业最高不超过符合条",
+   "dim": "startup",
+   "district": "市级",
+   "name": "创业担保贷款",
+   "unit": "河源市人民政府门户网站（河源市高校毕业生就业创业扶持政策清单）",
+   "doc_no": "",
+   "date": "2024",
+   "url": "https://www.heyuan.gov.cn/zwgk/zdlyxx/jycy/zczy/content/post_702766.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|startup|市级|一次性创业补贴|在校及毕业5年内毕业生成功创业，可申请1万元的一次性创业资助；创办初创企业吸纳高校毕业生就业还可申领创业带动就业补贴，最",
+   "dim": "startup",
+   "district": "市级",
+   "name": "一次性创业补贴",
+   "unit": "河源市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2025",
+   "url": "https://www.heyuan.gov.cn/hysrsj/gkmlpt/content/0/706/post_706181.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|startup|市级|房租/租金补贴|创办初创企业，每年给予最高4000元场地租金支持，可连续享受3年；创业孵化基地入孵创客提供1年免费办公场地、商事代理等服",
+   "dim": "startup",
+   "district": "市级",
+   "name": "房租/租金补贴",
+   "unit": "河源市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2025",
+   "url": "https://www.heyuan.gov.cn/hysrsj/gkmlpt/content/0/706/post_706181.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|startup|市级|大赛/项目资助|在校大学生、高校毕业生创业项目参加广东'众创杯'创业创新大赛获特等奖及金、银、铜奖的，企业组分别按50万元、20万元、1",
+   "dim": "startup",
+   "district": "市级",
+   "name": "大赛/项目资助",
+   "unit": "河源市人民政府门户网站（河源市高校毕业生就业创业扶持政策清单）/河源市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2024",
+   "url": "https://www.heyuan.gov.cn/zwgk/zdlyxx/jycy/zczy/content/post_702766.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|apply_path|市级|广东公共就业服务云平台（粤就业小程序'河源专区'）；广东政务服务网；河源市配售型保障性住房轮候服务系统（https://lhk.mohurdic.org.cn/883201.html）；'河源人社'微信公众号；'河源青年'微信公众号（青年驿站）；河源市英才卡申领（市委人才办）|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "广东公共就业服务云平台（粤就业小程序'河源专区'）；广东政务服务网；河源市配售型保障性住房轮候服务系统（https://lhk.mohurdic.org.cn/883201.html）；'河源人社'微信公众号；'河源青年'微信公众号（青年驿站）；河源市英才卡申领（市委人才办）",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|anju_subsidy|市级|河源市高层次人才安家补贴/购房补贴|正高级职称最高200万元、副高级职称最高100万元、博士最高121万元、硕士最高10.7万元；具体发放方式（一次性/分年",
+   "dim": "anju_subsidy",
+   "district": "市级",
+   "name": "河源市高层次人才安家补贴/购房补贴",
+   "unit": "河源市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2026-03-18",
+   "url": "https://www.heyuan.gov.cn/hysrsj/gkmlpt/content/0/695/post_695376.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|anju_subsidy|市级|河源国家高新区人才购房补贴|一次性购房补贴：大专学历及以下1万元、本科（或中级职称或高级技师、技师）2万元、硕士研究生（或副高级职称）5万元、博士（",
+   "dim": "anju_subsidy",
+   "district": "市级",
+   "name": "河源国家高新区人才购房补贴",
+   "unit": "河源国家高新区管理委员会",
+   "doc_no": "",
+   "date": "",
+   "url": "https://www.hyhdz.gov.cn/attachment/0/109/109322/679850.pdf",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|anju_subsidy|市级|河源市百名博（硕）士党政储备人才引育工程住房补贴|博士研究生给予相当于100平方米的住房补贴；硕士研究生给予相当于50平方米的住房补贴；分5年每年20%兑现给引进对象（含",
+   "dim": "anju_subsidy",
+   "district": "市级",
+   "name": "河源市百名博（硕）士党政储备人才引育工程住房补贴",
+   "unit": "河源市人力资源和社会保障局（百名博(硕)士党政储备人才引育工程）",
+   "doc_no": "",
+   "date": "2021",
+   "url": "https://www.heyuan.gov.cn/zwgk/jyta/srdjybljggk/content/post_511165.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|anju_highlevel|和平县||",
+   "dim": "anju_highlevel",
+   "district": "和平县",
+   "name": "",
+   "unit": "和平县人力资源和社会保障局",
+   "doc_no": "和委办发〔2020〕31号（依据文件）",
+   "date": "2021-11-11",
+   "url": "https://www.heping.gov.cn/hyhprsj/gkmlpt/content/0/464/mpost_464090.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "河源|timing|市级|《河源市人才发展促进条例》施行|2024年8月27日河源市第八届人大常委会第三十一次会议通过，2024年9月26日广东省第十四届人大常委会第十二次会议批",
+   "dim": "timing",
+   "district": "市级",
+   "name": "《河源市人才发展促进条例》施行",
+   "unit": "河源市人大常委会",
+   "doc_no": "",
+   "date": "2024-10-21",
+   "url": "http://rd.heyuan.gov.cn/article/7571",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|timing|市级|2026年河源市购买新建商品住房补贴（普惠性）|2026年5月1日至2026年12月31日期间购买新建商品住房并完成合同备案、缴纳契税的，按5000元/套申领补贴；申报",
+   "dim": "timing",
+   "district": "市级",
+   "name": "2026年河源市购买新建商品住房补贴（普惠性）",
+   "unit": "河源市财政局、河源市住房和城乡建设局",
+   "doc_no": "",
+   "date": "2026-04-29",
+   "url": "https://www.heyuan.gov.cn/hysczj/gkmlpt/content/0/702/post_702594.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "河源|risk|市级|人才政策骗补失信惩戒|用人单位或者个人弄虚作假，骗取人才政策优惠或者扶持资金的，由政策实施部门取消其获得的荣誉、奖励，追回其所获得的资金，并依",
+   "dim": "risk",
+   "district": "市级",
+   "name": "人才政策骗补失信惩戒",
+   "unit": "河源市人民代表大会常务委员会（河源市人才发展促进条例）",
+   "doc_no": "",
+   "date": "2024-10-21",
+   "url": "http://rd.heyuan.gov.cn/article/7571",
+   "problem": "缺文号"
+  }
+ ]
+}

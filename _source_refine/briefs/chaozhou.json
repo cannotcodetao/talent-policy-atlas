@@ -1,0 +1,181 @@
+{
+ "city": "潮州",
+ "entries": [
+  {
+   "key": "潮州|grad_subsidy|市级|普通本科|无韩江人才计划市级生活补贴；可申领粤东粤西粤北地区就业补贴5000元（一次性，省级政策在潮州执行）",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "普通本科",
+   "unit": "潮州市人力资源和社会保障局（省级政策执行）",
+   "doc_no": "（粤东粤西粤北地区就业补贴，省级统一政策）",
+   "date": "2025-05-14答复确认现行",
+   "url": "https://www.chaozhou.gov.cn/hdjl/zxft/content/post_3948227.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "潮州|grad_subsidy|市级|专科|无市级专门人才生活补贴；粤东粤西粤北地区就业补贴按省政策执行（其他档5000元，一次性）",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "专科",
+   "unit": "潮州市人力资源和社会保障局（省级政策执行）",
+   "doc_no": "（粤东粤西粤北地区就业补贴，省级统一政策）",
+   "date": "2025-05-14答复确认现行",
+   "url": "https://www.chaozhou.gov.cn/hdjl/zxft/content/post_3948227.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "潮州|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "潮州市人民政府办公室",
+   "doc_no": "（潮州市推动非户籍人口在城市落户实施方案）",
+   "date": "2017-11",
+   "url": "https://www.chaozhou.gov.cn/zwgk/zcjd/content/post_3423779.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "潮州|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "潮州市人民政府办公室",
+   "doc_no": "（潮州市推动非户籍人口在城市落户实施方案）",
+   "date": "2017-11",
+   "url": "https://www.chaozhou.gov.cn/zwgk/zcjd/content/post_3423779.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "潮州|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "潮州市人民政府办公室",
+   "doc_no": "（潮州市推动非户籍人口在城市落户实施方案）",
+   "date": "2017-11",
+   "url": "https://www.chaozhou.gov.cn/zwgk/zcjd/content/post_3423779.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "潮州|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "潮州市人民政府办公室",
+   "doc_no": "（潮州市推动非户籍人口在城市落户实施方案）",
+   "date": "2017-11",
+   "url": "https://www.chaozhou.gov.cn/zwgk/zcjd/content/post_3423779.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "潮州|hukou|市级||",
+   "dim": "hukou",
+   "district": "市级",
+   "name": "",
+   "unit": "潮州市人民政府办公室",
+   "doc_no": "（潮州市推动非户籍人口在城市落户实施方案）",
+   "date": "2017-11",
+   "url": "https://www.chaozhou.gov.cn/zwgk/zcjd/content/post_3423779.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "潮州|welfare|市级|子女教育|享受潮州市韩江人才计划“潮州优才卡”专享服务的人才子女，由人才本人通过“潮州人社”微信小程序的“潮州市人才服务专区”提出",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "子女教育",
+   "unit": "潮州市教育局、潮州市人力资源和社会保障局",
+   "doc_no": "（潮州市韩江人才计划“优质服务保障”实施办法）",
+   "date": "2022-11-23（韩江人才计划发布日）；2025年招生简章确认现行",
+   "url": "https://www.chaozhou.gov.cn/ywdt/czyw/content/post_3823669.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "潮州|welfare|市级|数字化平台|“潮州人社”微信小程序“潮州市人才服务专区”：办理“高青人才”认定、潮州优才卡申领、子女入学申请、配偶就业安置申请、安居",
+   "dim": "welfare",
+   "district": "市级",
+   "name": "数字化平台",
+   "unit": "潮州市人力资源和社会保障局；潮州市住房公积金管理中心",
+   "doc_no": "",
+   "date": "2025-05-14答复确认现行；2023-04-03公积金政策修订",
+   "url": "https://www.chaozhou.gov.cn/zwgk/szsydw/szfgjj/bmdt/content/post_3844498.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "潮州|startup|市级|一次性创业补贴|一次性创业资助10000元；条件：初创企业法定代表人或经营者属在校及毕业5年内普通高等学校/中等职业学校/技工院校学生、",
+   "dim": "startup",
+   "district": "市级",
+   "name": "一次性创业补贴",
+   "unit": "潮州市人力资源和社会保障局",
+   "doc_no": "（潮州市就业创业补贴申请办理指导清单，按省统一标准执行）",
+   "date": "2023-11-15（参考省级指导清单成文日期）",
+   "url": "https://www.gdzwfw.gov.cn/portal/v2/guide/11445100007335866Y34421110A0004",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "潮州|startup|市级|房租/租金补贴|创业租金补贴：每年最高4000元（年租金≥4000元按4000元/年；不足4000元按实际发生额），累计不超过3年；条件",
+   "dim": "startup",
+   "district": "市级",
+   "name": "房租/租金补贴",
+   "unit": "潮州市人力资源和社会保障局",
+   "doc_no": "（潮州市就业创业补贴申请办理指导清单）",
+   "date": "2023-11-15",
+   "url": "https://www.gdzwfw.gov.cn/portal/v2/guide/11445100007335866Y34421110A0004",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "潮州|startup|市级|大赛/项目资助|创业孵化补贴：县级以上人社部门认定的创业孵化基地为6类创业者（高校/中等职业学校/技工院校学生/留学回国/港澳台青年/就",
+   "dim": "startup",
+   "district": "市级",
+   "name": "大赛/项目资助",
+   "unit": "潮州市人力资源和社会保障局",
+   "doc_no": "（潮州市进一步稳定和扩大就业若干政策措施）",
+   "date": "2022",
+   "url": "https://www.chaozhou.gov.cn/ywdt/czyw/content/post_3720524.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "潮州|apply_path|市级|“潮州人社”微信小程序“潮州市人才服务专区”（办理高青人才认定、潮州优才卡申领、子女入学申请、配偶就业安置、安居保障申请等全流程在线业务）；广东公共就业服务云平台（ggfw.hrss.gd.gov.cn，办理创业担保贷款/一次性创业资助/创业租金补贴申领）；广东政务服务网（gdzwfw.gov.cn，办理大中专学生入户/创业孵化补贴等）；潮州市配售型保障性住房轮候库信息系统（lhk.mohurdic.org.cn/890201.html）或微信小程序“潮州市配售型保障性住房轮候库”；潮州市住房公积金管理中心专门服务窗口|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "“潮州人社”微信小程序“潮州市人才服务专区”（办理高青人才认定、潮州优才卡申领、子女入学申请、配偶就业安置、安居保障申请等全流程在线业务）；广东公共就业服务云平台（ggfw.hrss.gd.gov.cn，办理创业担保贷款/一次性创业资助/创业租金补贴申领）；广东政务服务网（gdzwfw.gov.cn，办理大中专学生入户/创业孵化补贴等）；潮州市配售型保障性住房轮候库信息系统（lhk.mohurdic.org.cn/890201.html）或微信小程序“潮州市配售型保障性住房轮候库”；潮州市住房公积金管理中心专门服务窗口",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "潮州|anju_subsidy|饶平县||",
+   "dim": "anju_subsidy",
+   "district": "饶平县",
+   "name": "",
+   "unit": "饶平县教育局、中共饶平县委机构编制委员会办公室、饶平县人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2023-01-11",
+   "url": "https://www.raoping.gov.cn/gkmlpt/content/3/3829/post_3829456.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "潮州|anju_enterprise|市级|潮州市民营企业优才专家园住宅|面向民营企业骨干企业内部博士级专家人才定向销售；按政府采购价优惠购买（试行版报道口径为政府采购价30%购房款即可获得房屋",
+   "dim": "anju_enterprise",
+   "district": "市级",
+   "name": "潮州市民营企业优才专家园住宅",
+   "unit": "潮州市人民政府",
+   "doc_no": "潮府规〔2021〕1号（修订版）；潮府〔2016〕38号（试行版）",
+   "date": "2021-01-11（修订版施行）；2016-09-13（试行版施行）",
+   "url": "https://www.chaozhou.gov.cn/attachment/0/495/495991/3703047.pdf",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "潮州|timing|市级|《潮州市韩江人才计划住房公积金优惠政策》修订施行|2023-04-03修订出台（替代2022年印发版），覆盖对象为韩江人才计划引进的各层次人才及本地培养的第一至第四层次人",
+   "dim": "timing",
+   "district": "市级",
+   "name": "《潮州市韩江人才计划住房公积金优惠政策》修订施行",
+   "unit": "潮州市住房公积金管理中心",
+   "doc_no": "（潮州市韩江人才计划住房公积金优惠政策，修订版）",
+   "date": "2023-04-03",
+   "url": "https://www.chaozhou.gov.cn/zwgk/szsydw/szfgjj/bmdt/content/post_3844498.html",
+   "problem": "文号非标准形态"
+  }
+ ]
+}

@@ -1,0 +1,192 @@
+{
+ "city": "茂名",
+ "entries": [
+  {
+   "key": "茂名|grad_subsidy|市级|专科|暂未查询到茂名市针对专科毕业生的市级专项现金补贴政策（茂人社规〔2019〕4号高校毕业生留茂就业实施办法已过期）",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "专科",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "茂名|grad_subsidy|市级|普通本科|暂未查询到茂名市针对普通本科毕业生的市级专项现金补贴政策",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "普通本科",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "茂名|grad_subsidy|市级|双一流本科|暂未查询到茂名市针对双一流本科毕业生的市级专项现金补贴政策",
+   "dim": "grad_subsidy",
+   "district": "市级",
+   "name": "双一流本科",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "茂名|welfare|电白区||",
+   "dim": "welfare",
+   "district": "电白区",
+   "name": "",
+   "unit": "茂名市电白区人民政府",
+   "doc_no": "",
+   "date": "2026-01-08",
+   "url": "http://www.dianbai.gov.cn/gkmlpt/content/1/1573/post_1573422.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "茂名|startup|市级|一次性创业补贴|10000元一次性创业资助。补贴对象：毕业5年内高校毕业生、返乡创业人员等创业重点扶持对象；条件：登记注册满12个月、申",
+   "dim": "startup",
+   "district": "市级",
+   "name": "一次性创业补贴",
+   "unit": "茂名市人力资源和社会保障局",
+   "doc_no": "茂府规〔2018〕19号（市级执行依据）；广东省人社厅 广东省财政厅《广东省就业创业补贴补助申请办理指导清单(2026年修订版)》",
+   "date": "2026-07-17",
+   "url": "http://mmrs.maoming.gov.cn/zwxx/gzwj/gfxwj/content/mpost_1629652.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "茂名|startup|市级|房租/租金补贴|创业租金补贴每年4000元，累计不超过3年。补贴对象：普通高校、中等职业学校、技工院校学生(在校及毕业5年内)和毕业5年",
+   "dim": "startup",
+   "district": "市级",
+   "name": "房租/租金补贴",
+   "unit": "茂名市人力资源和社会保障局",
+   "doc_no": "广东省人社厅 广东省财政厅《广东省就业创业补贴补助申请办理指导清单(2026年修订版)》",
+   "date": "2026-07-17",
+   "url": "http://mmrs.maoming.gov.cn/zwxx/gzwj/gfxwj/content/mpost_1629652.html",
+   "problem": "文号非标准形态"
+  },
+  {
+   "key": "茂名|startup|茂南区|创业担保贷款|个人创业担保贷款最高30万元；创业带动5人以上就业的额度最高50万元；合伙经营按每人最高30万元、贷款总额最高300万元",
+   "dim": "startup",
+   "district": "茂南区",
+   "name": "创业担保贷款",
+   "unit": "茂名市茂南区人力资源和社会保障局 / 茂名市人力资源和社会保障局",
+   "doc_no": "茂府规〔2018〕19号（市级执行依据）",
+   "date": "2024-01",
+   "url": "http://www.maonan.gov.cn/mmmnrlzyj/gkmlpt/content/1/1536/post_1536286.html",
+   "problem": "文号混杂"
+  },
+  {
+   "key": "茂名|startup|市级|大赛/项目资助|暂未查询到茂名市单独设立的市级创业大赛或项目资助专项政策",
+   "dim": "startup",
+   "district": "市级",
+   "name": "大赛/项目资助",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "茂名|apply_path|市级|茂名市高层次人才认定：茂名市人力资源和社会保障局；纸质材料报送至茂名市高层次人才一站式服务窗口（茂名市文明北路68号副楼5楼）；电子版发送至邮箱mmsrcbzp2935300@maoming.gov.cn|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "茂名市高层次人才认定：茂名市人力资源和社会保障局；纸质材料报送至茂名市高层次人才一站式服务窗口（茂名市文明北路68号副楼5楼）；电子版发送至邮箱mmsrcbzp2935300@maoming.gov.cn",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "茂名|apply_path|市级|茂名市好心人才卡申领：茂名市人力资源和社会保障局一站式服务窗口；可在广东政务服务网(gdzwfw.gov.cn)查询办理指南|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "茂名市好心人才卡申领：茂名市人力资源和社会保障局一站式服务窗口；可在广东政务服务网(gdzwfw.gov.cn)查询办理指南",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "茂名|apply_path|市级|茂名市配售型保障性住房申请：茂名市配售型保障性住房轮候库平台 https://lhk.mohurdic.org.cn/881801#/home （或手机微信扫码进入'配售型保障性住房轮候库'小程序）；茂名市住建局指导运营单位组织配售|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "茂名市配售型保障性住房申请：茂名市配售型保障性住房轮候库平台 https://lhk.mohurdic.org.cn/881801#/home （或手机微信扫码进入'配售型保障性住房轮候库'小程序）；茂名市住建局指导运营单位组织配售",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "茂名|apply_path|市级|茂名市保障性租赁住房/公租房申请：广东政务服务网 https://www.gdzwfw.gov.cn 搜索'申请公租房一件事'在线办理；线下窗口：茂名市行政服务中心（茂名市油城十路6号大院）西区二楼7号窗|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "茂名市保障性租赁住房/公租房申请：广东政务服务网 https://www.gdzwfw.gov.cn 搜索'申请公租房一件事'在线办理；线下窗口：茂名市行政服务中心（茂名市油城十路6号大院）西区二楼7号窗",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "茂名|apply_path|市级|创业担保贷款与一次性创业补贴/创业租金补贴：广东公共就业服务云平台或各级政务服务中心；好心职通车精准就业服务平台对接高校毕业生与重点企业|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "创业担保贷款与一次性创业补贴/创业租金补贴：广东公共就业服务云平台或各级政务服务中心；好心职通车精准就业服务平台对接高校毕业生与重点企业",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "茂名|apply_path|市级|人才公寓申请：茂名市发展集团有限公司（茂名市油城八路3号大院三楼农贸市场管理部）；广东省人才优粤卡持卡人由市人社局服务窗口对接办理|",
+   "dim": "apply_path",
+   "district": "市级",
+   "name": "人才公寓申请：茂名市发展集团有限公司（茂名市油城八路3号大院三楼农贸市场管理部）；广东省人才优粤卡持卡人由市人社局服务窗口对接办理",
+   "unit": "",
+   "doc_no": "",
+   "date": "",
+   "url": "",
+   "problem": "缺文号"
+  },
+  {
+   "key": "茂名|anju_highlevel|高州市||",
+   "dim": "anju_highlevel",
+   "district": "高州市",
+   "name": "",
+   "unit": "高州市人民政府",
+   "doc_no": "",
+   "date": "2026-06-28",
+   "url": "http://www.gaozhou.gov.cn/zdlyxxgk/lyscjgzfxxgk/cyzl/content/post_1623051.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "茂名|anju_highlevel|化州市||",
+   "dim": "anju_highlevel",
+   "district": "化州市",
+   "name": "",
+   "unit": "化州市人力资源和社会保障局",
+   "doc_no": "",
+   "date": "2024-06-03",
+   "url": "http://www.huazhou.gov.cn/bmzysz/zlxx/rsj/content/post_1346422.html",
+   "problem": "缺文号"
+  },
+  {
+   "key": "茂名|timing|市级|过渡安排：2026年度高层次人才认定及补贴核发|依据茂人才发〔2023〕2号《茂名市引进培养高层次人才实施办法》开展年度认定；2026年度通知由市人社局发布，原则上每年",
+   "dim": "timing",
+   "district": "市级",
+   "name": "过渡安排：2026年度高层次人才认定及补贴核发",
+   "unit": "茂名市人力资源和社会保障局",
+   "doc_no": "茂人才发〔2023〕2号（执行依据）",
+   "date": "2026年度通知",
+   "url": "http://mmrs.maoming.gov.cn/xwzx/tzgg/content/post_1639873.html",
+   "problem": "文号混杂"
+  }
+ ]
+}
