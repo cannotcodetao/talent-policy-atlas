@@ -723,3 +723,26 @@ grad cash 剥离租房分句（沿用 Phase 34 D1 已确认口径，租房归 we
 - 顺带防护：`personal-portal/.gitignore` 加 `hub/`、`talent-policy/`（服务器上门户仓库在站点根、两子站点是其子目录，忽略后 reset/clean 不会误删）；README 补「文档」「服务器目录结构」两节
 - 校验：新增 `_check_sop.js`（playwright 真实 Edge + file:// 直开）→ 11/11 PASS（无 JS 报错 · 17 锚点全命中 · 来源引用双向一致 · 编号 1..18 无断号 · 35 代码块复制按钮实测可用）
 - 技术坑记录：Chromium `getComputedStyle(el,'::before').content` 不解析 `counter()`；CSS counter 不受 `<ol start>` 影响需 `counter-reset: s 7` 续编
+
+## Phase 43 · 主站+多子站目录结构与自动部署（10-22，✅ 本地部分完成）
+- 用户提供完整方案文档（1 主站 + 暂定 6 子站、独立仓库、同域路径、releases+软链接、GitHub Actions rsync）
+- **四项决策**：①全面切到新方案，废弃 release.sh + 服务器 cron ②沿用现有代号 `hub`/`talent-policy`，预留 4 个位凑满 6 ③政策仓库瘦身重建，前提「功能不变」 ④域名/服务器先用占位符
+- **方案与现状的 3 处冲突**：①部署机制互斥（实体目录 vs 软链接，同路径不能共存）②命名前缀不一致（方案用 `site-*`，实际是 `hub`/`talent-policy`，主站 `--exclude site-*` 规则失效）③政策仓库已提交 183.5MB 其中 139.7MB 是视频，与「媒体不入 Git」原则冲突
+- **读方案发现的 4 个坑，落地时全部修掉**：①`ln -sfn` 遇实体目录会钻进去建链接（旧内容继续服务且看似成功；旧方案切新方案首次部署必然触发）②cleanup 按 mtime 排序不可靠（rsync 会改 mtime）+ 并发竞态 → 改目录名字典序（UTC 时间戳）+ flock ③主站 rsync 的 `--exclude site-*` 匹配不到现有代号 → 显式列出 ④主站不走 releases 且不加 `--delete` → 回滚不彻底（已在文档标注为已知限制）
+- **产出**：`D:/AI/project/IdeaCreate/my-sites/`
+  - `README.md` 总规范；`docs/01-占位符替换清单.md`（8 个文件逐条）、`02-迁移与运维.md`、`03-上线检查清单.md`、`04-决策记录.md`（D1–D8）
+  - `main-site/`（index.html 改造为 sites.json 驱动 + sites.json 6 个位置 + favicon.svg + deploy.yml + README）
+  - `shared/`（css/base.css + deploy.yml + README）、`server/`（init/rollback/cleanup.sh + README）、`_templates/deploy-subsite.yml`、`_media/`
+  - 两个子站仓库各加 `.github/workflows/deploy.yml`（hub 7 步 / talent-policy 7 步，均含构建产物验收）
+- **政策仓库瘦身**：`mv .git _bak_git_20261022`（316MB 保留）→ 重写 .gitignore → 重建 → commit
+  - 183.5MB → **7.29MB / 198 文件**；`.git` 316MB → **8.8MB**（size-pack 1.63MiB）
+  - 排除 `_video_build/`(158.8MB)、`images/`(19.5MB)、`_tmp_repos/`(35.9MB)、`_bak*`、`*.pdf`
+  - **构建可复现性验证**：瘦身前基准 MD5 `ae9864945deb918722d56092828cdf8f` → 重建后重跑 `_build_html.py` 仍为同值，1,564,303 bytes / 32 城，逐字节一致
+  - 同步改 `_validate_redesign.py` AC8：历史 11 城配图改为「存在才校验」，适配媒体不入库
+  - **发现**：`_validate_redesign.py` 第 5 行校验的是 `浙江人才引进政策_2026.html`（387KB 旧版单省页，有 2 个 img），不是当前 32 城产物；且硬编码 `D:\beifen\...` 绝对路径，CI 里跑不了 → 属历史脚本，当前有效验证集是另外四项
+- **回归**：compliance 0/0/0 PASS · multi 全 ✅ · redesign ALL PASS · jsdom multi 22/22 · district 11/11
+- **主站渲染验证（真实 Edge + playwright）12/12 PASS**：6 张卡（2 live + 4 预留）、live 在前、路径标签一致、无 JS 错误、375px 单列
+  - 过程中修掉两个自己引入的 bug：①基础卡片样式写在 `a.card` 上，预留位是 `<div>` 拿不到 flex/padding，`justify-content` 对 block 无效 → 改 `.card` ②`.card p{flex:1}` 被子元素继承把预留卡正文撑满、文字顶到上沿 → `.card.ghost p{flex:0 0 auto}`
+  - 加 `favicon.svg` 消除浏览器自动请求 `/favicon.ico` 的 404
+- **产物校验**：5 个 YAML 全部解析通过（主站 5 步 / shared 4 步 / 模板 6 步 / hub 7 步 / 政策 7 步）；3 个 shell 脚本 `bash -n` 通过；8 个文件均为纯 LF（`grep -c $'\r'` 在 Git Bash 下会匹配字面 r，属误报，须用二进制计数复核）
+- ⏭ 用户待执行：确认域名/服务器信息 → 替换 8 处 `SITE_ROOT` 占位 → 建 4 仓库配 Secrets → 按 docs/02 迁移 → 停旧 cron
