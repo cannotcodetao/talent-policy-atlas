@@ -37,3 +37,6 @@ Thumbs.db
 *.log
 .vscode/
 .idea/
+
+# ── CI 发布中间产物（由 人才引进政策_2026.html 复制而来，不进仓库）──
+_release/

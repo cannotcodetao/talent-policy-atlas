@@ -14,7 +14,7 @@ concurrency:
 
 env:
   # ↓↓↓ 需要按实际环境修改：站点根目录 ↓↓↓
-  SITE_ROOT: /www/wwwroot/example.com
+  SITE_ROOT: /www/wwwroot/cannotcode.cn
   # ↑↑↑
   SITE_NAME: talent-policy
   RELEASES_ROOT: /www/releases
@@ -84,7 +84,9 @@ jobs:
       - name: Rsync to release directory
         uses: burnett01/rsync-deployments@7.0.1
         with:
-          switches: -avz --delete
+          # --chown 必须有：runner 文件属主是 uid 1001，rsync -a 按数字 ID 保留，
+          # 服务器上 uid 1001 = lighthouse，不加就会把线上文件全变成 lighthouse 所有
+          switches: -avz --delete --chown=www:www
           path: _release/
           remote_path: ${{ env.RELEASES_ROOT }}/${{ steps.vars.outputs.release }}/
           remote_host: ${{ secrets.SERVER_HOST }}
@@ -109,8 +111,16 @@ jobs:
               echo "⚠️ 检测到实体目录，已移至 $LEGACY（确认后可删除）"
             fi
 
+            # 【关键】必须 mv -Tf（--no-target-directory）：
+            # $LINK 是「指向目录的符号链接」，不带 -T 的 mv 会钻进去，把 .new
+            # 挪到在线版本目录内部，而 $LINK 指向不变 —— 表现为「部署成功但线上
+            # 还是旧版本」。2026-10-22 实测踩到，旧版本目录里多出 hub.new。
             ln -sfn "$TARGET" "${LINK}.new"
-            mv -f "${LINK}.new" "$LINK"
+            mv -Tf "${LINK}.new" "$LINK"
+
+            # 不信任上一条命令的退出码，直接断言指向已改变
+            [ "$(readlink "$LINK")" = "$TARGET" ] || {
+              echo "❌ 软链接切换失败：$LINK -> $(readlink "$LINK")，期望 $TARGET"; exit 1; }
 
             echo "✅ 已切换 $LINK -> $(readlink "$LINK")"
             test -f "$LINK/index.html" || { echo "❌ index.html 不存在"; exit 1; }
