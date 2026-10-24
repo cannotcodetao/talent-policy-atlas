@@ -37,7 +37,12 @@ function run(){
     click(gd);
     rows = $all('#cityIndex .cityrow');
     chk('M4 切换广东后索引 21 城', rows.length === 21, 'rows=' + rows.length);
-    chk('M5 副标题含广东', /广东/.test($('#subline').textContent), $('#subline').textContent);
+    // 2026-10-24 副标题改为固定文案「提供政府来源链接核验」，不再随省份/城数变化。
+    // 原 M5 是靠「副标题含广东」间接验证切省生效，该信号已不存在；
+    // 切省的真实断言由 M4（切广东后索引 21 城）承担，这里改为锁定固定文案，
+    // 防止有人把动态拼接的写法又加回来。另加眉标断言，锁定去掉 Zhejiang 的规格。
+    chk('M5 副标题为固定文案(不随省份变化)', $('#subline').textContent.trim() === '提供政府来源链接核验', 'got=' + $('#subline').textContent.trim());
+    chk('M5b 眉标为 Talent Policy Atlas(无 Zhejiang)', ($('.masthead .kicker') || {}).textContent === 'Talent Policy Atlas', 'got=' + (($('.masthead .kicker') || {}).textContent || 'null'));
 
     // 打开广州抽屉，实际有数据的维度（占位维度已隐藏；数据清理后 10 个）
     const gz = $all('#cityIndex .cityrow').find(r => r.textContent.includes('广州'));
