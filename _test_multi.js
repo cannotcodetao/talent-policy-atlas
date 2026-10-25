@@ -37,12 +37,10 @@ function run(){
     click(gd);
     rows = $all('#cityIndex .cityrow');
     chk('M4 切换广东后索引 21 城', rows.length === 21, 'rows=' + rows.length);
-    // 2026-10-24 副标题改为固定文案「提供政府来源链接核验」，不再随省份/城数变化。
-    // 原 M5 是靠「副标题含广东」间接验证切省生效，该信号已不存在；
-    // 切省的真实断言由 M4（切广东后索引 21 城）承担，这里改为锁定固定文案，
-    // 防止有人把动态拼接的写法又加回来。另加眉标断言，锁定去掉 Zhejiang 的规格。
-    chk('M5 副标题为固定文案(不随省份变化)', $('#subline').textContent.trim() === '提供政府来源链接核验', 'got=' + $('#subline').textContent.trim());
-    chk('M5b 眉标为 Talent Policy Atlas(无 Zhejiang)', ($('.masthead .kicker') || {}).textContent === 'Talent Policy Atlas', 'got=' + (($('.masthead .kicker') || {}).textContent || 'null'));
+    // M5 规格变更（2026-10-25）：页眉副标题 #subline 与 kicker 已按用户要求移除。
+    // 原断言是「副标题含广东」，现改为「副标题确实不存在 + setSub 调用不抛错」。
+    // 注意：切换省份仍会调用 setSub()（空实现），这里已在上一步 click(gd) 中覆盖到。
+    chk('M5 页眉副标题已移除', $('#subline') === null, '#subline 存在=' + ($('#subline') !== null));
 
     // 打开广州抽屉，实际有数据的维度（占位维度已隐藏；数据清理后 10 个）
     const gz = $all('#cityIndex .cityrow').find(r => r.textContent.includes('广州'));

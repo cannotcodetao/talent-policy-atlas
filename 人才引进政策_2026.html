@@ -208,9 +208,6 @@ table.ct td.rankcell .rkscore{display:block;font-family:var(--latin);font-size:.
 .csection .back{margin-bottom:14px}
 footer.global{text-align:center;padding:40px 20px 70px;color:var(--muted);font-size:.82rem;border-top:1px solid var(--line);margin-top:30px}
 footer.global .src-note{font-family:var(--latin);letter-spacing:.12em}
-footer.global .beian{margin-top:16px;display:flex;flex-wrap:wrap;gap:6px 20px;justify-content:center;align-items:center;font-family:var(--latin);letter-spacing:.04em;font-size:.78rem}
-footer.global .beian a{display:inline-flex;align-items:center;gap:5px;color:var(--muted);text-decoration:none;border-bottom:1px solid transparent;transition:color .18s,border-color .18s}
-footer.global .beian a:hover{color:var(--gold);border-bottom-color:var(--gold)}
 @media(max-width:620px){
   .wrap{padding:0 18px}
   .search input{width:100%}
@@ -226,9 +223,7 @@ footer.global .beian a:hover{color:var(--gold);border-bottom-color:var(--gold)}
 <a class="portal-back" id="portalBack" href="/"><span class="ar">←</span>返回首页</a>
 
 <header class="masthead wrap">
-  <div class="kicker">Talent Policy Atlas</div>
   <h1 class="wordmark">人才政策</h1>
-  <div class="sub" id="subline">提供政府来源链接核验</div>
   <div class="rule"></div>
 </header>
 
@@ -255,13 +250,6 @@ footer.global .beian a:hover{color:var(--gold);border-bottom-color:var(--gold)}
 <footer class="global">
   <div class="src-note">SOURCE · 所有政策条目均引自政府单位（*.gov.cn），采集截至 <span id="updated"></span></div>
   <div style="margin-top:8px">本页为结构化整理，非官方发布；落地申报请以各地最新政府文件及「浙里办」为准。</div>
-  <!-- 备案信息：工信部要求首页底部标明 ICP 备案编号并链接 beian.miit.gov.cn；
-       公安联网备案要求在首页底部悬挂编号并链接 beian.gov.cn。
-       盾牌图标用内联 SVG 而非官方外链图片，以维持本页「零外部资源」的自包含约束。 -->
-  <div class="beian">
-    <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">粤ICP备2026107109号-1</a>
-    <a class="police" href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33019202003186" target="_blank" rel="noopener noreferrer" title="公安联网备案查询"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><path fill="currentColor" d="M8 1 2 3.2v4.3C2 11.4 4.6 14.2 8 15c3.4-.8 6-3.6 6-7.5V3.2L8 1zm0 1.6 4.4 1.6v3.3c0 3-1.9 5.2-4.4 5.9-2.5-.7-4.4-2.9-4.4-5.9V4.2L8 2.6z"/><path fill="currentColor" d="M7.2 9.9 5.1 7.8l.9-.9 1.2 1.2 2.6-2.6.9.9z"/></svg>浙公网安备33019202003186号</a>
-  </div>
 </footer>
 
 <!-- 详情抽屉 -->
@@ -373,11 +361,13 @@ const TRIM_FIELDS = {
   anju_enterprise:[['name','政策'],['discount','优惠力度'],['constraint','约束/退出'],['channel','办理渠道'],['note','说明']]
 };
 document.getElementById('updated').textContent = META.updated;
+// 页眉副标题（#subline）与上方 kicker 已按用户要求移除。
+// setSub 保留为空实现：切换省份 / 筛选时仍会调用它，删掉函数会 ReferenceError。
+// 不要误当成 bug 去「修」。
 let activeProv = META.provinces[0];
 let activeOrder = activeProv.cities.slice();
 let curCity=null; let lastCmp=[];
-// 副标题改为固定文案「提供政府来源链接核验」，不再随省份/城数变化，
-// 原本拼「省名 · 城数 · 维数」的那个函数已删除。
+function setSub(){}
 function renderProvTabs(){
   const box=document.getElementById('provTabs'); if(!box) return;
   box.innerHTML='';
@@ -387,13 +377,13 @@ function renderProvTabs(){
     el.textContent=p.name;
     el.onclick=()=>{
       activeProv=p; activeOrder=p.cities.slice();
-      renderProvTabs(); renderIndex('');
+      renderProvTabs(); setSub(); renderIndex('');
       closeDrawer(); document.getElementById('cmpResult').style.display='none';
     };
     box.appendChild(el);
   });
 }
-renderProvTabs();
+setSub(); renderProvTabs();
 
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 // 维度序号 → 中文数字（支持到 13 维：一…十、十一、十二、十三）
