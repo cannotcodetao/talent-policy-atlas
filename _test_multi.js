@@ -41,6 +41,9 @@ function run(){
     // 原断言是「副标题含广东」，现改为「副标题确实不存在 + setSub 调用不抛错」。
     // 注意：切换省份仍会调用 setSub()（空实现），这里已在上一步 click(gd) 中覆盖到。
     chk('M5 页眉副标题已移除', $('#subline') === null, '#subline 存在=' + ($('#subline') !== null));
+    chk('M5b 眉标(kicker)已移除', $('.kicker') === null, '.kicker 存在=' + ($('.kicker') !== null));
+    chk('M5c 页脚备案信息存在', $all('footer.global .beian a').length === 2,
+        '备案链接数=' + $all('footer.global .beian a').length);
 
     // 打开广州抽屉，实际有数据的维度（占位维度已隐藏；数据清理后 10 个）
     const gz = $all('#cityIndex .cityrow').find(r => r.textContent.includes('广州'));
